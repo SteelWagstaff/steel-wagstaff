@@ -11,16 +11,10 @@ import Button from '@/components/ui/form/Button/Button.astro';
 import { Hero } from '@/components/hero';
 import TypingEffect from '@/components/ui/TypingEffect.astro';
 import TechStack from '@/components/landing/TechStack.astro';
-import siteConfig from '@/config/site.config';
-
-const location = siteConfig.address?.city
-  ? `${siteConfig.address.city}${siteConfig.address.country ? `, ${siteConfig.address.country}` : ''}`
-  : null;
 ---
 <PageLayout
-  title={`About — ${siteConfig.name}`}
-  description="Astro Rocket is a production-ready Astro 6 starter with 12 beautiful themes, 57+ components, built-in i18n, dark mode and a fast, modern foundation to build anything on."
-  eagerReveal
+  title="About Astro Rocket — Web Designer & Developer | Veghel"
+  description="Designer & developer — Crafting modern web experiences shaped by clean design, solid structure, and attention to detail."
 >
   <Hero layout="centered" size="sm">
     <Badge slot="badge" variant="brand" pill>
@@ -48,11 +42,11 @@ const location = siteConfig.address?.city
           <div class="flex flex-col gap-6">
             <Badge variant="brand" pill class="self-start">The partnership</Badge>
             <h2 class="font-display text-3xl md:text-4xl font-bold text-foreground">
-              Meet the team: Astro Rocket & Claude
+              Meet the team:<br /> Astro Rocket & Claude
             </h2>
           </div>
           <p class="text-lg text-foreground-muted leading-relaxed">
-           I'm a web designer and developer with 16 years of hands‑on experience. Today I work alongside Claude — not as a shortcut, but as a genuine collaborator that helps me think through design decisions, review code, and build more thoroughly than I could alone.
+           I'm a web designer and developer with 16 years of hands‑on experience. Today I work alongside <a href="https://claude.ai/code" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors">Claude</a> — not as a shortcut, but as a genuine collaborator that helps me think through design decisions, review code, and build more thoroughly than I could alone.
           </p>
           <p class="text-lg text-foreground-muted leading-relaxed">
             This isn't about automating the work — it's about raising the standard of it. Every design decision still comes from craft and experience. Every line of code is still written with intention. Claude helps me think more rigorously, not less. The work stays mine. The thinking gets sharper.
@@ -69,7 +63,7 @@ const location = siteConfig.address?.city
                 <p class="text-xs font-bold tracking-wide casesensitive text-foreground-muted mb-1">Web Designer & Developer</p>
                 <h3 class="text-base font-semibold text-foreground">Astro Rocket</h3>
                 <p class="text-sm text-foreground-muted leading-relaxed mt-1.5">
-                  16 years of craft — design, code, performance, and honest communication.{location ? ` Based in ${location}, working worldwide.` : ' Working worldwide.'}
+                  16 years of craft — design, code, performance, and honest communication. Based in Veghel, working worldwide.
                 </p>
                 <div class="flex flex-wrap gap-1.5 mt-3">
                   <Badge size="sm" variant="brand">Astro</Badge>
@@ -168,8 +162,141 @@ const location = siteConfig.address?.city
     title="My Stack"
     description="The tools I rely on every day to build fast, modern websites — chosen for performance, great developer experience, and reliability."
   />
+  <!-- FAQ -->
+  <section class="py-[var(--space-section-md)] bg-background border-t border-border">
+    <div class="mx-auto max-w-6xl px-6 flex flex-col gap-8">
+      <div class="flex flex-col items-center gap-4 text-center" data-reveal>
+        <div class="flex flex-col items-center gap-6">
+          <Badge variant="brand" pill>Good to know</Badge>
+          <h2 class="font-display text-3xl md:text-4xl font-bold text-foreground">
+            Frequently asked questions
+          </h2>
+        </div>
+        <p class="text-lg text-foreground-muted max-w-2xl mx-auto text-balance">
+          Some of the questions I get asked most often.
+        </p>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2">
+        <!-- Card 1: About Astro -->
+        <Card variant="elevated" padding="lg" data-reveal data-reveal-delay="1">
+          <div class="flex items-center gap-3 pb-4 border-b border-border">
+            <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-brand-500/20 to-brand-500/5 flex items-center justify-center text-brand-500 shrink-0">
+              <Icon name="rocket" size="sm" />
+            </div>
+            <h3 class="font-display text-base font-semibold text-foreground">About Astro</h3>
+          </div>
+          <div class="w-full">
+            <details class="border-b border-border" name="faq-astro">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                What is Astro?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Astro is a modern web framework built for content-driven sites. It ships zero JavaScript by default — only sending what the page actually needs. The result is fast load times, excellent Core Web Vitals scores, and lean, maintainable code.
+              </div>
+            </details>
+            <details class="border-b border-border" name="faq-astro">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Why do you build with Astro?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Because it matches the way I think about the web: lean, purposeful, and built to last. Astro lets me ship fast sites without fighting the framework — minimal JavaScript, clean HTML, great SEO — so I can focus on the design and details that actually matter.
+              </div>
+            </details>
+            <details class="border-b border-border" name="faq-astro">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Do you always build with Astro?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Almost always. For portfolios, business sites, marketing pages, and blogs, Astro is the right tool. If a project genuinely calls for something different, I'll be upfront about it. But Astro handles most of what clients need, and it does it exceptionally well.
+              </div>
+            </details>
+            <details class="border-b border-border" name="faq-astro">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Do you build Astro themes?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Yes. I built <a href="https://astro.build/themes/details/astro-rocket/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors">Astro Rocket</a> — a free, production-ready theme listed on the official Astro themes directory. It includes a full component library, blog support, dark mode, SEO, and everything you need to launch a fast modern website without starting from scratch.
+              </div>
+            </details>
+            <details class="border-b border-border last:border-0" name="faq-astro">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Do you plan to build more Astro themes?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Yes, that's the plan. Astro Rocket is actively maintained and I have ideas for new themes in the pipeline. Follow along on the blog or keep an eye on the official Astro themes directory for what's next.
+              </div>
+            </details>
+          </div>
+        </Card>
+
+        <!-- Card 2: About the work -->
+        <Card variant="elevated" padding="lg" data-reveal data-reveal-delay="2">
+          <div class="flex items-center gap-3 pb-4 border-b border-border">
+            <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-brand-500/20 to-brand-500/5 flex items-center justify-center text-brand-500 shrink-0">
+              <Icon name="user" size="sm" />
+            </div>
+            <h3 class="font-display text-base font-semibold text-foreground">About the work</h3>
+          </div>
+          <div class="w-full">
+            <details class="border-b border-border" name="faq-work">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Do you use AI when you build a website?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Yes — I work alongside Claude as a thinking partner throughout every project. Not as a shortcut, but as a second perspective that helps me think through design decisions, review code, and spot things I might otherwise miss.
+              </div>
+            </details>
+            <details class="border-b border-border" name="faq-work">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Are you a company or agency?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                No. I'm a designer and developer who works solo, driven by genuine enthusiasm for the craft — not by commercial targets. There's no sales team, no account manager, no handoff to a junior. You work directly with me from the first conversation to the final delivery.
+              </div>
+            </details>
+            <details class="border-b border-border" name="faq-work">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                How do you choose which projects to take on?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                I look for projects where good design and solid execution actually matter to the client. I work best when there's a clear goal, an open line of communication, and a client who trusts the process. I'd rather take on fewer projects and do them properly than stretch across too many at once.
+              </div>
+            </details>
+            <details class="border-b border-border" name="faq-work">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Do you offer support or maintenance after launch?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Yes. Whether it's small updates, content changes, or something more involved — I'm available after launch. We can agree on whatever arrangement works best for the project.
+              </div>
+            </details>
+            <details class="border-b border-border last:border-0" name="faq-work">
+              <summary class="flex w-full items-center justify-between text-sm py-4 text-left font-medium text-foreground transition-colors hover:text-foreground-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                Do you work with clients outside the Netherlands?
+                <Icon name="chevron-down" size="sm" class="faq-icon shrink-0 text-foreground-muted transition-transform duration-200" />
+              </summary>
+              <div class="pb-4 text-sm text-foreground-muted leading-relaxed">
+                Absolutely. I'm based in Veghel but work with clients worldwide. Most projects run entirely remote, which works well for clear briefs and good communication. Time zone differences are rarely a problem.
+              </div>
+            </details>
+          </div>
+        </Card>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA -->
-  <section class="py-[var(--space-section-md)] bg-background">
+  <section class="py-[var(--space-section-md)] bg-background-secondary border-t border-border">
     <div class="mx-auto max-w-2xl px-6 text-center" data-reveal>
       <h2 class="font-display text-4xl font-bold text-foreground mb-4 text-balance">
         Sound like a good fit?
@@ -177,15 +304,16 @@ const location = siteConfig.address?.city
       <p class="text-lg text-foreground-muted mb-8 text-balance">
         If my background and approach match what you're looking for, I'm open to new projects. Let's have a conversation.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button size="lg" href="/contact">
-          Start a Project
-          <Icon name="arrow-right" size="sm" />
-        </Button>
-        <Button size="lg" variant="outline" href="/blog">
-          Read the Blog
-        </Button>
-      </div>
+      <Button size="lg" href="/contact">
+        Start a Project
+        <Icon name="arrow-right" size="sm" />
+      </Button>
     </div>
   </section>
 </PageLayout>
+
+<style>
+  details[open] > summary .faq-icon {
+    transform: rotate(180deg);
+  }
+</style>
