@@ -11,36 +11,98 @@ role: "Designer & Developer"
 services: ["Design System", "Component Library", "Open Source"]
 ---
 
-## The Brief
+import ProjectShowcase from '@/components/projects/ProjectShowcase.astro';
+import screenshotPlaceholder from '@/assets/blog/astro-rocket-intro.svg';
 
-I wanted a starter theme that was genuinely ready to launch — not a boilerplate that still requires hours of setup. The goal was simple: clone it, change the text, go live. Everything else should already be done.
-
-Most Astro starters are developer-focused scaffolding. Astro Rocket is different — it ships as a complete, styled website aimed at designers, freelancers, and anyone who needs a portfolio or marketing site without starting from scratch.
+<ProjectShowcase
+  lightImage={screenshotPlaceholder}
+  darkImage={screenshotPlaceholder}
+  lightAlt="Astro Rocket homepage in light mode"
+  darkAlt="Astro Rocket homepage in dark mode"
+  demoUrl="https://astrorocket.dev"
+/>
 
 ## What I Built
 
-Astro Rocket is built on top of [Velocity](https://github.com/southwellmedia/velocity) by Southwell Media, which provided a strong foundation — a well-structured Astro boilerplate with a solid design system. I extended it substantially:
+Astro Rocket is a complete, launch-ready website theme built on Astro 6 and Tailwind CSS v4. It ships as a fully styled, fully wired-up site — a homepage, blog, projects section, about page, and contact form — all ready to go live the moment you swap in your own text. It's built for web designers, developers, bloggers, and anyone who needs a polished online presence without starting from scratch. Clone it, configure ten lines in `site.config.ts`, and your site is done.
 
-- **12 colour themes** switchable live in the header with no rebuild required
-- **57+ components** across UI, patterns, layout, blog, landing, and SEO categories
-- **Auto-generated logo and favicon** from the site name — no design tools needed
-- **Typing effect** in the hero section
-- **Dark mode** with `sessionStorage` persistence (resets on new tab by design)
-- **Scroll progress bar**, parallax grid, and full animation suite
-- **Content collections** for blog, projects, authors, FAQs, and tech stack
-- **RSS feed**, sitemap, and full JSON-LD structured data
+## Live Theme Switching. No Rebuild Required.
 
-## Design Decisions
+Most Astro themes give you one colour and a note in the README explaining how to dig into a CSS file and rebuild to change it. Astro Rocket ships 12 ready-made colour themes — Orange, Amber, Lime, Emerald, Teal, Cyan, Sky, Blue, Indigo, Violet, Purple, and Magenta — all selectable with a single click from the header.
 
-**Theme switching without rebuilds.** Velocity required editing a CSS import file and rebuilding to change themes. Astro Rocket uses CSS custom properties scoped to `data-theme` attributes, so switching is instant — no server round-trip, no rebuild.
+The moment you click a swatch, every brand-coloured element on the page updates live: the logo badge, the blog image gradients, every button, every link, every accent. No file edits, no server restart, no waiting. The entire colour system is built on CSS custom properties, so the browser handles it instantly via the cascade. Once you've settled on a colour, you delete one prop from the layout file and the selector disappears — clean and gone.
 
-**`sessionStorage` over `localStorage` for dark mode.** A portfolio site should always show its best face. With `localStorage`, a returning visitor might see the wrong mode if they changed it on a whim. `sessionStorage` resets on each new tab, so every first impression is intentional.
+## 57 Components, 7 Categories
 
-**Auto-generated branding.** Logo badges and favicons are generated at runtime from the site name and active brand colour. Cloners don't need Figma or Illustrator to get a polished result.
+Everything you need to build any page is already here. No npm hunting required.
 
-## Results
+**Form (7)**
+- Button, Input, Textarea, Select, Checkbox, Radio, Switch
 
-- Lighthouse scores of 95+ across all categories
-- Zero JavaScript shipped by default (Astro islands architecture)
-- Submitted to the official Astro themes directory
-- Open source under the MIT licence
+**Data display (9)**
+- Card, Badge, Avatar, AvatarGroup, Table, Pagination, Progress, Skeleton, GoogleMap
+
+**Feedback (3)**
+- Alert, Toast, Tooltip
+
+**Overlay (6)**
+- Dialog, Dropdown, Tabs, VerticalTabs, Accordion, ConsentBanner
+
+**Patterns (7)**
+- ContactForm, NewsletterForm, StatCard, EmptyState, FormField, SearchInput, PasswordInput
+
+**Page structure**
+- Hero (4 layouts), Header (3 variants), Footer (4 layouts), Breadcrumbs, ThemeToggle, ThemeSelector
+
+**SEO**
+- SEO, JsonLd, Analytics
+
+Every component uses design tokens — no hardcoded colours — so they adapt automatically to the active theme and dark mode without a single extra line of code.
+
+## Auto-Generated Branding
+
+There's no logo file to replace. Astro Rocket generates the logo badge at runtime from the first letter of your site name and the active brand colour. Change the name in `site.config.ts` and the badge updates everywhere — header, footer, structured data. The favicon works the same way: it's an SVG rendered at build time from the same letter and colour. New site name, instant new favicon. No Figma, no Illustrator, no fiddling with `public/`.
+
+## SEO — The Complete Stack
+
+Astro Rocket doesn't ship "three meta tags and call it SEO." It ships a complete implementation covering every layer.
+
+- **Meta tags** — title, description, and canonical URL on every page, automatically
+- **Open Graph + Twitter Cards** — complete social metadata; blog posts use their cover image, other pages use the default OG image
+- **JSON-LD structured data** — WebSite, Person, Organization, ProfessionalService, BlogPosting, Breadcrumb, and FAQ schemas, all populated from `site.config.ts` and post frontmatter
+- **Auto-generated sitemap** — `/sitemap-index.xml` includes every page Astro renders, always in sync
+- **Dynamic robots.txt** — with sitemap reference, generated at build time
+- **Per-page noindex/nofollow** — pass a prop to any layout to exclude a page from crawling
+- **Search console verification** — Google and Bing codes go in `.env`, rendered in `<head>` automatically
+
+Every structured data value comes from your config. There's nothing hardcoded to find and replace.
+
+## The Interactions
+
+**Scroll progress bar.** A 2px brand-coloured line at the header edge fills from left to right as you scroll. It uses `requestAnimationFrame` throttling so the fill tracks your position directly with no lag. It's enabled on three page types — homepage (above the floating header), blog index, and individual posts — and the position is independently configurable per page. Switch themes and the bar colour changes instantly.
+
+**Scroll progress ring.** The back-to-top button has a circular SVG arc that fills clockwise as you read. It's built from two circles — a faint track and a brand-coloured arc animated via `stroke-dashoffset`. No JavaScript needed for the colour: it uses `stroke="currentColor"` with `class="text-brand-500"`, so the theme cascade handles it automatically.
+
+**Animated typing effect.** The hero headline cycles through words with a natural typing and deleting rhythm. Three non-obvious problems were solved to make it production-quality: client-side navigation re-firing (handled by `astro:page-load`), layout shift from words of different lengths (solved by measuring every word before the animation starts and locking `minWidth` to the widest), and descender clipping (fixed by removing `overflow: hidden`).
+
+**Scroll-reactive header.** The floating homepage header is transparent at the top of the page, sitting cleanly over the hero gradient. The moment you scroll past 60px, it gains a solid background and the text flips to normal colours — all driven by a `data-scrolled` attribute toggle and CSS transitions. No layout shift, no JavaScript style manipulation.
+
+**Page transitions.** Every internal link uses Astro's built-in View Transitions API for a smooth page-to-page fade. One line of config in `BaseLayout.astro`, zero per-page setup. The typing effect, back-to-top ring, and all other scripts correctly clean up and reinitialise on each navigation via `astro:page-load` and `astro:before-swap`.
+
+## Dark Mode — Done Right
+
+The site is dark by default. Not as a fallback — as a deliberate design choice. The typography, contrast ratios, and hero gradient were all designed dark-first.
+
+The implementation uses `sessionStorage` rather than `localStorage`. The distinction matters: `localStorage` remembers the user's last choice forever, which means a returning visitor might see the wrong mode if they poked the toggle once. `sessionStorage` resets on every new tab, so every first impression is the dark design as intended. The preference is still respected for the duration of the visit — it just doesn't persist past the tab.
+
+The dark class is baked into the server-rendered HTML, and an inline script runs before first paint to remove it only if the visitor chose light in this session. There is no flash in either direction.
+
+## Zero JavaScript by Default
+
+Astro Rocket ships zero JavaScript to the browser by default. Every page is server-rendered HTML with CSS-driven animations. The islands architecture means JavaScript is loaded only for the specific components that need it — the typing effect, the theme selector, the contact form — and only on the pages where those components appear.
+
+The result: Lighthouse 95+ across Performance, Accessibility, Best Practices, and SEO. Not a one-time measurement — a structural property of how the site is built.
+
+## Open Source
+
+Astro Rocket is MIT-licensed and free for anyone to use. It's listed on the official Astro themes directory. If you build something with it, a [star on GitHub](https://github.com/hansmartens68/Astro-Rocket) helps other developers find it.
