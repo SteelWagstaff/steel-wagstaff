@@ -296,7 +296,7 @@
 
   /* Hero gradient — dark mode only */
   .dark .hero-dark-gradient {
-    background: radial-gradient(ellipse 100% 60% at 50% 0%, var(--color-brand-800) 0%, var(--color-background) 100%);
+    background: linear-gradient(to bottom, var(--color-brand-600) 0%, #000 100%);
   }
 
   /* Gradient border */
