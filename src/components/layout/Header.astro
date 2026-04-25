@@ -196,7 +196,7 @@ const buttonId = `${menuId}-button`;
               class={cn(
                 'font-display text-xl font-bold tracking-tight',
                 isFloating && 'md:hidden',
-                isFloating ? 'hdr-logo-text' : (isInvert ? 'text-on-invert' : 'text-brand-500 dark:text-brand-400')
+                isFloating ? 'hdr-logo-text' : (isInvert ? 'text-brand-500 dark:text-brand-400 md:text-on-invert' : 'text-brand-500 dark:text-brand-400')
               )}
             >
               {logoText || siteConfig.name}
@@ -801,5 +801,15 @@ const buttonId = `${menuId}-button`;
   }
   [data-header-shape="floating"][data-header-color-scheme="default"] .hdr-invert-text:hover {
     color: var(--color-foreground);
+  }
+
+  /* Mobile light mode: floating invert header site name → brand-500 */
+  @media (max-width: 767px) {
+    html:not(.dark) [data-header-shape="floating"][data-header-color-scheme="invert"] .hdr-logo-text {
+      color: var(--color-brand-500);
+    }
+    html:not(.dark) [data-header-shape="floating"][data-header-color-scheme="invert"][data-scrolled] .hdr-logo-text {
+      color: var(--color-brand-500);
+    }
   }
 </style>
