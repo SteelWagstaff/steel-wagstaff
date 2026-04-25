@@ -53,7 +53,7 @@ Start here. The `name` field populates the logo badge, page titles, footer copyr
 Astro Rocket ships with 12 ready-to-use colour themes. Pick your preferred theme by setting the `data-theme` attribute in `src/layouts/BaseLayout.astro`:
 
 ```html
-<html lang="en" class="scroll-smooth dark" data-theme="blue">
+<html lang="en" class="scroll-smooth dark" data-theme="indigo">
 ```
 
 Available values: `orange`, `amber`, `lime`, `emerald`, `teal`, `cyan`, `sky`, `blue`, `indigo`, `violet`, `purple`, `magenta`. The theme CSS files live in `src/styles/themes/` — open the active one to fine-tune the `--brand-*` colour scale if needed.
@@ -63,7 +63,7 @@ The `branding.colors` section in `site.config.ts` controls two unrelated browser
 ```ts
 branding: {
   colors: {
-    themeColor: '#3b82f6',       // Browser toolbar colour on mobile Chrome/Safari
+    themeColor: '#6366f1',       // Browser toolbar colour on mobile Chrome/Safari
     backgroundColor: '#ffffff',  // PWA splash screen background
   },
 },
