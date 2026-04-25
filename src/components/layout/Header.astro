@@ -777,6 +777,11 @@ const buttonId = `${menuId}-button`;
     border-color: color-mix(in oklch, var(--color-brand-300), transparent 50%);
   }
 
+  /* Dark mode: theme selector button border — border-strong is too dark on dark bg */
+  .dark [data-header-shape="floating"] .theme-dropdown-wrapper button {
+    border-color: var(--color-foreground-subtle);
+  }
+
   /* Logo text: brand-500 in light mode, brand-400 in dark mode */
   [data-header-shape="floating"][data-header-color-scheme="invert"][data-scrolled] .hdr-logo-text {
     color: var(--color-brand-500);
