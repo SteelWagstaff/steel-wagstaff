@@ -73,13 +73,13 @@ When `true`, a translucent brand-colour tint is applied over blog cover images. 
 The default mode is set directly in the HTML element in `src/layouts/BaseLayout.astro`:
 
 ```html
-<html lang="en" class="scroll-smooth dark" data-theme="blue">
+<html lang="en" class="scroll-smooth dark" data-theme="indigo">
 ```
 
 The `dark` class is what activates dark mode on first load. Remove it to default to light:
 
 ```html
-<html lang="en" class="scroll-smooth" data-theme="blue">
+<html lang="en" class="scroll-smooth" data-theme="indigo">
 ```
 
 The user's preference during their session is stored in `sessionStorage` — so it persists while the tab is open but resets when they open a new tab. This is intentional for a portfolio or marketing site. If you want it to persist across sessions, swap the `sessionStorage` calls for `localStorage` in the same file.
@@ -130,7 +130,7 @@ branding: {
     svg: '/my-logo.svg',   // replaces the auto-generated monogram
   },
   colors: {
-    themeColor: '#1d4ed8',     // browser toolbar colour on mobile (use your brand hex)
+    themeColor: '#6366f1',     // browser toolbar colour on mobile (use your brand hex)
     backgroundColor: '#ffffff', // PWA splash screen background
   },
 }
@@ -158,7 +158,7 @@ Astro Rocket ships with **12 colour themes**. All 12 are shown as coloured swatc
 The default theme is set with `data-theme` on the `<html>` element in `src/layouts/BaseLayout.astro`:
 
 ```html
-data-theme="blue"
+data-theme="indigo"
 ```
 
 Available values — all 12 themes:
@@ -172,8 +172,8 @@ Available values — all 12 themes:
 | `teal` | 190° | Developer tooling, modern SaaS, trustworthy services |
 | `cyan` | 200° | Fresh, vibrant tech — more energetic than teal |
 | `sky` | 222° | Clean and airy — between teal and blue, great for services |
-| `blue` | 255° | Studio aesthetic (Linear/Raycast feel), authoritative — the default |
-| `indigo` | 264° | Enterprise, productivity tools, serious B2B |
+| `blue` | 255° | Studio aesthetic (Linear/Raycast feel), authoritative |
+| `indigo` | 264° | Enterprise, productivity tools, serious B2B — the default |
 | `violet` | 277° | Creative and premium — sweet spot between indigo and purple |
 | `purple` | 303° | Expressive, personality-forward, vivid |
 | `magenta` | 330° | Creative agencies, bold personal brands — maximum vivid |
@@ -222,21 +222,21 @@ To shift a theme to a completely different colour, you only need to change the h
 Every theme is a CSS file in `src/styles/themes/`. Each file defines the full set of colour tokens for both light and dark mode. Open the relevant file and adjust the `--brand-*` scale — all ten steps from 50 to 900:
 
 ```css
-html[data-theme="blue"] {
-  --brand-50:  oklch(97.5% 0.02 255);
-  --brand-100: oklch(94.8% 0.04 255);
-  --brand-200: oklch(87.5% 0.08 255);
-  --brand-300: oklch(77.8% 0.14 255);
-  --brand-400: oklch(68.5% 0.19 255);
-  --brand-500: oklch(62.5% 0.22 255); /* primary accent in light mode */
-  --brand-600: oklch(53.2% 0.19 255);
-  --brand-700: oklch(45.5% 0.16 255);
-  --brand-800: oklch(37.2% 0.13 255);
-  --brand-900: oklch(26.5% 0.09 255);
+html[data-theme="indigo"] {
+  --brand-50:  oklch(97.5% 0.02 264);
+  --brand-100: oklch(94.5% 0.05 264);
+  --brand-200: oklch(86%   0.11 264);
+  --brand-300: oklch(75%   0.18 264);
+  --brand-400: oklch(67%   0.22 264);
+  --brand-500: oklch(60%   0.24 264); /* primary accent in light mode */
+  --brand-600: oklch(52%   0.22 264);
+  --brand-700: oklch(44%   0.18 264);
+  --brand-800: oklch(36%   0.14 264);
+  --brand-900: oklch(26%   0.09 264);
 }
 ```
 
-To shift to a different colour, replace `255` (blue) with your target hue across all ten lines. That's the entire change required.
+To shift to a different colour, replace `264` (indigo) with your target hue across all ten lines. That's the entire change required.
 
 You can also edit the shared brand scale in `src/styles/tokens/primitives.css` if you want a single consistent palette that isn't theme-dependent:
 
@@ -535,7 +535,7 @@ Remove any URL you don't use. The footer won't render an empty social section. I
 | Twitter card handles | `src/config/site.config.ts` | `twitter.site`, `twitter.creator` |
 | Search console verification | `.env` or `site.config.ts` | `verification.google/bing` |
 | Navigation items | `src/config/nav.config.ts` | `navItems` array |
-| Default colour theme | `src/layouts/BaseLayout.astro` | `data-theme="blue"` |
+| Default colour theme | `src/layouts/BaseLayout.astro` | `data-theme="indigo"` |
 | Default dark/light mode | `src/layouts/BaseLayout.astro` | `class="dark"` on `<html>` |
 | JSON-LD schema switches | `src/pages/index.astro` | `includePersonSchema`, `includeOrgSchema` |
 | noindex / nofollow | any layout | `noindex={true}`, `nofollow={true}` |

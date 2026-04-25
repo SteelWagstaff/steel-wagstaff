@@ -97,7 +97,7 @@ const siteConfig: SiteConfig = {
       svg: '/favicon.svg',
     },
     colors: {
-      themeColor: '#3b82f6',
+      themeColor: '#6366f1',
       backgroundColor: '#ffffff',
     },
   },
