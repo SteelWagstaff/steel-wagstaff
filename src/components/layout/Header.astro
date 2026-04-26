@@ -660,7 +660,7 @@ const buttonId = `${menuId}-button`;
   }
 
   [data-header-shape="floating"] {
-    transition-property: translate, background, border-color, box-shadow;
+    transition-property: translate, background, border-color, box-shadow, width, max-width, border-radius, margin-top;
     transition-duration: 300ms;
     transition-timing-function: ease;
   }
@@ -674,9 +674,16 @@ const buttonId = `${menuId}-button`;
     backdrop-filter: blur(24px);
     border-color: var(--color-border);
     box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.14), 0 2px 8px -2px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 0;
   }
 
   [data-header-shape="floating"] .hdr-inner {
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
     transition: height 300ms ease, box-shadow 300ms;
   }
   [data-header-shape="floating"][data-scrolled] .hdr-inner {
@@ -756,6 +763,12 @@ const buttonId = `${menuId}-button`;
     }
     [data-header-shape="floating"][data-header-hidden] {
       translate: -50% calc(-100% - 1.5rem) !important;
+    }
+    [data-header-shape="floating"][data-scrolled] {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 0;
+      margin-top: 0;
     }
   }
 
