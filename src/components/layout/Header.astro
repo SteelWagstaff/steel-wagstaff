@@ -584,11 +584,13 @@ const buttonId = `${menuId}-button`;
               } else {
                 if (header.hasAttribute('data-header-hidden')) {
                   lastShownAtY = currentScrollY;
+                  header.setAttribute('data-header-returned', '');
                 }
                 header.removeAttribute('data-header-hidden');
               }
             } else {
               header.removeAttribute('data-header-hidden');
+              header.removeAttribute('data-header-returned');
               lastShownAtY = 0;
             }
           }
@@ -802,5 +804,47 @@ const buttonId = `${menuId}-button`;
     html:not(.dark) [data-header-shape="floating"][data-header-color-scheme="invert"][data-scrolled] .hdr-logo-text {
       color: var(--color-brand-500);
     }
+  }
+
+  /* ===== Returned state: color flip only when header comes back after being hidden ===== */
+
+  /* Dark mode: flip to white capsule */
+  .dark [data-header-shape="floating"][data-header-returned] {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.45), 0 2px 8px -2px rgba(0, 0, 0, 0.25);
+  }
+  .dark [data-header-shape="floating"][data-header-returned] .hdr-invert-text {
+    color: oklch(20% 0.005 250);
+    transition: color 300ms;
+  }
+  .dark [data-header-shape="floating"][data-header-returned] .hdr-invert-text:hover {
+    color: oklch(8% 0 0);
+  }
+  .dark [data-header-shape="floating"][data-header-returned] .hdr-logo-text {
+    color: var(--color-brand-500);
+  }
+  .dark [data-header-shape="floating"][data-header-returned] .theme-dropdown-wrapper button {
+    border-color: var(--color-border);
+  }
+
+  /* Light mode: flip to dark capsule */
+  html:not(.dark) [data-header-shape="floating"][data-header-returned] {
+    background: oklch(12% 0.005 250 / 0.93);
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.45), 0 2px 8px -2px rgba(0, 0, 0, 0.25);
+  }
+  html:not(.dark) [data-header-shape="floating"][data-header-returned] .hdr-invert-text {
+    color: rgba(255, 255, 255, 0.82);
+    transition: color 300ms;
+  }
+  html:not(.dark) [data-header-shape="floating"][data-header-returned] .hdr-invert-text:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  html:not(.dark) [data-header-shape="floating"][data-header-returned] .hdr-logo-text {
+    color: var(--color-brand-400);
+  }
+  html:not(.dark) [data-header-shape="floating"][data-header-returned] .theme-dropdown-wrapper button {
+    border-color: rgba(255, 255, 255, 0.2);
   }
 </style>
