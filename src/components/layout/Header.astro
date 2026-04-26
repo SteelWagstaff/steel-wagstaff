@@ -808,11 +808,16 @@ const buttonId = `${menuId}-button`;
 
   /* ===== Returned state: color flip only when header comes back after being hidden ===== */
 
+  /* Restore original height — override the scrolled height shrink */
+  [data-header-shape="floating"][data-header-returned] .hdr-inner {
+    height: 3.5rem;
+  }
+
   /* Dark mode: flip to white capsule */
   .dark [data-header-shape="floating"][data-header-returned] {
     background: rgba(255, 255, 255, 0.95);
-    border-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.45), 0 2px 8px -2px rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 32px rgba(255, 255, 255, 0.12), 0 8px 24px -4px rgba(0, 0, 0, 0.25);
   }
   .dark [data-header-shape="floating"][data-header-returned] .hdr-invert-text {
     color: oklch(20% 0.005 250);
