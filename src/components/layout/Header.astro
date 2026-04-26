@@ -583,7 +583,8 @@ const buttonId = `${menuId}-button`;
                 }
               } else {
                 if (header.hasAttribute('data-header-hidden')) {
-                  lastShownAtY = currentScrollY;
+                  const maxScrollY = document.documentElement.scrollHeight - window.innerHeight;
+                  lastShownAtY = Math.min(currentScrollY, Math.max(0, maxScrollY - AUTO_HIDE_THRESHOLD));
                   header.setAttribute('data-header-returned', '');
                 }
                 header.removeAttribute('data-header-hidden');
