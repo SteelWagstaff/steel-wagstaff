@@ -7,8 +7,8 @@ const blog = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog' }),
   schema: ({ image }) =>
     z.object({
-      title: z.string().max(100),
-      description: z.string().max(200),
+      title: z.string().max(300),
+      description: z.string().max(500),
       publishedAt: z.coerce.date(),
       updatedAt: z.coerce.date().optional(),
       author: z.string().default('Team'),
@@ -99,6 +99,41 @@ const stack = defineCollection({
   }),
 });
 
+// Music collection — Spotify playlists and compilations
+const music = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/music' }),
+  schema: z.object({
+    title: z.string().max(100),
+    description: z.string().max(500).optional(),
+    publishedAt: z.coerce.date(),
+    author: z.string().default('Steel Wagstaff'),
+    spotifyUrl: z.string().url().optional(),
+    spotifyEmbedId: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+    draft: z.boolean().default(false),
+    locale: z.enum(['en', 'es', 'fr']).default('en'),
+  }),
+});
+
+// Podcasts collection — Episodes from Off the Chain and Theme Songs
+const podcasts = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/podcasts' }),
+  schema: z.object({
+    title: z.string().max(200),
+    description: z.string().max(5000).optional(),
+    publishedAt: z.coerce.date(),
+    author: z.string().default('Steel Wagstaff'),
+    podcast: z.string(), // "Off the Chain" or "Theme Songs"
+    season: z.number().optional(),
+    episode: z.number().optional(),
+    audioUrl: z.string().url().optional(),
+    duration: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+    draft: z.boolean().default(false),
+    locale: z.enum(['en', 'es', 'fr']).default('en'),
+  }),
+});
+
 export const collections = {
   blog,
   pages,
@@ -106,4 +141,6 @@ export const collections = {
   faqs,
   stack,
   projects,
+  music,
+  podcasts,
 };

@@ -1,0 +1,12 @@
+---
+title: "My Initiation Into Fantasy Football"
+description: "It's been more than two months since I've last written on this blog. A lot has happened. I've moved, twice. I've aged (by which I mean I celebrated my birthday). I've taught an 8-week composition cour"
+publishedAt: 2011-08-22
+author: steel
+tags: []
+draft: false
+locale: en
+---
+
+
+It's been more than two months since I've last written on this blog. A lot has happened. I've moved, twice. I've aged (by which I mean I celebrated my birthday). I've taught an 8-week composition course for incoming Freshman athletes (11 football players and 3 hockey players). And tonight, in about 30 minutes, I'm about to participate in my first ever fantasy football draft. My friend and old college roommate Dave invited me to join a small league with his dad and brothers and I told him yes, so as of tonight I will officially be [drum roll...] a fantasy football owner. I've avoided fantasy sports for years, not because I have any philosophical opposition to them, but because they seem like precisely the kind of thing that I would really love, so much so that I could see myself throwing away tons of time on roster management, scouring the waiver wires, proposing trades, etc. That feeling increased when I saw the very interesting ESPN 30 for 30 documentary Silly Little Game, which explained the historical origin of today's fantasy sports empire and offered a pretty good oral history of the invention of Rotisserie League Baseball (the brainchild of Dan Okrent, a historian and prominent news/magazine editor). I haven't done anything to prepare for this year's draft, I'm not entirely sure how the league is structured, and I'm not even clear on how points are awarded, so I feel like I've done a good job of avoiding the fantasy disease, but I hope I can maintain such relative sanity and balance once football season starts and players start recording statistics. Here's my draft strategy--I feel duty bound to acquire at least one representative of the Steelers (my favorite team--largely because of my name) and Packers (since I'm a resident of Wisconsin), and I'm going to avoid players that I actively dislike, even if they'd be great for fantasy purposes. I'll try to also take haircuts (including facial hair), colleges, and awesome names into consideration. Anything else I should know to prepare for a fantasy football season?

@@ -1,0 +1,56 @@
+---
+/**
+ * SpotifyEmbed — Embedded Spotify player
+ * Renders an iframe for Spotify playlists, albums, or tracks
+ */
+import type { HTMLAttributes } from 'astro/types';
+import { cn } from '@/lib/cn';
+
+interface Props extends HTMLAttributes<'div'> {
+  spotifyId: string;
+  type?: 'playlist' | 'album' | 'track';
+  height?: string;
+  width?: string;
+}
+
+const {
+  spotifyId,
+  type = 'playlist',
+  height = '380px',
+  width = '100%',
+  class: className,
+  ...attrs
+} = Astro.props;
+
+// Build Spotify embed URL
+const embedUrl = `https://open.spotify.com/embed/${type}/${spotifyId}`;
+---
+
+<div
+  class={cn('spotify-embed-container overflow-hidden rounded-lg', className)}
+  style={{ width }}
+  {...attrs}
+>
+  <iframe
+    src={embedUrl}
+    width="100%"
+    height={height}
+    frameborder="0"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"
+    title={`Spotify ${type}`}
+    class="w-full"
+  />
+</div>
+
+<style>
+  .spotify-embed-container {
+    --bg: var(--background);
+    --text: var(--foreground);
+  }
+
+  iframe {
+    border: none;
+  }
+</style>

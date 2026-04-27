@@ -1,0 +1,107 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { getCollection, render } from 'astro:content';
+import Badge from '@/components/ui/data-display/Badge/Badge.astro';
+import Card from '@/components/ui/data-display/Card/Card.astro';
+import Icon from '@/components/ui/primitives/Icon/Icon.astro';
+
+export async function getStaticPaths() {
+  const episodes = await getCollection('podcasts', ({ data }) => {
+    return data.locale === 'en' && (import.meta.env.PROD ? data.draft !== true : true);
+  });
+
+  return episodes.map((episode) => ({
+    params: { slug: episode.id.replace('en/', '') },
+    props: { episode },
+  }));
+}
+
+const { episode } = Astro.props;
+const { Content } = await render(episode);
+---
+
+<PageLayout
+  title={episode.data.title}
+  description={episode.data.description || `Episode from ${episode.data.podcast}`}
+>
+  <article class="mx-auto max-w-3xl px-6 py-12">
+    <!-- Header -->
+    <header class="mb-12 border-b border-border pb-8">
+      <div class="flex flex-col gap-4">
+        <a href="/podcasts/" class="text-sm text-foreground-muted hover:text-foreground transition-colors">
+          ← Back to Podcasts
+        </a>
+
+        <div class="flex items-center gap-2">
+          <Badge variant="brand">
+            {episode.data.podcast}
+          </Badge>
+          {episode.data.episode && (
+            <span class="text-sm text-foreground-muted">
+              Episode {episode.data.episode}
+            </span>
+          )}
+        </div>
+
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-foreground">
+          {episode.data.title}
+        </h1>
+
+        {episode.data.description && (
+          <p class="text-lg text-foreground-muted">
+            {episode.data.description}
+          </p>
+        )}
+
+        <div class="flex flex-wrap items-center gap-4 pt-4">
+          <time class="text-sm text-foreground-muted">
+            {new Intl.DateTimeFormat('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            }).format(episode.data.publishedAt)}
+          </time>
+
+          {episode.data.duration && (
+            <span class="text-sm text-foreground-muted flex items-center gap-1">
+              <Icon name="clock" size="sm" />
+              {episode.data.duration}
+            </span>
+          )}
+
+          {episode.data.tags?.length > 0 && (
+            <div class="flex flex-wrap gap-2">
+              {episode.data.tags.map((tag) => (
+                <Badge key={tag} variant="subtle" size="sm">
+                  {tag}
+                </Badge>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </header>
+
+    <!-- Audio Player -->
+    {episode.data.audioUrl && (
+      <div class="mb-12">
+        <Card>
+          <audio
+            controls
+            class="w-full"
+            preload="metadata"
+            style="accent-color: rgb(59, 130, 246);"
+          >
+            <source src={episode.data.audioUrl} type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </Card>
+      </div>
+    )}
+
+    <!-- Content -->
+    <div class="prose prose-sm max-w-none dark:prose-invert">
+      <Content />
+    </div>
+  </article>
+</PageLayout>

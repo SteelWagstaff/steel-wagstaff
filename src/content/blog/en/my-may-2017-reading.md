@@ -1,0 +1,51 @@
+---
+title: "My May 2017 Reading"
+description: "Books"
+publishedAt: 2017-06-12
+author: steel
+tags: []
+draft: false
+locale: en
+---
+
+
+Books
+
+Pleased to report that I continued reading a lot for my dissertation (pleasurable reading, but of a different kind), and traveled to a work conference followed by a 2-week vacation starting at the end of the month. Both slowed my pleasure reading, as did the NBA playoffs, since I watched games in the evening instead of reading a fair amount, but here's what I read in a scant month.
+
+Nonfiction
+
+    Sabina Knight's A Very Short Introduction to Chinese Literature. (I read this from May 9-May 14). I'm dramatically underread when it comes to Asian literature, and this book gave me all kinds of ideas and places I'd like to start. Some highlights:
+
+    "Zuo’s Commentary of the late fourth century BCE documents this reliance on words as one of three ways “to die but not to perish”: First is to establish virtue; second to establish good deeds, and third to establish words."
+    Confucius: "If one does not study poetry, one will be without the means to speak." + "A person of humanity, wishing to be established, also establishes others, and wishing to succeed, also helps others to succeed." + Asked whether one word could guide action throughout life, Confucius proposed reciprocity as the most dependable guide. "Is not reciprocity such a word? Do not do to others what you would not want done to you."
+    Zhu Xi and the "investigation of things" + Zhuangzhi generally!
+    "Confucius noted that at seventy he could follow the desires of his heart without transgressing moral principles. If the heart is aligned, this avowal implies, one’s desires will guide one to moral action. With faith in the four innate tendencies of compassion, shame, modesty, and a sense of right and wrong, Mencius valued feelings as noble sentiments grounded in genuine yearnings for goodness. According to Mencius, by nurturing vital qi, courage, and temperament, one could strengthen moral intentions, avoid distraction from the heart-mind, and achieve resonance with the universe. Though less sanguine about human nature, Xunzi also recommended controlling passions for good ends. Nurturing desires and feelings thus became one of literary culture’s key functions"
+    These lines from "Crickets": "The crickets are in the hall; / The years and months pass on. / If we do not rejoice today / The sun and moons will run on."
+    "The absence of a specific persona is common in classical Chinese poetry, especially landscape poetry, and it is regrettable that translation often requires adding a subject, for the ambiguity could be an artistic response to questions of selfhood. Instead of glorifying an individual subject, Chinese poems often efface the self. Softening the distinction between “subject” and “object,” such poems offer reflections on the world less mediated by individual personality."
+    The longstanding Chinese bias against (literary) fiction and its disparagement as "little talk"
+    "The first emperor of the Wei Kingdom (220–65), Cao Pi (187–226), celebrated literature as the greatest accomplishment in managing a country. Contrasting the endurance of literary works with the inevitable exhaustion of a lifespan and the passing of honor and pleasure with the body’s death, Cao cast writing as a way of addressing the terror of time’s passing."
+    Like its parent novel, Supplement to Journey to the West (1641) offers a trenchant social satire combined with a masterful Buddhist allegory about the ways passions (qing) can imprison the heart. Ensnarled by Mackerel (qing, a homophone for passion) in a series of hallucinations, Monkey broadens his perspective to see the nature of desire, its delusions, and his own conditioned tendencies. As he does, the point of view shifts from his perspective to more omniscient narration, just one of several consciously crafted literary techniques. Short by the standards of the time, this sixteen-chapter midquel features a Tower of Myriad Mirrors, a group of space-walkers chiseling a hole in the firmament, and other surreal elements that make the novel ripe for psychoanalytic readings as dreamwork on anxiety.
+    In one of [The Dream of the Red Chamber's] most vivid scenes, Baoyu finds Daiyu burying fallen flowers to protect them from trampling. "I have a flower grave in that corner. Today I’ll sweep all the petals into this silk bag and bury them. With time they’ll rejoin the earth."
+    "True, in spite of my own conviction, I could not blot out hope, for hope lies in the future.” Such hope for human-led progress departs from traditional conceptions of nature’s cycles and heaven’s will. Revolutionaries seek to reform political, economic, and social institutions because they believe that, unlike fate, these institutions can be changed. Committed to showing that injustice and suffering were caused by people with power rather than by destiny, Lu Xun, Mao Dun (1896–1981), and others founded the League of Left-Wing Writers in 1930"
+    Gao Xingjian's 1983 play Bus Stop
+    "Mao Dun’s name (a nom-de-plume, and homophone for “contradiction”) signaled his embrace of Marxism, and his fiction chronicles the structural contradictions crippling China’s economy. In “Spring Silkworms” (1932), a guileless peasant family’s tender care of their silkworms yields abundant cocoons, but their superstitions blind them to the collapse of their market. And in Mao’s naturalistic Midnight (1933), a textile industrialist learns through successive losses the insufficiency of national capital to withstand foreign economic imperialism. Because portrayals of crushing socio-economic conditions argued for national revolution, leftists championed such realist fiction and drama. Realism’s importance was confirmed by the Compendium of Chinese New Literature (1935), a collection increasingly influential after the Japanese invasion (1937–45), the civil war, and CCP cultural policies restricted other sources."
+    "Zhang was also one of the first writers to return to themes of romantic love, long forbidden during the Mao era. In her controversial “Love Cannot Be Forgotten,” (1979), the daughter-narrator’s considerations of marriage frame her reading of her dead mother’s diary. As she reads, its story of her mother’s unrealized love for a married man inspires five views of marriage: a “commodity exchange,” a social duty, and a means of procreation, but also potentially a loving relation, and a free choice. The story provoked impassioned discussions about the ethics of extramarital affairs in the face of culturally compelled marriage, and about socialism’s progress in allowing young people to postpone marriage to find love"
+    Lu Xinhua’s (1954–) “Scar” (1978) and other works of “scar literature” testified to long-suppressed sorrow and compassion. In Zhang Jie’s “Remorse” (1979), a man cowed by his expulsion from the party forbids his son to join a mass memorial service (an implicit protest of Mao’s regime). After the son, his spirit broken, dies of an ordinary infection, the father’s reinstatement in the party offers him little solace: “He had not even done the most basic thing: communicate to his dearest beloved son belief in truth.” Guilt also plagues the protagonist of Dai Houying’s (1938–96) Humanity, Oh Humanity! (1980, translated as Stones of the Wall). In her novel, multiple points of view and vivid flashbacks illustrate the piecemeal nature of memory and historical understanding" Also--prison literature, literally called "big wall literature" after Cong Weixi's "Red Magnolias Beneath the Wall" (1979)
+    Jiang Rong’s (1946–) best-selling Wolf Totem (2004) provoked new concern over the devastation of Mongolia’s fragile grasslands. Drawing on the author’s experience as one of 12 million educated urban youth sent to learn from rural peasants during the Cultural Revolution, the novel recounts a “sent-down” youth’s growing reverence for nomadic Mongolians and for the ecological balance symbolized by the wolf.
+
+    Leslie Holmes' A Very Short Introduction to Communism. (I read this from May 14-May 18). Fascinating, and a very quick read. I had a very thin grasp of what Communism looked like outside of the USSR, China, and Cuba, and this offered a good, thin, quick comparative framework and high-level overview of communism as a 20th century political system.
+    Harry Redknapp's A Man Walks On To A Pitch. This was my vacation read. I've always had a soft spot for 'Arry, and this book had a light but largely humane touch. Stories from a life in English football, and really just an gauzy exercise in hero worship and raconteurship. I still like Harry, though, in spite of myself. A real man of the people, he is.
+
+Longform Journalism
+
+A sparse month in this regard, too, but here's the best of what I read in May:
+
+    Eamon Duffy's NYT Review of Books article on the Voynich Manuscript. Such a strange book with an impossible curious story.
+    Joshua Rothman's feature of Rod Dreher in The New Yorker. I'd never heard of Dreher (or the Benedict Option before), but was mildly intrigued by his interest in intentional communities.
+    Mary Williams Walsh's article on Puerto Rico's longstanding debt problems and some of the perils of bond financing.
+    Matthew Desmond's NYT article on owning/renting, racial prejudice in housing & housing policy, and "how homeownership became the engine of American inequality".
+    I lived for two years in the northeast of England. Three stories about football there: Alex Hess in Vice Sports on how London's economic might is proving ruinous to the proud football traditions in the north; a Guardian article on the eccentric resourcefulness of Grimsby (a place I lived for 3 months) fans; and Johnny McDevitt's Guardian feature on Jaber Abdullah, a Sudanese asylum seeker who has created a football team for refugees in Barnsley (the last town I lived in before returning to the United States).
+    Rebecca Solnit writing for Literary Hub on privilege, loneliness, and the President of the United States
+
+Harry Redknapp reads a newspaper at Wincanton Racecourse on November 17, 2016 in Wincanton, England. (Photo by Alan Crowhurst/Getty Images)

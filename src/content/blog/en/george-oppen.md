@@ -1,0 +1,154 @@
+---
+title: "George Oppen"
+description: "I will try to keep this post brief, and being brief, it will certainly fail to capture the depth and breadth of my admiration for George Oppen as a poet and a human being, but I feel the need to essay"
+publishedAt: 2012-06-15
+author: steel
+tags: []
+draft: false
+locale: en
+---
+
+
+I will try to keep this post brief, and being brief, it will certainly fail to capture the depth and breadth of my admiration for George Oppen as a poet and a human being, but I feel the need to essay--to make an attempt. I've just finished, this evening, a thorough reading of Oppen's Selected Letters, selected and edited by Rachel Blau DuPlessis.  Sadly, the book is now out of print, and very expensive--I was fortunate enough to buy a used hardcover copy that had previously been owned by the Amarillo Public Library of all places.
+
+I've been working my way through the letters slowly for several months now, savoring them, admiring them, feeling as though I've slowly been getting to know Oppen a little bit more and loving and appreciating him and his relationship with his wife Mary more and more the further I read. It certainly helps that DuPlessis, a longtime friend and admirer's of Oppen's, edited the letters--there were a few moments where I cringed slightly, but not many, which could be partially attributed to DuPlessis' excisions but more likely attests to the fact of Oppen's integrity and general uprightness.
+
+For any of you who don't know Oppen's biography or poetry, you really should remedy the situation. For the biography, I'd suggest either DuPlessis' Introduction to the letters (brief--about a dozen pages) or Mary's Meaning A Life (it's book length, but still very readable) and for his poetry, please buy his New Collected Poems, and if you're a poet or an ambitious, his recently published Selected Prose, Daybooks, and Papers. In terms of single collections, the three 1960s books are his best work, in my opinion: The Materials (1962), This in Which (1965), and Of Being Numerous (1968), the latter being the book for which he won the Pulitzer Prize in Poetry. Beautiful, beautiful writing. Some good Oppen resources online are up at Big Bridge, Jacket, and Cary Nelson's MAPS.
+
+[caption id="attachment_1108" align="alignleft" width="500"] On Laurel and my honeymoon, we visited City Lights bookstore in S.F. I took this photograph in their poetry room upstairs. The three books immediately above this sign [black, white, black spines] are Oppen's. The one just to the right of those three [yellow jacket] is the copy of Mary Oppen's Meaning A Life which I bought as a gift to myself.[/caption]The reason I'm writing this post though is that I felt immensely moved as I came to read the late Oppen letters. It appears that by the early-to-mid 1970s Oppen gradually began to suffer from the effects of what he called 'senility'--what we would probably today call 'dementia' or even 'Alzheimer's disease.' Apologies for his poor typing appear with greater frequency in his letters, and some of his confessions to friends and others become occasionally poignant, sometimes heart-breakingly sad. The first possible hint that he's beginning to suffer from mental decline comes in a letter to the poet Phil Levine in late 1969-early 1970:
+
+Phil:
+
+not sure whether I replied to your letter -- nothing I regard as pathology, but I note with a certain dizzy feeling that I become markedly elderly in my ways -- I no longer seem to keep track of mail --- or know where anything is - - - - Well. A very odd thing to happen to a child.
+
+[caption id="" align="alignleft" width="300"] Harvey Shapiro by David Shankbone (Photo credit: Wikipedia)[/caption]
+
+This could be an early confession of encroaching dementia, but I think it more likely an apology for being so late in replying to correspondence.
+
+The first clear description of actual mental deterioration occurs in a Fall 1975 letter to Harvey Shapiro, a New York poet and longtime friend, where he includes this handwritten insert along with his typed letter:
+
+((      and my correspondence is a mess.   Also a number of other things        Senility: no other word for it.       I cannot remember what happened yesterday: I fail to recognize people I know well - - -.     67: a little early for such things- - -   I cannot do simple arithmetic:  I mis-read clocks - - Maybe I went too far in the home-made slingshot business [a reference to a remark he made earlier in the type-written letter] - - - It is very extreme.  Been talking to a doctor: he begins with no coffee, no tea, no alcohol, and of course no tobacco, but I don't find that possible. - - I see myself walking about supported by Mary's elbow - - - pretty soon   (   Or is Mary's elbow a stimulant, and therefore forbidden? )
+
+[written in margin with a line drawn to the last paragraph] This is the news:   you wanted news.   This is it.
+
+A terrible admission to make, dark and depressed-sounding with a tinge even of self pity--all so unlike Oppen, but characteristically honest, blunt even, and leavened with humor ("is Mary's elbow a stimulant..."). More than a year later he writes to his daughter and son-in-law:
+
+Mary has acquired a business manner --- neither rough nor gruff nor suspicious, but - - - - I guess 'unhurried' would be one word for it.
+
+-- I have acquired the manner of an idiot, an idiot who has been entrusted with various papers, licenses, etc, and who cannot find any of them. Perhaps an excellent tactic:   a seller who does not try to take advantage of me is a saint     Or at least a member of the Rotary Club
+
+- - - I now carry a license, a social security card, a car registration, a - - - - well, there are about six pieces of paper tucked away in my clothes and our generation is not accustomed to this    (I remember our fury when we first went to france because the French police demanded that one carry an Identity card!! we used to fight about it
+
+Times change.   We don't.   Or we do, but we make quite a fuss about it.
+
+Note how light, how jovial, playful even, a tone he adopts here when writing his daughter. This was certainly characteristic of Oppen--his letters to his daughter nearly always seem playful, jubilant, full of mirth and play, and it would be shocking to see him admit the kind of weakness or despair he admits to his old friend Harvey Shapiro when writing to his daughter. In fact, while the political aspect of Oppen's long silence (almost 30 years passed between the publication of Discrete Series, his first book, and The Materials, his second) has been much commented on, in Oppen's letters he makes it clear that his silence was also fueled by a sense of parental duty, his desire to keep his daughter safe and sheltered--crucially, it is not until she leaves home to attend college that he seriously takes up poetry again. He takes on a third tone when describing his difficulties to his sister, the San Francisco publisher June Oppen Degnan, in summer 1977:
+
+June Dear:
+
+weather beautiful but cold. We seem amazingly debilitated & clumsy physically - - - hope to improve during the summer - - - Been a hard year somehow    :     the new poems were a strain - - - and it seems that walking is not enough exercise - - - - -
+
+well, it's strange. On a little path fifty yards long from here to the road (and which I've been over a hundred times) I somehow got lost! Mary said: I'm not far behind you. I said: There's something worse; maybe you're just seven months behind me (Mary's birthday is Sept. [November] 28th)
+
+well: we will, I think, get our bearings - - (the nautical term is obviously appropriate)   It's true that we're dazed: things had somehow got away from us - - (My relation to the mail in S.F. was the relation of the running man to the structures    he's got hold of: he can't let go or jump on - - - alright, alright, we'll heal in Maine.   If not, we won't never come home
+
+love,
+
+George
+
+Here, Oppen describes his frightening situation with plain honesty--he gets lost while walking on a familiar road--and allows himself to imagine the pain of Mary suffering the same affliction. There's an ambivalence in his tone here--he balances frankness "It's true that we're dazed," with reassurance and tinges of black humor "If not, we won't never come home." While he is not as light-hearted with his sister as he was with his daughter, there is still a certain optimism: "we will, I think, get our bearings" & "alright, alright, we'll heal in Maine."
+
+The last of Oppen's letters to directly address his worsening health is a letter to Paul Auster dated March 8, 1980, in response to Auster's proposal of an interview for a series he was conducting for the Paris Review:
+
+Dear Paul,
+
+Very tempting--  a pleasant prospect to see you again, and to talk.   What worries me is the question of whether or not I can say anything that I have not already said-- And    my own condition at this moment which is something alas, very like senility--      I am not being very brilliant these days, and I have not writ anything since Primitive
+
+It is not that I fear being less than brilliant:   I find that my only recourse is to admit to myself and to others that on familiar streets    I cannot find my way home.      I am not attempting to deny this fact, but          "Alas; how the mighty mites have fallen. /"
+
+What will you manage to report of me that will be interesting enough to be a credit to your ability as an interviewer?
+
+It would nevertheless be a great pleasure to me and to Mary to talk.
+
+I'll do my best if you go ahead.
+
+Regards,
+
+George
+
+What a difficult letter to write! What an admission to have to make, and in such a way as this--it almost paralyzes the mind. Some of Oppen's traits that are most visible in this letter are his concision, his directness, his forthrightness, his honesty, and his personal warmth, his sincere kindness and regard for authentic human friendship--for speech, for talking. In his late letters Oppen also shows his remarkable gift for spare, beautiful, essential storytelling, particularly in a couple of letters he exchanges with the poets Philip Levine and Sharon Olds. At the end of the Levine letter cited earlier Oppen writes:
+
+(another small story:   after the war.    We were in L A, I had been working in a tool and die jobbing shop, then started building tailor-made radios -- phonographs, and then with a partner building houses       Message that my father (in S F) was dying. Hypochondriac family;   my father less ill than that, the meeting in his hospital room as equivocal, as difficult, as dangerous to me as all our meetings - - The nurse came into the room and asked me to wait outside a moment. I walked down the hall to a little waiting room and sat down. The floor-nurse on duty recognized me (I look like my father)    She said, I guess what a man cares most about in his life is his son.    I was startled, I was absolutely startled and absolutely unprepared.    My father's temperature was running fairly high, I realized that he must have talked of me. My face must have shown how startled and how unprepared I was. The nurse saw it, and she began to cry     God help us all.
+
+[page break]
+
+Well, there it is.
+
+Confession.    Some self-congratulation too.     Obviously.    Some cruelty on my part too - - - There it is.
+
+--survival.    never a wholly admirable story.
+
+To my knowledge Oppen never repeats this story elsewhere in his correspondence, nor does he convert it into a poem. I have a powerful personal memory of encountering the idea, as a young Mormon kid preparing for a mission, that there were some experiences "too sacred to share," an idea that marked and shaped my thinking for many years, and still exerts a pretty considerable influence on my artistic mores. I feel differently about the idea now, but remnants of this idea that some stories are not for general circulation, that not all of our lives are fit for conversion to narrative or even art, abides and remains quite a firm conviction for me, and I think, for Oppen.
+
+Oppen's correspondence with Olds is also a beautiful story, quiet and touching in its own way. Apparently, he chanced upon some of her work in George Hitchcock's small magazine Kayak and decided to write her a note of appreciation (they'd never met). Here's his first letter, dated November 18, 1975:
+
+Dear Sharon Olds
+
+flatly impossible for me to read all the magazines that are delivered to my helpless door      Troubles me, for I had once dreamed of becoming old and being as responsive and perceptive as Bill Williams and Ezra had been - - -Foolish dream;     I'm not fitted for it, aside from lacking their influence
+
+But I possess a guardian angel - - I've been aware of this for some time   Glancing thru the deluge of mags in the most cursory and unconscionable way, I read what I should read.     I've noticed this before. And still I'm amazed that among the 19th century lithographs of Kayak I come upon a poem as fine and powerful as Satan Says       Your angel-devil watches over me among the pin-cushions
+
+(and thanks to him-her)
+
+George Oppen
+
+In the notes to this letter, DuPlessis writes "Olds reported that this letter about her work in Kayak "came to me out of the blue. [...] It was largely because of his letter that that particular poem began to seem central to me, finally giving its name to my first book." Olds responded to his letter, and she and Oppen corresponded intermittently over the next few years. In one letter, she apparently commented appreciatively on Oppen's poem "Night Scene." He responded by telling her the story which occasioned the poem:
+
+Here is the story of that poem that moved you.
+
+a young friend and his girl --- the girl's mother coming to New York to visit - - - They wanted us to meet the mother to display - - - I don't know. Adult approval, adult connections - - - Adult respect  ? -- I don't know. But of course we obliged.  Pete [Young] -- the young man -- said: let us go for a walk, and we walked thru Greenwich Village, and out the 14th street pier - - nine or ten o'clock at night, the pier populated by drunken men   .  We sat down on the string-piece - - both the mother and the young girl dressed very stylishly.  - - I was not sure it was a very wise thing to be doing - - - or very reassuring to the mother as a sample of the wise adults     ? - - - and indeed a very drunk man, a tremendous man and very drunk came over and wedged himself between me and the dainty mother - - - - talking loudly to us, a bullying manner unmistakably - - -
+
+I interrupted.  .          I don't know: maybe not altogether merely scheming, merely being clever - - - there was something in the man's face. There truly was. And yet it was mostly being clever on my part:    I said to him: "What was your father's name"
+
+. . . . . . O my god, it came pouring out, pouring out          'My father was a good man, my father was a good man, I'm glad he can't see me now. . .'       O my god.   And me being clever.
+
+We talked               .             We talked awhile. It was getting late    We said good bye, and stoop up and walked back down the pier, the man following us, and telling and telling, and we listened - - - What could we do?      We should say:   come home with us - - - and of course we were not going to say that, and it would be useless . . . I did not know what to do, the man following behind us, what would we do - -
+
+and then Mary stopped,    and turned back to the man, and put her arms around him, and kissed him, and said:      now we must leave         --     for we knew it could only be this moment for him - - -
+
+and we walked off. It was then he said, Good bye momma, good bye Poppa - - - -
+
+you will see that I have not exaggerated Mary's beauty, total beauty, confidence, strength of beauty.   I wrote the poem.   As well as I could.
+
+and thank you for reading it so well
+
+George
+
+I am sorry that I cannot       Cannot          type decently
+
+[caption id="" align="alignnone" width="600"] George Oppen and Mary Oppen on Little Deer Island in Maine. Rachel Blau DuPlessis took it in an instant without posing them - she was simply walking in front of them and turned and called out to them. Probably 1968.[/caption]
+
+How can you not admire a man who writes like this, who can tell this story truthfully, who leaves so much of it out of the finished poem, out of dignity, of restraint, of fellow human respect. And how can you not admire Mary. Such strength of beauty, indeed. I love them both. It seems to me also that a great part of Oppen's reticence, his unwillingness to expose this story publicly, to exhibit or "explore" the suffering of another person in the poem, the refusal to attempt a persona poem in which he fills in or imagines the interior life of the drunken man is all a part of his consistent effort to produce what he called in his poem "A Narrative": "a substantial language / Of clarity, and of respect." It is this last element--respect--that I think is particularly notable, and for me, particularly admirable--a kind of restraint, a deep consideration of privacy, even decorum, that I find so appealing in Oppen's poem--the absence of this respect is, in no small part, what I find so disturbing in so many contemporary memoirs and so much confessional poetry--Robert Lowell's The Dolphin still functions in my mind as the best (or worst) example of this absence of respect.
+
+I had a more clear idea of where I wanted to end up when I began, an idea that has become all muddled and confused as I've written and allowed myself so many different twists and turns and trips down side avenues. Before I end this short appreciation of Oppen's letters, I wanted to include some of his last published correspondence, written at various times in 1981, the year before his official diagnosis with Alzheimer's (also the year before I was born). The first of these was a letter written to Anthony Rudolf, an English poet and translator who had written to Oppen requesting a message to share with the attendees of the Cambridge Poetry Festival. Oppen's reply, dated June 6, 1981, is as follows:
+
+Dear Tony,
+
+I think there is no light in the world but the world.   And I think there is light. My happiness is the knowledge of all we do not know.
+
+George Oppen
+
+The penultimate letter DuPlessis includes in the selected letters is a stunning short letter from Oppen to his sister June describing a cluster of intertwined memories about their mother (who committed suicide when George was four years old). The last letter from Oppen in the book was dated September 26, 1981 and addressed to Claude Royet-Journoud, a French poet who had requested a one-line poem from Oppen for an anthology he was editing with Emmanuel Hocquard. Oppen sent a five-line poem, Royet-Journoud wrote back and asked again for a one-line poem, and Oppen wrote this letter, his last published correspondence:
+
+Dear Claude,
+
+I am truly sorry to refuse anything that you ask of me, but I cannot bring myself to write poetic "exercises." We come back to that old saying: a poem is a poem is a poem.    (and never an exercise)
+
+it is tied to the world, and the stones of the villages.
+
+Again sorry to refuse to do anything you ask of me,
+
+Best wishes,
+
+George
+
+What a way to end one's correspondence. A poem is a poem is a poem. To be tied to the world, and the stones of the villages. Not only an aspiration for one's poems, but one's life. My life's aspiration.

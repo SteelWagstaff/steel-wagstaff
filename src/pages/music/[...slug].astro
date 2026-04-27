@@ -1,0 +1,95 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { getCollection, render } from 'astro:content';
+import Badge from '@/components/ui/data-display/Badge/Badge.astro';
+import Card from '@/components/ui/data-display/Card/Card.astro';
+import SpotifyEmbed from '@/components/ui/content/SpotifyEmbed/SpotifyEmbed.astro';
+import { extractSpotifyId, detectSpotifyType } from '@/lib/spotify';
+
+export async function getStaticPaths() {
+  const playlists = await getCollection('music', ({ data }) => {
+    return data.locale === 'en' && (import.meta.env.PROD ? data.draft !== true : true);
+  });
+
+  return playlists.map((playlist) => ({
+    params: { slug: playlist.id.replace('en/', '') },
+    props: { playlist },
+  }));
+}
+
+const { playlist } = Astro.props;
+const { Content } = await render(playlist);
+---
+
+<PageLayout
+  title={playlist.data.title}
+  description={playlist.data.description || 'A Spotify playlist by Steel Wagstaff'}
+>
+  <article class="mx-auto max-w-3xl px-6 py-12">
+    <!-- Header -->
+    <header class="mb-12 border-b border-border pb-8">
+      <div class="flex flex-col gap-4">
+        <a href="/music/" class="text-sm text-foreground-muted hover:text-foreground transition-colors">
+          ← Back to Music
+        </a>
+
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-foreground">
+          {playlist.data.title}
+        </h1>
+
+        {playlist.data.description && (
+          <p class="text-lg text-foreground-muted">
+            {playlist.data.description}
+          </p>
+        )}
+
+        <div class="flex flex-wrap items-center gap-4 pt-4">
+          <time class="text-sm text-foreground-muted">
+            {new Intl.DateTimeFormat('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            }).format(playlist.data.publishedAt)}
+          </time>
+
+          {playlist.data.tags?.length > 0 && (
+            <div class="flex flex-wrap gap-2">
+              {playlist.data.tags.map((tag) => (
+                <Badge key={tag} variant="subtle">
+                  {tag}
+                </Badge>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </header>
+
+    <!-- Spotify Embed -->
+    {(playlist.data.spotifyEmbedId || playlist.data.spotifyUrl) && (
+      <div class="mb-12">
+        {playlist.data.spotifyEmbedId && (
+          <SpotifyEmbed spotifyId={playlist.data.spotifyEmbedId} type="playlist" height="380px" />
+        )}
+        {!playlist.data.spotifyEmbedId && playlist.data.spotifyUrl && (() => {
+          const id = extractSpotifyId(playlist.data.spotifyUrl);
+          const type = detectSpotifyType(playlist.data.spotifyUrl) || 'playlist';
+          return id ? (
+            <SpotifyEmbed spotifyId={id} type={type} height="380px" />
+          ) : (
+            <Card>
+              <a href={playlist.data.spotifyUrl} target="_blank" rel="noopener noreferrer" class="text-brand-500 hover:text-brand-600 font-medium">
+                Listen on Spotify →
+              </a>
+            </Card>
+          );
+        })()}
+      </div>
+    )}
+
+    <!-- Content -->
+    <div class="prose prose-sm max-w-none dark:prose-invert">
+      <Content />
+    </div>
+  </article>
+</PageLayout>
