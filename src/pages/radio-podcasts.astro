@@ -1,0 +1,124 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '@/layouts/PageLayout.astro';
+import { formatDate } from '@/lib/utils';
+
+const music = await getCollection('music');
+const podcasts = await getCollection('podcasts');
+
+// Separate podcast series
+const offTheChain = podcasts
+  .filter(p => p.data.podcast === 'Off the Chain')
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+const themeSongs = podcasts
+  .filter(p => p.data.podcast === 'Theme Songs')
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+// Sort playlists by date
+const playlists = music
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+---
+
+<PageLayout title="Radio + Podcasts" description="A collection of podcast episodes and curated Spotify playlists exploring music, culture, and conversation.">
+  <div class="min-h-screen bg-gradient-to-b from-background to-background/50">
+    <!-- Header -->
+    <div class="mx-auto max-w-4xl px-6 py-12">
+      <h1 class="text-4xl font-bold mb-4">Radio + Podcasts</h1>
+      <p class="text-lg text-muted-foreground mb-8">
+        A collection of podcast episodes and curated Spotify playlists exploring music, culture, and conversation.
+      </p>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="mx-auto max-w-4xl px-6 space-y-16 pb-16">
+      
+      <!-- Spotify Playlists -->
+      <section>
+        <h2 class="text-3xl font-bold mb-2">Spotify Playlists</h2>
+        <p class="text-muted-foreground mb-6">Monthly curated playlists of favorite tracks</p>
+        <div class="grid gap-4">
+          {playlists.map((item) => (
+            <a
+              href={`/music/${item.slug}`}
+              class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
+            >
+              <div class="flex items-start justify-between">
+                <div class="flex-1">
+                  <h3 class="font-semibold group-hover:text-primary transition-colors">
+                    {item.data.title}
+                  </h3>
+                  <p class="text-sm text-muted-foreground mt-1">
+                    {formatDate(item.data.publishedAt)}
+                  </p>
+                </div>
+                <span class="text-sm font-medium bg-primary/10 text-primary px-2 py-1 rounded ml-4 whitespace-nowrap">
+                  Playlist
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- OTC with Dave & Steel -->
+      <section>
+        <h2 class="text-3xl font-bold mb-2">Off the Chain Podcast</h2>
+        <p class="text-muted-foreground mb-6">Weekly episodes with conversations on sci-fi, comics, culture, and music</p>
+        <div class="grid gap-4">
+          {offTheChain.map((item) => (
+            <a
+              href={`/podcasts/${item.slug}`}
+              class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
+            >
+              <div class="flex items-start justify-between">
+                <div class="flex-1">
+                  <h3 class="font-semibold group-hover:text-primary transition-colors">
+                    {item.data.title}
+                  </h3>
+                  <p class="text-sm text-muted-foreground mt-1">
+                    Episode {item.data.episode} • {formatDate(item.data.publishedAt)}
+                  </p>
+                </div>
+                <span class="text-sm font-medium bg-secondary/10 text-secondary px-2 py-1 rounded ml-4 whitespace-nowrap">
+                  OTC
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- Theme Songs Podcast -->
+      {themeSongs.length > 0 && (
+        <section>
+          <h2 class="text-3xl font-bold mb-2">Theme Songs Podcast</h2>
+          <p class="text-muted-foreground mb-6">Exploring the stories behind memorable theme songs</p>
+          <div class="grid gap-4">
+            {themeSongs.map((item) => (
+              <a
+                href={`/podcasts/${item.slug}`}
+                class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
+              >
+                <div class="flex items-start justify-between">
+                  <div class="flex-1">
+                    <h3 class="font-semibold group-hover:text-primary transition-colors">
+                      {item.data.title}
+                    </h3>
+                    <p class="text-sm text-muted-foreground mt-1">
+                      {item.data.episode && `Episode ${item.data.episode} • `}{formatDate(item.data.publishedAt)}
+                    </p>
+                  </div>
+                  <span class="text-sm font-medium bg-accent/10 text-accent px-2 py-1 rounded ml-4 whitespace-nowrap">
+                    Theme Songs
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+    </div>
+  </div>
+</PageLayout>

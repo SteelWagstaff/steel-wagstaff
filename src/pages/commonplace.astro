@@ -1,0 +1,80 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+
+// Placeholder for tumblr content (quotations, videos, songs)
+// This page can be extended to fetch from an API or content collection
+interface CommonplaceItem {
+  type: 'quote' | 'video' | 'song';
+  content: string;
+  source?: string;
+  date: Date;
+}
+
+// Example structure - can be replaced with actual data sources
+const commonplaceItems: CommonplaceItem[] = [];
+---
+
+<PageLayout title="Commonplace" description="A digital commonplace book featuring quotations, videos, and songs.">
+  <div class="min-h-screen bg-gradient-to-b from-background to-background/50">
+    <!-- Header -->
+    <div class="mx-auto max-w-4xl px-6 py-12">
+      <h1 class="text-4xl font-bold mb-4">Commonplace</h1>
+      <p class="text-lg text-muted-foreground mb-8">
+        A collection of quotations, videos, and music from across the web. Inspired by the tradition of commonplace books.
+      </p>
+    </div>
+
+    <!-- Content -->
+    <div class="mx-auto max-w-4xl px-6 pb-16">
+      {commonplaceItems.length > 0 ? (
+        <div class="grid gap-6">
+          {commonplaceItems.map((item) => (
+            <div class="p-6 rounded-lg border border-border hover:border-primary/50 transition-colors">
+              {item.type === 'quote' && (
+                <blockquote class="text-lg italic text-muted-foreground border-l-4 border-primary pl-4">
+                  "{item.content}"
+                  {item.source && (
+                    <footer class="text-sm mt-2 font-semibold text-foreground not-italic">
+                      — {item.source}
+                    </footer>
+                  )}
+                </blockquote>
+              )}
+              
+              {item.type === 'video' && (
+                <div>
+                  <p class="text-sm text-muted-foreground mb-2">Video</p>
+                  <p class="text-foreground">{item.content}</p>
+                  {item.source && (
+                    <a href={item.source} class="text-primary hover:underline text-sm mt-2 inline-block">
+                      Watch →
+                    </a>
+                  )}
+                </div>
+              )}
+              
+              {item.type === 'song' && (
+                <div>
+                  <p class="text-sm text-muted-foreground mb-2">Song</p>
+                  <p class="text-foreground font-semibold">{item.content}</p>
+                  {item.source && (
+                    <a href={item.source} class="text-primary hover:underline text-sm mt-2 inline-block">
+                      Listen →
+                    </a>
+                  )}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <p class="text-muted-foreground text-lg">
+            Commonplace items coming soon. In the tradition of literary notebooks, this space will collect quotations, 
+            memorable videos, and songs that resonate.
+          </p>
+        </div>
+      )}
+    </div>
+  </div>
+</PageLayout>

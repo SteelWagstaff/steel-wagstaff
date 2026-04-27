@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '@/layouts/PageLayout.astro';
+import { formatDate } from '@/lib/utils';
+
+const blog = await getCollection('blog');
+
+// Sort blog posts by date (newest first)
+const sortedPosts = blog
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+// Group by tag/featured for storytelling vs regular posts
+const allWriting = sortedPosts;
+---
+
+<PageLayout title="Writing + Storytelling" description="Longer publications, blog posts, and storytelling recordings exploring ideas and narratives.">
+  <div class="min-h-screen bg-gradient-to-b from-background to-background/50">
+    <!-- Header -->
+    <div class="mx-auto max-w-4xl px-6 py-12">
+      <h1 class="text-4xl font-bold mb-4">Writing + Storytelling</h1>
+      <p class="text-lg text-muted-foreground mb-8">
+        Essays, blog posts, and reflections on culture, technology, personal growth, and the stories that move us.
+      </p>
+    </div>
+
+    <!-- Content -->
+    <div class="mx-auto max-w-4xl px-6 pb-16">
+      <div class="grid gap-6">
+        {allWriting.map((post) => (
+          <a
+            href={`/blog/${post.slug}`}
+            class="group block p-6 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
+          >
+            <div class="flex items-start justify-between gap-4">
+              <div class="flex-1">
+                <h2 class="text-2xl font-semibold group-hover:text-primary transition-colors mb-2">
+                  {post.data.title}
+                </h2>
+                <p class="text-muted-foreground mb-3 line-clamp-2">
+                  {post.data.description}
+                </p>
+                <div class="flex items-center gap-4 text-sm text-muted-foreground">
+                  <time>{formatDate(post.data.publishedAt)}</time>
+                  <span>•</span>
+                  <span class="capitalize">{post.body ? Math.ceil((post.body.split(' ').length) / 200) : '5'} min read</span>
+                  {post.data.tags && post.data.tags.length > 0 && (
+                    <>
+                      <span>•</span>
+                      <div class="flex gap-1">
+                        {post.data.tags.slice(0, 2).map((tag) => (
+                          <span class="text-xs bg-secondary/20 text-secondary px-2 py-0.5 rounded">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      {allWriting.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-muted-foreground">No posts yet.</p>
+        </div>
+      )}
+    </div>
+  </div>
+</PageLayout>
