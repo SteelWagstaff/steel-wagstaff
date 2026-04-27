@@ -58,29 +58,28 @@ export interface SiteConfig {
 }
 
 const siteConfig: SiteConfig = {
-  name: 'Astro Rocket',
+  name: 'Steel Wagstaff',
   description:
-    'Astro Rocket — A production-ready Astro 6 starter with 12 beautiful themes, 57+ components, built-in i18n, dark mode and a fast, modern foundation to build anything on.',
-  url: SITE_URL || 'https://astrorocket.dev',
+    'Portfolio, writing, music, and podcasts. Exploring design, technology, and creative culture.',
+  url: SITE_URL || 'https://steelwagstaff.info',
   ogImage: '/og-default.svg',
-  author: 'Hans Martens',
-  email: 'hello@hansmartens.dev',
+  author: 'Steel Wagstaff',
+  email: 'hello@steelwagstaff.info',
   address: {
     street: '',
-    city: 'Veghel',
+    city: '',
     state: '',
     zip: '',
-    country: 'the Netherlands',
+    country: '',
   },
   socialLinks: [
-    'https://github.com/hansmartens68/Astro-Rocket',
-    'https://x.com/hansmartens_dev',
-    'https://www.linkedin.com',
-    'https://bsky.app/profile/hansmartens-online.bsky.social',
+    'https://twitter.com/steelwagstaff',
+    'https://github.com/steelwagstaff',
+    'https://instagram.com/steelwagstaff',
   ],
   twitter: {
-    site: 'https://x.com/hansmartens_dev',
-    creator: '@hansmartens_dev',
+    site: 'https://twitter.com/steelwagstaff',
+    creator: '@steelwagstaff',
   },
   verification: {
     google: GOOGLE_SITE_VERIFICATION,
@@ -90,7 +89,7 @@ const siteConfig: SiteConfig = {
   blogImageOverlay: true,
   branding: {
     logo: {
-      alt: 'Astro Rocket',
+      alt: 'Steel Wagstaff',
       imageUrl: '/favicon.svg',
     },
     favicon: {

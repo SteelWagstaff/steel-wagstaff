@@ -1,0 +1,48 @@
+---
+title: "Thoughts on Licensing: Why I Prefer CC-BY Licenses"
+description: "Robin DeRosa recently posted an open question about CC licensing on Twitter that got me thinking:"
+publishedAt: 2018-10-21
+author: steel
+tags: []
+draft: false
+locale: en
+---
+
+
+Robin DeRosa recently posted an open question about CC licensing on Twitter that got me thinking:
+
+https://twitter.com/actualham/status/1052908074263035905
+
+The subsequent conversation has been fascinating and thought-provoking. Here are my initial thoughts:
+
+I choose to use CC-BY licenses for almost all of my work that I want to make available to others. It is my view that the very act of selecting a CC-BY license (and ensuring that the work is distributed in a way that lends itself to copying, editing, and redistribution) effectively destroys the commercial resale value of that work, provided that the work in question exists in a digital form.
+
+I’m making two assumptions here. They are as follows:
+
+ 	Any license which permits others to freely copy the work in question relinquishes the author’s monopoly power and effectively guarantees an unlimited supply of the work. Without scarcity and with proper attribution to the openly licensed work, no price above $0 can be sustained for the work.
+ 	Any commercial value derived from the work can therefore only be the result of some transformative use. If someone transforms my work in such a way that they’re able to extract some commercial benefit, the price they’re able to extract from others can only reside in the transformation they’ve added to the work. As David Wiley wrote in February of this year: “Once you understand that it is possible for content to be open and the platform to be proprietary, as is the case for almost all courseware containing OER today, it becomes quite clear what’s being sold. It’s not the content.”
+
+In other words, a CC-BY license when coupled with a platform that supports others’ newly granted permissions (the 5Rs) ensures that your work itself is excluded from meaningful commercial use. It does not ensure that transformative uses of your original work cannot be commercialized, but it seems to me that it does ensure that the commercial value of these derivatives must be based upon the perceived value added of these transformational activities, rather than the base content (which is openly licensed and thus has zero functional commercial value).
+
+The BY (attribution) requirement of the CC-BY license ensures that all value extracted from the derivative work must derive from the transformations introduced in the derivation because anyone considering using/paying for the derivative has to be notified that the work they’re considering purchasing is based on a freely available work. If the actor making commercial use of a CC-BY resource fails to do this, they’re in violation of the CC-BY license. The term for this is copyfraud, and while it’s a real thing, the only kind of copyfraud I care about preventing is essentially guaranteed by a CC-BY license, which is why I generally prefer it to a CC-0 license for my own works (in my view it is attribution which helps ensure that any commercial benefit gained by derivatives of my work inheres in the transformative labor and not in my original contribution).
+
+In my view, the CC-BY license alone is sufficient to guarantee that no one can profit from my own work, but it doesn’t stop them from profiting from their own improvements to that work. Fair enough — others should be permitted to use their time and labor as they see fit and to seek to establish a fair market for their time and labor.
+
+Later in the thread, Robin wrote:
+
+https://twitter.com/actualham/status/1052912877261209601
+
+The phenomena of ‘siphoning’ resources away from the public and toward private, for-profit schemes is a super real concern, and I’m opposed to it. However, my concern about the ‘siphoning’ of a thing is only valid when the thing in question is finite. In other words, siphoning is only harmful when there’s a fixed quantity of the thing being siphoned and the act of siphoning diminishes the resource in question. Think about things like water, tax revenue, printed books about Aphra Behn, etc. For these physical resources which have a fixed quantity and which cannot be easily reproduced, siphoning is obviously a problem and can & does produce clear harm. But in the case of openly-licensed digital resources, I don’t see how ‘siphoning’ is a relevant concern or metaphor, at least for the digital resource itself. If a resource is theoretically unlimited and can be infinitely reproduced without destruction or degradation at negligible cost, who or what is harmed when the resource is ‘siphoned’ off by a person or entity whose motives are different from my own? My work is not diminished or harmed, nor are anyone else’s permissions and abilities to freely use it altered in the least. An openly-licensed digital work is theoretically inexhaustible, making the problem of siphoning moot.
+
+Now, Robin’s concern seems to me to be less about the licensing and ‘siphoning’ of individual works and more about the siphoning of finite resources (like educational funding, for example), which is perfectly valid, but I think I see a kind of slippage or fuzziness in my own tendencies and the thinking of others I respect in the open community on this question.
+
+For me, this is why I believe so strongly in the importance of producing not just open content, but open platforms. In the piece from David Wiley I quoted earlier, he observed (rightly) that “For the time being, the majority of answers [to questions about the licensing of content vs. platform] will be ‘the content is OER and the platform is proprietary’.” This gets more succinctly to the root of my concern, which is not about the licensing of content (i.e. the flow), but about control of and access to the platforms (i.e. the pipes).
+
+Michael Feldstein has written recently that
+There is absolutely no question that the value of base informational content — the part of a textbook that could easily be replaced by a Wikipedia article, for example — has commoditized. This is one reason why textbook prices are coming down … In the curricular materials markets, there are two pricing bands that are beginning to emerge … T[he second] band, in the $60 to $100 range, tends to have products with lots of formative assessments, student and instructor dashboards, nudges and reminders, and maybe adaptive capabilities. Here, publishers are trying to establish a different value proposition from the print textbook. The “courseware” products that typically inhabit this price band can provide both students & instructors with a lot more information about how the students are doing …
+If the Wikipedia-like portions of the textbook have little to no economic value, then what else are students paying for and how much should they have to pay for it? How much is professional curation — in the form of scope and sequence — worth? How much is it worth to have somebody align learning objectives, assessment questions, and the informational content? To keep the content up-to-date? To provide frequent, auto-graded or easy-to-grade formative assessments? To provide dashboards that show progress on those assessments? To provide adaptive learning tools as differentiated instruction aids? …
+These are valuable questions, especially for those of us who understand that successful, equitable public education is about far more than content. The clear trend for educational publishers is into this second band, and in many cases they’re ingesting and using openly licensed content as the base content layer and then building ‘value-added’ material on top. Because the base content is already commoditized, the total price of this additional material is less than it would have been had the base content also been copyrighted (see courseware products like Lumen Learning’s Waymaker, for example). This is a good development in itself, but we can and should go further.
+
+Not only do we need CC-BY licensed content, we need openly-licensed formative assessments, learning objectives, etc. AND we need well-integrated, interoperable open-source platforms composed of open-source tools that allow educators to build openly-licensed (and thus free) alternatives to the partially-proprietary remixes that have been built upon the open content that we’ve already released into the world. Hugh McGuire and I have begun to think and write about this in relation to “Pressbooks as a platform,” and I hope to continue developing my thoughts and ideas in this space after taking up a full-time position with Pressbooks next month.
+
+My thinking on all of these issues is both nascent and provisional. Ideas, corrections, feedback welcome!

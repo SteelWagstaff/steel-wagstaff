@@ -1,0 +1,159 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { Hero } from '@/components/hero';
+import Badge from '@/components/ui/data-display/Badge/Badge.astro';
+import Icon from '@/components/ui/primitives/Icon/Icon.astro';
+import Card from '@/components/ui/data-display/Card/Card.astro';
+import { getCollection } from 'astro:content';
+
+// Get all published podcast episodes
+const allEpisodes = await getCollection('podcasts', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+// Filter by English locale and sort by date descending
+const episodes = allEpisodes
+  .filter((e) => e.data.locale === 'en')
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+// Get unique podcasts for filtering
+const podcasts = [...new Set(episodes.map((e) => e.data.podcast))];
+
+const getEpisodeUrl = (id: string) => {
+  const slug = id.replace('en/', '');
+  return `/podcasts/${slug}`;
+};
+---
+
+<PageLayout title="Podcasts — Steel Wagstaff" description="Podcast episodes from Off the Chain and Theme Songs." showScrollProgress eagerReveal>
+  <Hero layout="centered" size="sm">
+    <Badge slot="badge" variant="brand" pill>
+      <Icon name="podcast" size="sm" />
+      Episodes
+    </Badge>
+
+    <h1 slot="title">Podcasts</h1>
+
+    <p slot="description">Episodes from Off the Chain and Theme Songs, exploring comics, music, culture, and ideas.</p>
+  </Hero>
+
+  <!-- Episodes List -->
+  <section class="bg-background py-[var(--space-section-md)] border-t border-border">
+    <div class="mx-auto max-w-3xl px-6 flex flex-col gap-8">
+      <!-- Podcast Filter -->
+      {podcasts.length > 1 && (
+        <div class="flex gap-2" data-reveal>
+          <button
+            data-filter="all"
+            class="px-4 py-2 rounded-lg bg-brand text-white text-sm font-medium transition-colors"
+          >
+            All Shows
+          </button>
+          {podcasts.map((podcast) => (
+            <button
+              key={podcast}
+              data-filter={podcast}
+              class="px-4 py-2 rounded-lg bg-background-secondary border border-border text-foreground text-sm font-medium hover:border-brand hover:text-brand transition-colors"
+            >
+              {podcast}
+            </button>
+          ))}
+        </div>
+      )}
+
+      <!-- Episodes Grid -->
+      <div class="flex flex-col gap-4">
+        {episodes.map((episode, idx) => (
+          <div
+            key={episode.id}
+            data-reveal
+            data-reveal-delay={idx % 2}
+            class="episode-card"
+            data-podcast={episode.data.podcast}
+          >
+            <a href={getEpisodeUrl(episode.id)} class="block group">
+              <Card class="hover:border-brand hover:shadow-lg transition-all duration-300">
+                <div class="flex flex-col gap-3">
+                  <div class="flex items-start justify-between gap-4">
+                    <div class="flex-1">
+                      <div class="flex items-center gap-2 mb-2">
+                        <Badge variant="subtle" size="sm">
+                          {episode.data.podcast}
+                        </Badge>
+                        {episode.data.episode && (
+                          <span class="text-xs text-foreground-muted">
+                            Ep. {episode.data.episode}
+                          </span>
+                        )}
+                      </div>
+                      <h3 class="font-display text-lg font-bold text-foreground group-hover:text-brand transition-colors line-clamp-2">
+                        {episode.data.title}
+                      </h3>
+                    </div>
+                    <Icon name="play-circle" size="lg" class="text-foreground-muted group-hover:text-brand flex-shrink-0" />
+                  </div>
+
+                  {episode.data.description && (
+                    <p class="text-sm text-foreground-muted line-clamp-2">
+                      {episode.data.description}
+                    </p>
+                  )}
+
+                  <div class="flex items-center justify-between pt-2 border-t border-border">
+                    <time class="text-xs text-foreground-muted">
+                      {new Intl.DateTimeFormat('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                      }).format(episode.data.publishedAt)}
+                    </time>
+                    {episode.data.duration && (
+                      <span class="text-xs text-foreground-muted">
+                        {episode.data.duration}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </Card>
+            </a>
+          </div>
+        ))}
+      </div>
+
+      {episodes.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-foreground-muted">No episodes found.</p>
+        </div>
+      )}
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  const filterButtons = document.querySelectorAll('button[data-filter]');
+  const episodeCards = document.querySelectorAll('.episode-card');
+
+  filterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const filter = button.getAttribute('data-filter');
+
+      // Update button styles
+      filterButtons.forEach((btn) => {
+        btn.classList.remove('bg-brand', 'text-white');
+        btn.classList.add('bg-background-secondary', 'border', 'border-border', 'text-foreground');
+      });
+      button.classList.remove('bg-background-secondary', 'border', 'border-border', 'text-foreground');
+      button.classList.add('bg-brand', 'text-white');
+
+      // Filter episodes
+      episodeCards.forEach((card) => {
+        const podcast = card.getAttribute('data-podcast');
+        if (filter === 'all' || podcast === filter) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
