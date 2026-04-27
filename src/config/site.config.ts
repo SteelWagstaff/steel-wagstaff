@@ -60,27 +60,15 @@ export interface SiteConfig {
 const siteConfig: SiteConfig = {
   name: 'Steel Wagstaff',
   description:
-    'Portfolio, writing, music, and podcasts. Exploring design, technology, and creative culture.',
+    'Trying to do good things for good reasons.',
   url: SITE_URL || 'https://steelwagstaff.info',
-  ogImage: '/og-default.svg',
+  ogImage: '',
   author: 'Steel Wagstaff',
-  email: 'hello@steelwagstaff.info',
-  address: {
-    street: '',
-    city: '',
-    state: '',
-    zip: '',
-    country: '',
-  },
+  email: 'steelwagstaff@gmail.com',
   socialLinks: [
-    'https://twitter.com/steelwagstaff',
     'https://github.com/steelwagstaff',
-    'https://instagram.com/steelwagstaff',
+    'https://www.linkedin.com/in/steel-wagstaff/',
   ],
-  twitter: {
-    site: 'https://twitter.com/steelwagstaff',
-    creator: '@steelwagstaff',
-  },
   verification: {
     google: GOOGLE_SITE_VERIFICATION,
     bing: BING_SITE_VERIFICATION,

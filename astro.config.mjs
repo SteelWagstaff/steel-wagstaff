@@ -6,6 +6,7 @@ import icon from 'astro-icon';
 import tailwindcss from '@tailwindcss/vite';
 import vercel from '@astrojs/vercel';
 import netlify from '@astrojs/netlify';
+import { remarkSpotifyEmbed } from './src/lib/remark-spotify-embed.ts';
 
 const isNetlify = process.env.DEPLOY_TARGET === 'netlify';
 
@@ -35,7 +36,9 @@ export default defineConfig({
 
   integrations: [
     react(),
-    mdx(),
+    mdx({
+      remarkPlugins: [remarkSpotifyEmbed],
+    }),
     sitemap(),
     icon(),
   ],
@@ -53,6 +56,7 @@ export default defineConfig({
       theme: 'github-dark',
       wrap: true,
     },
+    remarkPlugins: [remarkSpotifyEmbed],
   },
 
 });
