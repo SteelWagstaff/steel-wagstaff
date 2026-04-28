@@ -1,15 +1,18 @@
 ---
 title: "Theme Songs, Episode 12: Oceania"
-description: "This week's theme was Oceania, meaning that the show focused on music by artists from Australia and New Zealand. This week Steel and Dave played songs by Tjupurru, AC/DC, Sarah Blasko, Flight of the Conchords, Sampa the Great, and Camp Cope. https://open.spotify.com/user/steelwagstaff/playlist/5x9vM5OXVB8wHZj8XCm0em?si=8gDvLDUNQmGxu7RmyDqZcQ Featured image by Martin Snicer Photography"
 publishedAt: 2018-01-24
 author: steel
 podcast: "Theme Songs"
 episode: 12
-audioUrl: "https://otc.steelwagstaff.info/podcasts/ts_012.mp3"
-tags: ["music"]
+image: "../../assets/podcasts/34058730421_e1ef1e82a1_k.jpg"
+imageAlt: "Theme Songs, Episode 12: Oceania"
+tags: []
 draft: false
 locale: en
-spotifyEmbedId: "5x9vM5OXVB8wHZj8XCm0em"
 ---
 
-This week's theme was Oceania, meaning that the show focused on music by artists from Australia and New Zealand. This week Steel and Dave played songs by Tjupurru, AC/DC, Sarah Blasko, Flight of the Conchords, Sampa the Great, and Camp Cope. https://open.spotify.com/user/steelwagstaff/playlist/5x9vM5OXVB8wHZj8XCm0em?si=8gDvLDUNQmGxu7RmyDqZcQ Featured image by Martin Snicer Photography
+This week's theme was Oceania, meaning that the show focused on music by artists from Australia and New Zealand. This week Steel and Dave played songs by Tjupurru, AC/DC, Sarah Blasko, Flight of the Conchords, Sampa the Great, and Camp Cope.
+
+https://open.spotify.com/user/steelwagstaff/playlist/5x9vM5OXVB8wHZj8XCm0em?si=8gDvLDUNQmGxu7RmyDqZcQ
+
+Featured image by [Martin Snicer Photography](http://www.flickr.com/photos/126483205@N08/34058730421) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-nd/2.0/ "Attribution-NoDerivs License")
