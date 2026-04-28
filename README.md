@@ -1,106 +1,13 @@
-<p align="center">
-  <img src="public/readme-hero.svg" alt="Astro Rocket" width="880" />
-</p>
+# Steel Wagstaff
 
-<p align="center">
-  <strong>Astro Rocket</strong> — A production-ready Astro 6 starter theme. Change the text, launch your site.
-</p>
+A personal website showcasing music, podcasts, writing, and blog content. Built with [Astro Rocket](https://github.com/hansmartens68/Astro-Rocket), a modern theme featuring multiple color themes, dark mode, and smooth animations.
 
-<p align="center">
-  <a href="https://astro.build"><img src="https://img.shields.io/badge/Astro-6.0-bc52ee?logo=astro&logoColor=white" alt="Astro" /></a>
-  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind-4.0-38bdf8?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /></a>
-  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-5.7-3178c6?logo=typescript&logoColor=white" alt="TypeScript" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e" alt="License" /></a>
-  <a href="https://github.com/hansmartens68/astro-rocket"><img src="https://img.shields.io/github/stars/hansmartens68/astro-rocket?style=flat&label=%E2%AD%90%20Star%20on%20GitHub&color=f59e0b" alt="Star on GitHub" /></a>
-  <a href="https://github.com/hansmartens68/astro-rocket"><img src="https://visitor-badge.laobi.icu/badge?page_id=hansmartens68.astro-rocket" alt="Visitors" /></a>
-</p>
+## What's Inside
 
----
-
-## Overview
-
-Astro Rocket is a **launch-ready starter theme** for web designers, developers, bloggers, and anyone who needs a portfolio website. Every page is already built and styled — you change the text and content, and your site is ready to go live.
-
-It ships with a full blog, a complete component library, a built-in SEO layer, dark mode, a contact form, and 12 colour themes you can switch with one click. It's built on Astro 6 and Tailwind CSS v4.
-
-**[Live demo → astrorocket.dev](https://astrorocket.dev)** · **[Built by Hans Martens → hansmartens.dev](https://hansmartens.dev)**
-
-> **Astro Rocket is a fork of [Velocity](https://github.com/southwellmedia/velocity) by [Southwell Media](https://southwellmedia.com).** Velocity is the foundation — a powerful Astro boilerplate with a comprehensive design system and component library. Full credit to the Southwell Media team for that work. Astro Rocket builds on it with a different goal: a complete, ready-to-launch website where you only change the text to make it your own.
-
----
-
-## Steel Wagstaff Customizations
-
-This instance has been customized for Steel Wagstaff's portfolio with the following updates:
-
-### Site Navigation
-- Removed **About** and **Contact** pages from header/footer navigation
-- Added **Blog** link to main navigation menu
-- Updated navigation config in `src/config/nav.config.ts` with 4 primary sections: Radio + Podcasts, Writing + Storytelling, Commonplace, and Blog
-
-### Branding Updates
-- **Footer Logo**: Changed from Letter-S to face image (`/steel_wagstaff.jpg`)
-- **Contact Section**: Added flower image to complement the text content
-
-### Content Structure
-- **Radio + Podcasts Page** (`/radio-podcasts`): Aggregates music playlists and podcast episodes with working links to content
-  - Fixed slug derivation from collection IDs using `getSlug()` helper
-  - Sections include: Spotify Playlists, Off the Chain, Theme Songs Podcast
-
-### Music Collection Updates
-- **Metadata Standardization**: 101 monthly playlists updated with:
-  - Publication dates changed to first day of month following coverage period (e.g., February 2019 → March 1, 2019)
-  - Tags standardized to `["monthly playlist"]`
-- **Local Image Assets**: 173 featured images migrated from external URLs to local storage
-  - All images stored in `src/assets/music/` and referenced with relative paths
-  - Content schema updated to use Astro's `image()` validator for responsive image optimization
-
----
-
-## What changed from Velocity
-
-The following changes were made to the free Velocity theme to create Astro Rocket:
-
-| Change | Velocity | Astro Rocket |
-|--------|----------|--------------|
-| **Theme switching** | Edit a CSS import file and rebuild | 12 colour swatches in the header — click one and the logo badge, blog images, and every brand color update live on screen. No file edits, no rebuilds. Selector can be removed from the header once you've chosen a color. |
-| **Colour themes** | 1 default theme | 12 Tailwind-based themes — all 12 shown as swatches in the header selector (Orange, Amber, Lime, Emerald, Teal, Cyan, Sky, Blue, Indigo, Violet, Purple, Magenta) |
-| **Logo badge** | Requires a custom logo file | Auto-generated monogram badge — first letter of your site name on brand color, live-updates with active theme |
-| **Favicon** | Static file to replace manually | Auto-generated SVG favicon — first letter + brand color, pre-rendered at build time from `site.config.ts`, no design tools needed |
-| **Blog image gradients** | Plain image containers | Every blog cover and card uses a brand-color gradient background that updates live when the active theme changes |
-| **Icon system** | Basic SVG `Icon` component | Unified `Icon` component powered by Iconify — 350+ Lucide UI icons + 3000+ Simple Icons brand icons |
-| **Typing effect** | Not included | Hero section includes an animated typing effect |
-| **Dark mode storage** | `localStorage` | `sessionStorage` — resets to dark on every new tab/session (see [why](#dark-mode)) |
-| **Target audience** | Developers & agencies | Web designers, developers, bloggers, and portfolio sites |
-| **Ready to launch** | Boilerplate starting point | Fully styled pages — replace the text and your site is live |
-| **Maintained by** | Southwell Media | Hans Martens |
-
----
-
-## Key Features
-
-| Feature | Description |
-|---------|-------------|
-| **Astro 6** | Latest version with Content Layer API, security features, and performance optimizations |
-| **Tailwind CSS v4** | CSS-first configuration with OKLCH color system and fluid typography |
-| **12 Colour Themes** | All 12 colour swatches are shown in the header dropdown — click one and the logo badge, blog image gradients, and every brand color update live instantly. No file edits, no rebuilds. The selector can be removed from the header once you've settled on a color. |
-| **Scroll Progress Bar** | A thin 2px brand-coloured bar on the header edge that fills as you scroll. Enabled on the homepage (above the floating header), blog index, and post pages (below the solid header). Controlled via `showScrollProgress` and `scrollProgressPosition` props on the Header component. |
-| **Design Tokens** | Three-tier token architecture (reference → semantic → component) |
-| **57 Components** | 33 UI, 7 patterns, 1 hero, 4 layout, 4 blog, 7 landing, 3 SEO — all accessible with TypeScript |
-| **Auto Logo & Favicon** | First letter of your site name on brand color — generated automatically from `site.config.ts`, no design tools needed |
-| **Icon System** | Unified `Icon` component (Astro + React) — 350+ [Lucide](https://lucide.dev) UI icons and 3000+ [Simple Icons](https://simpleicons.org) brand icons via Iconify |
-| **Typing Effect** | Animated typing effect in the hero section |
-| **Page Animations** | Smooth page transitions via Astro View Transitions, scroll-triggered counter and score animations, scroll-reactive header, card hover effects, and a full suite of UI micro-animations — all with reduced-motion support |
-| **SEO Toolkit** | Meta tags, JSON-LD structured data, sitemap, and robots.txt |
-| **Static OG Image** | A polished default Open Graph image serves as social preview for all pages — no build-time generation required |
-| **Dark Mode** | Dark-first design with `sessionStorage` persistence |
-| **Content Collections** | Type-safe blog, pages, authors, and FAQs with Zod validation |
-| **API Routes** | Contact form and newsletter endpoints with validation |
-| **React Islands** | Optional client-side interactivity where needed |
-
-### Internationalization (i18n)
-
-The base theme is i18n-ready with locale-aware content collection schemas. Full i18n support with language routing and a `LanguageSwitcher` component can be added via the **[create-velocity-astro](https://github.com/southwellmedia/create-velocity-astro)** CLI from Southwell Media.
+- **Radio + Podcasts** — Music playlists and podcast episodes (Off the Chain, Theme Songs)
+- **Writing + Storytelling** — Articles and creative content
+- **Commonplace** — Curated thoughts and ideas
+- **Blog** — Articles and posts
 
 ---
 
@@ -108,156 +15,115 @@ The base theme is i18n-ready with locale-aware content collection schemas. Full 
 
 ### Prerequisites
 
-- **Node.js 22.12.0+** (required for Astro 6)
-- **pnpm 9.x** (recommended) or npm/yarn
+- **Node.js 22.12.0+**
+- **pnpm 9.x** (or npm/yarn)
 
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/hansmartens68/astro-rocket.git my-project
 cd my-project
-
-# Install dependencies
 pnpm install
-
-# Copy environment variables
-cp .env.example .env
-
-# Start development server
 pnpm dev
 ```
 
-Visit `http://localhost:4321` to see your site.
-
----
-
-## Project Structure
-
-```
-astro-rocket/
-├── public/                  # Static assets (fonts, favicon)
-├── src/
-│   ├── assets/              # Images and icons (processed by Astro)
-│   ├── components/
-│   │   ├── ui/              # UI component library (31 components)
-│   │   │   ├── form/        # Button, Input, Textarea, Select, Checkbox, Radio, Switch
-│   │   │   ├── data-display/ # Card, Badge, Avatar, Table, Pagination, Progress, Skeleton
-│   │   │   ├── feedback/    # Alert, Toast, Tooltip
-│   │   │   ├── overlay/     # Dialog, Dropdown, Tabs, VerticalTabs, Accordion
-│   │   │   ├── layout/      # Separator
-│   │   │   ├── primitives/  # Icon
-│   │   │   ├── content/     # CodeBlock
-│   │   │   └── marketing/   # Logo, CTA, NpmCopyButton, SocialProof, TerminalDemo
-│   │   ├── patterns/        # Composed patterns (ContactForm, SearchInput, StatCard, etc.)
-│   │   ├── layout/          # Header, Footer, Navigation, ThemeToggle, ThemeSelector
-│   │   ├── seo/             # SEO, JsonLd, Breadcrumbs
-│   │   ├── blog/            # Blog-specific components
-│   │   └── landing/         # Landing page components
-│   ├── content/             # Content collections
-│   │   ├── blog/            # Blog posts (en/, es/, fr/)
-│   │   ├── projects/        # Portfolio project pages
-│   │   ├── authors/         # Author profiles
-│   │   └── faqs/            # FAQ entries
-│   ├── layouts/             # Page layouts
-│   ├── lib/                 # Utilities (schema, cn)
-│   ├── pages/               # Routes and API endpoints
-│   │   ├── api/             # Contact, newsletter endpoints
-│   │   └── blog/            # Blog routes
-│   ├── styles/              # Global CSS and design tokens
-│   │   ├── tokens/          # colors.css, typography.css, spacing.css
-│   │   └── themes/          # 12 colour theme files
-│   └── config/              # Site and navigation configuration
-├── astro.config.mjs         # Astro configuration
-├── package.json
-└── tsconfig.json
-```
+Visit `http://localhost:4321` to see the site.
 
 ---
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Start development server with hot reload |
-| `pnpm build` | Build for production |
-| `pnpm preview` | Preview production build locally |
-| `pnpm check` | Run Astro type checker |
-| `pnpm lint` | Run ESLint |
-| `pnpm lint:fix` | Fix ESLint issues |
-| `pnpm format` | Format code with Prettier |
-| `pnpm format:check` | Check code formatting |
-| `pnpm test` | Run Vitest tests |
-| `pnpm test:e2e` | Run Playwright E2E tests |
+```bash
+pnpm dev        # Start development server
+pnpm build      # Build for production
+pnpm preview    # Preview production build
+pnpm check      # Run type checker
+pnpm lint       # Run ESLint
+pnpm format     # Format code with Prettier
+```
+
+---
+
+## Features
+
+- **12 color themes** — click a swatch in the header to change instantly
+- **Dark mode** — respects user preferences
+- **Responsive design** — mobile, tablet, and desktop
+- **Fast** — optimized for Core Web Vitals, zero JavaScript by default
+- **Animations** — smooth page transitions and scroll-triggered effects
+- **Built with Astro 6** — modern static site generator
+- **Tailwind CSS v4** — utility-first CSS with OKLCH colors
+- **TypeScript** — type-safe development
 
 ---
 
 ## Configuration
-
-### Site Configuration
 
 Edit `src/config/site.config.ts`:
 
 ```typescript
 const siteConfig = {
   name: 'Your Site Name',
-  description: 'Your site description for SEO',
+  description: 'Your site description',
   url: 'https://yoursite.com',
-  ogImage: '/og-default.svg',
   author: 'Your Name',
   email: 'hello@yoursite.com',
-  twitter: {
-    site: '@yourhandle',
-    creator: '@yourhandle',
-  },
 };
-```
-
-### Environment Variables
-
-Create a `.env` file from `.env.example`:
-
-```bash
-# Required
-SITE_URL=https://yoursite.com
-
-# Optional - Analytics
-PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
-PUBLIC_GTM_ID=GTM-XXXXXXX
-
-# Optional - Verification
-GOOGLE_SITE_VERIFICATION=your-code
-BING_SITE_VERIFICATION=your-code
 ```
 
 ---
 
-## Design System
+## Adding Content
 
-Astro Rocket uses a three-tier design token system with OKLCH colors for perceptual uniformity:
+### Blog Posts
 
-1. **Primitives** (`src/styles/tokens/primitives.css`) — raw color scales (gray, brand, status)
-2. **Semantic tokens** (`src/styles/themes/*.css`) — purpose-based mappings (background, foreground, border, etc.)
-3. **Tailwind** (`src/styles/global.css`) — `@theme` directives that expose tokens as utility classes
+Create markdown files in `src/content/blog/en/`:
 
-### Switching Themes
+```markdown
+---
+title: "Post Title"
+description: "SEO description"
+publishedAt: 2026-04-28
+tags: ["tag1", "tag2"]
+---
 
-Astro Rocket ships with 12 colour themes, all based on Tailwind's color palette. All 12 are shown as colour swatches in the header dropdown (`ThemeSelectorDropdown`) on desktop and in the mobile menu (`ThemeSelector`). Clicking a swatch applies the theme instantly — the logo badge, blog image gradients, and every brand color on the page update live. No file edits, no rebuilds. This is the key difference from Velocity, where switching theme requires editing a CSS import file and rebuilding.
-
-The 12 themes in order: Orange, Amber, Lime, Emerald, Teal, Cyan, Sky, Blue (default), Indigo, Violet, Purple, and Magenta. The `themes` array in `src/components/layout/ThemeSelector.astro` controls which swatches are shown and in what order. You can also **remove the selector from the header entirely** once you've settled on a color — just remove `showThemeSelector` from the layout file.
-
-The theme files live in `src/styles/themes/`:
-
-```
-amber.css   blue.css    cyan.css    emerald.css
-green.css   indigo.css  lime.css    magenta.css
-orange.css  purple.css  sky.css     teal.css
-violet.css
+Your content here...
 ```
 
-### Customizing Brand Colors
+---
 
-Edit `src/styles/tokens/primitives.css` and update the `--brand-*` OKLCH values:
+## Deployment
+
+### Vercel (Recommended)
+
+```bash
+vercel
+```
+
+### Netlify
+
+```bash
+netlify deploy --prod
+```
+
+### Cloudflare Pages
+
+```bash
+pnpm build
+wrangler pages deploy dist
+```
+
+---
+
+## License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+## Links
+
+- [Astro Rocket](https://github.com/hansmartens68/Astro-Rocket) — the theme
+- [Astro Docs](https://docs.astro.build)
+- [Tailwind CSS](https://tailwindcss.com)
 
 ```css
 :root {
@@ -728,8 +594,3 @@ MIT License — see [LICENSE](LICENSE) for details.
 - [Velocity — the original theme](https://github.com/southwellmedia/velocity) by [Southwell Media](https://southwellmedia.com)
 - [Astro Documentation](https://docs.astro.build)
 - [Tailwind CSS v4](https://tailwindcss.com/docs)
-
----
-
-**Astro Rocket** is designed and maintained by [Hans Martens](https://hansmartens.dev).
-Built on [Velocity](https://github.com/southwellmedia/velocity) — the original theme by [Southwell Media](https://southwellmedia.com).
