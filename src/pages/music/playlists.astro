@@ -1,0 +1,91 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { Hero } from '@/components/hero';
+import Badge from '@/components/ui/data-display/Badge/Badge.astro';
+import Icon from '@/components/ui/primitives/Icon/Icon.astro';
+import Card from '@/components/ui/data-display/Card/Card.astro';
+import { getCollection } from 'astro:content';
+
+// Get all published music playlists
+const allMusic = await getCollection('music', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+// Filter to only playlists (exclude shows and mixtapes)
+const playlists = allMusic
+  .filter((m) => m.data.locale === 'en' && !m.id.includes('show-') && !m.data.tags?.includes('mixtape'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+const getPlaylistUrl = (id: string) => {
+  const slug = id.replace('en/', '');
+  return `/music/${slug}`;
+};
+---
+
+<PageLayout title="Playlists — Steel Wagstaff" description="Spotify playlists by Steel Wagstaff." showScrollProgress eagerReveal>
+  <Hero layout="centered" size="sm">
+    <Badge slot="badge" variant="brand" pill>
+      <Icon name="music" size="sm" />
+      Playlists
+    </Badge>
+
+    <h1 slot="title">Monthly Playlists</h1>
+
+    <p slot="description">Curated playlists of favorite tracks and albums.</p>
+  </Hero>
+
+  <!-- Playlists Grid -->
+  <section class="bg-background py-[var(--space-section-md)] border-t border-border">
+    <div class="mx-auto max-w-6xl px-6 flex flex-col gap-8">
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {playlists.map((playlist, idx) => (
+          <div data-reveal data-reveal-delay={idx % 3} class="h-full">
+            <a href={getPlaylistUrl(playlist.id)} class="block group">
+              <Card class="h-full hover:border-brand hover:shadow-lg transition-all duration-300">
+                <div class="flex flex-col gap-3 h-full">
+                  <div class="flex items-start justify-between">
+                    <h3 class="font-display text-lg font-bold text-foreground group-hover:text-brand transition-colors">
+                      {playlist.data.title}
+                    </h3>
+                    <Icon name="external-link" size="sm" class="text-foreground-muted group-hover:text-brand" />
+                  </div>
+
+                  {playlist.data.description && (
+                    <p class="text-sm text-foreground-muted flex-grow line-clamp-2">
+                      {playlist.data.description}
+                    </p>
+                  )}
+
+                  <div class="flex items-center justify-between pt-2 border-t border-border">
+                    <time class="text-xs text-foreground-muted">
+                      {new Intl.DateTimeFormat('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                      }).format(playlist.data.publishedAt)}
+                    </time>
+                    {playlist.data.tags?.length > 0 && (
+                      <div class="flex gap-1">
+                        {playlist.data.tags.slice(0, 2).map((tag) => (
+                          <Badge key={tag} variant="subtle" size="sm">
+                            {tag}
+                          </Badge>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </Card>
+            </a>
+          </div>
+        ))}
+      </div>
+
+      {playlists.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-foreground-muted">No playlists found.</p>
+        </div>
+      )}
+    </div>
+  </section>
+</PageLayout>

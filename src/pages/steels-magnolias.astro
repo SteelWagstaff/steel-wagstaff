@@ -1,0 +1,111 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { Hero } from '@/components/hero';
+import Badge from '@/components/ui/data-display/Badge/Badge.astro';
+import Icon from '@/components/ui/primitives/Icon/Icon.astro';
+import Card from '@/components/ui/data-display/Card/Card.astro';
+import { getCollection } from 'astro:content';
+import { resolveImageUrl } from '@/lib/image-helpers';
+
+// Get all published music shows (Steel's Magnolias)
+const allMusic = await getCollection('music', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+// Filter to only shows (identified by 'show-' in id)
+const shows = allMusic
+  .filter((m) => m.data.locale === 'en' && m.id.includes('show-'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+const getShowUrl = (id: string) => {
+  const slug = id.replace('en/', '');
+  return `/music/${slug}`;
+};
+---
+
+<PageLayout title="Steel's Magnolias — Steel Wagstaff" description="Steel's Magnolias radio show episodes." showScrollProgress eagerReveal>
+  <Hero layout="centered" size="sm">
+    <Badge slot="badge" variant="brand" pill>
+      <Icon name="radio" size="sm" />
+      Radio Show
+    </Badge>
+
+    <h1 slot="title">Steel's Magnolias</h1>
+
+    <p slot="description">A weekly music show on WSUM (91.7FM in Madison), featuring hours of curated music organized around shared themes.</p>
+  </Hero>
+
+  <!-- Shows Info Section -->
+  <section class="bg-background py-[var(--space-section-md)] border-t border-border">
+    <div class="mx-auto max-w-3xl px-6">
+      <div class="space-y-6 text-foreground-muted">
+        <p>For several months in 2012, I hosted Steel's Magnolias, a weekly music show on <a href="https://wsum.org/" class="text-brand hover:underline">WSUM</a> (91.7FM in Madison), the University of Wisconsin-Madison's student radio station. On each episode I'd play an hour or two of music organized around a single shared theme.</p>
+        <p>Sadly, I had to stop making the show when I started a full-time job at the university. You can listen to old episodes below:</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shows Grid -->
+  <section class="bg-background py-[var(--space-section-md)]">
+    <div class="mx-auto max-w-6xl px-6 flex flex-col gap-8">
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {shows.map((show, idx) => (
+          <div data-reveal data-reveal-delay={idx % 3} class="h-full">
+            <a href={getShowUrl(show.id)} class="block group">
+              <Card class="h-full hover:border-brand hover:shadow-lg transition-all duration-300 overflow-hidden">
+                {show.data.image && (
+                  <div class="aspect-video bg-muted overflow-hidden mb-3">
+                    <img 
+                      src={resolveImageUrl(show.data.image)} 
+                      alt={show.data.imageAlt || show.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                  </div>
+                )}
+                <div class="flex flex-col gap-3 h-full px-4 pb-4">
+                  <div class="flex items-start justify-between">
+                    <h3 class="font-display text-lg font-bold text-foreground group-hover:text-brand transition-colors">
+                      {show.data.title}
+                    </h3>
+                    <Icon name="external-link" size="sm" class="text-foreground-muted group-hover:text-brand" />
+                  </div>
+
+                  {show.data.description && (
+                    <p class="text-sm text-foreground-muted flex-grow line-clamp-2">
+                      {show.data.description}
+                    </p>
+                  )}
+
+                  <div class="flex items-center justify-between pt-2 border-t border-border">
+                    <time class="text-xs text-foreground-muted">
+                      {new Intl.DateTimeFormat('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                      }).format(show.data.publishedAt)}
+                    </time>
+                    {show.data.tags?.length > 0 && (
+                      <div class="flex gap-1">
+                        {show.data.tags.slice(0, 2).map((tag) => (
+                          <Badge key={tag} variant="subtle" size="sm">
+                            {tag}
+                          </Badge>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </Card>
+            </a>
+          </div>
+        ))}
+      </div>
+
+      {shows.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-foreground-muted">No shows found.</p>
+        </div>
+      )}
+    </div>
+  </section>
+</PageLayout>

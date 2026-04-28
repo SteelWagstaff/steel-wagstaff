@@ -1,0 +1,114 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { Hero } from '@/components/hero';
+import Badge from '@/components/ui/data-display/Badge/Badge.astro';
+import Icon from '@/components/ui/primitives/Icon/Icon.astro';
+import Card from '@/components/ui/data-display/Card/Card.astro';
+import { getCollection } from 'astro:content';
+import { resolveImageUrl } from '@/lib/image-helpers';
+
+// Get all published podcast episodes for Theme Songs
+const allEpisodes = await getCollection('podcasts', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+// Filter to only Theme Songs episodes
+const episodes = allEpisodes
+  .filter((e) => e.data.locale === 'en' && e.data.podcast === 'Theme Songs')
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+const getEpisodeUrl = (id: string) => {
+  const slug = id.replace('en/', '');
+  return `/podcasts/${slug}`;
+};
+---
+
+<PageLayout title="Theme Songs Podcast — Steel Wagstaff" description="Episodes from Theme Songs, a music-themed podcast." showScrollProgress eagerReveal>
+  <Hero layout="centered" size="sm">
+    <Badge slot="badge" variant="brand" pill>
+      <Icon name="podcast" size="sm" />
+      Podcast
+    </Badge>
+
+    <h1 slot="title">Theme Songs</h1>
+
+    <p slot="description">A music-themed podcast with old friends, connecting through songs and stories.</p>
+  </Hero>
+
+  <!-- Podcast Info Section -->
+  <section class="bg-background py-[var(--space-section-md)] border-t border-border">
+    <div class="mx-auto max-w-3xl px-6">
+      <div class="space-y-6 text-foreground-muted">
+        <p>After 70+ episodes of <a href="/off-the-chain" class="text-brand hover:underline">Off the Chain</a>, Dave and I retired the show and started making a new music-themed podcast called Theme Songs, which ran from August 2017–March 2018.</p>
+        <p>We typically invited old friends on the show as guests, giving us an excuse to catch up with them as much as anything else. Each episode explored a musical theme or concept, with personal stories and recommendations from our guests.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Episodes List -->
+  <section class="bg-background py-[var(--space-section-md)]">
+    <div class="mx-auto max-w-3xl px-6 flex flex-col gap-8">
+      <div class="flex flex-col gap-4">
+        {episodes.map((episode, idx) => (
+          <div
+            key={episode.id}
+            data-reveal
+            data-reveal-delay={idx % 2}
+            class="episode-card"
+          >
+            <a href={getEpisodeUrl(episode.id)} class="block group">
+              <Card class="hover:border-brand hover:shadow-lg transition-all duration-300 overflow-hidden">
+                {episode.data.image && (
+                  <div class="aspect-video bg-muted overflow-hidden mb-3">
+                    <img 
+                      src={resolveImageUrl(episode.data.image)} 
+                      alt={episode.data.imageAlt || episode.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                  </div>
+                )}
+                <div class="flex flex-col gap-3 px-4 pb-4">
+                  <div class="flex items-start justify-between gap-4">
+                    <div class="flex-1">
+                      {episode.data.episode && (
+                        <div class="text-xs text-foreground-muted mb-2">
+                          Episode {episode.data.episode}
+                        </div>
+                      )}
+                      <h3 class="font-display text-lg font-bold text-foreground group-hover:text-brand transition-colors line-clamp-2">
+                        {episode.data.title}
+                      </h3>
+                    </div>
+                    <Icon name="play-circle" size="lg" class="text-foreground-muted group-hover:text-brand flex-shrink-0" />
+                  </div>
+
+                  {episode.data.description && (
+                    <p class="text-sm text-foreground-muted line-clamp-2">
+                      {episode.data.description}
+                    </p>
+                  )}
+
+                  <div class="flex items-center justify-between pt-2 border-t border-border">
+                    <time class="text-xs text-foreground-muted">
+                      {new Intl.DateTimeFormat('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                      }).format(episode.data.publishedAt)}
+                    </time>
+                  </div>
+                </div>
+              </Card>
+            </a>
+          </div>
+        ))}
+      </div>
+
+      {episodes.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-foreground-muted">No episodes found.</p>
+        </div>
+      )}
+    </div>
+  </section>
+</PageLayout>

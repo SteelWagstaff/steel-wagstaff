@@ -1,0 +1,91 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import { Hero } from '@/components/hero';
+import Badge from '@/components/ui/data-display/Badge/Badge.astro';
+import Icon from '@/components/ui/primitives/Icon/Icon.astro';
+import Card from '@/components/ui/data-display/Card/Card.astro';
+import { getCollection } from 'astro:content';
+
+// Get all published music with mixtape tag
+const allMusic = await getCollection('music', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+// Filter to only mixtapes
+const mixtapes = allMusic
+  .filter((m) => m.data.locale === 'en' && m.data.tags?.includes('mixtape'))
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+const getMixtapeUrl = (id: string) => {
+  const slug = id.replace('en/', '');
+  return `/music/${slug}`;
+};
+---
+
+<PageLayout title="Mixtapes — Steel Wagstaff" description="Mixtapes by Steel Wagstaff." showScrollProgress eagerReveal>
+  <Hero layout="centered" size="sm">
+    <Badge slot="badge" variant="brand" pill>
+      <Icon name="music" size="sm" />
+      Mixtapes
+    </Badge>
+
+    <h1 slot="title">Mixtapes</h1>
+
+    <p slot="description">A collection of mixtapes I've made as gifts for family and friends over the years. A lost art.</p>
+  </Hero>
+
+  <!-- Mixtapes Grid -->
+  <section class="bg-background py-[var(--space-section-md)] border-t border-border">
+    <div class="mx-auto max-w-6xl px-6 flex flex-col gap-8">
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {mixtapes.map((mixtape, idx) => (
+          <div data-reveal data-reveal-delay={idx % 3} class="h-full">
+            <a href={getMixtapeUrl(mixtape.id)} class="block group">
+              <Card class="h-full hover:border-brand hover:shadow-lg transition-all duration-300">
+                <div class="flex flex-col gap-3 h-full">
+                  <div class="flex items-start justify-between">
+                    <h3 class="font-display text-lg font-bold text-foreground group-hover:text-brand transition-colors">
+                      {mixtape.data.title}
+                    </h3>
+                    <Icon name="external-link" size="sm" class="text-foreground-muted group-hover:text-brand" />
+                  </div>
+
+                  {mixtape.data.description && (
+                    <p class="text-sm text-foreground-muted flex-grow line-clamp-2">
+                      {mixtape.data.description}
+                    </p>
+                  )}
+
+                  <div class="flex items-center justify-between pt-2 border-t border-border">
+                    <time class="text-xs text-foreground-muted">
+                      {new Intl.DateTimeFormat('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                      }).format(mixtape.data.publishedAt)}
+                    </time>
+                    {mixtape.data.tags?.length > 0 && (
+                      <div class="flex gap-1">
+                        {mixtape.data.tags.slice(0, 2).map((tag) => (
+                          <Badge key={tag} variant="subtle" size="sm">
+                            {tag}
+                          </Badge>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </Card>
+            </a>
+          </div>
+        ))}
+      </div>
+
+      {mixtapes.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-foreground-muted">No mixtapes found.</p>
+        </div>
+      )}
+    </div>
+  </section>
+</PageLayout>

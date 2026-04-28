@@ -19,6 +19,21 @@ export async function getStaticPaths() {
 
 const { playlist } = Astro.props;
 const { Content } = await render(playlist);
+
+// Determine the back link based on content type
+let backLink = '/music/';
+let backText = 'Music';
+
+if (playlist.id.includes('show-')) {
+  backLink = '/steels-magnolias';
+  backText = 'Steel\'s Magnolias';
+} else if (playlist.data.tags?.includes('mixtape')) {
+  backLink = '/music/mixtapes';
+  backText = 'Mixtapes';
+} else {
+  backLink = '/music/playlists';
+  backText = 'Playlists';
+}
 ---
 
 <PageLayout
@@ -29,8 +44,8 @@ const { Content } = await render(playlist);
     <!-- Header -->
     <header class="mb-12 border-b border-border pb-8">
       <div class="flex flex-col gap-4">
-        <a href="/music/" class="text-sm text-foreground-muted hover:text-foreground transition-colors">
-          ← Back to Music
+        <a href={backLink} class="text-sm text-foreground-muted hover:text-foreground transition-colors">
+          ← Back to {backText}
         </a>
 
         <h1 class="font-display text-4xl md:text-5xl font-bold text-foreground">

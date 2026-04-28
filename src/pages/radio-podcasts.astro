@@ -12,28 +12,35 @@ const podcasts = await getCollection('podcasts', ({ data }) => {
 });
 
 // Separate podcast series
-const offTheChain = podcasts
+const offTheChainAll = podcasts
   .filter(p => p.data.podcast === 'Off the Chain')
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
-const themeSongs = podcasts
+const themeSongsAll = podcasts
   .filter(p => p.data.podcast === 'Theme Songs')
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
 // Filter Steel's Magnolias shows from music collection
-const steelsMagnolias = music
+const steelsMagnoliasAll = music
   .filter(m => m.id.includes('show-'))
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
 // Filter mixtapes (have 'mixtape' tag)
-const mixtapes = music
+const mixtapesAll = music
   .filter(m => !m.id.includes('show-') && m.data.tags.includes('mixtape'))
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
 // Filter playlists (exclude shows and mixtapes)
-const playlists = music
+const playlistsAll = music
   .filter(m => !m.id.includes('show-') && !m.data.tags.includes('mixtape'))
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+// Limit to 6 items per section
+const playlists = playlistsAll.slice(0, 6);
+const mixtapes = mixtapesAll.slice(0, 6);
+const steelsMagnolias = steelsMagnoliasAll.slice(0, 6);
+const offTheChain = offTheChainAll.slice(0, 6);
+const themeSongs = themeSongsAll.slice(0, 6);
 
 // Helper to compute slug from id (removes 'en/' prefix)
 const getSlug = (id: string) => id.replace('en/', '');
@@ -91,6 +98,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             </a>
           ))}
         </div>
+        {playlistsAll.length > 6 && (
+          <div class="mt-6">
+            <a 
+              href="/music/playlists"
+              class="inline-flex items-center justify-center px-6 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-background transition-colors font-medium"
+            >
+              See All Playlists
+            </a>
+          </div>
+        )}
       </section>
       <section>
         <h2 class="text-3xl font-bold mb-2">Mixtapes</h2>
@@ -130,6 +147,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             </a>
           ))}
         </div>
+        {mixtapesAll.length > 6 && (
+          <div class="mt-6">
+            <a 
+              href="/music/mixtapes"
+              class="inline-flex items-center justify-center px-6 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-background transition-colors font-medium"
+            >
+              See All Mixtapes
+            </a>
+          </div>
+        )}
       </section>
 <section>
         <h2 class="text-3xl font-bold mb-2">Steel's Magnolias</h2>
@@ -169,6 +196,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             </a>
           ))}
         </div>
+        {steelsMagnoliasAll.length > 6 && (
+          <div class="mt-6">
+            <a 
+              href="/steels-magnolias"
+              class="inline-flex items-center justify-center px-6 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-background transition-colors font-medium"
+            >
+              See All Episodes
+            </a>
+          </div>
+        )}
       </section>
       
       <!-- OTC with Dave & Steel -->
@@ -201,6 +238,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             </a>
           ))}
         </div>
+        {offTheChainAll.length > 6 && (
+          <div class="mt-6">
+            <a 
+              href="/off-the-chain"
+              class="inline-flex items-center justify-center px-6 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-background transition-colors font-medium"
+            >
+              See All Episodes
+            </a>
+          </div>
+        )}
       </section>
 
       <!-- Theme Songs Podcast -->
@@ -234,6 +281,16 @@ const getSlug = (id: string) => id.replace('en/', '');
               </a>
             ))}
           </div>
+          {themeSongsAll.length > 6 && (
+            <div class="mt-6">
+              <a 
+                href="/theme-songs"
+                class="inline-flex items-center justify-center px-6 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-background transition-colors font-medium"
+              >
+                See All Episodes
+              </a>
+            </div>
+          )}
         </section>
       )}
 
