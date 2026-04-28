@@ -138,6 +138,25 @@ const podcasts = defineCollection({
   }),
 });
 
+// Commonplace collection — Quotations, photos, videos, and audio from tumblr
+const commonplace = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/commonplace' }),
+  schema: z.object({
+    title: z.string().max(300).optional(),
+    type: z.enum(['quote', 'photo', 'video', 'audio']),
+    content: z.string(),
+    source: z.string().optional(), // For quotes
+    image: z.string().optional(), // For photos - URL string, not asset import
+    imageAlt: z.string().optional(),
+    audioUrl: z.string().optional(), // For audio
+    videoUrl: z.string().optional(), // For videos
+    publishedAt: z.coerce.date(),
+    tags: z.array(z.string()).default([]),
+    draft: z.boolean().default(false),
+    locale: z.enum(['en', 'es', 'fr']).default('en'),
+  }),
+});
+
 export const collections = {
   blog,
   pages,
@@ -147,4 +166,5 @@ export const collections = {
   projects,
   music,
   podcasts,
+  commonplace,
 };

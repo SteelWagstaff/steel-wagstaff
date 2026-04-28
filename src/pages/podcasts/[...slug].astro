@@ -18,6 +18,18 @@ export async function getStaticPaths() {
 
 const { episode } = Astro.props;
 const { Content } = await render(episode);
+
+// Determine the back link based on podcast name
+let backLink = '/podcasts/';
+let backText = 'Podcasts';
+
+if (episode.data.podcast === 'Off the Chain') {
+  backLink = '/off-the-chain';
+  backText = 'Off the Chain';
+} else if (episode.data.podcast === 'Theme Songs') {
+  backLink = '/theme-songs';
+  backText = 'Theme Songs';
+}
 ---
 
 <PageLayout
@@ -28,8 +40,8 @@ const { Content } = await render(episode);
     <!-- Header -->
     <header class="mb-12 border-b border-border pb-8">
       <div class="flex flex-col gap-4">
-        <a href="/podcasts/" class="text-sm text-foreground-muted hover:text-foreground transition-colors">
-          ← Back to Podcasts
+        <a href={backLink} class="text-sm text-foreground-muted hover:text-foreground transition-colors">
+          ← Back to {backText}
         </a>
 
         <div class="flex items-center gap-2">
