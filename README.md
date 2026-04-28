@@ -29,6 +29,34 @@ It ships with a full blog, a complete component library, a built-in SEO layer, d
 
 ---
 
+## Steel Wagstaff Customizations
+
+This instance has been customized for Steel Wagstaff's portfolio with the following updates:
+
+### Site Navigation
+- Removed **About** and **Contact** pages from header/footer navigation
+- Added **Blog** link to main navigation menu
+- Updated navigation config in `src/config/nav.config.ts` with 4 primary sections: Radio + Podcasts, Writing + Storytelling, Commonplace, and Blog
+
+### Branding Updates
+- **Footer Logo**: Changed from Letter-S to face image (`/steel_wagstaff.jpg`)
+- **Contact Section**: Added flower image to complement the text content
+
+### Content Structure
+- **Radio + Podcasts Page** (`/radio-podcasts`): Aggregates music playlists and podcast episodes with working links to content
+  - Fixed slug derivation from collection IDs using `getSlug()` helper
+  - Sections include: Spotify Playlists, Off the Chain, Theme Songs Podcast
+
+### Music Collection Updates
+- **Metadata Standardization**: 101 monthly playlists updated with:
+  - Publication dates changed to first day of month following coverage period (e.g., February 2019 → March 1, 2019)
+  - Tags standardized to `["monthly playlist"]`
+- **Local Image Assets**: 173 featured images migrated from external URLs to local storage
+  - All images stored in `src/assets/music/` and referenced with relative paths
+  - Content schema updated to use Astro's `image()` validator for responsive image optimization
+
+---
+
 ## What changed from Velocity
 
 The following changes were made to the free Velocity theme to create Astro Rocket:
