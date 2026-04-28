@@ -1,8 +1,7 @@
 ---
 title: "54 Songs [August - September 2022]"
 description: "Four and half hours of music from the late summer 2022
-
-[)"
+"
 publishedAt: 2022-10-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/7uEnc6qCAyeKRakfTyVl4m?si=42190dec6b2e4d2c](https://open.spotify.com/playlist/7uEnc6qCAyeKRakfTyVl4m?si=42190dec6b2e4d2c"
@@ -15,4 +14,3 @@ locale: en
 
 Four and half hours of music from the late summer 2022
 
-[)

@@ -90,7 +90,7 @@ const hasMore = totalItems > 100;
                 )}
                 {item.data.type === 'photo' && item.data.image && (
                   <img
-                    src={item.data.image}
+                    src={`/${item.data.image}`.replace(/^\/+/, '/')}
                     alt={item.data.title || 'Post image'}
                     class="w-full h-full object-cover rounded"
                   />
@@ -100,12 +100,12 @@ const hasMore = totalItems > 100;
               {/* Content */}
               <div class="flex-grow min-w-0">
                 {item.data.title && (
-                  <h3 class="font-semibold text-lg text-white mb-2 line-clamp-2">
-                    {item.data.title.length > 100 ? `${item.data.title.substring(0, 100)}...` : item.data.title}
+                  <h3 class="font-semibold text-lg text-white mb-2 line-clamp-3">
+                    {item.data.title}
                   </h3>
                 )}
                 <p class="text-gray-300 text-sm line-clamp-3 mb-3">
-                  {item.data.content.replace(/<[^>]*>/g, '').substring(0, 200)}...
+                  {(item.data.content || item.body).replace(/<[^>]*>/g, '').substring(0, 200)}...
                 </p>
                 <div class="flex flex-wrap items-center gap-3 text-xs text-gray-400">
                   <span class="px-2 py-1 bg-slate-800 rounded">
