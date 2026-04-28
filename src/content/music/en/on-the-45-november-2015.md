@@ -9,6 +9,7 @@ publishedAt: 2016-02-09
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2YUDdGOKgvRfy5pUJIzz3V"
 spotifyEmbedId: "2YUDdGOKgvRfy5pUJIzz3V"
+image: "../../assets/music/on-the-45-november-2015.jpg"
 tags: ["mixtape", "y2016"]
 draft: false
 locale: en

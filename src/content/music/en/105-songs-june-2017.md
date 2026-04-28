@@ -5,11 +5,12 @@ description: "Here's a big playlist (almost 7 1/2 hours) of music I listened to 
 
 
 Featured image by Steel Wagstaff"
-publishedAt: 2017-07-27
+publishedAt: 2017-07-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/09TIaZjTSqkeRM41OCJQwX"
 spotifyEmbedId: "09TIaZjTSqkeRM41OCJQwX"
-tags: ["mixtape", "y2017"]
+image: "../../assets/music/105-songs-june-2017.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

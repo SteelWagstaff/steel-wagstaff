@@ -3,11 +3,12 @@ title: "34 Songs [September 2020]"
 description: "34 songs I had on rotation in September 2020
 
 [)"
-publishedAt: 2025-04-11
+publishedAt: 2020-10-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/7sXlm6zLP1i4Ndk26qmiyT?si=4f36b4cd387b499d](https://open.spotify.com/playlist/7sXlm6zLP1i4Ndk26qmiyT?si=4f36b4cd387b499d"
 spotifyEmbedId: "7sXlm6zLP1i4Ndk26qmiyT"
-tags: ["mixtape", "y2025"]
+image: "../../assets/music/34-songs-september-2020.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

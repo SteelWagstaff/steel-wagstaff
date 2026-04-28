@@ -15,8 +15,7 @@ export const navItems: NavItem[] = [
   { label: 'Radio + Podcasts', href: '/radio-podcasts', order: 1 },
   { label: 'Writing + Storytelling', href: '/writing-storytelling', order: 2 },
   { label: 'Commonplace', href: '/commonplace', order: 3 },
-  { label: 'About', href: '/about', order: 4 },
-  { label: 'Contact', href: '/contact', order: 5 },
+  { label: 'Blog', href: '/blog', order: 4 },
 ];
 
 /**

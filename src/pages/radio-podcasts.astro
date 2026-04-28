@@ -18,6 +18,9 @@ const themeSongs = podcasts
 // Sort playlists by date
 const playlists = music
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+// Helper to compute slug from id (removes 'en/' prefix)
+const getSlug = (id: string) => id.replace('en/', '');
 ---
 
 <PageLayout title="Radio + Podcasts" description="A collection of podcast episodes and curated Spotify playlists exploring music, culture, and conversation.">
@@ -40,7 +43,7 @@ const playlists = music
         <div class="grid gap-4">
           {playlists.map((item) => (
             <a
-              href={`/music/${item.slug}`}
+              href={`/music/${getSlug(item.id)}`}
               class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
             >
               <div class="flex items-start justify-between">
@@ -68,7 +71,7 @@ const playlists = music
         <div class="grid gap-4">
           {offTheChain.map((item) => (
             <a
-              href={`/podcasts/${item.slug}`}
+              href={`/podcasts/${getSlug(item.id)}`}
               class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
             >
               <div class="flex items-start justify-between">
@@ -97,7 +100,7 @@ const playlists = music
           <div class="grid gap-4">
             {themeSongs.map((item) => (
               <a
-                href={`/podcasts/${item.slug}`}
+                href={`/podcasts/${getSlug(item.id)}`}
                 class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
               >
                 <div class="flex items-start justify-between">

@@ -5,6 +5,7 @@ publishedAt: 2015-06-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1XI86WohoJJVG13SBQugJ6"
 spotifyEmbedId: "1XI86WohoJJVG13SBQugJ6"
+image: "../../assets/music/chant-avec-une-nouvelle-langue-disc-2.jpg"
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en

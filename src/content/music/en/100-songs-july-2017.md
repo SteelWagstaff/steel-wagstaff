@@ -5,11 +5,12 @@ description: "Here's a new playlist of 100 songs I listened to and enjoyed in Ju
 
 
 **Featured image: **Dane County Fair, July 2017. Photo by Steel Wagstaff."
-publishedAt: 2017-09-01
+publishedAt: 2017-08-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/3u4ewHwcr9jQlsoCFC0wu5"
 spotifyEmbedId: "3u4ewHwcr9jQlsoCFC0wu5"
-tags: ["mixtape", "y2017"]
+image: "../../assets/music/100-songs-july-2017.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

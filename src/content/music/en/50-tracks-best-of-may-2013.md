@@ -9,6 +9,7 @@ tags: ["mixtape", "y2014"]
 draft: false
 locale: en
 spotifyEmbedId: "1CZ9GFk5il3rkcIAjuU9Lv"
+image: "../../assets/music/50-tracks-best-of-may-2013.jpg"
 ---
 
 April had 100 tracks, and May had but 50. More time out of doors, perhaps? All the same, there are some lovelies in here. Fair amount of Bob Dylan, Sharon Van Etten, and Penguin Cafe Orchestra. Enjoy.

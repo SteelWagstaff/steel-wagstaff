@@ -5,11 +5,12 @@ description: "Here's a playlist of 100 songs I listened to and enjoyed in Novemb
 
 
 Featured image: Photo by [Steel Wagstaff](http://steelwagstaff.info), November 2016."
-publishedAt: 2016-12-13
+publishedAt: 2016-12-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1N4BF667RhgKaCU2pYmTVM"
 spotifyEmbedId: "1N4BF667RhgKaCU2pYmTVM"
-tags: ["mixtape", "y2016"]
+image: "../../assets/music/100-songs-november-2016.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

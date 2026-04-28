@@ -5,11 +5,12 @@ description: "Here's a playlist of 70 songs I listened to and enjoyed in March 2
 
 
 Featured image: Elfin Forest Natural Area, California. Photograph by Steel Wagst"
-publishedAt: 2017-04-30
+publishedAt: 2017-04-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/0JB2MVtnJRl77cPeBV5KkT"
 spotifyEmbedId: "0JB2MVtnJRl77cPeBV5KkT"
-tags: ["mixtape", "y2017"]
+image: "../../assets/music/70-songs-march-2017.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

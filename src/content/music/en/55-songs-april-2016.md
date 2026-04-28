@@ -5,11 +5,12 @@ description: "Here's 55 songs I listened to and enjoyed last month. It was a rea
 
 
 [Featured image](https://www.flickr.com/photos/jenniferhelen/26278025615/) by [Jennifer Bastian](http://jenniferbastianphotography.com)"
-publishedAt: 2016-05-09
+publishedAt: 2016-05-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/3uEEQ2oarqcy6rT8s3KmAF"
 spotifyEmbedId: "3uEEQ2oarqcy6rT8s3KmAF"
-tags: ["mixtape", "y2016"]
+image: "../../assets/music/55-songs-april-2016.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

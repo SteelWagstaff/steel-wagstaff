@@ -9,6 +9,7 @@ publishedAt: 2015-12-29
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2faljwbqjb3kyW8HbgS2s9"
 spotifyEmbedId: "2faljwbqjb3kyW8HbgS2s9"
+image: "../../assets/music/laurels-b-day-mixes-disc-28.jpg"
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en

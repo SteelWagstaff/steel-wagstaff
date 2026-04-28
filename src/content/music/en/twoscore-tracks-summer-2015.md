@@ -11,6 +11,7 @@ publishedAt: 2016-01-12
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/0olKtmlReDTdKHvL7AhYr6"
 spotifyEmbedId: "0olKtmlReDTdKHvL7AhYr6"
+image: "../../assets/music/twoscore-tracks-summer-2015.jpg"
 tags: ["mixtape", "y2016"]
 draft: false
 locale: en

@@ -5,11 +5,12 @@ description: "Here's a new playlist with 100 songs I listened to and enjoyed in 
 
 
 Featured image by [Steel Wagstaff](https://steelwagstaff.info), CC-BY"
-publishedAt: 2017-10-23
+publishedAt: 2017-10-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2ewwQavC4tg8364G9pbv66"
 spotifyEmbedId: "2ewwQavC4tg8364G9pbv66"
-tags: ["mixtape", "y2017"]
+image: "../../assets/music/100-songs-september-2017.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

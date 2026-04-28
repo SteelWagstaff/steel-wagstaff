@@ -5,11 +5,12 @@ description: "Here's a new playlist made up of nearly eight and a half hours of 
 
 
 Featured image: Precolombian mask at Denver Art Museum. Photo by Steel Wagstaff."
-publishedAt: 2017-06-20
+publishedAt: 2017-05-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/5FdXbIs0Mh2Cvixuq4IMuF"
 spotifyEmbedId: "5FdXbIs0Mh2Cvixuq4IMuF"
-tags: ["mixtape", "y2017"]
+image: "../../assets/music/125-songs-april-2017.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

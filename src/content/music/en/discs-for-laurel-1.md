@@ -9,6 +9,7 @@ publishedAt: 2015-04-06
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/6v9f12RU6zMqJDbclq7RbR"
 spotifyEmbedId: "6v9f12RU6zMqJDbclq7RbR"
+image: "../../assets/music/discs-for-laurel-1.jpg"
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en

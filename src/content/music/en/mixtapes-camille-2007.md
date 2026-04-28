@@ -9,6 +9,7 @@ tags: ["mixtape", "y2015"]
 draft: false
 locale: en
 spotifyEmbedId: "1Gy2SNO44bg4ZBfiuKWmsX"
+image: "../../assets/music/mixtapes-camille-2007.jpg"
 ---
 
 This is the 2007 mixtape I made for my sister. Antony and the Johnson's "[You Are My Sister](https://www.youtube.com/watch?v=S-NziGE6DVY)" (with Boy George) and Sun Kil Moon's "[Glenn Tipton](https://www.youtube.com/watch?v=YjA3EbKsl4E)" originally appeared on the disc just before "1234," but Spotify didn't have these songs available. Enjoy!

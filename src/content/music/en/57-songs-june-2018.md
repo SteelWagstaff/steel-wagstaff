@@ -5,11 +5,12 @@ description: "Here's a playlist of 57 songs I listened to and enjoyed in June 20
 
 
 Featured image by Steel Wagstaff."
-publishedAt: 2018-08-07
+publishedAt: 2018-07-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/0JifB1SsiVqbbFVJZDFCmQ?si=bzqyDv4OSBCy9HXQx3jF8g"
 spotifyEmbedId: "0JifB1SsiVqbbFVJZDFCmQ"
-tags: ["mixtape", "y2018"]
+image: "../../assets/music/57-songs-june-2018.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

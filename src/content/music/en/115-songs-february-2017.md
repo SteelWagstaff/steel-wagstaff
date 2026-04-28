@@ -5,11 +5,12 @@ description: "Here's a megamix of almost 8 hours worth of music I listened to a
 
 
 [Featured image](https://www.flickr.com/ph"
-publishedAt: 2017-04-10
+publishedAt: 2017-03-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/5ruGLAxXgRumEP4FZtbH0f"
 spotifyEmbedId: "5ruGLAxXgRumEP4FZtbH0f"
-tags: ["mixtape", "y2017"]
+image: "../../assets/music/115-songs-february-2017.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---
