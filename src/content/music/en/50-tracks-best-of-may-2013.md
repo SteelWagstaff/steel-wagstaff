@@ -5,7 +5,7 @@ description: "April had 100 tracks, and May had but 50. More time out of doors, 
 http://open.spotify.com/user/steelwagstaff/playlist/1CZ9GFk5il3rkcIAjuU9Lv"
 publishedAt: 2014-01-09
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "1CZ9GFk5il3rkcIAjuU9Lv"

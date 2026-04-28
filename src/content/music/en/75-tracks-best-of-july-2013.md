@@ -5,7 +5,7 @@ description: "75 songs I listened to and liked in July 2013. It was the middle o
 http://open.spotify.com/user/steelwagstaff/playlist/394S2tXaRuAy51xNz7XASr"
 publishedAt: 2014-01-23
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "394S2tXaRuAy51xNz7XASr"

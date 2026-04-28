@@ -8,6 +8,7 @@ episode: 85
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-16-the-colors-of-the-rainbow-blue.jpg"
 spotifyEmbedId: "32XpByajeDKs5QnglAgWv1"
 ---
 

@@ -5,7 +5,7 @@ description: "Most mornings, Cedar and I like to kick out the jams and dance it 
 http://open.spotify.com/user/steelwagstaff/playlist/7ds76iDRh2M0CcegsxnpZF"
 publishedAt: 2014-09-26
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "7ds76iDRh2M0CcegsxnpZF"

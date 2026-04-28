@@ -8,6 +8,7 @@ author: steel
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en
+image: "../../assets/music/laurels-b-day-mixes-disc-14.jpg"
 ---
 
 Here's the fourteenth in a series of several mixtapes made for my wife's birthday quelques années back.

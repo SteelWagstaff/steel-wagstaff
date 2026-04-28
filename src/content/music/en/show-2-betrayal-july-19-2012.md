@@ -8,6 +8,7 @@ episode: 89
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-2-betrayal-july-19-2012.jpg"
 spotifyEmbedId: "6ekf18tTfMHk35JrLyZFt8"
 ---
 

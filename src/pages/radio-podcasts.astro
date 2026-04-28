@@ -2,9 +2,14 @@
 import { getCollection } from 'astro:content';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { formatDate } from '@/lib/utils';
+import { resolveImageUrl } from '@/lib/image-helpers';
 
-const music = await getCollection('music');
-const podcasts = await getCollection('podcasts');
+const music = await getCollection('music', ({ data }) => {
+  return !data.draft;
+});
+const podcasts = await getCollection('podcasts', ({ data }) => {
+  return !data.draft;
+});
 
 // Separate podcast series
 const offTheChain = podcasts
@@ -15,21 +20,32 @@ const themeSongs = podcasts
   .filter(p => p.data.podcast === 'Theme Songs')
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
-// Sort playlists by date
+// Filter Steel's Magnolias shows from music collection
+const steelsMagnolias = music
+  .filter(m => m.id.includes('show-'))
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+// Filter mixtapes (have 'mixtape' tag)
+const mixtapes = music
+  .filter(m => !m.id.includes('show-') && m.data.tags.includes('mixtape'))
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+// Filter playlists (exclude shows and mixtapes)
 const playlists = music
+  .filter(m => !m.id.includes('show-') && !m.data.tags.includes('mixtape'))
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
 // Helper to compute slug from id (removes 'en/' prefix)
 const getSlug = (id: string) => id.replace('en/', '');
 ---
 
-<PageLayout title="Radio + Podcasts" description="A collection of podcast episodes and curated Spotify playlists exploring music, culture, and conversation.">
+<PageLayout title="Radio + Podcasts" description="Spotify playlists, mixtapes, college radio shows, and episodes from two podcasts I made in grad school.">
   <div class="min-h-screen bg-gradient-to-b from-background to-background/50">
     <!-- Header -->
     <div class="mx-auto max-w-4xl px-6 py-12">
       <h1 class="text-4xl font-bold mb-4">Radio + Podcasts</h1>
       <p class="text-lg text-muted-foreground mb-8">
-        A collection of podcast episodes and curated Spotify playlists exploring music, culture, and conversation.
+        I love independent and community-supported radio. Some of my happiest memories from graduate school involve hosting a student radio show and making an amateur podcast with my old friend Dave Jenson.
       </p>
     </div>
 
@@ -38,54 +54,149 @@ const getSlug = (id: string) => id.replace('en/', '');
       
       <!-- Spotify Playlists -->
       <section>
-        <h2 class="text-3xl font-bold mb-2">Spotify Playlists</h2>
+        <h2 class="text-3xl font-bold mb-2">What I've Been Listening To</h2>
         <p class="text-muted-foreground mb-6">Monthly curated playlists of favorite tracks</p>
-        <div class="grid gap-4">
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {playlists.map((item) => (
             <a
               href={`/music/${getSlug(item.id)}`}
-              class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
+              class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
             >
-              <div class="flex items-start justify-between">
-                <div class="flex-1">
-                  <h3 class="font-semibold group-hover:text-primary transition-colors">
-                    {item.data.title}
-                  </h3>
-                  <p class="text-sm text-muted-foreground mt-1">
-                    {formatDate(item.data.publishedAt)}
-                  </p>
+              {item.data.image && (
+                <div class="aspect-[3/2] bg-muted overflow-hidden">
+                  <img 
+                    src={resolveImageUrl(item.data.image)} 
+                    alt={item.data.imageAlt || item.data.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  />
                 </div>
-                <span class="text-sm font-medium bg-primary/10 text-primary px-2 py-1 rounded ml-4 whitespace-nowrap">
-                  Playlist
-                </span>
+              )}
+              <div class="p-4">
+                <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
+                  {item.data.title}
+                </h3>
+                <p class="text-sm text-muted-foreground mt-2">
+                  {formatDate(item.data.publishedAt)}
+                </p>
+                {item.data.tags && item.data.tags.length > 0 && (
+                  <div class="flex flex-wrap gap-1 mt-3">
+                    {item.data.tags.map((tag) => (
+                      <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             </a>
           ))}
         </div>
       </section>
-
+      <section>
+        <h2 class="text-3xl font-bold mb-2">Mixtapes</h2>
+        <p class="text-muted-foreground mb-6">An assortment of mixtapes I've made as gifts for family and friends over the years. A lost art.</p>
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {mixtapes.map((item) => (
+            <a
+              href={`/music/${getSlug(item.id)}`}
+              class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
+            >
+              {item.data.image && (
+                <div class="aspect-[3/2] bg-muted overflow-hidden">
+                  <img 
+                    src={resolveImageUrl(item.data.image)} 
+                    alt={item.data.imageAlt || item.data.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+              )}
+              <div class="p-4">
+                <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
+                  {item.data.title}
+                </h3>
+                <p class="text-sm text-muted-foreground mt-2">
+                  {formatDate(item.data.publishedAt)}
+                </p>
+                {item.data.tags && item.data.tags.length > 0 && (
+                  <div class="flex flex-wrap gap-1 mt-3">
+                    {item.data.tags.map((tag) => (
+                      <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+<section>
+        <h2 class="text-3xl font-bold mb-2">Steel's Magnolias</h2>
+        <p class="text-muted-foreground mb-6">For several months in 2012, I hosted Steel's Magnolias, a weekly music show on <a href="https://wsum.org/" class="text-brand-500 hover:underline">WSUM</a> (91.7FM in Madison), the University of Wisconsin-Madison's student radio station. On each episode I'd play an hour or two of music organized around a single shared theme. Sadly, I had to stop making the show when I started a full-time job at the university. You can listen to old episodes below:</p>
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {steelsMagnolias.map((item) => (
+            <a
+              href={`/music/${getSlug(item.id)}`}
+              class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
+            >
+              {item.data.image && (
+                <div class="aspect-[3/2] bg-muted overflow-hidden">
+                  <img 
+                    src={resolveImageUrl(item.data.image)} 
+                    alt={item.data.imageAlt || item.data.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+              )}
+              <div class="p-4">
+                <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
+                  {item.data.title}
+                </h3>
+                <p class="text-sm text-muted-foreground mt-2">
+                  {formatDate(item.data.publishedAt)}
+                </p>
+                {item.data.tags && item.data.tags.length > 0 && (
+                  <div class="flex flex-wrap gap-1 mt-3">
+                    {item.data.tags.map((tag) => (
+                      <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+      
       <!-- OTC with Dave & Steel -->
       <section>
         <h2 class="text-3xl font-bold mb-2">Off the Chain Podcast</h2>
-        <p class="text-muted-foreground mb-6">Weekly episodes with conversations on sci-fi, comics, culture, and music</p>
-        <div class="grid gap-4">
+        <p class="text-muted-foreground mb-6">In January 2015 I started making a Off the Chain with Dave & Steel, a DIY podcast with my old college roommate <a href="https://asknursedave.blogspot.com/" class="text-brand-500 hover:underline">Dave Jenson</a>. We ran it as a ramshackle variety show, with regular segments dedicated to things Dave loves (action movies, incredible feats of human endurance, children’s books), things I love (terrible haircuts, unusual names, documentary films) and things we both love (sports, music, & literature).</p>
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {offTheChain.map((item) => (
             <a
               href={`/podcasts/${getSlug(item.id)}`}
-              class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
+              class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
             >
-              <div class="flex items-start justify-between">
-                <div class="flex-1">
-                  <h3 class="font-semibold group-hover:text-primary transition-colors">
-                    {item.data.title}
-                  </h3>
-                  <p class="text-sm text-muted-foreground mt-1">
-                    Episode {item.data.episode} • {formatDate(item.data.publishedAt)}
-                  </p>
+              {item.data.image && (
+                <div class="aspect-[3/2] bg-muted overflow-hidden">
+                  <img 
+                    src={resolveImageUrl(item.data.image)} 
+                    alt={item.data.imageAlt || item.data.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  />
                 </div>
-                <span class="text-sm font-medium bg-secondary/10 text-secondary px-2 py-1 rounded ml-4 whitespace-nowrap">
-                  OTC
-                </span>
+              )}
+              <div class="p-4">
+                <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
+                  {item.data.title}
+                </h3>
+                <p class="text-sm text-muted-foreground mt-2">
+                  Episode {item.data.episode} • {formatDate(item.data.publishedAt)}
+                </p>
               </div>
             </a>
           ))}
@@ -96,25 +207,29 @@ const getSlug = (id: string) => id.replace('en/', '');
       {themeSongs.length > 0 && (
         <section>
           <h2 class="text-3xl font-bold mb-2">Theme Songs Podcast</h2>
-          <p class="text-muted-foreground mb-6">Exploring the stories behind memorable theme songs</p>
-          <div class="grid gap-4">
+          <p class="text-muted-foreground mb-6">After 70+ episodes of Off the Chain, we retired the show and started making a new music-themed podcast called Theme Songs, which ran from August 2017-March 2018. We typically invited old friends on the show as guests, giving us an excuse to catch up with them as much as anything else.</p>
+          <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {themeSongs.map((item) => (
               <a
                 href={`/podcasts/${getSlug(item.id)}`}
-                class="group block p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
+                class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
               >
-                <div class="flex items-start justify-between">
-                  <div class="flex-1">
-                    <h3 class="font-semibold group-hover:text-primary transition-colors">
-                      {item.data.title}
-                    </h3>
-                    <p class="text-sm text-muted-foreground mt-1">
-                      {item.data.episode && `Episode ${item.data.episode} • `}{formatDate(item.data.publishedAt)}
-                    </p>
+                {item.data.image && (
+                  <div class="aspect-[3/2] bg-muted overflow-hidden">
+                    <img 
+                      src={resolveImageUrl(item.data.image)} 
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
                   </div>
-                  <span class="text-sm font-medium bg-accent/10 text-accent px-2 py-1 rounded ml-4 whitespace-nowrap">
-                    Theme Songs
-                  </span>
+                )}
+                <div class="p-4">
+                  <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
+                    {item.data.title}
+                  </h3>
+                  <p class="text-sm text-muted-foreground mt-2">
+                    {item.data.episode && `Episode ${item.data.episode} • `}{formatDate(item.data.publishedAt)}
+                  </p>
                 </div>
               </a>
             ))}

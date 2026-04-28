@@ -8,6 +8,7 @@ episode: 94
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-5-schools-out-august-9-2012.jpg"
 spotifyEmbedId: "5i72jTkBbzhPmfzsS7ncmW"
 ---
 

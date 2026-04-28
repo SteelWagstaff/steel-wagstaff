@@ -5,7 +5,7 @@ description: "This is a bigger mix: 150 songs I listened to and liked in June 20
 http://open.spotify.com/user/steelwagstaff/playlist/4x6q2nPiFkRRbxLAwhn01W"
 publishedAt: 2014-01-16
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "4x6q2nPiFkRRbxLAwhn01W"

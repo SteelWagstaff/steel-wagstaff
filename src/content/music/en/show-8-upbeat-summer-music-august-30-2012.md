@@ -8,6 +8,7 @@ episode: 97
 tags: ["music"]
 draft: false
 locale: en
+image: "../../assets/music/show-8-upbeat-summer-music-august-30-2012.jpg"
 spotifyEmbedId: "1cXFBR4i88ze6JxNrGYlqZ"
 ---
 

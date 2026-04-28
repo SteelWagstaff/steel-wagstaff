@@ -10,7 +10,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2SZXbrCA5ep2GN6rMePqeT"
 spotifyEmbedId: "2SZXbrCA5ep2GN6rMePqeT"
 image: "../../assets/music/rowwwr-40-songs-animals.jpg"
-tags: ["mixtape", "y2016"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

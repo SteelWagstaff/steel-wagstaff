@@ -5,7 +5,7 @@ description: "Here are 50 songs that I listened to and liked in June 2014. Dug b
 http://open.spoti"
 publishedAt: 2014-07-15
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

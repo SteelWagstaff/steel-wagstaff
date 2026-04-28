@@ -6,7 +6,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/0LbhghsmUMptY9SP2vJkqn?si=Ir-hpBo4RiOYlVwAa79mrQ"
 spotifyEmbedId: "0LbhghsmUMptY9SP2vJkqn"
 image: "../../assets/music/april-2019-75-songs.jpg"
-tags: ["mixtape", "y2019"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

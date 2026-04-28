@@ -8,6 +8,7 @@ episode: 87
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-18-still-tumbrling-after-all-these-years.jpg"
 spotifyEmbedId: "4VpGu979Lo2bJi9XaRC6Ny"
 ---
 

@@ -8,6 +8,7 @@ episode: 84
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-15-the-colors-of-the-rainbow-cool-edition-october-18-2012.jpg"
 spotifyEmbedId: "7a0Rh6CZfdN9JY7Cl0ADV2"
 ---
 

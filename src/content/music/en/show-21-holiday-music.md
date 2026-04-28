@@ -8,6 +8,7 @@ episode: 91
 tags: ["music"]
 draft: false
 locale: en
+image: "../../assets/music/show-21-holiday-music.jpg"
 spotifyEmbedId: "54VkOixO6gf8J8CyOMpTYh"
 ---
 
