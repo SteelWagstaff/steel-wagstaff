@@ -5,7 +5,7 @@ description: "December of this past year was a mild one for me, musically. Not a
 http://open.spotify.com/user/steelwagstaff/playlist/48yoz0RTq9st9nYMUbfcpe"
 publishedAt: 2014-02-27
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "48yoz0RTq9st9nYMUbfcpe"

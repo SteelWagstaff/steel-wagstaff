@@ -5,7 +5,7 @@ description: "Here's a playlist of 50 songs I listened to and liked in October. 
 http://open.spotify.com/user/steelwagstaff/playlist/7H456RIMaX6otGOCOhCPrH"
 publishedAt: 2014-11-07
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "7H456RIMaX6otGOCOhCPrH"

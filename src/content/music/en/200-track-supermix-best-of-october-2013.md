@@ -5,7 +5,7 @@ description: "October was a good music month for me, and as evidence, I submit t
 http://open.spotify.com/user/steelwagstaff/playlist/1c2jQLxIAYm"
 publishedAt: 2014-02-13
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "1c2jQLxIAYm"

@@ -10,7 +10,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1ZpHv5JOPTLBcU4G4AbdiQ"
 spotifyEmbedId: "1ZpHv5JOPTLBcU4G4AbdiQ"
 image: "../../assets/music/january-2016.jpg"
-tags: ["mixtape", "y2016"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

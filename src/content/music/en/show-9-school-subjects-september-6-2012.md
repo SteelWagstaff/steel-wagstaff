@@ -8,6 +8,7 @@ episode: 98
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-9-school-subjects-september-6-2012.jpg"
 spotifyEmbedId: "4tp2AaiWk7SCTEkqPOYvLI"
 ---
 

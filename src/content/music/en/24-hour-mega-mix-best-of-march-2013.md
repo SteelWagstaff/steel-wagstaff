@@ -5,7 +5,7 @@ description: "I listened to (and liked) a ton of music in March 2013, apparently
 http://open.spotify.com/user/steelwagstaff/playlist/1hoQZwomqjAFfHdb0TfNi7"
 publishedAt: 2013-12-25
 author: steel
-tags: ["mixtape", "y2013"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "1hoQZwomqjAFfHdb0TfNi7"

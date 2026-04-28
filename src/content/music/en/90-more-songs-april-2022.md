@@ -8,7 +8,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/playlist/3raNbW2lqUkvLEe3rqcb4U?si=bf485913318942de](https://open.spotify.com/playlist/3raNbW2lqUkvLEe3rqcb4U?si=bf485913318942de"
 spotifyEmbedId: "3raNbW2lqUkvLEe3rqcb4U"
 image: "../../assets/music/90-more-songs-april-2022.jpg"
-tags: ["mixtape", "y2025"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

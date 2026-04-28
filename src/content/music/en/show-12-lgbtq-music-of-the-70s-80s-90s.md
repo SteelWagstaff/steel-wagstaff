@@ -8,6 +8,7 @@ episode: 81
 tags: ["music"]
 draft: false
 locale: en
+image: "../../assets/music/show-12-lgbtq-music-of-the-70s-80s-90s.jpg"
 spotifyEmbedId: "7BiUNw40q2rxIlqVxBWihe"
 ---
 

@@ -5,7 +5,7 @@ description: "Here are the 100 songs that I listened to and liked in April 2013.
 http://open.spotify.com/user/steelwagstaff/playlist/6Ef4ugfUsuJ3uUKkIhgKjr"
 publishedAt: 2014-01-02
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "6Ef4ugfUsuJ3uUKkIhgKjr"

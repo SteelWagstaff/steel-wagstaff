@@ -10,7 +10,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/0wxtBxQP8TCK2YvRMAw4Tc"
 spotifyEmbedId: "0wxtBxQP8TCK2YvRMAw4Tc"
 image: "../../assets/music/100-tracks-september-2015.jpg"
-tags: ["mixtape", "y2016"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

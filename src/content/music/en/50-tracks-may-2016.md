@@ -6,7 +6,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1XBeUhhwZt0vtm89xO1flO"
 spotifyEmbedId: "1XBeUhhwZt0vtm89xO1flO"
 image: "../../assets/music/50-tracks-may-2016.jpg"
-tags: ["mixtape", "y2016"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

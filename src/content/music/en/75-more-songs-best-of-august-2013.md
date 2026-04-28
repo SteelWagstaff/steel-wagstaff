@@ -5,7 +5,7 @@ description: "Here are some songs I listened to and liked in August 2013. Heavy 
 http://open.spotify.com/user/steelwagstaff/playlist/3fFvrjeXE7hM2nbBy0VhaV"
 publishedAt: 2014-01-30
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "3fFvrjeXE7hM2nbBy0VhaV"

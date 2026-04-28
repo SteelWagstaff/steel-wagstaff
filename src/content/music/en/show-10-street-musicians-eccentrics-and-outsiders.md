@@ -8,6 +8,7 @@ episode: 79
 tags: ["music"]
 draft: false
 locale: en
+image: "../../assets/music/show-10-street-musicians-eccentrics-and-outsiders.jpg"
 spotifyEmbedId: "7emXQDirOaqeXL6g3FoxRB"
 ---
 

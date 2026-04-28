@@ -8,6 +8,7 @@ author: steel
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en
+image: "../../assets/music/laurels-b-day-mixes-disc-13.jpg"
 ---
 
 Here's the thirteenth in a big collection of mixtapes I made for Laurel's name day a couple years bygone.

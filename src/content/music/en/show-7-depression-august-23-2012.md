@@ -8,6 +8,7 @@ episode: 96
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-7-depression-august-23-2012.jpg"
 spotifyEmbedId: "2WII22LLvgytiZI691j9z9"
 ---
 

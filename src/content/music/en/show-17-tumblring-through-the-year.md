@@ -8,6 +8,7 @@ episode: 86
 tags: []
 draft: false
 locale: en
+image: "../../assets/music/show-17-tumblring-through-the-year.jpg"
 spotifyEmbedId: "4pGGVoiYliOxMtxDAMS76r"
 ---
 

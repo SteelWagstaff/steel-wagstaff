@@ -8,6 +8,7 @@ episode: 82
 tags: ["music"]
 draft: false
 locale: en
+image: "../../assets/music/show-13-lgbtq-music-of-the-00s-and-10s.jpg"
 spotifyEmbedId: "5zn9fU2NMaFvZhRHpwyGrG"
 ---
 

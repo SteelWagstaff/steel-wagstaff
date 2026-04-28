@@ -5,7 +5,7 @@ description: "It's been almost a year since I stopped doing the radio show (how 
 In lieu of an actual weekly radio program, I've decided to start a small l"
 publishedAt: 2013-12-04
 author: steel
-tags: ["mixtape", "y2013"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

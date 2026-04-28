@@ -5,7 +5,7 @@ description: "In January I listened to a lot of new music. Most of the artists i
 http://open.spotify.com/user/steelwagstaff/playlist/2RtuqWELBLoh8IJafV6Azz"
 publishedAt: 2014-03-06
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 spotifyEmbedId: "2RtuqWELBLoh8IJafV6Azz"

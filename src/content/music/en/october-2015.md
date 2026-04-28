@@ -6,7 +6,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2EWrSvxT3ioVdHi5zlWvIP"
 spotifyEmbedId: "2EWrSvxT3ioVdHi5zlWvIP"
 image: "../../assets/music/october-2015.jpg"
-tags: ["mixtape", "y2016"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

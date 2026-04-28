@@ -12,7 +12,7 @@ author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/0olKtmlReDTdKHvL7AhYr6"
 spotifyEmbedId: "0olKtmlReDTdKHvL7AhYr6"
 image: "../../assets/music/twoscore-tracks-summer-2015.jpg"
-tags: ["mixtape", "y2016"]
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---
