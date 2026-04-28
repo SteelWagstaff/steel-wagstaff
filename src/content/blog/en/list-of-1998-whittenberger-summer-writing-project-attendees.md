@@ -48,7 +48,6 @@ Here's the full list of the 1998 Whittenberger Summer Writing Project AttendeesÂ
 	Shannon Stringham (Blackfoot)
 	Amy Ulappa (Bonners Ferry)
 	Steel Wagstaff (Boise)
-Now lives in Madison, Wisconsin. Read this blog to learn more about me, I'd say.
 	Curtis Ward (Boise)
 	Jami Wardell (Preston)
 	Kate Yoho (Caldwell)

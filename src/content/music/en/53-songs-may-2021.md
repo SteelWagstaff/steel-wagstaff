@@ -1,8 +1,7 @@
 ---
 title: "53 Songs [May 2021]"
 description: "53 songs that got me through the month of May
-
-[)"
+"
 publishedAt: 2021-06-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/202uMKtNgV6NSS13jZYreR?si=20074b01bf0c461f](https://open.spotify.com/playlist/202uMKtNgV6NSS13jZYreR?si=20074b01bf0c461f"
@@ -15,4 +14,3 @@ locale: en
 
 53 songs that got me through the month of May
 
-[)

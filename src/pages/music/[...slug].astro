@@ -80,9 +80,14 @@ if (playlist.id.includes('show-')) {
       </div>
     </header>
 
+    <!-- Content -->
+    <div class="prose prose-sm max-w-none dark:prose-invert">
+      <Content />
+    </div>
+
     <!-- Spotify Embed -->
     {(playlist.data.spotifyEmbedId || playlist.data.spotifyUrl) && (
-      <div class="mb-12">
+      <div class="mt-12">
         {playlist.data.spotifyEmbedId && (
           <SpotifyEmbed spotifyId={playlist.data.spotifyEmbedId} type="playlist" height="380px" />
         )}
@@ -101,10 +106,5 @@ if (playlist.id.includes('show-')) {
         })()}
       </div>
     )}
-
-    <!-- Content -->
-    <div class="prose prose-sm max-w-none dark:prose-invert">
-      <Content />
-    </div>
   </article>
 </PageLayout>

@@ -1,8 +1,7 @@
 ---
 title: "65 Songs [March 2022]"
 description: "Slightly more than 4 hours of songs that I liked during March 2022
-
-[)"
+"
 publishedAt: 2022-04-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/7DdB0pQEFYMvzfddqyJxpd?si=1a2109d602474cad](https://open.spotify.com/playlist/7DdB0pQEFYMvzfddqyJxpd?si=1a2109d602474cad"
@@ -15,4 +14,3 @@ locale: en
 
 Slightly more than 4 hours of songs that I liked during March 2022
 
-[)
