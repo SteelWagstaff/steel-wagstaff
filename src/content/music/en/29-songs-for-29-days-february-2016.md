@@ -5,7 +5,8 @@ publishedAt: 2016-03-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/4WwNpsDII2Pny7ZhO8FWzE"
 spotifyEmbedId: "4WwNpsDII2Pny7ZhO8FWzE"
-tags: ["mixtape", "y2016"]
+image: "../../assets/music/29-songs-for-29-days-february-2016.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

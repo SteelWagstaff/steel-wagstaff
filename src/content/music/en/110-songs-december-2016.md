@@ -5,11 +5,12 @@ description: "Here's a huge playlist (7+ hours) of music that I listened to and 
 
 
 Featured image by [Jennifer Bastian](https://www.flickr.com/photos/jenniferhelen/31701789784/in/dateposted/)."
-publishedAt: 2017-02-08
+publishedAt: 2017-01-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1Rd46ktCQzwlasEss7A38E"
 spotifyEmbedId: "1Rd46ktCQzwlasEss7A38E"
-tags: ["mixtape", "y2017"]
+image: "../../assets/music/110-songs-december-2016.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

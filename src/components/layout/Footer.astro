@@ -20,7 +20,6 @@ import type { HTMLAttributes } from 'astro/types';
 import { cn } from '@/lib/cn';
 import { getNavItems, type NavItem as NavConfigItem } from '@/config/nav.config';
 import { footerVariants, footerColumnGridVariants } from './footer.variants';
-import Logo from '@/components/ui/marketing/Logo/Logo.astro';
 import Icon from '@/components/ui/primitives/Icon/Icon.astro';
 import siteConfig from '@/config/site.config';
 
@@ -82,7 +81,7 @@ const {
   socialLinks = [],
   showSocial = true,
   showCopyright = true,
-  copyright = '© {year} {siteName}. Designed by <a href="https://hansmartens.dev" class="underline hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">Hans Martens</a>.',
+  copyright = '© {year} {siteName}. Site content is licensed under a Creative Commons Attribution 4.0 International License.',
   legalLinks = [],
   hideLogo = false,
   tagline,
@@ -141,7 +140,7 @@ function getSocialIcon(platform: string): string {
               <slot name="logo" />
             ) : (
               <a href="/" class="flex items-center gap-2">
-                <Logo size="md" />
+                <img src="/steel_wagstaff.jpg" alt="Steel Wagstaff" class="w-12 h-12 rounded-full object-cover" />
                 <span class="font-display text-base font-bold text-brand-500 dark:text-brand-400">
                   {siteConfig.name}
                 </span>

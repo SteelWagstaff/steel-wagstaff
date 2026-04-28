@@ -9,6 +9,7 @@ tags: ["mixtape", "y2014"]
 draft: false
 locale: en
 spotifyEmbedId: "4x6q2nPiFkRRbxLAwhn01W"
+image: "../../assets/music/150-tracks-best-of-june-2013.jpg"
 ---
 
 This is a bigger mix: 150 songs I listened to and liked in June 2013. Heavy on female singer-songwriters, I notice in hindsight. Tried not to put more than 3-4 songs from the same album in here, or half a dozen by the same artist. I remember being really into Blue Sky Black Death, Angel Olsen, Laure Marling, Rhye, Phosphorescent, Asaf Avidan, and the Cave Singers this month. Enjoy!

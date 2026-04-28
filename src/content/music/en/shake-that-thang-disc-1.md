@@ -5,6 +5,7 @@ publishedAt: 2015-06-08
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1ftCZsOWC2jplXePcasTxM"
 spotifyEmbedId: "1ftCZsOWC2jplXePcasTxM"
+image: "../../assets/music/shake-that-thang-disc-1.jpg"
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en

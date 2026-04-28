@@ -102,17 +102,20 @@ const stack = defineCollection({
 // Music collection — Spotify playlists and compilations
 const music = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/music' }),
-  schema: z.object({
-    title: z.string().max(100),
-    description: z.string().max(500).optional(),
-    publishedAt: z.coerce.date(),
-    author: z.string().default('Steel Wagstaff'),
-    spotifyUrl: z.string().url().optional(),
-    spotifyEmbedId: z.string().optional(),
-    tags: z.array(z.string()).default([]),
-    draft: z.boolean().default(false),
-    locale: z.enum(['en', 'es', 'fr']).default('en'),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string().max(100),
+      description: z.string().max(500).optional(),
+      publishedAt: z.coerce.date(),
+      author: z.string().default('Steel Wagstaff'),
+      spotifyUrl: z.string().url().optional(),
+      spotifyEmbedId: z.string().optional(),
+      image: image().optional(),
+      imageAlt: z.string().optional(),
+      tags: z.array(z.string()).default([]),
+      draft: z.boolean().default(false),
+      locale: z.enum(['en', 'es', 'fr']).default('en'),
+    }),
 });
 
 // Podcasts collection — Episodes from Off the Chain and Theme Songs

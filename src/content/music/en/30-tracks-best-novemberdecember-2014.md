@@ -9,6 +9,7 @@ tags: ["mixtape", "y2015"]
 draft: false
 locale: en
 spotifyEmbedId: "2V81BLJubVKrk1Iouk19j5"
+image: "../../assets/music/30-tracks-best-novemberdecember-2014.jpg"
 ---
 
 I didn't listen to a ton of music late in the 2014, apparently. Not a ton of memorable stuff leapt out at me. Some stuff I remember liking: Leif Vollebekk's _North Americana_ album, Field Report's self-titled record, Other Lives, Tired Pony, Sinkane, and St. Paul and the Broken Bones' _Half the City_. Enjoy!

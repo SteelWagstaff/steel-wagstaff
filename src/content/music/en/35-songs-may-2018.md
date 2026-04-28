@@ -5,11 +5,12 @@ description: "Here's a playlist of 35 songs I listened to and enjoyed in May. Le
 
 
 Featured image by Steel Wagstaff."
-publishedAt: 2018-07-31
+publishedAt: 2018-06-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/7CgaAfXcHl74icaapQjifK?si=y-QhQ5flSX2xpv3kOtBsgw"
 spotifyEmbedId: "7CgaAfXcHl74icaapQjifK"
-tags: ["mixtape", "y2018"]
+image: "../../assets/music/35-songs-may-2018.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

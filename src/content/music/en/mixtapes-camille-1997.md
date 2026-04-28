@@ -9,6 +9,7 @@ tags: ["mixtape", "y2014"]
 draft: false
 locale: en
 spotifyEmbedId: "60t08bDpn40wi5RxGewSiH"
+image: "../../assets/music/mixtapes-camille-1997.jpg"
 ---
 
 Here's the 1997 mix I made for my sister. ["Heywood Lane"](https://www.youtube.com/watch?v=OXeuDeiMmx4) by Gorky's Zygotic Mynci should have appeared between "Shame on You" and "Father of Mine," but Spotify doesn't have it. Enjoy!

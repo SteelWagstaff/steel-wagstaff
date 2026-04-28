@@ -5,6 +5,7 @@ publishedAt: 2015-08-17
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2hVDHSKgsJhu4stCCSn8vM"
 spotifyEmbedId: "2hVDHSKgsJhu4stCCSn8vM"
+image: "../../assets/music/laurels-b-day-mixes-disc-9.png"
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en

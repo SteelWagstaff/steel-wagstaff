@@ -9,6 +9,7 @@ publishedAt: 2016-02-16
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/3Dbz8qTccBpOTBwl29YJyZ"
 spotifyEmbedId: "3Dbz8qTccBpOTBwl29YJyZ"
+image: "../../assets/music/five-0.jpg"
 tags: ["mixtape", "y2016"]
 draft: false
 locale: en

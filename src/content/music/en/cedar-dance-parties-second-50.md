@@ -9,6 +9,7 @@ tags: ["mixtape", "y2014"]
 draft: false
 locale: en
 spotifyEmbedId: "7ds76iDRh2M0CcegsxnpZF"
+image: "../../assets/music/cedar-dance-parties-second-50.jpg"
 ---
 
 Most mornings, Cedar and I like to kick out the jams and dance it up. With special thanks to Bev Buretta, Nana C, Kevin Boettcher, Grandpa Bastian and others for sharing their suggestions, here are 50 songs we've recently listened to:

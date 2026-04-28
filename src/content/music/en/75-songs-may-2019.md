@@ -5,11 +5,12 @@ description: "Here's a playlist of 75 songs (a little over 5 hours of music) I l
 <figure class=\"wp-block-embed-spotify wp-block-embed is-type-rich is-provider-spotify wp-embed-aspect-9-16 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">
 
 </div></figure>"
-publishedAt: 2019-07-26
+publishedAt: 2019-06-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/4FxhAkNTNCQNvhXxWi5BNZ?si=-_AB23LiQM2OAC9pRSONlg"
 spotifyEmbedId: "4FxhAkNTNCQNvhXxWi5BNZ"
-tags: ["mixtape", "y2019"]
+image: "../../assets/music/75-songs-may-2019.jpg"
+tags: ["monthly playlist"]
 draft: false
 locale: en
 ---

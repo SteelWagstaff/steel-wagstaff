@@ -81,7 +81,7 @@ const siteConfig: SiteConfig = {
       imageUrl: '/favicon.svg',
     },
     favicon: {
-      svg: '/favicon.svg',
+      svg: '/steel_wagstaff.jpg',
     },
     colors: {
       themeColor: '#3b82f6',

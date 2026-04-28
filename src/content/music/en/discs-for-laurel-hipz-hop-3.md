@@ -5,6 +5,7 @@ publishedAt: 2015-05-18
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1qMRn68lNMH9YdQyVwas76"
 spotifyEmbedId: "1qMRn68lNMH9YdQyVwas76"
+image: "../../assets/music/discs-for-laurel-hipz-hop-3.jpg"
 tags: ["mixtape", "y2015"]
 draft: false
 locale: en
