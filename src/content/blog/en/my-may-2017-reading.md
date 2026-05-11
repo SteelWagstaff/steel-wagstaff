@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/harry-redknapp-paper-e1497284599179.jpg"
+imageAlt: "My May 2017 Reading"
 ---
 
 

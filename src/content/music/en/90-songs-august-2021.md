@@ -6,10 +6,11 @@ publishedAt: 2021-09-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/5WRwh0pNKQzceCBdS2Gnh7?si=14da9aeb4b304425](https://open.spotify.com/playlist/5WRwh0pNKQzceCBdS2Gnh7?si=14da9aeb4b304425"
 spotifyEmbedId: "5WRwh0pNKQzceCBdS2Gnh7"
-image: "../../assets/music/90-songs-august-2021.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/90-songs-august-2021.jpg"
+imageAlt: ""
 ---
 
 Six and a half hours of music that stirred or soothed me in August 2021

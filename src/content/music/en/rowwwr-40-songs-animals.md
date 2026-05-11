@@ -9,10 +9,11 @@ publishedAt: 2016-03-15
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2SZXbrCA5ep2GN6rMePqeT"
 spotifyEmbedId: "2SZXbrCA5ep2GN6rMePqeT"
-image: "../../assets/music/rowwwr-40-songs-animals.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/rowwwr-40-songs-animals.jpg"
+imageAlt: ""
 ---
 
 Forty songs about animals. Enjoy!

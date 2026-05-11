@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/5664261318_7d5db1cda9_b.jpg"
+imageAlt: "Atul Gawande's Being Mortal"
 ---
 
 

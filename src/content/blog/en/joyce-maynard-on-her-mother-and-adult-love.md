@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/fredelle-and-sydney.jpg"
+imageAlt: "Joyce Maynard on her mother and adult love"
 ---
 
 

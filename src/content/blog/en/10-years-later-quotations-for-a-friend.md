@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/img_0628-e1432060078410.jpg"
+imageAlt: "10 Years Later: Quotations for a Friend"
 ---
 
 

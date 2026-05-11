@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/sesame_street.jpg"
+imageAlt: "On Completing My Last University Course, Perhaps E"
 ---
 
 

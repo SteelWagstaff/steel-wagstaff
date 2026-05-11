@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/hfad0136.jpg"
+imageAlt: "Essay on Lorine Niedecker for Edge Effects"
 ---
 
 

@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/7207494506_c683842e91_b.jpg"
+imageAlt: "#4: Planning Meals"
 ---
 
 

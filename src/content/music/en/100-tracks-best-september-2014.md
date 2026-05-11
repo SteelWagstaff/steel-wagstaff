@@ -6,6 +6,8 @@ author: steel
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/100-tracks-best-september-2014.jpg"
+imageAlt: ""
 ---
 
 Here's a playlist of 100 songs I listened to and liked from the month of September. Some favorites from the month were Sarah Jaffe, The War on Drugs, Flume, Shad, Larry Gus's _Years Not Living_, Eef Barzelay's new _Girls Come First_ EP, Snorri Helgason's _I'm Going to Put My Name On Your Door_,  Tamikrest's _Chatma_, Hammock's _Oblivion Hymns_, Bellows' _Blue Breath_ record,  Josephine Foster's _I'm a Dreamer _album,  and some classic Don McLean (I listened to this with Cedar and thought of my d

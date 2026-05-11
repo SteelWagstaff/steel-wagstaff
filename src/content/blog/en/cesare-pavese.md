@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/fotosegnaletiche.jpg"
+imageAlt: "Cesare Pavese"
 ---
 
 

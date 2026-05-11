@@ -9,10 +9,11 @@ publishedAt: 2015-12-29
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2faljwbqjb3kyW8HbgS2s9"
 spotifyEmbedId: "2faljwbqjb3kyW8HbgS2s9"
-image: "../../assets/music/laurels-b-day-mixes-disc-28.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/laurels-b-day-mixes-disc-28.jpg"
+imageAlt: ""
 ---
 
 Disc #28 in the birthday mixtape gift I put together for Laurel's birthday a few years ago to give her some music to listen to in the car as she drove around the state for her job.

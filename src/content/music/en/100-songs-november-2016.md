@@ -9,10 +9,11 @@ publishedAt: 2016-12-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1N4BF667RhgKaCU2pYmTVM"
 spotifyEmbedId: "1N4BF667RhgKaCU2pYmTVM"
-image: "../../assets/music/100-songs-november-2016.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/100-songs-november-2016.jpg"
+imageAlt: ""
 ---
 
 Here's a playlist of 100 songs I listened to and enjoyed in November 2016. The big discovery for me was [Blaze Foley](http://www.blazefoley.com/), an eccentric Austin-based singer-songwriter who was shot and killed while trying to intervene in a dispute in 1989, aged 40. I probably listened to his "Clay Pigeons" and various covers of it a couple hundred times last month. It's a beautiful song. Enjoy!

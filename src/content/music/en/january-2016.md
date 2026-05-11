@@ -9,10 +9,11 @@ publishedAt: 2016-02-23
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1ZpHv5JOPTLBcU4G4AbdiQ"
 spotifyEmbedId: "1ZpHv5JOPTLBcU4G4AbdiQ"
-image: "../../assets/music/january-2016.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/january-2016.jpg"
+imageAlt: ""
 ---
 
 Here's a playlist of several songs I listened to and enjoyed in January 2016.

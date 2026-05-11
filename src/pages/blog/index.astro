@@ -38,7 +38,7 @@ const getPostUrl = (postId: string) => {
 };
 ---
 
-<PageLayout title="Blog — Astro Rocket" description="Articles on web design, development, and the web by Astro Rocket." showScrollProgress eagerReveal>
+<PageLayout title="Blog: Steel Wagstaff" description="Blog posts from Steel Wagstaff" showScrollProgress eagerReveal>
   <Hero layout="centered" size="sm">
     <Badge slot="badge" variant="brand" pill>
       <Icon name="book" size="sm" />
@@ -47,7 +47,7 @@ const getPostUrl = (postId: string) => {
 
     <h1 slot="title">Blog</h1>
 
-    <p slot="description">Articles on Astro, web performance, design systems, and building with Astro Rocket.</p>
+    <p slot="description">Essays and reflections on poetry, culture, technology, open education, and anything else that captures my attention.</p>
   </Hero>
 
   <!-- Featured Posts Section -->
@@ -68,8 +68,8 @@ const getPostUrl = (postId: string) => {
                   href={getPostUrl(post.id)}
                   publishedAt={post.data.publishedAt}
                   tags={post.data.tags}
-                  author={post.data.author}
                   image={post.data.image}
+                  imageAlt={post.data.imageAlt}
                   svgSlug={post.data.svgSlug}
                 />
               </div>
@@ -129,6 +129,7 @@ const getPostUrl = (postId: string) => {
                   tags={post.data.tags}
                   author={post.data.author}
                   image={post.data.image}
+                  imageAlt={post.data.imageAlt}
                   svgSlug={post.data.svgSlug}
                 />
               </div>

@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/9781559390613.png"
+imageAlt: "A Guide to the Bodhisattva Way of Life"
 ---
 
 

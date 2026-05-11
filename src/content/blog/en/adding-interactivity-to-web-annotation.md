@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/9707006091_a6e3d87bd5_b_Marginalia.jpg"
+imageAlt: "Adding Interactivity to Web Annotation"
 ---
 
 

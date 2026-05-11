@@ -9,10 +9,11 @@ publishedAt: 2019-06-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/4FxhAkNTNCQNvhXxWi5BNZ?si=-_AB23LiQM2OAC9pRSONlg"
 spotifyEmbedId: "4FxhAkNTNCQNvhXxWi5BNZ"
-image: "../../assets/music/75-songs-may-2019.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/75-songs-may-2019.jpg"
+imageAlt: ""
 ---
 
 Here's a playlist of 75 songs (a little over 5 hours of music) I listened to and enjoyed in May 2019.

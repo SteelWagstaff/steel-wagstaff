@@ -10,14 +10,13 @@ const commonplaceCollection = defineCollection({
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     locale: z.string().default('en'),
-    image: z.string().optional(),
     source: z.string().optional(),
   }),
 });
 
 const blogCollection = defineCollection({
   type: 'content',
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string().optional(),
     publishedAt: z.coerce.date(),
@@ -25,7 +24,8 @@ const blogCollection = defineCollection({
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     locale: z.string().default('en'),
-    image: z.string().optional(),
+    image: image().optional(),
+    imageAlt: z.string().optional(),
   }),
 });
 

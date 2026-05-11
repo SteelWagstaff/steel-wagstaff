@@ -28,7 +28,7 @@ const allWriting = sortedPosts;
       <div class="grid gap-6">
         {allWriting.map((post) => (
           <a
-            href={`/blog/${post.slug}`}
+            href={`/blog/${post.id.replace('en/', '')}`}
             class="group block p-6 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
           >
             <div class="flex items-start justify-between gap-4">

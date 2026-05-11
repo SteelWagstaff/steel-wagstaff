@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/8515538001_4a12feab52_k.jpg"
+imageAlt: "My June 2017 Reading"
 ---
 
 

@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/carlton_street.jpg"
+imageAlt: "Grimethorpe"
 ---
 
 

@@ -5,10 +5,11 @@ publishedAt: 2020-10-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/7sXlm6zLP1i4Ndk26qmiyT?si=4f36b4cd387b499d](https://open.spotify.com/playlist/7sXlm6zLP1i4Ndk26qmiyT?si=4f36b4cd387b499d"
 spotifyEmbedId: "7sXlm6zLP1i4Ndk26qmiyT"
-image: "../../assets/music/34-songs-september-2020.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/34-songs-september-2020.jpg"
+imageAlt: ""
 ---
 
 34 songs I had on rotation in September 2020

@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/October_2015_zoo_010.jpg"
+imageAlt: "Advice for College Teachers Moving Online Quickly"
 ---
 
 

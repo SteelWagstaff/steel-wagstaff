@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/steve-halama-133032.jpg"
+imageAlt: "My Summer Reading"
 ---
 
 

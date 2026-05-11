@@ -9,10 +9,11 @@ publishedAt: 2015-09-08
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/3uCZGianCi8XiGICaL0sgZ"
 spotifyEmbedId: "3uCZGianCi8XiGICaL0sgZ"
-image: "../../assets/music/laurels-b-day-mixes-disc-12.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/laurels-b-day-mixes-disc-12.jpg"
+imageAlt: ""
 ---
 
 Here's the twelfth in a big collection of mixtapes I made for Laurel's name day a couple years hence.

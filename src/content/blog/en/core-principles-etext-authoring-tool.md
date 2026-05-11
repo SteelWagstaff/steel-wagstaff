@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/23806298056_725f168eb4_k.jpg"
+imageAlt: "Core Principles for an eText Authoring Tool"
 ---
 
 

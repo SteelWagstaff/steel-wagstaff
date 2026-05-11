@@ -9,10 +9,11 @@ publishedAt: 2015-12-22
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/41ACnXG64piODosnS80KyN"
 spotifyEmbedId: "41ACnXG64piODosnS80KyN"
-image: "../../assets/music/laurels-b-day-mixes-disc-27.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/laurels-b-day-mixes-disc-27.jpg"
+imageAlt: ""
 ---
 
 The 27th in a series of birthday mixtapes I made for Laurel back in the day.

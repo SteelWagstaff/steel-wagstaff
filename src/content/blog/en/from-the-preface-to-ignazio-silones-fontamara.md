@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/silone.jpg"
+imageAlt: "From the Preface to Ignazio Silone's Fontamara"
 ---
 
 

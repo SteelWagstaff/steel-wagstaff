@@ -5,11 +5,12 @@ description: "Here's the 2006 mixtape I made for my sister. The second track was
 http://open.spotify.com/user/steelwagstaff/playlist/6HJu7FuK0cPIao6wxHa8Eb"
 publishedAt: 2015-01-28
 author: steel
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/mixtapes-camille-2006.jpg"
+imageAlt: ""
 spotifyEmbedId: "6HJu7FuK0cPIao6wxHa8Eb"
-image: "https://steelwagstaff.info/wordpress/wp-content/uploads/2016/11/2006-e1421261852349.jpg"
 ---
 
 Here's the 2006 mixtape I made for my sister. The second track was Primal Scream's "Country Girl" and Nouvelle Vague's "[Dancing with Myself](http://youtu.be/J5j-ipGFcko)" and Serena Ryder's "[Sisters of Mercy](https://www.youtube.com/watch?v=XZ0-Vk4tl0I)" cover versions came between "Maybe Sparrow" and "The Greatest" on the actual disc, but Spotify doesn't have those songs. Enjoy!

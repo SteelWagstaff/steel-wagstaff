@@ -9,10 +9,11 @@ publishedAt: 2015-12-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/4QJjBrzouFjX6hMoD1LcWm"
 spotifyEmbedId: "4QJjBrzouFjX6hMoD1LcWm"
-image: "../../assets/music/laurels-b-day-mixes-disc-24.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/laurels-b-day-mixes-disc-24.jpg"
+imageAlt: ""
 ---
 
 The twenty-fourth in a series of mixtape presents made for Laurel's birthday a few years gone now.

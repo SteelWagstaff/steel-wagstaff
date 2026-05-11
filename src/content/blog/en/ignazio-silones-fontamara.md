@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/Fontamara_1st_edition.jpg"
+imageAlt: "Ignazio Silone's Fontamara"
 ---
 
 

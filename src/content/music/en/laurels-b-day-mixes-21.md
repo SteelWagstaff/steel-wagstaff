@@ -9,10 +9,11 @@ publishedAt: 2015-11-10
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/6opeHLy2Wv0wRHu6m4uDts"
 spotifyEmbedId: "6opeHLy2Wv0wRHu6m4uDts"
-image: "../../assets/music/laurels-b-day-mixes-21.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/laurels-b-day-mixes-21.jpg"
+imageAlt: ""
 ---
 
 The 21st of several discs I made for Laurel's birthday a few years ago.

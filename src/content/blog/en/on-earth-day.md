@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/earth_day_celebration.jpg"
+imageAlt: "On Earth Day"
 ---
 
 

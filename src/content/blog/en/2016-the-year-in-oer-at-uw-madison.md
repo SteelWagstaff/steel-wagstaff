@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/2237305969_a4b01298e2_b.jpg"
+imageAlt: "2016: The Year in OER at UW-Madison"
 ---
 
 

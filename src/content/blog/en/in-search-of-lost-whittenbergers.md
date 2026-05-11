@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/448748186_a72b035ca7_b.jpg"
+imageAlt: "In Search of Lost Whittenbergers"
 ---
 
 

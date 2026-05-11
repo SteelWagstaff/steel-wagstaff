@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/landmark_locator.jpeg"
+imageAlt: "Thoughts on Licensing: Why I Prefer CC-BY Licenses"
 ---
 
 

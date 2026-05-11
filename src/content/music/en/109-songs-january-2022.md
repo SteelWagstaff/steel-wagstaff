@@ -6,10 +6,11 @@ publishedAt: 2022-02-01
 author: steel
 spotifyUrl: "https://open.spotify.com/playlist/46680Bl8KA3qndabGTfvuD?si=3844812256164d77](https://open.spotify.com/playlist/46680Bl8KA3qndabGTfvuD?si=3844812256164d77"
 spotifyEmbedId: "46680Bl8KA3qndabGTfvuD"
-image: "../../assets/music/109-songs-january-2022.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/109-songs-january-2022.jpg"
+imageAlt: ""
 ---
 
 A whole raft of music that rattled around in my ears during the dawn of 2022

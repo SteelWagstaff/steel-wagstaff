@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/img_0131.jpg"
+imageAlt: "Whittenberger Summer Writing Project: 1998"
 ---
 
 

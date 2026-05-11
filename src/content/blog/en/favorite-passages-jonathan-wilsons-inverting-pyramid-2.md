@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/pyramid.jpg"
+imageAlt: "Favorite Passages from Jonathan Wilson's Inverting"
 ---
 
 
