@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/6253846737_e626eed66f_b.jpg"
+imageAlt: "My March 2017 Reading"
 ---
 
 

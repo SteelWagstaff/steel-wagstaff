@@ -8,8 +8,9 @@ author: steel
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/100-tracks-best-of-april-2013.jpg"
+imageAlt: ""
 spotifyEmbedId: "6Ef4ugfUsuJ3uUKkIhgKjr"
-image: "../../assets/music/100-tracks-best-of-april-2013.jpg"
 ---
 
 Here are the 100 songs that I listened to and liked in April 2013. Pretty gentle, slightly sad music for the most part, I'd say. It was a good month. A lot of Clem Snide, Low, Keaton Henson, Mountain Man, and Emily Wells, with a fair amount of Sharon Van Etten and Ólöf Arnalds thrown in.

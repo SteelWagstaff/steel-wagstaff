@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/IMG_0950.jpg"
+imageAlt: "A Guide to DIY Podcast Recording"
 ---
 
 

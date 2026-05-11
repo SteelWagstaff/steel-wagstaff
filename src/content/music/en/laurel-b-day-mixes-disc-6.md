@@ -5,10 +5,11 @@ publishedAt: 2015-07-27
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/7EyvtONKwGKcgR2ggjGafO"
 spotifyEmbedId: "7EyvtONKwGKcgR2ggjGafO"
-image: "../../assets/music/laurel-b-day-mixes-disc-6.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/laurel-b-day-mixes-disc-6.jpg"
+imageAlt: ""
 ---
 
 Here's the sixth of several mix tapes I made for Laurel's birthday a couple of years yon.

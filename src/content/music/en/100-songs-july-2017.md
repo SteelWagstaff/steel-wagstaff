@@ -9,10 +9,11 @@ publishedAt: 2017-08-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/3u4ewHwcr9jQlsoCFC0wu5"
 spotifyEmbedId: "3u4ewHwcr9jQlsoCFC0wu5"
-image: "../../assets/music/100-songs-july-2017.jpg"
 tags: ["monthly playlist"]
 draft: false
 locale: en
+image: "../../../assets/music/100-songs-july-2017.jpg"
+imageAlt: ""
 ---
 
 Here's a new playlist of 100 songs I listened to and enjoyed in July 2017. Records I had on heavy rotation this month included Nightwares on Wax' _N.O.W. Is the Time_, Flying Lotus' _You're Dead!_, Glass Animals' 2014 release _ZABA_, Nathaniel Rateliff's _Closer_, Guy Clark's _Workbench Songs_, Michael Nau's _Some Twist_. A lot of new discoveries for me this month, probably too many to list here. Hope you enjoy!

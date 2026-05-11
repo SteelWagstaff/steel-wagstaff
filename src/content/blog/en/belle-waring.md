@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/3005145811_932a4645f8_o.jpg"
+imageAlt: "Belle Waring"
 ---
 
 

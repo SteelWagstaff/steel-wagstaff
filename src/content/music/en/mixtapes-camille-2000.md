@@ -5,11 +5,12 @@ description: "Here's the 2000 playlist I made for my sister. All songs included 
 http://open.spotify.com/user/steelwagstaff/playlist/39bTNrE327y6OrWEWIv8AU"
 publishedAt: 2014-12-21
 author: steel
-tags: ["mixtape", "y2014"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/mixtapes-camille-2000.jpg"
+imageAlt: ""
 spotifyEmbedId: "39bTNrE327y6OrWEWIv8AU"
-image: "../../assets/music/mixtapes-camille-2000.jpg"
 ---
 
 Here's the 2000 playlist I made for my sister. All songs included by Spotify (for the first time, I think). Enjoy!

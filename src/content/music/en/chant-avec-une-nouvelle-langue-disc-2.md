@@ -5,10 +5,11 @@ publishedAt: 2015-06-01
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/1XI86WohoJJVG13SBQugJ6"
 spotifyEmbedId: "1XI86WohoJJVG13SBQugJ6"
-image: "../../assets/music/chant-avec-une-nouvelle-langue-disc-2.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/chant-avec-une-nouvelle-langue-disc-2.jpg"
+imageAlt: ""
 ---
 
 Here's the second of two foreign-language music discs I made for Laurel a few years ago. Some songs were missing from Spotify's library, but it's still a pretty grooving mix, I'd say. Enjoy!

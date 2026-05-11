@@ -1,8 +1,9 @@
 ---
+import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { formatDate } from '@/lib/utils';
-import { resolveImageUrl } from '@/lib/image-helpers';
+import heroImage from '@/assets/blog/IMG_1842.jpg';
 
 const music = await getCollection('music', ({ data }) => {
   return !data.draft;
@@ -47,13 +48,22 @@ const getSlug = (id: string) => id.replace('en/', '');
 ---
 
 <PageLayout title="Radio + Podcasts" description="Spotify playlists, mixtapes, college radio shows, and episodes from two podcasts I made in grad school.">
-  <div class="min-h-screen bg-gradient-to-b from-background to-background/50">
+  <div class="bg-gradient-to-b from-background to-background/50">
     <!-- Header -->
-    <div class="mx-auto max-w-4xl px-6 py-12">
+    <div class="mx-auto max-w-4xl px-6 py-8">
       <h1 class="text-4xl font-bold mb-4">Radio + Podcasts</h1>
       <p class="text-lg text-muted-foreground mb-8">
         I love independent and community-supported radio. Some of my happiest memories from graduate school involve hosting a student radio show and making an amateur podcast with my old friend Dave Jenson.
       </p>
+      
+      <!-- Hero Image -->
+      <div class="relative w-full h-64 md:h-80 lg:h-96 overflow-hidden rounded-lg mb-8">
+        <Image 
+          src={heroImage} 
+          alt="Steel in WSUM studio"
+          class="w-full h-full object-cover"
+        />
+      </div>
     </div>
 
     <!-- Content Sections -->
@@ -71,10 +81,13 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <img 
-                    src={resolveImageUrl(item.data.image)} 
+                  <Image 
+                    src={item.data.image}
                     alt={item.data.imageAlt || item.data.title}
+                    widths={[320, 640, 960]}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    loading="lazy"
                   />
                 </div>
               )}
@@ -120,10 +133,13 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <img 
-                    src={resolveImageUrl(item.data.image)} 
+                  <Image 
+                    src={item.data.image}
                     alt={item.data.imageAlt || item.data.title}
+                    widths={[320, 640, 960]}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    loading="lazy"
                   />
                 </div>
               )}
@@ -169,10 +185,13 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <img 
-                    src={resolveImageUrl(item.data.image)} 
+                  <Image 
+                    src={item.data.image}
                     alt={item.data.imageAlt || item.data.title}
+                    widths={[320, 640, 960]}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    loading="lazy"
                   />
                 </div>
               )}
@@ -220,10 +239,13 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <img 
-                    src={resolveImageUrl(item.data.image)} 
+                  <Image 
+                    src={item.data.image}
                     alt={item.data.imageAlt || item.data.title}
+                    widths={[320, 640, 960]}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    loading="lazy"
                   />
                 </div>
               )}
@@ -263,10 +285,13 @@ const getSlug = (id: string) => id.replace('en/', '');
               >
                 {item.data.image && (
                   <div class="aspect-[3/2] bg-muted overflow-hidden">
-                    <img 
-                      src={resolveImageUrl(item.data.image)} 
+                    <Image 
+                      src={item.data.image}
                       alt={item.data.imageAlt || item.data.title}
+                      widths={[320, 640, 960]}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      loading="lazy"
                     />
                   </div>
                 )}

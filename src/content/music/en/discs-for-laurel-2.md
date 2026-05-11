@@ -9,10 +9,11 @@ publishedAt: 2015-04-13
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/3Qi0lu9ZlNvi3cvvOwNLlT"
 spotifyEmbedId: "3Qi0lu9ZlNvi3cvvOwNLlT"
-image: "../../assets/music/discs-for-laurel-2.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/discs-for-laurel-2.jpg"
+imageAlt: ""
 ---
 
 Here's the second of a set of several discs I made for Laurel several years ago for her to listen to while driving.

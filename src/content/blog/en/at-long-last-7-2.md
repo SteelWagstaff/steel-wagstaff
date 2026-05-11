@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/img_1970-e1431529356879.jpg"
+imageAlt: "At Long Last..."
 ---
 
 

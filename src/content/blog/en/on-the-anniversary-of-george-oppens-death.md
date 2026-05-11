@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/Pages-from-mss33-b1-f12.jpg"
+imageAlt: "On the Anniversary of George Oppen's Death"
 ---
 
 

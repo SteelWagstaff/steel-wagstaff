@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/mark_nowak.jpg"
+imageAlt: "Mark Nowak"
 ---
 
 

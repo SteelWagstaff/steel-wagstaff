@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/15273343947_855a5a9d3a_b_network-boston-ivy-leaf.jpg"
+imageAlt: "Making a Personal Website: A guide for grad studen"
 ---
 
 

@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/8128375073_d28072f931_b.jpg"
+imageAlt: "Three versions of an Objectivist Poetics"
 ---
 
 

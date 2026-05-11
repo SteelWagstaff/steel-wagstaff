@@ -6,6 +6,8 @@ author: steel
 tags: []
 draft: false
 locale: en
+image: "../../../assets/blog/7318346230_e81850a5a6_k-1.jpg"
+imageAlt: "Reading Recommendations from Friends [September 20"
 ---
 
 

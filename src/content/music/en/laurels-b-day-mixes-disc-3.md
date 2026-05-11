@@ -5,10 +5,11 @@ publishedAt: 2015-07-06
 author: steel
 spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2avcd94gWp4reFwJCQ0UNL"
 spotifyEmbedId: "2avcd94gWp4reFwJCQ0UNL"
-image: "../../assets/music/laurels-b-day-mixes-disc-3.jpg"
-tags: ["mixtape", "y2015"]
+tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/laurels-b-day-mixes-disc-3.jpg"
+imageAlt: ""
 ---
 
 Here's the third of several discs I made for Laurel's birthday a few years back:
