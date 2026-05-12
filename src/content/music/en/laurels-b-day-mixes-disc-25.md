@@ -1,6 +1,6 @@
 ---
 title: "Laurel's B-Day Mixes [Disc #25]"
-description: "Disc #25 in a series of mixtapes made for Laurel's birthday in years gone by.
+description: "Disc #25 in a series of mixtapes made for Laurel's birthday."
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Laurel's B-Day Mixes [Disc #29]"
-description: "Number 29 in a series of 30 birthday mixtapes I made for Laurel's birthday several years ago. Enjoy!
+description: "Number 29 in a series of 30 birthday mixtapes for Laurel."
 
 
 

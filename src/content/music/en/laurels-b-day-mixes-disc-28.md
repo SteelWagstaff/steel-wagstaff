@@ -1,6 +1,6 @@
 ---
 title: "Laurel's B-Day Mixes [Disc #28]"
-description: "Disc #28 in the birthday mixtape gift I put together for Laurel's birthday a few years ago to give her some music to listen to in the car as she drove around the state for her job.
+description: "Disc #28 in the birthday mixtape gift for Laurel."
 
 
 
