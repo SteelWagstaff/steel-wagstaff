@@ -107,6 +107,8 @@ const music = defineCollection({
     description: z.string().max(500).optional(),
     publishedAt: z.coerce.date(),
     author: z.string().default('Steel Wagstaff'),
+    podcast: z.string().optional(), // For Steel's Magnolias radio shows
+    episode: z.number().optional(), // For Steel's Magnolias episodes
     spotifyUrl: z.string().url().optional(),
     spotifyEmbedId: z.string().optional(),
     image: z.string().optional(),
