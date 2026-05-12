@@ -1,11 +1,12 @@
 ---
+import { Image } from 'astro:assets';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { Hero } from '@/components/hero';
 import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Icon from '@/components/ui/primitives/Icon/Icon.astro';
 import Card from '@/components/ui/data-display/Card/Card.astro';
 import { getCollection } from 'astro:content';
-import { resolveImageUrl } from '@/lib/image-helpers';
+import { resolveMusicImage } from '@/lib/music-image-resolver';
 
 // Get all published podcast episodes for Theme Songs
 const allEpisodes = await getCollection('podcasts', ({ data }) => {
@@ -47,27 +48,34 @@ const getEpisodeUrl = (id: string) => {
 
   <!-- Episodes List -->
   <section class="bg-background py-[var(--space-section-md)]">
-    <div class="mx-auto max-w-3xl px-6 flex flex-col gap-8">
-      <div class="flex flex-col gap-4">
+    <div class="mx-auto max-w-6xl px-6 flex flex-col gap-8">
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {episodes.map((episode, idx) => (
           <div
             key={episode.id}
             data-reveal
-            data-reveal-delay={idx % 2}
-            class="episode-card"
+            data-reveal-delay={idx % 3}
+            class="h-full"
           >
             <a href={getEpisodeUrl(episode.id)} class="block group">
-              <Card class="hover:border-brand hover:shadow-lg transition-all duration-300 overflow-hidden">
+              <Card class="h-full hover:border-brand hover:shadow-lg transition-all duration-300 overflow-hidden">
                 {episode.data.image && (
                   <div class="aspect-video bg-muted overflow-hidden mb-3">
-                    <img 
-                      src={resolveImageUrl(episode.data.image)} 
-                      alt={episode.data.imageAlt || episode.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
+                    {(() => {
+                      const resolvedImg = resolveMusicImage(episode.data.image);
+                      return typeof resolvedImg === 'object' && resolvedImg ? (
+                        <Image 
+                          src={resolvedImg}
+                          alt={episode.data.imageAlt || episode.data.title}
+                          widths={[320, 640, 960]}
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
+                          class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                      ) : null;
+                    })()}
                   </div>
                 )}
-                <div class="flex flex-col gap-3 px-4 pb-4">
+                <div class="flex flex-col gap-3 px-4 pb-4 h-full">
                   <div class="flex items-start justify-between gap-4">
                     <div class="flex-1">
                       {episode.data.episode && (
@@ -83,12 +91,12 @@ const getEpisodeUrl = (id: string) => {
                   </div>
 
                   {episode.data.description && (
-                    <p class="text-sm text-foreground-muted line-clamp-2">
+                    <p class="text-sm text-foreground-muted line-clamp-2 flex-grow">
                       {episode.data.description}
                     </p>
                   )}
 
-                  <div class="flex items-center justify-between pt-2 border-t border-border">
+                  <div class="flex items-center justify-between pt-2 border-t border-border mt-auto">
                     <time class="text-xs text-foreground-muted">
                       {new Intl.DateTimeFormat('en-US', {
                         year: 'numeric',

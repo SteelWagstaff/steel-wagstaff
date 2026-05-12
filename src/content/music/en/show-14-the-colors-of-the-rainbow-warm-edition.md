@@ -8,7 +8,7 @@ episode: 83
 tags: []
 draft: false
 locale: en
-image: "../../assets/music/show-14-the-colors-of-the-rainbow-warm-edition.jpg"
+image: "../../../assets/music/show-14-the-colors-of-the-rainbow-warm-edition.jpg"
 spotifyEmbedId: "7iQpJMajEOA1wTxAAHKarf"
 ---
 

@@ -5,7 +5,7 @@ author: steel
 podcast: "Theme Songs"
 episode: 6
 tags: []
-image: "../../assets/podcasts/11238409384_0cdb908f46_b_independence.jpg"
+image: "../../../assets/podcasts/11238409384_0cdb908f46_b_independence.jpg"
 imageAlt: "Independence"
 
 draft: false

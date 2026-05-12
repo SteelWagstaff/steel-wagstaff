@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 7
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_007.mp3"
-image: "../../assets/podcasts/bill_ted.gif"
+image: "../../../assets/podcasts/bill_ted.gif"
 imageAlt: "Episode 7: Time Travel, OTC Hall of Fame, Ask OTC, Unchained Melodies, and All the Pretty Horses"
 tags: []
 draft: false

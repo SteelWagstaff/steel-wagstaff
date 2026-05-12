@@ -4,7 +4,7 @@ publishedAt: 2018-03-30
 author: steel
 podcast: "Theme Songs"
 episode: 17
-image: "../../assets/podcasts/33904220075_49efdaf376_k.jpg"
+image: "../../../assets/podcasts/33904220075_49efdaf376_k.jpg"
 imageAlt: "Theme Songs, Episode 17: Irresistible Dance Music"
 tags: []
 draft: false

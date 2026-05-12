@@ -4,7 +4,7 @@ publishedAt: 2018-03-22
 author: steel
 podcast: "Theme Songs"
 episode: 16
-image: "../../assets/podcasts/suot.jpg"
+image: "../../../assets/podcasts/suot.jpg"
 imageAlt: "Theme Songs, Episode 16: Songs You've Listened to >1000 Times"
 tags: []
 draft: false

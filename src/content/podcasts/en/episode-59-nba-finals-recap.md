@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 59
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_059.mp3"
-image: "../../assets/podcasts/Screen-Shot-2016-06-30-at-10.02.54-AM.png"
+image: "../../../assets/podcasts/Screen-Shot-2016-06-30-at-10.02.54-AM.png"
 imageAlt: "Episode 59: NBA Finals Recap"
 tags: []
 draft: false

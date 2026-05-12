@@ -8,7 +8,7 @@ episode: 92
 tags: ["music"]
 draft: false
 locale: en
-image: "../../assets/music/show-3-island-music-july-26-2012.jpg"
+image: "../../../assets/music/show-3-island-music-july-26-2012.jpg"
 spotifyEmbedId: "1BqgwsRSHAINNyOGqHKBMM"
 ---
 

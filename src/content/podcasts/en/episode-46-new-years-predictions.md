@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 46
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_046.mp3"
-image: "../../assets/podcasts/3248483447_95d2e9957a_b_crystal-ball.jpg"
+image: "../../../assets/podcasts/3248483447_95d2e9957a_b_crystal-ball.jpg"
 imageAlt: "Episode 46: New Year&#039;s Predictions"
 tags: []
 draft: false

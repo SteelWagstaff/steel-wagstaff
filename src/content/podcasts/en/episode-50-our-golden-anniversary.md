@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 50
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_050.mp3"
-image: "../../assets/podcasts/2807438258_b9a9ee98a7_b_fiftieth.jpg"
+image: "../../../assets/podcasts/2807438258_b9a9ee98a7_b_fiftieth.jpg"
 imageAlt: "Episode 50: Our Golden Anniversary"
 tags: []
 draft: false

@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 23
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_023.mp3"
-image: "../../assets/podcasts/nba_draft_1993.jpeg"
+image: "../../../assets/podcasts/nba_draft_1993.jpeg"
 imageAlt: "Episode 23: NBA Draft Fashion, Jurassic World, Lost the Plot: Escape Plan, Overlooked Biblical Names, OTC Hall of Fame, Unchained Melodies, and The Meaning of July Fourth for the Negro"
 tags: []
 draft: false

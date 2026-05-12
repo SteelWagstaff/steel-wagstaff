@@ -8,7 +8,7 @@ episode: 90
 tags: []
 draft: false
 locale: en
-image: "../../assets/music/show-20-thanksgiving.jpg"
+image: "../../../assets/music/show-20-thanksgiving.jpg"
 spotifyEmbedId: "6ZjQ60mHYG6Bcs8QMrpzsh"
 ---
 

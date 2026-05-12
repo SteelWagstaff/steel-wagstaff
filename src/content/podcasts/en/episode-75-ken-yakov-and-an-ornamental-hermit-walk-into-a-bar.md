@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 75
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_075.mp3"
-image: "../../assets/podcasts/sig_cartoon.png"
+image: "../../../assets/podcasts/sig_cartoon.png"
 imageAlt: "Episode 75: Ken, Yakov, and an Ornamental Hermit Walk Into a Bar ..."
 tags: []
 draft: false

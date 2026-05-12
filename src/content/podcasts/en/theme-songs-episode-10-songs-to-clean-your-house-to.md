@@ -4,7 +4,7 @@ publishedAt: 2017-12-15
 author: steel
 podcast: "Theme Songs"
 episode: 10
-image: "../../assets/podcasts/34398837895_39c50d1196_k.jpg"
+image: "../../../assets/podcasts/34398837895_39c50d1196_k.jpg"
 imageAlt: "Theme Songs, Episode 10: Songs to Clean Your House To"
 tags: []
 draft: false

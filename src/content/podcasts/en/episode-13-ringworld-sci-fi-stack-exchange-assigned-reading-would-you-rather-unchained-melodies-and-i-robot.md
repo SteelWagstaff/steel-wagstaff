@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 13
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_013.mp3"
-image: "../../assets/podcasts/Puppeteer_KevinBannister.jpg"
+image: "../../../assets/podcasts/Puppeteer_KevinBannister.jpg"
 imageAlt: "Episode 13: Ringworld, Sci-Fi Stack Exchange, Assigned Reading, Would You Rather?, Unchained Melodies, and I, Robot."
 tags: []
 draft: false

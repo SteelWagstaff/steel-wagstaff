@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 6
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_006.mp3"
-image: "../../assets/podcasts/15391343_10157841440035331_2568812977077257934_o.jpg"
+image: "../../../assets/podcasts/15391343_10157841440035331_2568812977077257934_o.jpg"
 imageAlt: "Episode 6: At the Limits, Small Talk, Unchained Melodies, and Grooks"
 tags: []
 draft: false

@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 52
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_052.mp3"
-image: "../../assets/podcasts/mark.jpg"
+image: "../../../assets/podcasts/mark.jpg"
 imageAlt: "Mark Eliason"
 tags: []
 draft: false

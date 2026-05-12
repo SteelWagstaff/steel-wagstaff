@@ -1,8 +1,9 @@
 ---
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { formatDate } from '@/lib/utils';
+import { resolveMusicImage } from '@/lib/music-image-resolver';
 import heroImage from '@/assets/blog/IMG_1842.jpg';
 
 const music = await getCollection('music', ({ data }) => {
@@ -81,14 +82,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <Image 
-                    src={item.data.image}
-                    alt={item.data.imageAlt || item.data.title}
-                    widths={[320, 640, 960]}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    loading="lazy"
-                  />
+                  {(() => {
+                    const resolvedImg = resolveMusicImage(item.data.image);
+                    return typeof resolvedImg === 'object' && resolvedImg ? (
+                      <Image 
+                        src={resolvedImg}
+                        alt={item.data.imageAlt || item.data.title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      />
+                    ) : null;
+                  })()}
                 </div>
               )}
               <div class="p-4">
@@ -133,14 +136,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <Image 
-                    src={item.data.image}
-                    alt={item.data.imageAlt || item.data.title}
-                    widths={[320, 640, 960]}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    loading="lazy"
-                  />
+                  {(() => {
+                    const resolvedImg = resolveMusicImage(item.data.image);
+                    return typeof resolvedImg === 'object' && resolvedImg ? (
+                      <Image 
+                        src={resolvedImg}
+                        alt={item.data.imageAlt || item.data.title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      />
+                    ) : null;
+                  })()}
                 </div>
               )}
               <div class="p-4">
@@ -185,14 +190,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <Image 
-                    src={item.data.image}
-                    alt={item.data.imageAlt || item.data.title}
-                    widths={[320, 640, 960]}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    loading="lazy"
-                  />
+                  {(() => {
+                    const resolvedImg = resolveMusicImage(item.data.image);
+                    return typeof resolvedImg === 'object' && resolvedImg ? (
+                      <Image 
+                        src={resolvedImg}
+                        alt={item.data.imageAlt || item.data.title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      />
+                    ) : null;
+                  })()}
                 </div>
               )}
               <div class="p-4">
@@ -239,14 +246,16 @@ const getSlug = (id: string) => id.replace('en/', '');
             >
               {item.data.image && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  <Image 
-                    src={item.data.image}
-                    alt={item.data.imageAlt || item.data.title}
-                    widths={[320, 640, 960]}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    loading="lazy"
-                  />
+                  {(() => {
+                    const resolvedImg = resolveMusicImage(item.data.image);
+                    return typeof resolvedImg === 'object' && resolvedImg ? (
+                      <Image 
+                        src={resolvedImg}
+                        alt={item.data.imageAlt || item.data.title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      />
+                    ) : null;
+                  })()}
                 </div>
               )}
               <div class="p-4">
@@ -285,14 +294,16 @@ const getSlug = (id: string) => id.replace('en/', '');
               >
                 {item.data.image && (
                   <div class="aspect-[3/2] bg-muted overflow-hidden">
-                    <Image 
-                      src={item.data.image}
-                      alt={item.data.imageAlt || item.data.title}
-                      widths={[320, 640, 960]}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      loading="lazy"
-                    />
+                    {(() => {
+                      const resolvedImg = resolveMusicImage(item.data.image);
+                      return typeof resolvedImg === 'object' && resolvedImg ? (
+                        <Image 
+                          src={resolvedImg}
+                          alt={item.data.imageAlt || item.data.title}
+                          class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                      ) : null;
+                    })()}
                   </div>
                 )}
                 <div class="p-4">

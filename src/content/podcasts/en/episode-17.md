@@ -4,7 +4,7 @@ publishedAt: 2015-05-22
 author: steel
 podcast: "Off the Chain"
 episode: 17
-image: "../../assets/podcasts/minger.png"
+image: "../../../assets/podcasts/minger.png"
 imageAlt: "Mingering Mike collage"
 tags: ["book-wisdom", "otc-authors", "otc-vistas", "small-talk", "unchained-melodies"]
 draft: false

@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 55
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_055.mp3"
-image: "../../assets/podcasts/cruz.gif"
+image: "../../../assets/podcasts/cruz.gif"
 imageAlt: "Ted Cruz, elbowing people"
 tags: []
 draft: false

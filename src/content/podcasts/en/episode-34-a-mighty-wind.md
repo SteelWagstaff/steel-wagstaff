@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 34
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_034.mp3"
-image: "../../assets/podcasts/359987461_3fc1147bc6_b_trumpet-jazz-e1443631022319.jpg"
+image: "../../../assets/podcasts/359987461_3fc1147bc6_b_trumpet-jazz-e1443631022319.jpg"
 imageAlt: "Man playing two trumpets"
 tags: []
 draft: false

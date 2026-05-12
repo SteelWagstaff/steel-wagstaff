@@ -5,7 +5,7 @@ author: steel
 podcast: "Theme Songs"
 episode: 7
 tags: []
-image: "../../assets/podcasts/15498245665_3253ec79c9_b_jack-o-lantern.jpg"
+image: "../../../assets/podcasts/15498245665_3253ec79c9_b_jack-o-lantern.jpg"
 imageAlt: "Theme Songs, Episode 7: Spooky Songs"
 draft: false
 locale: en

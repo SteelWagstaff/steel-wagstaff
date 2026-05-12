@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 25
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_025.mp3"
-image: "../../assets/podcasts/emoji_poops.png"
+image: "../../../assets/podcasts/emoji_poops.png"
 imageAlt: "Episode 25: Summer Movies, On Death and Dying, Ask OTC, Unchained Melodies: Funeral Music, and Preparing for Death"
 tags: []
 draft: false

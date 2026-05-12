@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 48
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_048.mp3"
-image: "../../assets/podcasts/gold_donut.jpg"
+image: "../../../assets/podcasts/gold_donut.jpg"
 imageAlt: "Episode 48: Cities of the Future"
 tags: []
 draft: false

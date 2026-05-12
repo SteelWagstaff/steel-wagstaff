@@ -8,7 +8,7 @@ episode: 95
 tags: []
 draft: false
 locale: en
-image: "../../assets/music/show-6-the-konami-code-august-16-2012.jpg"
+image: "../../../assets/music/show-6-the-konami-code-august-16-2012.jpg"
 spotifyEmbedId: "0KPsaJiCyHgYzrCXuh9NcM"
 ---
 

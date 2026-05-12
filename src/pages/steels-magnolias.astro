@@ -1,11 +1,12 @@
 ---
+import { Image } from 'astro:assets';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { Hero } from '@/components/hero';
 import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Icon from '@/components/ui/primitives/Icon/Icon.astro';
 import Card from '@/components/ui/data-display/Card/Card.astro';
 import { getCollection } from 'astro:content';
-import { resolveImageUrl } from '@/lib/image-helpers';
+import { resolveMusicImage } from '@/lib/music-image-resolver';
 
 // Get all published music shows (Steel's Magnolias)
 const allMusic = await getCollection('music', ({ data }) => {
@@ -55,11 +56,18 @@ const getShowUrl = (id: string) => {
               <Card class="h-full hover:border-brand hover:shadow-lg transition-all duration-300 overflow-hidden">
                 {show.data.image && (
                   <div class="aspect-video bg-muted overflow-hidden mb-3">
-                    <img 
-                      src={resolveImageUrl(show.data.image)} 
-                      alt={show.data.imageAlt || show.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
+                    {(() => {
+                      const resolvedImg = resolveMusicImage(show.data.image);
+                      return typeof resolvedImg === 'object' && resolvedImg ? (
+                        <Image 
+                          src={resolvedImg}
+                          alt={show.data.imageAlt || show.data.title}
+                          widths={[320, 640, 960]}
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
+                          class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                      ) : null;
+                    })()}
                   </div>
                 )}
                 <div class="flex flex-col gap-3 h-full px-4 pb-4">

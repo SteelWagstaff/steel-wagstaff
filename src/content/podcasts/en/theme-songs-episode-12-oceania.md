@@ -4,7 +4,7 @@ publishedAt: 2018-01-24
 author: steel
 podcast: "Theme Songs"
 episode: 12
-image: "../../assets/podcasts/34058730421_e1ef1e82a1_k.jpg"
+image: "../../../assets/podcasts/34058730421_e1ef1e82a1_k.jpg"
 imageAlt: "Theme Songs, Episode 12: Oceania"
 tags: []
 draft: false

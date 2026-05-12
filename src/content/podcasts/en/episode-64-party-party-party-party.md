@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 64
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_064.mp3"
-image: "../../assets/podcasts/Andy2016-ProtectingSasquatchSpecies-e1475186155388.jpg"
+image: "../../../assets/podcasts/Andy2016-ProtectingSasquatchSpecies-e1475186155388.jpg"
 imageAlt: "Episode 64: The Party! Party! Party! party"
 tags: []
 draft: false

@@ -4,15 +4,11 @@ publishedAt: 2015-04-10
 author: steel
 podcast: "Off the Chain"
 episode: 11
-tags: ["aliens", "book-wisdom", "lost-the-plot", "unchained-melodies", "otc-hall-of-fame"]
-image: "../../assets/podcasts/Sacrifice_of_Isaac-Caravaggio_Uffizi-e1427992486280.jpg"
+image: "../../../assets/podcasts/Sacrifice_of_Isaac-Caravaggio_Uffizi-e1427992486280.jpg"
 imageAlt: "Caravaggio's Sacrifice of Isaac"
-
 draft: false
 locale: en
----
-  - "otc-hall-of-fame"
-  - "unchained-melodies"
+tags: ["aliens", "book-wisdom", "lost-the-plot", "unchained-melodies", "otc-hall-of-fame"]
 ---
 
 This week Dave and Steel discuss Dave's new haircut, four types of aliens, induct the newest member of the OTC Hall of Fame, play Lost the Plot with the film John Wick, share some great music from Andrew Bird, Mississippi John Hurt, Alvin Youngblood Hart, Cat Power, and Roger Miller, and drop some heavy theology from the Book of Genesis.
