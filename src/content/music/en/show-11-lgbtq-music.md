@@ -8,7 +8,7 @@ episode: 80
 tags: ["music"]
 draft: false
 locale: en
-image: "../../assets/music/show-11-lgbtq-music.jpg"
+image: "../../../assets/music/show-11-lgbtq-music.jpg"
 spotifyEmbedId: "6wUO0OOhNFaXty7E3iAD6m"
 ---
 

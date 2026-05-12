@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 21
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_021.mp3"
-image: "../../assets/podcasts/StillLifeWithASkull-e1437094351494.jpg"
+image: "../../../assets/podcasts/StillLifeWithASkull-e1437094351494.jpg"
 imageAlt: "Episode 21: Pickup Basketball, Assigned Reading, Expert Testimony: Urban Planning, Unchained Melodies, and Those Winter Sundays"
 tags: []
 draft: false

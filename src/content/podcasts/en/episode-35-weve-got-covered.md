@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 35
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_035.mp3"
-image: "../../assets/podcasts/3988357319_c98698ac56_b_county-fair.jpg"
+image: "../../../assets/podcasts/3988357319_c98698ac56_b_county-fair.jpg"
 imageAlt: "Episode 35: We&#039;ve Got You Covered!"
 tags: []
 draft: false

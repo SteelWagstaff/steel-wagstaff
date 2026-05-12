@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 56
 tags: ["politics"]
-image: "../../assets/podcasts/DSC00374.jpg"
+image: "../../../assets/podcasts/DSC00374.jpg"
 imageAlt: "Jordan Faux playing guitar on roof, 4th of July"
 draft: false
 locale: en

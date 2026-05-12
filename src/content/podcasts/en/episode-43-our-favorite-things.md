@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 43
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_043.mp3"
-image: "../../assets/podcasts/Oprah-Favorite-Things-List-2015.jpg"
+image: "../../../assets/podcasts/Oprah-Favorite-Things-List-2015.jpg"
 imageAlt: "Episode 43: Our Favorite Things"
 tags: []
 draft: false

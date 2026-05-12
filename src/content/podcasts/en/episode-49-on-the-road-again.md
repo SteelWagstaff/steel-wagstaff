@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 49
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_049.mp3"
-image: "../../assets/podcasts/16372230729_15c77b1c35_b_on-the-road.jpg"
+image: "../../../assets/podcasts/16372230729_15c77b1c35_b_on-the-road.jpg"
 imageAlt: "Episode 49: On the Road Again"
 tags: []
 draft: false

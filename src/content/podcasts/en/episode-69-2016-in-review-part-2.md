@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 69
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_069.mp3"
-image: "../../assets/podcasts/15391343_10157841440035331_2568812977077257934_o.jpg"
+image: "../../../assets/podcasts/15391343_10157841440035331_2568812977077257934_o.jpg"
 imageAlt: "Episode 69: 2016 in Review, part 2"
 tags: []
 draft: false

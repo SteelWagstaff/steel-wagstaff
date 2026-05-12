@@ -4,7 +4,7 @@ publishedAt: 2018-03-15
 author: steel
 podcast: "Theme Songs"
 episode: 15
-image: "../../assets/podcasts/ezgif.com-video-to-gif.gif"
+image: "../../../assets/podcasts/ezgif.com-video-to-gif.gif"
 imageAlt: "Theme Songs, Episode 15: Hair"
 tags: []
 draft: false

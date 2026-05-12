@@ -4,7 +4,7 @@ publishedAt: 2017-09-04
 author: steel
 podcast: "Theme Songs"
 episode: 2
-image: "../../assets/podcasts/yolatengo_wide-20e8d2f57397f5c15fde95da114c0fbaa150bb0f.jpg"
+image: "../../../assets/podcasts/yolatengo_wide-20e8d2f57397f5c15fde95da114c0fbaa150bb0f.jpg"
 imageAlt: "Theme Songs, Episode 2: \"That Wasn't What I Was Expecting\""
 tags: []
 draft: false

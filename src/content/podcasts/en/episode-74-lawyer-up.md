@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 74
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_074.mp3"
-image: "../../assets/podcasts/photo-e1494267191772.jpg"
+image: "../../../assets/podcasts/photo-e1494267191772.jpg"
 imageAlt: "Episode 74: Lawyer Up"
 tags: []
 draft: false

@@ -4,7 +4,7 @@ publishedAt: 2018-02-14
 author: steel
 podcast: "Theme Songs"
 episode: 14
-image: "../../assets/podcasts/14767251514_f80ef9cd4d_b_reading-writing-arithmetic.jpg"
+image: "../../../assets/podcasts/14767251514_f80ef9cd4d_b_reading-writing-arithmetic.jpg"
 imageAlt: "Webster's International Dictionary"
 tags: []
 draft: false

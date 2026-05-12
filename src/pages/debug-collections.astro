@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+
+const blog = await getCollection('blog', ({ data }) => {
+  return !data.draft;
+});
+
+const music = await getCollection('music', ({ data }) => {
+  return !data.draft;
+});
+
+const podcasts = await getCollection('podcasts', ({ data }) => {
+  return !data.draft;
+});
+---
+
+<pre>
+Blog items: {blog.length}
+Music items: {music.length}
+Podcast items: {podcasts.length}
+
+{music.length > 0 && `First music: ${music[0].id}`}
+{blog.length > 0 && `First blog: ${blog[0].id}`}
+</pre>

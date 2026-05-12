@@ -4,7 +4,7 @@ publishedAt: 2017-11-08
 author: steel
 podcast: "Theme Songs"
 episode: 8
-image: "../../assets/podcasts/strange_voices.jpg"
+image: "../../../assets/podcasts/strange_voices.jpg"
 imageAlt: "Theme Songs, Episode 8: Strange Voices"
 tags: []
 draft: false

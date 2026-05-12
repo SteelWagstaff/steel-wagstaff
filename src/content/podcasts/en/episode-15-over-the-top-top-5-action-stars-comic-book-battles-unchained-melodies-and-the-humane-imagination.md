@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 15
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_015.mp3"
-image: "../../assets/podcasts/8015843393_ad09333276_k-e1431202031327.jpg"
+image: "../../../assets/podcasts/8015843393_ad09333276_k-e1431202031327.jpg"
 imageAlt: "Episode 15: Over the Top: Top 5 Action Stars, Comic Book Battles, Unchained Melodies, and The Humane Imagination"
 tags: []
 draft: false

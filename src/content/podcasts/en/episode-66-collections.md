@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 66
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_066.mp3"
-image: "../../assets/podcasts/14650460_10157568510415331_8325609680011857484_n-e1479846139682.jpg"
+image: "../../../assets/podcasts/14650460_10157568510415331_8325609680011857484_n-e1479846139682.jpg"
 imageAlt: "Episode 66: Collections"
 tags: []
 draft: false

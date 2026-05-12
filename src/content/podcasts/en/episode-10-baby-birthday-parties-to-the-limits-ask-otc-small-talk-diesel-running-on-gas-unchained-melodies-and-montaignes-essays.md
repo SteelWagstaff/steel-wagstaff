@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 10
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_010.mp3"
-image: "../../assets/podcasts/11046781_10153764399888957_2982691556776664600_n.jpg"
+image: "../../../assets/podcasts/11046781_10153764399888957_2982691556776664600_n.jpg"
 imageAlt: "Episode 10: Baby Birthday Parties, To The Limits, Ask OTC, Small Talk, Diesel: Running on Gas, Unchained Melodies, and Montaigne&#039;s Essays"
 tags: []
 draft: false

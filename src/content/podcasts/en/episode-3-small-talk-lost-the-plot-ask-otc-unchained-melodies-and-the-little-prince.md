@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 3
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_003.mp3"
-image: "../../assets/podcasts/43746379_804421b4e4_b_kids-playing.jpg"
+image: "../../../assets/podcasts/43746379_804421b4e4_b_kids-playing.jpg"
 imageAlt: "Episode 3: Small Talk, Lost the Plot, Ask OTC, Unchained Melodies, and The Little Prince"
 tags: []
 draft: false

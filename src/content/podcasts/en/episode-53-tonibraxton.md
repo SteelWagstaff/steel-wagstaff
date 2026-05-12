@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 53
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_053.mp3"
-image: "../../assets/podcasts/12002965_881399857491_4949990259062897172_n.jpg"
+image: "../../../assets/podcasts/12002965_881399857491_4949990259062897172_n.jpg"
 imageAlt: "Episode 53: #ToniBraxton"
 tags: []
 draft: false

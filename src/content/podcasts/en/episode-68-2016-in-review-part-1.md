@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 68
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_068.mp3"
-image: "../../assets/podcasts/bunting.jpg"
+image: "../../../assets/podcasts/bunting.jpg"
 imageAlt: "Episode 68: 2016 in Review, part 1"
 tags: []
 draft: false

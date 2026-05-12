@@ -1,10 +1,12 @@
 ---
+import { Image } from 'astro:assets';
 import PageLayout from '@/layouts/PageLayout.astro';
 import { Hero } from '@/components/hero';
 import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Icon from '@/components/ui/primitives/Icon/Icon.astro';
 import Card from '@/components/ui/data-display/Card/Card.astro';
 import { getCollection } from 'astro:content';
+import { resolveMusicImage } from '@/lib/music-image-resolver';
 
 // Get all published music shows (Steel's Magnolias)
 const allMusic = await getCollection('music', ({ data }) => {
@@ -47,6 +49,20 @@ const getShowUrl = (id: string) => {
           <div data-reveal data-reveal-delay={idx % 3} class="h-full">
             <a href={getShowUrl(show.id)} class="block group">
               <Card class="h-full hover:border-brand hover:shadow-lg transition-all duration-300">
+                {show.data.image && (
+                  <div class="aspect-video bg-muted overflow-hidden mb-3">
+                    {(() => {
+                      const resolvedImg = resolveMusicImage(show.data.image);
+                      return typeof resolvedImg === 'object' && resolvedImg ? (
+                        <Image 
+                          src={resolvedImg}
+                          alt={show.data.imageAlt || show.data.title}
+                          class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                      ) : null;
+                    })()}
+                  </div>
+                )}
                 <div class="flex flex-col gap-3 h-full">
                   <div class="flex items-start justify-between">
                     <h3 class="font-display text-lg font-bold text-foreground group-hover:text-brand transition-colors">

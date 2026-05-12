@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 1
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_001.mp3"
-image: "../../assets/podcasts/jordan_hulk-e1422546382696.jpg"
+image: "../../../assets/podcasts/jordan_hulk-e1422546382696.jpg"
 imageAlt: "Episode 1: Planet Hulk, Non-Stop, &amp; Damien Jurado"
 tags: []
 draft: false

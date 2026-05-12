@@ -8,7 +8,7 @@ episode: 88
 tags: []
 draft: false
 locale: en
-image: "../../assets/music/show-19-tumblrweeds-at-years-end.jpg"
+image: "../../../assets/music/show-19-tumblrweeds-at-years-end.jpg"
 spotifyEmbedId: "6AAzVsJUwKvPymygw1AX88"
 ---
 

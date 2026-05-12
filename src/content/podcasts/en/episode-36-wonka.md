@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 36
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_036.mp3"
-image: "../../assets/podcasts/8371484762_c83c8ec83b_b_charlie-chocolate-factory.jpg"
+image: "../../../assets/podcasts/8371484762_c83c8ec83b_b_charlie-chocolate-factory.jpg"
 imageAlt: "Episode 36: Wonka!"
 tags: []
 draft: false

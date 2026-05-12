@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 65
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_065.mp3"
-image: "../../assets/podcasts/jennie-1-e1454625254206-1038x576.jpg"
+image: "../../../assets/podcasts/jennie-1-e1454625254206-1038x576.jpg"
 imageAlt: "Episode 65: The Art of Photography"
 tags: []
 draft: false

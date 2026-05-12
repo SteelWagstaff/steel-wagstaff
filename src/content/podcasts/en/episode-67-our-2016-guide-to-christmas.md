@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 67
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_067.mp3"
-image: "../../assets/podcasts/sinbad.gif"
+image: "../../../assets/podcasts/sinbad.gif"
 imageAlt: "Episode 67: Our 2016 Guide to Christmas"
 tags: []
 draft: false

@@ -5,7 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 40
 audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_040.mp3"
-image: "../../assets/podcasts/serpentfoot.jpg"
+image: "../../../assets/podcasts/serpentfoot.jpg"
 imageAlt: "Episode 40: Characters"
 tags: []
 draft: false
