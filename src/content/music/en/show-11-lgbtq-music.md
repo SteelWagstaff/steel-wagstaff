@@ -3,12 +3,12 @@ title: "Show 11: LGBTQ Music, Part 1"
 description: "Music by artists who identified as lesbian, gay, bisexual, transgender, and/or queer. A three-part series spanning multiple weeks of great LGBTQ artists."
 publishedAt: 2012-09-20
 author: steel
-podcast: "Off the Chain"
-episode: 80
+podcast: "Steel's Magnolias"
+episode: 11
 tags: ["music"]
 draft: false
 locale: en
-image: "../../../assets/music/show-11-lgbtq-music.jpg"
+image: "../../../assets/music/show-11.jpg"
 spotifyEmbedId: "6wUO0OOhNFaXty7E3iAD6m"
 ---
 

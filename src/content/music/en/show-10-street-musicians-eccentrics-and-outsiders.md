@@ -3,12 +3,12 @@ title: "Show 10: Street Musicians, Eccentrics, and Outsiders"
 description: "We gave a loving listen to some of the more colorful and under-celebrated figures making sonic stylings in the recent world of music.  Part 1: Part 2: http://open.spotify.com/user/steelwagstaff/playlist/7emXQDirOaqeXL6g3FoxRB"
 publishedAt: 2012-09-13
 author: steel
-podcast: "Off the Chain"
-episode: 79
+podcast: "Steel's Magnolias"
+episode: 10
 tags: ["music"]
 draft: false
 locale: en
-image: "../../../assets/music/show-10-street-musicians-eccentrics-and-outsiders.jpg"
+image: "../../../assets/music/show-10.jpg"
 spotifyEmbedId: "7emXQDirOaqeXL6g3FoxRB"
 ---
 

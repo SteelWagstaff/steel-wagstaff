@@ -3,12 +3,12 @@ title: "Show 7: Depression"
 description: "Sometimes we are profoundly sad. We can't always explain it, or point to a proximate cause. And still, there is music.  http://open.spotify.com/user/steelwagstaff/playlist/2WII22LLvgytiZI691j9z9"
 publishedAt: 2012-08-23
 author: steel
-podcast: "Off the Chain"
-episode: 96
+podcast: "Steel's Magnolias"
+episode: 7
 tags: []
 draft: false
 locale: en
-image: "../../../assets/music/show-7-depression-august-23-2012.jpg"
+image: "../../../assets/music/show-7.jpg"
 spotifyEmbedId: "2WII22LLvgytiZI691j9z9"
 ---
 
