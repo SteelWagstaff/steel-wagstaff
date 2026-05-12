@@ -24,7 +24,7 @@ const themeSongsAll = podcasts
 
 // Filter Steel's Magnolias shows from music collection
 const steelsMagnoliasAll = music
-  .filter(m => m.id.includes('show-'))
+  .filter(m => m.data.podcast === "Steel's Magnolias")
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
 // Filter mixtapes (have 'mixtape' tag)
