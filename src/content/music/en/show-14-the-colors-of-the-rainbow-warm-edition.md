@@ -3,12 +3,12 @@ title: "Show 14: The Colors of the Rainbow: Warm Edition"
 description: "Songs with titles from the warm end of the spectrum (Red, Orange, Yellow). A musical exploration of rainbow colors."
 publishedAt: 2012-10-11
 author: steel
-podcast: "Off the Chain"
-episode: 83
+podcast: "Steel's Magnolias"
+episode: 14
 tags: []
 draft: false
 locale: en
-image: "../../../assets/music/show-14-the-colors-of-the-rainbow-warm-edition.jpg"
+image: "../../../assets/music/show-14.jpg"
 spotifyEmbedId: "7iQpJMajEOA1wTxAAHKarf"
 ---
 
