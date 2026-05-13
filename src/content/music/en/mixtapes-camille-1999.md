@@ -1,7 +1,6 @@
 ---
 title: "Mixtapes for Camille: 1999"
 description: "The 1999 mix I made for my sister."
-"
 publishedAt: 2014-12-15
 author: steel
 tags: ["mixtape"]

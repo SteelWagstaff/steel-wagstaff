@@ -1,6 +1,6 @@
 ---
 title: "70 Songs [March 2017]"
-description: "Here's a playlist of 70 songs I listened to and enjoyed in March 2017. Albums I really dug into included Clap! Clap!'s _Tayi Bebba_, Leif Vollebeck's _Twin Solitude_, Jenn Grant's _Paradise_, the instrumental version of De La Soul's _and the Anonymous Nobody_, Arizona Amp and Alternator's _The Open Road _(a Howe Gelb project), the Milk Carton Kids' _Prologue _and Serengeti & Sicker Man's _Doctor My Own Patience_:
+description: "Here's a playlist of 70 songs I listened to and enjoyed in March 2017. Albums I really dug into included Clap! Clap!"
 
 
 
@@ -16,8 +16,6 @@ image: "../../../assets/music/70-songs-march-2017.jpg"
 imageAlt: ""
 ---
 
-Here's a playlist of 70 songs I listened to and enjoyed in March 2017. Albums I really dug into included Clap! Clap!'s _Tayi Bebba_, Leif Vollebeck's _Twin Solitude_, Jenn Grant's _Paradise_, the instrumental version of De La Soul's _and the Anonymous Nobody_, Arizona Amp and Alternator's _The Open Road _(a Howe Gelb project), the Milk Carton Kids' _Prologue _and Serengeti & Sicker Man's _Doctor My Own Patience_:
+Here's a playlist of 70 songs I listened to and enjoyed in March 2017. Albums I really dug into included Clap! Clap!'s _Tayi Bebba_, Leif Vollebeck's _Twin Solitude_, Jenn Grant's _Paradise_, the instrumental version of De La Soul's _and the Anonymous Nobody_, Arizona Amp and Alternator's _The Open Road _(a Howe Gelb project), the Milk Carton Kids' _Prologue _and Serengeti &amp; Sicker Man's _Doctor My Own Patience_:
 
-
-
-Featured image: Elfin Forest Natural Area, California. Photograph by Steel Wagst
+<small>Featured image: Elfin Forest Natural Area, California. Photograph by Steel Wagstaff.</small>

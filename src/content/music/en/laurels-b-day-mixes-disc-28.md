@@ -1,13 +1,8 @@
 ---
 title: "Laurel's B-Day Mixes [Disc #28]"
 description: "Disc #28 in the birthday mixtape gift for Laurel."
-
-
-
-Photo by [qmnonic](http://www.flickr.com/photos/58575431@N00/232106694)"
 publishedAt: 2015-12-29
 author: steel
-spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/2faljwbqjb3kyW8HbgS2s9"
 spotifyEmbedId: "2faljwbqjb3kyW8HbgS2s9"
 tags: ["mixtape"]
 draft: false
