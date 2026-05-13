@@ -753,6 +753,17 @@
     text-decoration-color: var(--color-foreground);
   }
 
+  /* Body/content links with brand color */
+  .body-link {
+    color: var(--color-brand-500);
+    transition: text-decoration var(--transition-fast);
+  }
+
+  .body-link:hover {
+    text-decoration: underline;
+    text-decoration-offset: 3px;
+  }
+
   .prose strong {
     color: var(--color-foreground);
     font-weight: 600;

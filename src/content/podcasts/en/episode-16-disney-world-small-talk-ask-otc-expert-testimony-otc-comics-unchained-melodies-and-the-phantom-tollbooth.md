@@ -18,35 +18,35 @@ This week Dave and Steel are joined by their friend Oliver. Together they discus
 
 ### Disney World
 
-[Duffy the Disney Bear](http://en.wikipedia.org/wiki/Mickey_Mouse_universe#Supporting_characters) [Club Cool](http://allears.net/tp/ep/ice.htm)
+[Duffy the Disney Bear](https://en.wikipedia.org/wiki/Mickey_Mouse_universe#Supporting_characters) [Club Cool](https://allears.net/tp/ep/ice.htm)
 
 ### Small Talk
 
 #### Transcendental Meditation
 
-- [Alec Baldwin and Jerry Seinfeld discuss Transcendental Meditation](http://www.wnyc.org/story/jerry-seinfeld/#) on Here's the Thing.
+- [Alec Baldwin and Jerry Seinfeld discuss Transcendental Meditation](https://www.wnyc.org/story/jerry-seinfeld/#) on Here's the Thing.
 - [The Maharishi University of Management](https://www.mum.edu/about-mum/) (which Steel kept mistakenly calling the Maharishi _Institute_ of Management.
-- [The Golden Domes](http://en.wikipedia.org/wiki/Golden_Domes)
+- [The Golden Domes](https://en.wikipedia.org/wiki/Golden_Domes)
 
 #### The Rocky Mountain Land Library
 
-- [NYT article about the project](http://www.nytimes.com/2015/04/17/us/envisioning-a-colorado-haven-for-readers-nestled-amid-mountains-of-books.html?_r=0)
+- [NYT article about the project](https://www.nytimes.com/2015/04/17/us/envisioning-a-colorado-haven-for-readers-nestled-amid-mountains-of-books.html?_r=0)
 - [Official Website](https://landlibrary.wordpress.com/)
 
 #### TV Show Reunions
 
-- [Arrested Development Season 5](http://bgr.com/2015/04/07/arrested-development-season-5-release/)
-- [Twin Peaks coming back in 2016](http://showtimeallaccess.tumblr.com/post/99324820892/showtime-is-serving-up-some-damngoodcoffee-in)
-- [Wet Hot American Summer](http://en.wikipedia.org/wiki/Wet_Hot_American_Summer:_First_Day_of_Camp)
-- [Fuller House](http://www.slashfilm.com/netflix-fuller-house/)
+- [Arrested Development Season 5](https://bgr.com/2015/04/07/arrested-development-season-5-release/)
+- [Twin Peaks coming back in 2016](https://showtimeallaccess.tumblr.com/post/99324820892/showtime-is-serving-up-some-damngoodcoffee-in)
+- [Wet Hot American Summer](https://en.wikipedia.org/wiki/Wet_Hot_American_Summer:_First_Day_of_Camp)
+- [Fuller House](https://www.slashfilm.com/netflix-fuller-house/)
 
 ### Expert Testimony: OTC Comics
 
-- The [Bone](http://en.wikipedia.org/wiki/Bone_%28comics%29) Series
-- [Family Circus](http://familycircus.com/)
-- [Lynda Barry's Tumblr](http://thenearsightedmonkey.tumblr.com/)
+- The [Bone](https://en.wikipedia.org/wiki/Bone_%28comics%29) Series
+- [Family Circus](https://familycircus.com/)
+- [Lynda Barry's Tumblr](https://thenearsightedmonkey.tumblr.com/)
 - John Porcellino's _[The Hospital Suite](https://www.drawnandquarterly.com/hospital-suite)_
-- Some of [Oliver's art and illustration](http://oliverbendorf.tumblr.com/comics)
+- Some of [Oliver's art and illustration](https://oliverbendorf.tumblr.com/comics)
 
 ### Unchained Melodies
 
@@ -54,7 +54,7 @@ This week Dave and Steel are joined by their friend Oliver. Together they discus
 
 https://www.youtube.com/watch?v=Is3skKNNa1U
 
-#### Prince -- [Kiss](http://www.myvideo.de/watch/6367094/Prince_Kiss)
+#### Prince -- [Kiss](https://www.myvideo.de/watch/6367094/Prince_Kiss)
 
 #### Van Morrison -- Ballerina
 
@@ -74,4 +74,4 @@ https://www.youtube.com/watch?v=IYj2hex99gY
 
 ### Book Wisdom
 
-For this week's book wisdom, Oliver shared a lovely passage from Norton Juster's _[The Phantom Tollbooth](http://www.amazon.com/The-Phantom-Tollbooth-Norton-Juster/dp/0394820371)_ about how the watchdog Tock got his name.
+For this week's book wisdom, Oliver shared a lovely passage from Norton Juster's _[The Phantom Tollbooth](https://www.amazon.com/The-Phantom-Tollbooth-Norton-Juster/dp/0394820371)_ about how the watchdog Tock got his name.

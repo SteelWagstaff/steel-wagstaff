@@ -18,8 +18,8 @@ He's back, by popular demand! Following up on last week's amazing appearance, Da
 
 ### To the Limits
 
-- [The Iron Cowboy](http://www.ironcowboy.co/) just completed 50 iron man triathlons in 50 states on 50 consecutive days.
-- [Feodor Vassilyev's unnamed wife](http://www.guinnessworldrecords.com/world-records/most-prolific-mother-ever), who gave birth to 69 infants over the course of 27 pregnancies, of whom 67 survived infancy.
+- [The Iron Cowboy](https::://www.ironcowboy.co/) just completed 50 iron man triathlons in 50 states on 50 consecutive days.
+- [Feodor Vassilyev's unnamed wife](https::://www.guinnessworldrecords.com/world-records/most-prolific-mother-ever), who gave birth to 69 infants over the course of 27 pregnancies, of whom 67 survived infancy.
 - [Jack LaLanne](https://en.wikipedia.org/wiki/Jack_LaLanne) once towed 70 rowboats for over a mile, and makes a great juicer.
 
 ### Ask OTC
@@ -64,7 +64,7 @@ https://www.youtube.com/watch?v=1q7i5c3YgxY
 
 ### Book Wisdom
 
-This week's passage came from the opening story of Tim O'Brien's Vietnam book _[The Things They Carried](http://www.amazon.com/The-Things-They-Carried-OBrien/dp/0618706410)_.
+This week's passage came from the opening story of Tim O'Brien's Vietnam book _[The Things They Carried](https::://www.amazon.com/The-Things-They-Carried-OBrien/dp/0618706410)_.
 
 ### BONUS TULL!!!!
 

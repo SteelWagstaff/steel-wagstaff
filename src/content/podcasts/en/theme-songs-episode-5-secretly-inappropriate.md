@@ -17,4 +17,4 @@ Here's a gallery of some of the men whose music is featured on today's show.
 
 \[gallery order="DESC" type="rectangular" link="file" columns="2" size="large" ids="820,816,819,821,818,822"\]
 
-Featured image by [Piano Piano!](http://www.flickr.com/photos/11076844@N00/4162842268) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by/2.0/ "Attribution License")
+Featured image by [Piano Piano!](https://www.flickr.com/photos/11076844@N00/4162842268) [![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by/2.0/ "Attribution License")

@@ -33,7 +33,7 @@ Our deepest thanks for following us over the past few years, everyone. We'll be 
 
 - [KFC Zinger](https://www.kfc.com/menu/sandwiches/zinger) -- Dave
 - The recent "Reply All" computer scammers from India [podcast episode](https://gimletmedia.com/episode/long-distance/) -- Steel
-- The Idaho [squirrel](http://www.idahostatesman.com/news/local/crime/article132972279.html) that thwarted an attempted burglary -- Spencer
+- The Idaho [squirrel](https://www.idahostatesman.com/news/local/crime/article132972279.html) that thwarted an attempted burglary -- Spencer
 -  [Saturn’s moon](https://www.space.com/37653-saturn-moon-titan-cell-membrane-molecules.html) may be supporting life -- Jordan
 
 ### Unchained Melodies -- Songs about things coming to an end

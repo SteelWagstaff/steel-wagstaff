@@ -12,4 +12,4 @@ imageAlt: ""
 
 Here's the fourteenth in a series of several mixtapes made for my wife's birthday quelques années back.
 
-Photo by [garryknight](http://www.flickr.com/photos/8176740@N05/5398182367)
+Photo by [garryknight](https://www.flickr.com/photos/8176740@N05/5398182367)

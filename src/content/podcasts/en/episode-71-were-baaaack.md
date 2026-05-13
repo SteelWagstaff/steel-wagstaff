@@ -16,19 +16,19 @@ It took Steel three weeks to get this episode edited (which explains all the Val
 
 ## Links
 
-![Off the Chain Hall of Fame](http://otc.awesomecity.org/wp-content/uploads/sites/8/2017/03/OTC-HOF-01.png)
+![Off the Chain Hall of Fame](https://otc.awesomecity.org/wp-content/uploads/sites/8/2017/03/OTC-HOF-01.png)
 
  
 
 ### OTC Hall of Fame
 
-This week we're inducting the public library into our [Off the Chain Hall of Fame](http://otc.awesomecity.org/otc-hall-of-fame/)! The greatest idea in the history of Western civilization? The last bastion of pure idealism in the United States? Yes and yes. We think you're great, public libraries. Thanks for everything!
+This week we're inducting the public library into our [Off the Chain Hall of Fame](https://otc.awesomecity.org/otc-hall-of-fame/)! The greatest idea in the history of Western civilization? The last bastion of pure idealism in the United States? Yes and yes. We think you're great, public libraries. Thanks for everything!
 
 ### Small Talk
 
-- Stem cells from your fat reserves might be able to help you [combat the ultimate disease: male pattern baldness](http://abc7chicago.com/health/stem-cell-treatment-for-baldness-showing-signs-of-success/1738702/) \[Dave\]
-- [Folktopia](https://www.youtube.com/channel/UCuhjA4EchDuLpH7oDJ3EhMw)! The youtube channel you need to follow. Back yard maker stuff, mostly, all planned and shot by Steel's coworker [David Macasaet](http://www.davidmacasaet.com/). https://www.youtube.com/watch?v=cD5rDHxU3NY \[Steel\]
-- A man in Hong Kong built a robot which looks [exactly like Scarlet Johansson](http://www.nydailynews.com/entertainment/gossip/hong-kong-man-creates-scarlett-johansson-robot-lookalike-article-1.2586026) \[Dave\]
+- Stem cells from your fat reserves might be able to help you [combat the ultimate disease: male pattern baldness](https://abc7chicago.com/health/stem-cell-treatment-for-baldness-showing-signs-of-success/1738702/) \[Dave\]
+- [Folktopia](https://www.youtube.com/channel/UCuhjA4EchDuLpH7oDJ3EhMw)! The youtube channel you need to follow. Back yard maker stuff, mostly, all planned and shot by Steel's coworker [David Macasaet](https://www.davidmacasaet.com/). https://www.youtube.com/watch?v=cD5rDHxU3NY \[Steel\]
+- A man in Hong Kong built a robot which looks [exactly like Scarlet Johansson](https://www.nydailynews.com/entertainment/gossip/hong-kong-man-creates-scarlett-johansson-robot-lookalike-article-1.2586026) \[Dave\]
 
 ### Everyday Heroes
 
@@ -41,6 +41,6 @@ https://open.spotify.com/user/steelwagstaff/playlist/0ocbz4IiJBos3ExVlaJCJa
 
 ## Book Wisdom
 
-Steel read a passage from David Foenikos' hilarious satirical novel _[The Erotic Potential of My Wife](http://www.saqibooks.co.uk/book/erotic-potential-wife/)_ \[thanks to Ewa Miernowska for the recommendation!\].
+Steel read a passage from David Foenikos' hilarious satirical novel _[The Erotic Potential of My Wife](https://www.saqibooks.co.uk/book/erotic-potential-wife/)_ \[thanks to Ewa Miernowska for the recommendation!\].
 
-Featured image by [Jan David Hanrath](http://www.flickr.com/photos/56868860@N00/149718410) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-nd/2.0/ "Attribution-NoDerivs License")
+Featured image by [Jan David Hanrath](https://www.flickr.com/photos/56868860@N00/149718410) [![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by-nd/2.0/ "Attribution-NoDerivs License")

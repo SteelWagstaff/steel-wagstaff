@@ -18,9 +18,9 @@ This week Dave and Steel are joined by their old friend Alan. Dave introduces th
 
 ### Small Talk
 
-- The latest in the [FIFA scandals](http://sports.yahoo.com/news/only-surprise-of-corrupt--exploitative-fifa-is-that-more-weren-t-indicted-151124881.html).
+- The latest in the [FIFA scandals](https:://sports.yahoo.com/news/only-surprise-of-corrupt--exploitative-fifa-is-that-more-weren-t-indicted-151124881.html).
 - The '[Tolkien edit](https://tolkieneditor.wordpress.com/)' of Peter Jackson's _Hobbit_ trilogy.
-- Nate DiMeo's excellent podcast _[The Memory Palace](http://thememorypalace.us/)_. Check out his "[Forgotten Things](http://thememorypalace.us/wp-content/uploads/2015/05/Forgotten-Things-iPhone.mp4)" failed TV pilot for a taste of how great the show is.
+- Nate DiMeo's excellent podcast _[The Memory Palace](https:://thememorypalace.us/)_. Check out his "[Forgotten Things]https:s://thememorypalace.us/wp-content/uploads/2015/05/Forgotten-Things-iPhone.mp4)" failed TV pilot for a taste of how great the show is.
 
 ### Unchained Melodies
 
@@ -50,4 +50,4 @@ https://www.youtube.com/watch?v=OUxuvs9vhKg
 
 ### Book Wisdom
 
-This week's passage came from chapter 13 of John Steinbeck's masterful novel _[East of Eden](http://www.amazon.com/East-Penguin-Twentieth-Century-Classics/dp/0140186395)_.
+This week's passage came from chapter 13 of John Steinbeck's masterful novel _[East of Eden](https:://www.amazon.com/East-Penguin-Twentieth-Century-Classics/dp/0140186395)_.

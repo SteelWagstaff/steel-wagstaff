@@ -20,32 +20,32 @@ Here's the last of our 3-part year in review for 2016. In this episode we bring
 
 #### Top 'Do Nominees:
 
-- [Iman Shumpert](http://sports.cbsimg.net/images/visual/whatshot/iman_shumpert_021516.jpg)
+- [Iman Shumpert](https://sports.cbsimg.net/images/visual/whatshot/iman_shumpert_021516.jpg)
 - [Steven Adams](https://blog-blogmediainc.netdna-ssl.com/upload/SportsBlogcom/105185/0370374001463496897_filepicker.jpg)
-- [Shelly-Ann Fraser-Pryce](http://www.huffingtonpost.ca/2016/08/05/jamaica-flagbearer-hair-olympics-2016_n_11359996.html)
+- [Shelly-Ann Fraser-Pryce](https://www.huffingtonpost.ca/2016/08/05/jamaica-flagbearer-hair-olympics-2016_n_11359996.html)
 - [Gerald Green](https://www.bostonglobe.com/sports/celtics/2016/10/26/gerald-green-had-shamrock-braided-into-his-hair-before-celtics-opener/2nMoh2eACxjxOpkGyHtoAJ/story.html)
-- [Michael Beasley](http://nbatitlechase.com/blog/2016/10/26/michael-beasleys-cornrows-look-like-one-big-maze/)
+- [Michael Beasley](https://nbatitlechase.com/blog/2016/10/26/michael-beasleys-cornrows-look-like-one-big-maze/)
 
 #### Most with Least Award Nominees \[Bald of the Year\]
 
-- [Brian Urlacher](http://restorehair.com/results/urlacher_video/) \[Spencer\]
-- [Rodrigo Palacio](http://ftw.usatoday.com/2014/07/what-is-going-on-with-rodrigo-palacios-rat-tail-hairdo) \[Steel\]
-- [Wayne Rooney](http://www.mirror.co.uk/3am/celebrity-news/hair-expert-reveals-exactly-whats-8304460) \[Dave\]
+- [Brian Urlacher](https://restorehair.com/results/urlacher_video/) \[Spencer\]
+- [Rodrigo Palacio](https://ftw.usatoday.com/2014/07/what-is-going-on-with-rodrigo-palacios-rat-tail-hairdo) \[Steel\]
+- [Wayne Rooney](https://www.mirror.co.uk/3am/celebrity-news/hair-expert-reveals-exactly-whats-8304460) \[Dave\]
 
 ## Best Sports Moments
 
 - [The Block](https://www.youtube.com/watch?v=-zd62MxKXp8)! \[All of us\]
-- [Lily King Mutombos Efimova](http://www.nbcolympics.com/news/lilly-kings-finger-wag-lights-internet-sparks-drug-cheat-debate) \[Spencer\]
-- Michael Phelps' [Death Stare](http://www.funnyordie.com/videos/488da8b985/michael-phelps-death-stare-full-video?_cc=__d___&_ccid=0568c8ad-774f-46ce-b26a-307cbaf9dedd) in the pre-race warmup room \[Dave\]
+- [Lily King Mutombos Efimova](https://www.nbcolympics.com/news/lilly-kings-finger-wag-lights-internet-sparks-drug-cheat-debate) \[Spencer\]
+- Michael Phelps' [Death Stare](https://www.funnyordie.com/videos/488da8b985/michael-phelps-death-stare-full-video?_cc=__d___&_ccid=0568c8ad-774f-46ce-b26a-307cbaf9dedd) in the pre-race warmup room \[Dave\]
 - [Cubs Win the World Series](https://www.youtube.com/watch?v=HOp8w2PgHlM) after 108 year drought! \[Spencer\]
 - [Leicester City](https://www.youtube.com/watch?v=pDxfksB4-OU), a provincial club who were nearly relegated in 2015, win the English Premier League, the wealthiest football league in the world. \[Steel\]
 - [Iceland](https://www.youtube.com/watch?v=1M5_WBOCKXs), a nation of 350,000 people, made the quarterfinals of the European Championship, [beating England](https://www.youtube.com/watch?v=kkptp8HdAbQ) to get there. [The commentators' call of their late, match-winning goal](https://www.youtube.com/watch?v=xK8ndQqY11Q) against Austria is the best thing ever. \[Steel\]
 - Conor McGregor [talks trash](https://themaclife.com/video-conor-mcgregors-post-fight-octagon-interview-following-lightweight-championship-victory/) about people he beats up. \[Dave\]
 
-### [Kabaddi](http://www.economist.com/blogs/gametheory/2016/10/forget-cricket)!
+### [Kabaddi](https://www.economist.com/blogs/gametheory/2016/10/forget-cricket)!
 
 The coolest sport you've never heard of. Check it out:
 
 https://www.youtube.com/watch?v=tSJfAOiulZg
 
-Featured Image: Collage made from [Robert Beck](http://www.robertbeckphotography.com/)'s [images of Steven Adams for _Sports Illustrated_](http://www.si.com/nba/2016/10/25/nba-season-preview-reasons-warriors-lebron-james)
+Featured Image: Collage made from [Robert Beck](https://www.robertbeckphotography.com/)'s [images of Steven Adams for _Sports Illustrated_](https://www.si.com/nba/2016/10/25/nba-season-preview-reasons-warriors-lebron-james)

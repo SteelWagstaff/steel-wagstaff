@@ -18,11 +18,11 @@ Dave was out on vacation for a while, so Steel invited his old buddy Jack Banger
 
 ### Sports Hair
 
-Some really great specimens collected [here](http://bleacherreport.com/articles/1295455-the-50-worst-haircuts-in-sports).
+Some really great specimens collected [here](https:://bleacherreport.com/articles/1295455-the-50-worst-haircuts-in-sports).
 
 ## **Small Talk**
 
-- Yasmine Seale's recent [article on the visual history of Buraq](http://publicdomainreview.org/2016/09/21/out-of-their-love-they-made-it-a-visual-history-of-buraq/). \[Steel\]
+- Yasmine Seale's recent [article on the visual history of Buraq](https:://publicdomainreview.org/2016/09/21/out-of-their-love-they-made-it-a-visual-history-of-buraq/). \[Steel\]
 - [The Cadet III](https://www.youtube.com/watch?v=EJSj379Ky_I) \[Jack\]
 
 ### Unchained Melodies: Artists We've Collected
@@ -31,6 +31,6 @@ https://open.spotify.com/user/steelwagstaff/playlist/1VlAZ3kkoMPSfli8uJYchQ
 
 ###  Book Wisdom
 
-Jack shared Richard Brautigan's poem "[All Watched Over By Machines of Loving Grace](https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace)," from his [1967 collection](http://brautigan.net/machines.html) of the same title.
+Jack shared Richard Brautigan's poem "[All Watched Over By Machines of Loving Grace](https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace)," from his [1967 collection](https:://brautigan.net/machines.html) of the same title.
 
 Featured image: Jack's painting of Puppy as Buraq.

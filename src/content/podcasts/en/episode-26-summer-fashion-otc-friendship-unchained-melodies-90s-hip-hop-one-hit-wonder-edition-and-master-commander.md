@@ -39,7 +39,7 @@ Here's Steel's & Dave's guide to this summer's must-have's
 - Elliot and ET. Interspecies comraderie at its finest.
 - Curious George and the Man with the Yellow Hat. Not all friendships are healthy. Remember that.
 
-Steel also wants to recommend Charlotte Delbo's amazing Holocaust memoir, _[Auschwitz and After](http://yalepress.yale.edu/book.asp?isbn=9780300190779)_.
+Steel also wants to recommend Charlotte Delbo's amazing Holocaust memoir, _[Auschwitz and After](https:::::::::::::::::://yalepress.yale.edu/book.asp?isbn=9780300190779)_.
 
 ### Unchained Melodies
 

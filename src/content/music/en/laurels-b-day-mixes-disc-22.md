@@ -14,4 +14,4 @@ imageAlt: ""
 
 The 22nd in a series of mixtapes for Laurel's birthday back in the day.
 
-Photo by [jfiess](http://www.flickr.com/photos/13499683@N00/5779292056)
+Photo by [jfiess](https:://www.flickr.com/photos/13499683@N00/5779292056)

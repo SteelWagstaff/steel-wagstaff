@@ -6,7 +6,7 @@ author: steel
 tags: ["monthly playlist"]
 draft: false
 locale: en
-spotifyUrl: "http://open.spotify.com/user/steelwagstaff/playlist/0rUvScNjiGagDdGzApycoj"
+spotifyUrl: "https://open.spotify.com/user/steelwagstaff/playlist/0rUvScNjiGagDdGzApycoj"
 ---
 
 It's been almost a year since I stopped doing the radio show (how time flies!). I miss it--the weekly scramble to develop a compelling theme, pull together a play list, get my songs and files in order, set up the segways and get on the air. Being on the radio was a blast, and Pete and everyone else at WSUM were great to me. Perhaps one day I'll be back on the air with another show, but for now, it seems a long ways away.

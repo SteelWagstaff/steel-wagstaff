@@ -18,7 +18,7 @@ This week Dave and Steel are joined by their old friends Spencer and Jordan. Tog
 
 ### Food Kiosk
 
-The idea for this segment came from [Stephen L. Peck](http://sciencebysteve.net/)'s book _[A Short Stay in Hell](http://www.shortstayinhell.com/ "A Short Stay in Hell")_, which Dave recently read and enjoyed. The premise for the story is partially based on Jorge Luis Borges' famous short story "[The Library of Babel](http://hyperdiscordia.crywalt.com/library_of_babel.html "The Library of Babel")"
+The idea for this segment came from [Stephen L. Peck](https://sciencebysteve.net/)'s book _[A Short Stay in Hell](https://www.shortstayinhell.com/ "A Short Stay in Hell")_, which Dave recently read and enjoyed. The premise for the story is partially based on Jorge Luis Borges' famous short story "[The Library of Babel](https://hyperdiscordia.crywalt.com/library_of_babel.html "The Library of Babel")"
 
 #### Aglio Olio e Peperoncino Recipe
 
@@ -42,7 +42,7 @@ Combine the pasta and the oil/garlic/pepper flakes and toss. Serve with grated p
 
 ### Men's Room Graffiti
 
-Check out the [Men's Room Graffiti Tumblr](http://graffitimensroom.tumblr.com/ "Men's Room Graffiti Tumblr"), where you can find a couple of images of the piece of graffiti which inspired our conversation.
+Check out the [Men's Room Graffiti Tumblr](https://graffitimensroom.tumblr.com/ "Men's Room Graffiti Tumblr"), where you can find a couple of images of the piece of graffiti which inspired our conversation.
 
 ### Unchained Melodies
 
@@ -50,4 +50,4 @@ Timber Timbre: Demon Host https://www.youtube.com/watch?v=-Tfw8SqeFEE Shovels & 
 
 ### Book Wisdom
 
-Spencer shared a beautiful passage from Fyodor Dostoevsky's _[The Brother's Karamazov](http://us.macmillan.com/thebrotherskaramazov/fyodordostoevsky "The Brothers Karamazov")_. The passage he read appears in [Book II, Chapter IV](https://books.google.com/books?id=mMNKAAAAYAAJ&dq=constance%20garnett%20brothers%20karamazov&pg=PA54#v=onepage&q&f=false) of Constance Garnett's translation.
+Spencer shared a beautiful passage from Fyodor Dostoevsky's _[The Brother's Karamazov](https://us.macmillan.com/thebrotherskaramazov/fyodordostoevsky "The Brothers Karamazov")_. The passage he read appears in [Book II, Chapter IV](https://books.google.com/books?id=mMNKAAAAYAAJ&dq=constance%20garnett%20brothers%20karamazov&pg=PA54#v=onepage&q&f=false) of Constance Garnett's translation.

@@ -32,7 +32,7 @@ Back to the Future III Trailer \[1990\] https://www.youtube.com/watch?v=cAOypL96
 
 We were overjoyed to induct our first two members of the OFF THE CHAIN Hall of Fame during this episode. Enormous congratulations to RecSpecs and Paul Walker.
 
-A few years back, Steel wrote [a blog post about Rec Specs](http://steelwagstaff.com/eyewear-rec-specs-and-professional-athletes/) (complete with image galleries) that pretty much captures most of their greatness.
+A few years back, Steel wrote [a blog post about Rec Specs](https:://steelwagstaff.com/eyewear-rec-specs-and-professional-athletes/) (complete with image galleries) that pretty much captures most of their greatness.
 
 ### Unchained Melodies
 
@@ -44,4 +44,4 @@ The Heligoats: Goodness Gracious https://www.youtube.com/watch?v=-EHVjh4C4Tg
 
 ### Book Wisdom
 
-This week's installment of Book Wisdom came from the final page of Cormac McCarthy's novel _[All the Pretty Horses](http://www.amazon.com/Pretty-Horses-Border-Trilogy-Book/dp/0679744398)_.
+This week's installment of Book Wisdom came from the final page of Cormac McCarthy's novel _[All the Pretty Horses](https:://www.amazon.com/Pretty-Horses-Border-Trilogy-Book/dp/0679744398)_.

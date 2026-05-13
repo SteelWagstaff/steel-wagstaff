@@ -36,11 +36,11 @@ https://www.youtube.com/watch?v=tI6zdRbN604
 
 ### Ghost Towns
 
-- [Voree, Wisconsin](http://www.strangite.org/Tour.htm), former Strangite Mormon stronghold
-- Images of [Ghost Towns](http://www.weather.com/travel/news/desolate-ghost-towns-20130618)
-- [City of Dust](http://cityofdust.blogspot.com/), a blog about Ghost Towns in the American southwest
-- [California City](http://www.atlasobscura.com/places/california-city-unbuilt-suburb)
-- [Ordos, China](http://gizmodo.com/welcome-to-the-worlds-largest-ghost-city-ordos-china-1541512511)
+- [Voree, Wisconsin](https:://www.strangite.org/Tour.htm), former Strangite Mormon stronghold
+- Images of [Ghost Towns](https:://www.weather.com/travel/news/desolate-ghost-towns-20130618)
+- [City of Dust](https:://cityofdust.blogspot.com/), a blog about Ghost Towns in the American southwest
+- [California City](https:://www.atlasobscura.com/places/california-city-unbuilt-suburb)
+- [Ordos, China](https:://gizmodo.com/welcome-to-the-worlds-largest-ghost-city-ordos-china-1541512511)
 
 ### Unchained Melodies: The Occupying Federal Buildings Edition
 
@@ -48,6 +48,6 @@ https://www.youtube.com/playlist?list=PLcPWWK79NBW0OLchiH3fFyEsrQvEiFltt
 
 ### Book Wisdom
 
-This week Steel shared passages from Henry David Thoreau's classic essay urging nonviolent resistance to unjust governments, "[Resistance to Civil Government](http://www.panarchy.org/thoreau/disobedience.1848.html)."
+This week Steel shared passages from Henry David Thoreau's classic essay urging nonviolent resistance to unjust governments, "[Resistance to Civil Government](https:://www.panarchy.org/thoreau/disobedience.1848.html)."
 
-Featured image by [DonkeyHotey](http://www.flickr.com/photos/47422005@N04/24379693695) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-sa/2.0/ "Attribution-ShareAlike License")
+Featured image by [DonkeyHotey](https:://www.flickr.com/photos/47422005@N04/24379693695) [![]https:s://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)https:ps://creativecommons.org/licenses/by-sa/2.0/ "Attribution-ShareAlike License")

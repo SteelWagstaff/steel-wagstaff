@@ -13,4 +13,4 @@ imageAlt: ""
 ---
 
 The 27th in a series of birthday mixtapes I made for Laurel back in the day.
-Photo by [erix!](http://www.flickr.com/photos/68387408@N00/6036179334)
+Photo by [erix!](https://www.flickr.com/photos/68387408@N00/6036179334)

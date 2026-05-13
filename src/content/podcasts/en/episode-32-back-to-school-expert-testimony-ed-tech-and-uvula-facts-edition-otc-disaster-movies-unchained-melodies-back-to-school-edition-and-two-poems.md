@@ -18,7 +18,7 @@ This week Dave and Steel are joined once again by their friend Josh. They share 
 
 ### Expert Testimony
 
-Israeli researchers [explain the purpose of our uvula](http://www.ncbi.nlm.nih.gov/pubmed/1408233).
+Israeli researchers [explain the purpose of our uvula](https://www.ncbi.nlm.nih.gov/pubmed/1408233).
 
 ### Unchained Melodies: Back to School Edition
 
@@ -26,6 +26,6 @@ https://www.youtube.com/playlist?list=PLcPWWK79NBW2vb8n-1V1pgx34MEbFo1PY
 
 ### Book Wisdom
 
-This week Steel read the opening lines from the immortal Roger Waters' poem "[Another Brick in the Wall (Part 2)](http://www.azlyrics.com/lyrics/pinkfloyd/anotherbrickinthewallpartii.html)" and Philip Levine's "[M. Degas Teaches Art and Science at Durfee Intermediate School, Detroit 1942](http://www.ibiblio.org/ipa/poems/levine/m._degas_teaches_art_and_science_at_durfee_intermediate_school--detroit1942.php)".
+This week Steel read the opening lines from the immortal Roger Waters' poem "[Another Brick in the Wall (Part 2)](https://www.azlyrics.com/lyrics/pinkfloyd/anotherbrickinthewallpartii.html)" and Philip Levine's "[M. Degas Teaches Art and Science at Durfee Intermediate School, Detroit 1942](https://www.ibiblio.org/ipa/poems/levine/m._degas_teaches_art_and_science_at_durfee_intermediate_school--detroit1942.php)".
 
-Photo by [Internet Archive Book Images](http://www.flickr.com/photos/126377022@N07/14802054903)
+Photo by [Internet Archive Book Images](https://www.flickr.com/photos/126377022@N07/14802054903)

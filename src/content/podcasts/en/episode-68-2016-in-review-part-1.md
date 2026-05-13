@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=Ac6VJVDOOz4
 
 #### Violence
 
-Subscribe to journalist [Torie Rose DeGhett](http://thepoliticalnotebook.com/)'s "This Week in War" [newsletter](http://thepoliticalnotebook.us5.list-manage.com/subscribe?u=1c7d675b2370674a1268b23f5&id=e31a814872#_=_) for weekly updates about violent conflict around the world.
+Subscribe to journalist [Torie Rose DeGhett](https://thepoliticalnotebook.com/)'s "This Week in War" [newsletter](https://thepoliticalnotebook.us5.list-manage.com/subscribe?u=1c7d675b2370674a1268b23f5&id=e31a814872#_=_) for weekly updates about violent conflict around the world.
 
 ### Unchained Melodies: Favorite Songs and Albums of 2016
 
@@ -38,15 +38,15 @@ https://open.spotify.com/user/steelwagstaff/playlist/6EKiDeJDzaTNhEQTE2HHMa
 
 ### Book Recommendations
 
-- Rebecca Solnit's _[Men Explain Things to Me](http://rebeccasolnit.net/book/men-explain-things-to-me/)_ and _[Hope in the Dark](http://rebeccasolnit.net/book/hope-in-the-dark-untold-histories-wild-possibilities/)_ and [_A Paradise Built in Hell_](http://rebeccasolnit.net/book/a-paradise-built-in-hell/). Anything Solnit writes, really. \[Steel\]
-- R.J. Palacio's [_Wonder_](https://www.amazon.com/Wonder-R-J-Palacio/dp/1480586358) and [Brandon Sanderson](http://brandonsanderson.com/)'s fantasy novels! \[Dave\]
-- [Maggie Steifvater](http://www.maggiestiefvater.com/), especially _The Scorpio Races_ or _The Raven Cycle_ \[Rose\]
+- Rebecca Solnit's _[Men Explain Things to Me](https://rebeccasolnit.net/book/men-explain-things-to-me/)_ and _[Hope in the Dark](https://rebeccasolnit.net/book/hope-in-the-dark-untold-histories-wild-possibilities/)_ and [_A Paradise Built in Hell_](https://rebeccasolnit.net/book/a-paradise-built-in-hell/). Anything Solnit writes, really. \[Steel\]
+- R.J. Palacio's [_Wonder_](https://www.amazon.com/Wonder-R-J-Palacio/dp/1480586358) and [Brandon Sanderson](https://brandonsanderson.com/)'s fantasy novels! \[Dave\]
+- [Maggie Steifvater](https://www.maggiestiefvater.com/), especially _The Scorpio Races_ or _The Raven Cycle_ \[Rose\]
 
 #### Our Top Children's Books of the Year
 
-- _[It's Only Stanley](http://www.jonagee.com/html/p_books.php)_, Jon Agee and [_Those Darn Squirrels!_](https://www.amazon.com/Those-Darn-Squirrels-Adam-Rubin/dp/0547576811), Adam Rubin & Daniel Salmieri \[Dave\]
-- [_Journey_, _Quest_, and _Return_](http://www.storybreathing.com/order-books/), Aaron Becker \[Steel\]
-- [_Mr. President Goes to School_](https://www.amazon.com/President-Goes-School-Rick-Walton/dp/1561458929), [Rick Walton](http://www.sltrib.com/home/3112080-155/utah-childrens-authors-credit-publishing-boom) \[Rose\]
+- _[It's Only Stanley](https://www.jonagee.com/html/p_books.php)_, Jon Agee and [_Those Darn Squirrels!_](https://www.amazon.com/Those-Darn-Squirrels-Adam-Rubin/dp/0547576811), Adam Rubin & Daniel Salmieri \[Dave\]
+- [_Journey_, _Quest_, and _Return_](https://www.storybreathing.com/order-books/), Aaron Becker \[Steel\]
+- [_Mr. President Goes to School_](https://www.amazon.com/President-Goes-School-Rick-Walton/dp/1561458929), [Rick Walton](https://www.sltrib.com/home/3112080-155/utah-childrens-authors-credit-publishing-boom) \[Rose\]
 
 #### Steel's Poetry Tips
 

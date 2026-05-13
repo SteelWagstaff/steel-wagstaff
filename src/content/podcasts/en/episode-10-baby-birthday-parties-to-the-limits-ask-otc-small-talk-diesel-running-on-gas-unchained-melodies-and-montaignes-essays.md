@@ -18,17 +18,17 @@ This week Dave and Steel discuss some pro tips for successful birthday parties f
 
 ### To The Limits
 
-Sławomir Rawicz's book is called _[The Long Walk](http://www.amazon.com/Long-Walk-True-Story-Freedom/dp/1592289444/ref=asap_bc?ie=UTF8 "Slawomir Rawicz's The Long Walk")_. The book was the 'inspiration' for a 2010 film called _The Way Back_ with Colin Farrell and Ed Harris. https://www.youtube.com/watch?v=87kezJTpyMI
+Sławomir Rawicz's book is called _[The Long Walk](https:://www.amazon.com/Long-Walk-True-Story-Freedom/dp/1592289444/ref=asap_bc?ie=UTF8 "Slawomir Rawicz's The Long Walk")_. The book was the 'inspiration' for a 2010 film called _The Way Back_ with Colin Farrell and Ed Harris. https://www.youtube.com/watch?v=87kezJTpyMI
 
-Here's Elizabeth Weil's [NYT magazine article about the Swiss adventurer Sarah Marquis](http://www.nytimes.com/2014/09/28/magazine/the-woman-who-walked-10000-miles-no-exaggeration-in-three-years.html). Ms. Marquis [maintains a website](http://sarahmarquis.ch/explorer/media/#.VR1mj5PF-hY) where you can hear interviews, find her TED talks, and see several videos of her exploits.
+Here's Elizabeth Weil's [NYT magazine article about the Swiss adventurer Sarah Marquis](https:://www.nytimes.com/2014/09/28/magazine/the-woman-who-walked-10000-miles-no-exaggeration-in-three-years.html). Ms. Marquis [maintains a website]https:s://sarahmarquis.ch/explorer/media/#.VR1mj5PF-hY) where you can hear interviews, find her TED talks, and see several videos of her exploits.
 
 ### Small Talk
 
-[WSJ article programabout Arthur Findlay College](http://www.wsj.com/articles/can-you-see-ghosts-this-school-for-psychics-may-be-for-you-1425256360), a Spiritualist-run school for psychics and mediums. The college also has [its own website](http://www.arthurfindlaycollege.org/).
+[WSJ article programabout Arthur Findlay College](https:://www.wsj.com/articles/can-you-see-ghosts-this-school-for-psychics-may-be-for-you-1425256360), a Spiritualist-run school for psychics and mediums. The college also has [its own website]https:s://www.arthurfindlaycollege.org/).
 
-Dave highly recommends BYUTV's program[Turning Point](http://www.byutv.org/show/c95a6dd1-3fda-4401-aa8d-9f4e7340684b/turning-point).
+Dave highly recommends BYUTV's program[Turning Point](https:://www.byutv.org/show/c95a6dd1-3fda-4401-aa8d-9f4e7340684b/turning-point).
 
-Steel recommends Joe Richman's podcast [Radio Diaries](http://www.radiodiaries.org/ "Radio Diaries podcast"), especially their [recent episode about songwriter Rose Marie McCoy](http://www.radiodiaries.org/lady-writes-the-blues/).
+Steel recommends Joe Richman's podcast [Radio Diaries](https:://www.radiodiaries.org/ "Radio Diaries podcast"), especially their [recent episode about songwriter Rose Marie McCoy]https:s://www.radiodiaries.org/lady-writes-the-blues/).
 
 ### Unchained Melodies
 
@@ -46,8 +46,8 @@ https://www.youtube.com/watch?v=jPJNt1eTVNY
 
 #### The National -- So Far Around the Bend
 
-[So Far Around the Bend by The National on Grooveshark](http://grooveshark.com/search/song?q=The%20National%20So%20Far%20Around%20the%20Bend "So Far Around the Bend by The National on Grooveshark")
+[So Far Around the Bend by The National on Grooveshark](https:://grooveshark.com/search/song?q=The%20National%20So%20Far%20Around%20the%20Bend "So Far Around the Bend by The National on Grooveshark")
 
 ### Book Wisdom
 
-Today's passage was "[To the Reader](http://essays.quotidiana.org/montaigne/to_the_reader/)," the brief preface to Michel de Montaigne's classic _[Essays](http://www.gutenberg.org/ebooks/3600)_. Steel recommends [the Donald Frame translation](http://www.sup.org/books/title/?id=2932). You can also [listen to the essays](https://librivox.org/author/5004?primary_key=5004&search_category=author&search_page=1&search_form=get_results), as they've been recorded by LibriVox volunteers.
+Today's passage was "[To the Reader](https:://essays.quotidiana.org/montaigne/to_the_reader/)," the brief preface to Michel de Montaigne's classic _[Essays]https:s://www.gutenberg.org/ebooks/3600)_. Steel recommends [the Donald Frame translationhttps:ps://www.sup.org/books/title/?id=2932). You can also [listen to the essays](https://librivox.org/author/5004?primary_key=5004&search_category=author&search_page=1&search_form=get_results), as they've been recorded by LibriVox volunteers.

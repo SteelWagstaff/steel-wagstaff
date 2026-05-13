@@ -18,7 +18,7 @@ This week Dave and Steel are joined by Jordan for a special Halloween edition of
 
 ### Diesel: Running on Gas
 
-- Grantland's Shea Serrano developed a [Vin Diesel character matrix](http://grantland.com/hollywood-prospectus/the-vin-diesel-character-matrix/) that we all agree is pretty accurate.
+- Grantland's Shea Serrano developed a [Vin Diesel character matrix](https:://grantland.com/hollywood-prospectus/the-vin-diesel-character-matrix/) that we all agree is pretty accurate.
 - The folks at the Nerdist invited Vin to join a round of Dungeons and Dragons. They made a short teaser, called D&Diesel: https://www.youtube.com/watch?v=SlWt07l\_pvI
 
 ### Unchained Melodies: Spooky Songs Edition
@@ -29,4 +29,4 @@ https://www.youtube.com/playlist?list=PLcPWWK79NBW3bgI4Rx9pailYPX5Cn\_YHP
 
 Jordan read "The White Wolf" from _Scary Stories to Tell in the Dark_, a book which features haunting tales collected and retold by Alvin Schwartz and very memorable illustrations by Stephen Gammell.
 
-Featured image by [vandalog](http://www.flickr.com/photos/25814320@N02/10601198054) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-sa/2.0/ "Attribution-ShareAlike License")
+Featured image by [vandalog](https:://www.flickr.com/photos/25814320@N02/10601198054) [![]https:s://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)https:ps://creativecommons.org/licenses/by-sa/2.0/ "Attribution-ShareAlike License")

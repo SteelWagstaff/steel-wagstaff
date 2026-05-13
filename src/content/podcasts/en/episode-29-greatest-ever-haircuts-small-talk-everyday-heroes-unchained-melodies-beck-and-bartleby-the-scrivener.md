@@ -18,15 +18,15 @@ This week Dave and Steel are joined by their friend Julia to discuss their best 
 
 ### Small Talk
 
-- [Westworld](http://www.avclub.com/article/teaser-hbos-westworld-questions-nature-reality-223597), a fantastic film starring Yul Brenner was so good that HBO has decided we need more, much more \[Dave\].
-- [This net](http://www.echelman.com/project/boston-greenway/) over the Greenway in Boston is awesome. We should have one everywhere \[Julia\].
-- Some lower league Spanish football uniforms have been [made to look like ham](http://www.dirtytackle.net/2015/08/12/spanish-club-launches-ham-themed-away-kit/) \[Steel\].
+- [Westworld](https://www.avclub.com/article/teaser-hbos-westworld-questions-nature-reality-223597), a fantastic film starring Yul Brenner was so good that HBO has decided we need more, much more \[Dave\].
+- [This net](https://www.echelman.com/project/boston-greenway/) over the Greenway in Boston is awesome. We should have one everywhere \[Julia\].
+- Some lower league Spanish football uniforms have been [made to look like ham](https://www.dirtytackle.net/2015/08/12/spanish-club-launches-ham-themed-away-kit/) \[Steel\].
 
 ### Everyday Heroes
 
-- Tate Peschka, one of Dave's coworkers at the [Anasazi Foundation](http://www.anasazi.org/) \[Dave\]
+- Tate Peschka, one of Dave's coworkers at the [Anasazi Foundation](https://www.anasazi.org/) \[Dave\]
 - My mom. No but seriously. She broke her kneecap recently :( -- poor mom. She’s a good mom though. Also an anesthesiologist. Very impressive word to teach your kids to say. \[Julia\]
-- [Arnold Abbott](http://www.foxnews.com/politics/2014/11/04/0-year-old-among-first-charged-under-fort-lauderdale-strict-rules-against/), this 90 year old guy in Broward County, Florida who has been serving meals to the homeless [for decades](http://lovethyneighbor.org/about-us/history/) in memory of his now deceased wife. Got arrested and [made the news](http://www.npr.org/sections/thesalt/2014/11/06/362019133/florida-activists-arrested-for-serving-food-to-homeless) recently \[Steel\].
+- [Arnold Abbott](https://www.foxnews.com/politics/2014/11/04/0-year-old-among-first-charged-under-fort-lauderdale-strict-rules-against/), this 90 year old guy in Broward County, Florida who has been serving meals to the homeless [for decades](https://lovethyneighbor.org/about-us/history/) in memory of his now deceased wife. Got arrested and [made the news](https://www.npr.org/sections/thesalt/2014/11/06/362019133/florida-activists-arrested-for-serving-food-to-homeless) recently \[Steel\].
 
 ### Unchained Melodies: Beck Edition
 
@@ -36,4 +36,4 @@ https://soundcloud.com/songday/beck-i-just-started-hating
 
 ### Book Wisdom
 
-This week, Julia presented the concluding paragraphs of Herman Melville's classic short story "[Bartleby, the Scrivener](http://www.bartleby.com/129/)". Ah Bartleby! Ah Humanity!
+This week, Julia presented the concluding paragraphs of Herman Melville's classic short story "[Bartleby, the Scrivener](https://www.bartleby.com/129/)". Ah Bartleby! Ah Humanity!

@@ -12,7 +12,7 @@ draft: false
 locale: en
 ---
 
-In this episode of _Off the Chain_ podcast, we discuss the Phoenix-based amusement park _[Castles and Coasters](http://www.castlesncoasters.com/ "Castles & Coasters")_, talk about our favorite water slide rides, review the best and worst [Super Bowl ads](http://www.superbowl-commercials.org/2015 "2015 Super Bowl Ads"), answer listener questions in a new segment called '[Ask Off the Chain](http://otc.awesomecity.org/ask-off-chain/ "Ask Off the Chain"),' share some of our favorite recent music in 'Unchained Melodies,' and share some life-changing wisdom from Toni Morrison's novel _Beloved_.
+In this episode of _Off the Chain_ podcast, we discuss the Phoenix-based amusement park _[Castles and Coasters](https://www.castlesncoasters.com/ "Castles & Coasters")_, talk about our favorite water slide rides, review the best and worst [Super Bowl ads](https://www.superbowl-commercials.org/2015 "2015 Super Bowl Ads"), answer listener questions in a new segment called '[Ask Off the Chain](https://otc.awesomecity.org/ask-off-chain/ "Ask Off the Chain"),' share some of our favorite recent music in 'Unchained Melodies,' and share some life-changing wisdom from Toni Morrison's novel _Beloved_.
 
 ## Links
 
@@ -30,4 +30,4 @@ Little May: Boardwalks https://www.youtube.com/watch?v=ZMtNyG5OPqM Little May: B
 
 ### Book Wisdom
 
-Toni Morrison's [_Beloved_](http://www.penguinrandomhouse.com/books/117647/beloved-by-toni-morrison/)
+Toni Morrison's [_Beloved_](https://www.penguinrandomhouse.com/books/117647/beloved-by-toni-morrison/)

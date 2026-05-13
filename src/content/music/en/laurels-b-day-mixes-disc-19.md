@@ -16,4 +16,4 @@ Here's the nineteenth in a big collection of mixtapes I made for Laurel's name d
 
 
 
-Photo by [State Library and Archives of Florida](http://www.flickr.com/photos/31846825@N04/15730660483)
+Photo by [State Library and Archives of Florida](https:://www.flickr.com/photos/31846825@N04/15730660483)

@@ -18,23 +18,23 @@ This week Dave and Steel are joined once again by their friend Spencer to discus
 
 ### Ringworld
 
-Ringworld is [a series of 5 books](http://en.wikipedia.org/wiki/Ringworld_series) written by [Larry Niven](http://www.larryniven.net/) between 1970 and 2002, with four prequels, cowritten with Edward Lerner and published between 2007 and 2010. Read more about the Ringworld at [its wiki](http://larryniven.wikia.com/wiki/Ringworld).
+Ringworld is [a series of 5 books](https:://en.wikipedia.org/wiki/Ringworld_series) written by [Larry Niven]https:s://www.larryniven.net/) between 1970 and 2002, with four prequels, cowritten with Edward Lerner and published between 2007 and 2010. Read more about the Ringworld at [its wikihttps:ps://larryniven.wikia.com/wiki/Ringworld).
 
 ### Sci-Fi Stack Exchange
 
-[Question #1](http://scifi.stackexchange.com/questions/85876/did-chewbacca-have-a-formal-rank-in-the-alliance): About Chewbacca (from Star Wars 4-6)
+[Question #1](https:://scifi.stackexchange.com/questions/85876/did-chewbacca-have-a-formal-rank-in-the-alliance): About Chewbacca (from Star Wars 4-6)
 
-[Question #2](http://scifi.stackexchange.com/questions/85966/in-the-battle-of-wolf-359-one-ship-survives-which-one-was-it-and-why-did-it-su): About the Battle of Wolf 359 (from Star Trek: The Next Generation)
+[Question #2](https:://scifi.stackexchange.com/questions/85966/in-the-battle-of-wolf-359-one-ship-survives-which-one-was-it-and-why-did-it-su): About the Battle of Wolf 359 (from Star Trek: The Next Generation)
 
-[Question #3](http://scifi.stackexchange.com/questions/85862/why-did-greedo-shoot-first): About Greedo and Han Solo (from Star Wars 4)
+[Question #3](https:://scifi.stackexchange.com/questions/85862/why-did-greedo-shoot-first): About Greedo and Han Solo (from Star Wars 4)
 
 ### Assigned Reading
 
-Dave assigned Dan Simmons' sci-fi classic_[Hyperion](http://www.amazon.com/Hyperion-Cantos-Dan-Simmons/dp/0553283685/ref=tmm_mmp_title_0?_encoding=UTF8&sr=&qid=)_ to Steel.
+Dave assigned Dan Simmons' sci-fi classic_[Hyperion](https:://www.amazon.com/Hyperion-Cantos-Dan-Simmons/dp/0553283685/ref=tmm_mmp_title_0?_encoding=UTF8&sr=&qid=)_ to Steel.
 
-Steel assigned Sabine Heinlein's nonfiction _[Among Murderers: Life After Prison](http://www.ucpress.edu/book.php?isbn=9780520272859)_ to Dave.
+Steel assigned Sabine Heinlein's nonfiction _[Among Murderers: Life After Prison](https:://www.ucpress.edu/book.php?isbn=9780520272859)_ to Dave.
 
-Dave and Steel assigned Thomas Pynchon's _[The Crying of Lot 49](http://www.amazon.com/The-Crying-Perennial-Fiction-Library/dp/006091307X)_ to Spencer.
+Dave and Steel assigned Thomas Pynchon's _[The Crying of Lot 49](https:://www.amazon.com/The-Crying-Perennial-Fiction-Library/dp/006091307X)_ to Spencer.
 
 ### Would You Rather?
 

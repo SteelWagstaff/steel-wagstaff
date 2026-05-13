@@ -15,4 +15,4 @@ This week's theme was Oceania, meaning that the show focused on music by artists
 
 https://open.spotify.com/user/steelwagstaff/playlist/5x9vM5OXVB8wHZj8XCm0em?si=8gDvLDUNQmGxu7RmyDqZcQ
 
-Featured image by [Martin Snicer Photography](http://www.flickr.com/photos/126483205@N08/34058730421) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-nd/2.0/ "Attribution-NoDerivs License")
+Featured image by [Martin Snicer Photography](https://www.flickr.com/photos/126483205@N08/34058730421) [![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by-nd/2.0/ "Attribution-NoDerivs License")

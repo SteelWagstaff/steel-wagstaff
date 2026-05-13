@@ -23,4 +23,4 @@ Little Book of Common Sense Investing--it's a shorter version of essentially the
  	Burton Malkiel's A Random Walk Down Wall Street. I thought I'd like this much more than I actually did. Worth reading, but I appreciated the other books on the list more, I think.
 
 Longform
-http://sharedli.st/steelwagstaff
+https://sharedli.st/steelwagstaff

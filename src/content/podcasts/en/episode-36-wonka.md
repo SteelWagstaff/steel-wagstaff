@@ -18,9 +18,9 @@ This week Dave and Steel are joined by Dave's old neighbor Matt Brown. Together 
 
 ### Small Talk
 
-- The F[rench scrabble champ speaks no french](http://www.thedailybeast.com/articles/2015/07/23/how-a-kiwi-beat-the-french-at-their-own-game-of-scrabble.html) \[Matt\]
-- [The achievement beard](http://www.newyorker.com/culture/cultural-comment/all-hail-the-achievement-beard) \[Dave\]
-- Bastrop, Texas and their [protected wild chickens](http://www.wsj.com/articles/in-this-texas-town-chickens-ruffle-feathers-1444094745) \[Steel\]
+- The F[rench scrabble champ speaks no french](https::://www.thedailybeast.com/articles/2015/07/23/how-a-kiwi-beat-the-french-at-their-own-game-of-scrabble.html) \[Matt\]
+- [The achievement beard](https::://www.newyorker.com/culture/cultural-comment/all-hail-the-achievement-beard) \[Dave\]
+- Bastrop, Texas and their [protected wild chickens](https::://www.wsj.com/articles/in-this-texas-town-chickens-ruffle-feathers-1444094745) \[Steel\]
 
 ### OTC Debate
 
@@ -44,6 +44,6 @@ https://www.youtube.com/playlist?list=PLcPWWK79NBW1-9-W7jQKcUeAJRzVjZBbz
 
 ### Book Wisdom
 
-This week's book wisdom comes from Roald Dahl's classic children's book [Charlie and the Chocolate Factory](http://www.amazon.com/Charlie-Chocolate-Factory-Roald-Dahl/dp/0142410314).
+This week's book wisdom comes from Roald Dahl's classic children's book [Charlie and the Chocolate Factory](https::://www.amazon.com/Charlie-Chocolate-Factory-Roald-Dahl/dp/0142410314).
 
-Featured image by [JaredFrazer](http://www.flickr.com/photos/87755694@N00/8371484762) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by/2.0/ "Attribution License")
+Featured image by [JaredFrazer](https::://www.flickr.com/photos/87755694@N00/8371484762) [![https:s:s://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.pnhttps:ps:ps://creativecommons.org/licenses/by/2.0/ "Attribution License")

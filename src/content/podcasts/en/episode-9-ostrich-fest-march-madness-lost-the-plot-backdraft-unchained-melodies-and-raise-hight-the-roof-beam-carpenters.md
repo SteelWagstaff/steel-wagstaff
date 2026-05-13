@@ -18,11 +18,11 @@ In this week's episode Dave and Steel discuss Ostrich Fest, their favorite March
 
 ### Ostrich Fest
 
-Ostrich Festival's [official website](http://www.ostrichfestival.com/ "Ostrich Festival")
+Ostrich Festival's [official website](https:://www.ostrichfestival.com/ "Ostrich Festival")
 
 #### Grand Funk Railroad
 
-GFR's [touring schedule](http://www.grandfunkrailroad.com/tour.html) They're an American Band https://www.youtube.com/watch?v=rwsgznR\_T-g So very American https://www.youtube.com/watch?v=lMsIrKjSM6Y
+GFR's [touring schedule](https:://www.grandfunkrailroad.com/tour.html) They're an American Band https://www.youtube.com/watch?v=rwsgznR\_T-g So very American https://www.youtube.com/watch?v=lMsIrKjSM6Y
 
 #### Nathan Valencias & The Wheel of Destiny
 
@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=\_PXdNyyCx7A
 
 #### The NCAA
 
-An explanation of [where the NCAA gets its money](http://www.ncaa.org/about/resources/finances/revenue) (from the TV rights to the annual men's basketball tournament, basically).
+An explanation of [where the NCAA gets its money](https:://www.ncaa.org/about/resources/finances/revenue) (from the TV rights to the annual men's basketball tournament, basically).
 
 #### 1998: Bryce Drew, "The Shot"
 
@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=dxq27PHrW9I What Mark's up to these days https:/
 
 #### Name of the Year
 
-You can find hundreds of magnificent names and several years worth of past NOTY brackets at the [Name of the Year website](http://www.nameoftheyear.com/).
+You can find hundreds of magnificent names and several years worth of past NOTY brackets at the [Name of the Year website](https:://www.nameoftheyear.com/).
 
 ### Lost the Plot
 
@@ -98,4 +98,4 @@ https://www.youtube.com/watch?v=\_cQ1wOrGs24
 
 ### Book Wisdom
 
-This week's Book Wisdom comes from J.D. Salinger's _[Raise High the Roof Beam, Carpenters](http://www.amazon.com/Raise-High-Roof-Carpenters-Seymour/dp/0316769517)_.
+This week's Book Wisdom comes from J.D. Salinger's _[Raise High the Roof Beam, Carpenters](https:://www.amazon.com/Raise-High-Roof-Carpenters-Seymour/dp/0316769517)_.

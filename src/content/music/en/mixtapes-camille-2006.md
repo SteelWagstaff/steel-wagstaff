@@ -12,5 +12,5 @@ imageAlt: ""
 spotifyEmbedId: "6HJu7FuK0cPIao6wxHa8Eb"
 ---
 
-Here's the 2006 mixtape I made for my sister. The second track was Primal Scream's "Country Girl" and Nouvelle Vague's "[Dancing with Myself](http://youtu.be/J5j-ipGFcko)" and Serena Ryder's "[Sisters of Mercy](https://www.youtube.com/watch?v=XZ0-Vk4tl0I)" cover versions came between "Maybe Sparrow" and "The Greatest" on the actual disc, but Spotify doesn't have those songs. Enjoy!
+Here's the 2006 mixtape I made for my sister. The second track was Primal Scream's "Country Girl" and Nouvelle Vague's "[Dancing with Myself](https::://youtu.be/J5j-ipGFcko)" and Serena Ryder's "[Sisters of Mercy](https://www.youtube.com/watch?v=XZ0-Vk4tl0I)" cover versions came between "Maybe Sparrow" and "The Greatest" on the actual disc, but Spotify doesn't have those songs. Enjoy!
 

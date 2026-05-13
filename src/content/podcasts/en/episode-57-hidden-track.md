@@ -18,7 +18,7 @@ This week Dave and Steel welcome their old buddy Spencer back to the show. Toget
 
 ### Great Moments in Sports Gambling
 
-- [The Paul Phua Story](http://espn.go.com/chalk/story/_/id/14095257/how-world-biggest-bookie-paul-phua-was-snared-fbi-last-year-world-series-poker-walked-away-free-man)
+- [The Paul Phua Story](https://espn.go.com/chalk/story/_/id/14095257/how-world-biggest-bookie-paul-phua-was-snared-fbi-last-year-world-series-poker-walked-away-free-man)
 
 ### Unchained Melodies: Hidden Track edition
 
@@ -26,4 +26,4 @@ https://open.spotify.com/user/steelwagstaff/playlist/6WF4tNq1P8dV2amZnOOP0T
 
 ### Book Wisdom
 
-This weeks' edition of Book Wisdom came from Don DeLillo's description of Bobby Thomson's "[Shot Heard 'Round the World](https://en.wikipedia.org/wiki/Shot_Heard_%27Round_the_World_\(baseball\))" in his masterwork [_Underworld_](http://www.amazon.com/Underworld-Novel-Don-DeLillo/dp/0684848155).
+This weeks' edition of Book Wisdom came from Don DeLillo's description of Bobby Thomson's "[Shot Heard 'Round the World](https://en.wikipedia.org/wiki/Shot_Heard_%27Round_the_World_\(baseball\))" in his masterwork [_Underworld_](https://www.amazon.com/Underworld-Novel-Don-DeLillo/dp/0684848155).

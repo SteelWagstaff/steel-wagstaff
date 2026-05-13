@@ -24,9 +24,9 @@ On this week's episode, Steel and Dave are joined by Katie, Dave's friend and fe
 
 ###  On Death and Dying
 
-- [Atul Gawande's book](http://www.slate.com/articles/health_and_science/medical_examiner/2014/10/end_of_life_medical_decisions_atul_gawande_book_excerpt_on_no_risky_chances.single.html) _Being Mortal_
+- [Atul Gawande's book](https:::::::::::::://www.slate.com/articles/health_and_science/medical_examiner/2014/10/end_of_life_medical_decisions_atul_gawande_book_excerpt_on_no_risky_chances.single.html) _Being Mortal_
 - [How doctors would prefer to die](https://med.stanford.edu/news/all-news/2014/05/most-physicians-would-forgo-aggressive-treatment-for-themselves-.html)
-- [Ken Murray on "futile caree"](http://www.zocalopublicsquare.org/2011/11/30/how-doctors-die/ideas/nexus/)
+- [Ken Murray on "futile caree"](https:::::::::::::://www.zocalopublicsquare.org/2011/11/30/how-doctors-die/ideas/nexus/)
 - Krull https://www.youtube.com/watch?v=ndpV6qfQJVw
 
 ### Unchained Melodies

@@ -21,6 +21,6 @@ https://open.spotify.com/user/steelwagstaff/playlist/30ofQTDT31i2ej7LlWlIDA
 
 ### Book Wisdom
 
-This week's passage of book wisdom was Arnold Lobel's classic story "Cookies" from the book _[Frog & Toad Together](http://www.amazon.com/Frog-Toad-Together-Read-Level/dp/0064440214)_.
+This week's passage of book wisdom was Arnold Lobel's classic story "Cookies" from the book _[Frog & Toad Together](https://www.amazon.com/Frog-Toad-Together-Read-Level/dp/0064440214)_.
 
 Featured image: Melissa and Dave and their siblings as children. You can probably guess which one Dave is.

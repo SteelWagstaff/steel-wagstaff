@@ -14,4 +14,4 @@ imageAlt: ""
 
 Number 23 in a series of mixtapes I made for Laurel's birthday some years ago.
 
-Photo by [Center for Jewish History, NYC](http://www.flickr.com/photos/36988361@N08/4465634762)
+Photo by [Center for Jewish History, NYC](https:://www.flickr.com/photos/36988361@N08/4465634762)
