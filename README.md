@@ -4,10 +4,10 @@ A personal website showcasing music, podcasts, writing, and blog content. Built 
 
 ## What's Inside
 
-- **Radio + Podcasts** — Music playlists and podcast episodes (Off the Chain, Theme Songs)
-- **Writing + Storytelling** — Articles and creative content
-- **The Commonplace** — Curated thoughts and ideas
 - **Blog** — Articles and posts
+- **Writing + Storytelling** — Articles, essays, and storytelling recordings
+- **Radio + Podcasts** — Music playlists and podcast episodes (Off the Chain, Theme Songs, Steel's Magnolias)
+- **The Commonplace** — Curated thoughts and ideas
 
 ---
 
