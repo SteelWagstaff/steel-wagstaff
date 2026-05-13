@@ -1,8 +1,6 @@
 ---
 title: "Mixtapes for Camille: 1990"
 description: "First disc for Camille."
-
-In 2010, I dr"
 publishedAt: 2014-10-10
 author: steel
 tags: ["mixtape"]

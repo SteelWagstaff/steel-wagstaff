@@ -1,9 +1,6 @@
 ---
 title: "Mixtapes for Camille: 1992"
 description: "Another mixtape I made for my sister Camille's Christmas present. All songs released in 1992."
-
-Music fans, what other songs from 1992 ought I to have included?
-
 publishedAt: 2014-10-24
 author: steel
 tags: ["mixtape"]

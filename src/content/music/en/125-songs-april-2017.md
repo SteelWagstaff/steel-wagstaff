@@ -1,9 +1,6 @@
 ---
 title: "125 Songs [April 2017]"
-description: "Here's a new playlist made up of nearly eight and a half hours of music I listened to and enjoyed in April 2017. Favorites from April included ANOHNI's _Paradise_ record, new records from Jenn Grant, Feist, Johnny Flynn and Big Thief, a live album, _Waterworks_, by Glenn Jones and Matthew Azevedo, and new music from Morton Valence and Quantic. Hope you enjoy!
-
-
-
+description: "Eight plus hours of music I listened to and enjoyed in April 2017."
 Featured image: Precolombian mask at Denver Art Museum. Photo by Steel Wagstaff."
 publishedAt: 2017-05-01
 author: steel
@@ -18,6 +15,4 @@ imageAlt: ""
 
 Here's a new playlist made up of nearly eight and a half hours of music I listened to and enjoyed in April 2017. Favorites from April included ANOHNI's _Paradise_ record, new records from Jenn Grant, Feist, Johnny Flynn and Big Thief, a live album, _Waterworks_, by Glenn Jones and Matthew Azevedo, and new music from Morton Valence and Quantic. Hope you enjoy!
 
-
-
-Featured image: Precolombian mask at Denver Art Museum. Photo by Steel Wagstaff.
+<small>Featured image: Precolombian mask at Denver Art Museum. Photo by Steel Wagstaff.</small>
