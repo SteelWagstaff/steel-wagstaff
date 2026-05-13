@@ -15,4 +15,4 @@ This week's theme was "Reading, Writing, and Arithmetic." Dave and Steel were jo
 
 https://open.spotify.com/user/steelwagstaff/playlist/5mRmSSuSdgw9KizQbv4bQo?si=b4ddZDIYRqGSLrIRYRyIkQ
 
-Featured image by [Internet Archive Book Images](http://www.flickr.com/photos/126377022@N07/14767251514)
+Featured image by [Internet Archive Book Images](https://www.flickr.com/photos/126377022@N07/14767251514)

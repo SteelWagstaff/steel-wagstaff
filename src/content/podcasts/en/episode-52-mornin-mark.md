@@ -18,17 +18,17 @@ This week Dave and Steel are joined by one of their oldest friends, Mark Eliason
 
 ### Opening Segment
 
-A list of [great lives felled by tuberculosis](http://www.dhss.delaware.gov/dph/dpc/tbfamouspeople.html).
+A list of [great lives felled by tuberculosis](https:://www.dhss.delaware.gov/dph/dpc/tbfamouspeople.html).
 
 ### Small Talk
 
-- [$100,000 Garbage Men](http://money.cnn.com/2016/02/24/news/economy/trash-workers-high-pay/index.html) \[Dave\]
-- [The long, long history of professional farters, and how Youtube is destroying the ancient tradition](http://www.atlasobscura.com/articles/the-true-story-of-roland-the-farter-and-how-the-internet-killed-professional-flatulence) \[Steel\].
+- [$100,000 Garbage Men](https:://money.cnn.com/2016/02/24/news/economy/trash-workers-high-pay/index.html) \[Dave\]
+- [The long, long history of professional farters, and how Youtube is destroying the ancient tradition](https:://www.atlasobscura.com/articles/the-true-story-of-roland-the-farter-and-how-the-internet-killed-professional-flatulence) \[Steel\].
 - [Intermodal Freight Transport](https://en.wikipedia.org/wiki/Intermodal_freight_transport) \[Mark\]
 
 ### Expert Testimony
 
-\[caption id="" align="alignleft" width="300"\]![Adam Clayton](http://www.atu2.com/files/news/26/7919-m.jpg) Adam Clayton in full Jetsons regalia\[/caption\]
+\[caption id="" align="alignleft" width="300"\]![Adam Clayton](https:://www.atu2.com/files/news/26/7919-m.jpg) Adam Clayton in full Jetsons regalia\[/caption\]
 
 ### Unchained Melodies: U2 Edition
 
@@ -36,6 +36,6 @@ https://open.spotify.com/user/steelwagstaff/playlist/2BTINLFKHt3eD3huq4NTxn
 
 ### Book Wisdom
 
-This week Mark shared a passage from David McCullough's [biography of the Wright Brothers](http://books.simonandschuster.com/The-Wright-Brothers/David-McCullough/9781476728742).
+This week Mark shared a passage from David McCullough's [biography of the Wright Brothers](https:://books.simonandschuster.com/The-Wright-Brothers/David-McCullough/9781476728742).
 
 Featured image: Mark Eliason performing at NoiseFest 2K5 (Provo, UT).

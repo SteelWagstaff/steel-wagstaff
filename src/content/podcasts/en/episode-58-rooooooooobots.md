@@ -16,7 +16,7 @@ This week Dave and Steel are joined by their old friend Spencer. The trio discus
 
 ## Links
 
-Enjoy Steel's multi-part blog series on [wedding planning](http://steelwagstaff.com/wedding-planning/), especially if you're thinking about getting married.
+Enjoy Steel's multi-part blog series on [wedding planning](https://steelwagstaff.com/wedding-planning/), especially if you're thinking about getting married.
 
 ### Unchained Melodies: Dystopian Technological Future Edition
 
@@ -24,6 +24,6 @@ https://open.spotify.com/user/steelwagstaff/playlist/4EuABievUgPi6DTtki8BKz
 
 ### Book Wisdom
 
-This week Steel shared [David Kirby](http://www.davidkirby.com/)'s beautiful poem "[more than this](http://www.rattle.com/more-than-this-by-david-kirby/)."
+This week Steel shared [David Kirby](https://www.davidkirby.com/)'s beautiful poem "[more than this](https://www.rattle.com/more-than-this-by-david-kirby/)."
 
-Featured image by [PinkMoose](http://www.flickr.com/photos/82072056@N00/4507289792) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by/2.0/ "Attribution License")
+Featured image by [PinkMoose](https://www.flickr.com/photos/82072056@N00/4507289792) [![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by/2.0/ "Attribution License")

@@ -20,22 +20,22 @@ This week Dave and Steel are joined by their friend Spencer. Together the trio d
 
 For Dave:
 
-- Brandon Sanderson's fantasy epic _[Warbreaker](http://brandonsanderson.com/warbreaker-introduction/)_ \[from Steel\]
-- Ignazio Silone's classic Italian novel _[Bread and Wine](http://www.amazon.com/Bread-Signet-Classics-Ignazio-Silone/dp/0451529782)_ \[from Spencer\]
+- Brandon Sanderson's fantasy epic _[Warbreaker](https://brandonsanderson.com/warbreaker-introduction/)_ \[from Steel\]
+- Ignazio Silone's classic Italian novel _[Bread and Wine](https://www.amazon.com/Bread-Signet-Classics-Ignazio-Silone/dp/0451529782)_ \[from Spencer\]
 
 For Spencer:
 
-- Israeli-American psychologist and behavioral economist Daniel Kahneman's _[Thinking, Fast and Slow](http://us.macmillan.com/thinkingfastandslow/danielkahneman)_ \[from Steel\]
-- Alexander Dulgan's harrowing tale of Soviet imprisonment, _[An American in the Gulag](http://www.amazon.com/Alexander-Dolguns-story-American-Gulag/dp/0394494970)_ \[from Dave\]
+- Israeli-American psychologist and behavioral economist Daniel Kahneman's _[Thinking, Fast and Slow](https://us.macmillan.com/thinkingfastandslow/danielkahneman)_ \[from Steel\]
+- Alexander Dulgan's harrowing tale of Soviet imprisonment, _[An American in the Gulag](https://www.amazon.com/Alexander-Dolguns-story-American-Gulag/dp/0394494970)_ \[from Dave\]
 
 For Steel:
 
-- Frank Herbert's sci-fi classic _[Dune](http://www.dunenovels.com/novel/dune)_.
-- Nassim Nicholas Taleb's _[Antifragile](http://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb/)_
+- Frank Herbert's sci-fi classic _[Dune](https://www.dunenovels.com/novel/dune)_.
+- Nassim Nicholas Taleb's _[Antifragile](https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb/)_
 
 ### Expert Testimony
 
-Portland's spending on bike infrastructure relative to the cost of 1 mile of urban freeway, [as checked by Polifact](http://www.politifact.com/oregon/statements/2011/mar/19/sam-adams/portland-mayor-sam-adams-says-portlands-spent-its-/).
+Portland's spending on bike infrastructure relative to the cost of 1 mile of urban freeway, [as checked by Polifact](https://www.politifact.com/oregon/statements/2011/mar/19/sam-adams/portland-mayor-sam-adams-says-portlands-spent-its-/).
 
 ### Unchained Melodies
 
@@ -65,4 +65,4 @@ https://www.youtube.com/watch?v=Los0qjV9Ecg
 
 ### Book Wisdom
 
-This week's passage of Book Wisdom was Robert Hayden's moving tribute to his father, the poem "[Those Winter Sundays](http://www.poets.org/poetsorg/poem/those-winter-sundays)." Fathers everywhere, we thank you.
+This week's passage of Book Wisdom was Robert Hayden's moving tribute to his father, the poem "[Those Winter Sundays](https://www.poets.org/poetsorg/poem/those-winter-sundays)." Fathers everywhere, we thank you.

@@ -14,4 +14,4 @@ imageAlt: ""
 
 The twenty-fourth in a series of mixtape presents made for Laurel's birthday a few years gone now.
 
-Photo by [Marine Corps Archives & Special Collections](http://www.flickr.com/photos/60868061@N04/15720868892)
+Photo by [Marine Corps Archives & Special Collections](https:://www.flickr.com/photos/60868061@N04/15720868892)

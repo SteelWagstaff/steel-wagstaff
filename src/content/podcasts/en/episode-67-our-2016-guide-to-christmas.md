@@ -63,11 +63,11 @@ Ho! Ho! Ho! This week on Off the Chain Dave and Steel are joined by their old fr
 
 #### Recommended Eats & Drinks
 
-- [Darigold Eggnog](http://www.darigold.com/products/milk/egg-nog-half-gallon). It's the best there is. Available in both original and old-fashioned varieties. \[Dave\]
-- North African Christmas! Don't eat the same old doldrums. Try making and enjoying something from North African this year, like [this spiced pie dish](http://www.bbcgoodfood.com/recipes/2295/moroccan-spiced-pie). \[Steel\]
-- \[caption id="attachment\_571" align="alignright" width="500"\]![Turon](http://otc.awesomecity.org/wp-content/uploads/sites/8/2016/12/turon.jpg) Turon\[/caption\]
+- [Darigold Eggnog](https:://www.darigold.com/products/milk/egg-nog-half-gallon). It's the best there is. Available in both original and old-fashioned varieties. \[Dave\]
+- North African Christmas! Don't eat the same old doldrums. Try making and enjoying something from North African this year, like [this spiced pie dish](https:://www.bbcgoodfood.com/recipes/2295/moroccan-spiced-pie). \[Steel\]
+- \[caption id="attachment\_571" align="alignright" width="500"\]![Turon](https:://otc.awesomecity.org/wp-content/uploads/sites/8/2016/12/turon.jpg) Turon\[/caption\]
     
-    "We always eat food white people don't eat or even know what it is. Things like lumpia, pancit, ginataan, polvo, puto, pan de sal, leche flan, sinigang, champurrado, etc. Oh and turon! Oh my gosh turon. You guys would like turon. It's a big chunk of plantain wrapped in a flaky pastry, coated with sugar syrup and then fried in butter. It's so sticky and gooey sweet delicious. So good! Reminds me of Christmas! Also [ube cake](http://www.pinasgifts.com/fathers-day-category/Cake-Fathers-Day/Red-Ribbon-Cakes-Fathers%20day/Ube-Macapuno-Roll-Cake-by-Red-Ribbon), [white rabbits](https://en.wikipedia.org/wiki/White_Rabbit_\(candy\)), [chocnut](http://www.worldofsnacks.com/blog/king-choc-nut-peanut-milk-chocolate)." \[Jordan\]
+    "We always eat food white people don't eat or even know what it is. Things like lumpia, pancit, ginataan, polvo, puto, pan de sal, leche flan, sinigang, champurrado, etc. Oh and turon! Oh my gosh turon. You guys would like turon. It's a big chunk of plantain wrapped in a flaky pastry, coated with sugar syrup and then fried in butter. It's so sticky and gooey sweet delicious. So good! Reminds me of Christmas! Also [ube cake](https:://www.pinasgifts.com/fathers-day-category/Cake-Fathers-Day/Red-Ribbon-Cakes-Fathers%20day/Ube-Macapuno-Roll-Cake-by-Red-Ribbon), [white rabbits](https://en.wikipedia.org/wiki/White_Rabbit_\(candy\)), [chocnut]https:s://www.worldofsnacks.com/blog/king-choc-nut-peanut-milk-chocolate)." \[Jordan\]
 
 ### Unchained Melodies
 

@@ -14,4 +14,4 @@ imageAlt: ""
 
 The 26th disc in a birthday mix series I made for Laurel a couple years back:
 
-Photo by [Edsel L](http://www.flickr.com/photos/27119975@N00/14068727510)
+Photo by [Edsel L](https://www.flickr.com/photos/27119975@N00/14068727510)

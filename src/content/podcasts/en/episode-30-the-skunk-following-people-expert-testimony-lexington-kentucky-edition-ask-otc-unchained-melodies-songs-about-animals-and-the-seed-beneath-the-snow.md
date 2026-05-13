@@ -18,16 +18,16 @@ This week Dave and Steel are joined once again by their friend Julia. Together t
 
 ### The Skunk
 
-Dave recommends the children's psychological thriller _[The Skunk](http://www.macbarnett.com/the-skunk/)_ by Mac Barnett.
+Dave recommends the children's psychological thriller _[The Skunk](https://www.macbarnett.com/the-skunk/)_ by Mac Barnett.
 
 ### Expert Testimony
 
-- More on "[Kentucky Blue](http://www.nytimes.com/2015/04/02/sports/ncaabasketball/for-duke-and-kentucky-theres-blue-and-then-theres-blue.html?_r=0)"
+- More on "[Kentucky Blue](https://www.nytimes.com/2015/04/02/sports/ncaabasketball/for-duke-and-kentucky-theres-blue-and-then-theres-blue.html?_r=0)"
 - Lexington, Kentucky's [Wikipedia page](https://en.wikipedia.org/wiki/Lexington,_Kentucky)
 
 ### Ask OTC
 
-- Check out Vin Diesel's [fake beard](http://io9.com/vin-diesels-fake-beard-steals-the-show-in-the-last-witc-1722569732) in his new witch-hunter movie.
+- Check out Vin Diesel's [fake beard](https://io9.com/vin-diesels-fake-beard-steals-the-show-in-the-last-witc-1722569732) in his new witch-hunter movie.
 - Carry your book in a wagon when you go to college kids. That is all.
 
 ### Unchained Melodies
@@ -58,4 +58,4 @@ https://www.youtube.com/watch?v=LgkAhj89IGA
 
 ### Book Wisdom
 
-This week's edition of Book Wisdom comes from Ignazio Silone's _The Seed Beneath the Snow_, the third novel in [his Abruzzo trilogy](http://www.amazon.com/The-Abruzzo-Trilogy-Fontamara-Beneath/dp/1586420062), which also includes _Fontamara_ and _Bread & Wine_.
+This week's edition of Book Wisdom comes from Ignazio Silone's _The Seed Beneath the Snow_, the third novel in [his Abruzzo trilogy](https://www.amazon.com/The-Abruzzo-Trilogy-Fontamara-Beneath/dp/1586420062), which also includes _Fontamara_ and _Bread & Wine_.

@@ -18,8 +18,8 @@ This week Dave and Steel are joined by Steel's friend [Sigrid](https://www.sigri
 
 ### Small Talk
 
-- Sig - [Ken has a Man Bun, Now](http://jezebel.com/ken-has-a-man-bun-now-just-as-your-child-requested-1796257064), which is another reason the world can’t have nice things.
-- Dave - [Yakov Smirnoff](http://theconcourse.deadspin.com/yakov-smirnoff-americas-secret-weapon-in-the-cold-war-1794529858), Nancy Reagan's favorite comedian.
+- Sig - [Ken has a Man Bun, Now](https://jezebel.com/ken-has-a-man-bun-now-just-as-your-child-requested-1796257064), which is another reason the world can’t have nice things.
+- Dave - [Yakov Smirnoff](https://theconcourse.deadspin.com/yakov-smirnoff-americas-secret-weapon-in-the-cold-war-1794529858), Nancy Reagan's favorite comedian.
 
 https://www.youtube.com/watch?v=5GK8ewRec7c
 

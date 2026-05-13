@@ -18,15 +18,15 @@ This week Dave was out, so Steel had to hold down the fort without him. Fortunat
 
 ### Small Talk
 
-- Medical researchers at the University of Virginia have [discovered a link between the lymphatic system and the brain](http://www.sciencedaily.com/releases/2015/06/150601122445.htm).
-- The word mother (or one of its variants) [has been in use since the last Ice Age](http://www.washingtonpost.com/national/health-science/linguists-identify-15000-year-old-ultraconserved-words/2013/05/06/a02e3a14-b427-11e2-9a98-4be1688d7d84_story.html).
-- Facebook stickers are OFF THE CHAIN. Also, emoji are [amazingly interesting](http://nymag.com/daily/intelligencer/2014/11/emojis-rapid-evolution.html).
+- Medical researchers at the University of Virginia have [discovered a link between the lymphatic system and the brain](https:://www.sciencedaily.com/releases/2015/06/150601122445.htm).
+- The word mother (or one of its variants) [has been in use since the last Ice Age](https:://www.washingtonpost.com/national/health-science/linguists-identify-15000-year-old-ultraconserved-words/2013/05/06/a02e3a14-b427-11e2-9a98-4be1688d7d84_story.html).
+- Facebook stickers are OFF THE CHAIN. Also, emoji are [amazingly interesting](https:://nymag.com/daily/intelligencer/2014/11/emojis-rapid-evolution.html).
 
 ### Everyday Heroes
 
-- [Vel Phillips](http://www.wisconsinhistory.org/Content.aspx?dsNav=Ny:True,Ro:0,N:4294963828-4294963805&dsNavOnly=Ntk:All%7CVel+Phillips%7C3%7C,Ny:True,Ro:0&dsRecordDetails=R:CS4384&dsDimensionSearch=D:Vel+Phillips,Dxm:All,Dxp:3&dsCompoundDimensionSearch=D:Vel+Phillips,Dxm:All,Dxp:3) \[chosen by Steel\]
-- [Dene Low](http://denelow.com) \[chosen by Rose\]
-- [Anna Maria Horner](http://annamariahorner.blogspot.com/) \[chosen by Emeline\]
+- [Vel Phillips](https:://www.wisconsinhistory.org/Content.aspx?dsNav=Ny:True,Ro:0,N:4294963828-4294963805&dsNavOnly=Ntk:All%7CVel+Phillips%7C3%7C,Ny:True,Ro:0&dsRecordDetails=R:CS4384&dsDimensionSearch=D:Vel+Phillips,Dxm:All,Dxp:3&dsCompoundDimensionSearch=D:Vel+Phillips,Dxm:All,Dxp:3) \[chosen by Steel\]
+- [Dene Low](https:://denelow.com) \[chosen by Rose\]
+- [Anna Maria Horner](https:://annamariahorner.blogspot.com/) \[chosen by Emeline\]
 
 ### Unchained Melodies
 
@@ -56,4 +56,4 @@ https://www.youtube.com/watch?v=FdUx2SYOiEk
 
 ### Book Wisdom
 
-This week's edition of book wisdom was read by Rose, and came from Howard Norman's memoir [I Hate to Leave This Beautiful Place](http://www.amazon.com/Hate-Leave-This-Beautiful-Place/dp/0544317165).
+This week's edition of book wisdom was read by Rose, and came from Howard Norman's memoir [I Hate to Leave This Beautiful Place](https:://www.amazon.com/Hate-Leave-This-Beautiful-Place/dp/0544317165).

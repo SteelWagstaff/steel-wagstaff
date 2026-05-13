@@ -17,4 +17,4 @@ Dave's pick for his "Desert Island" song, "Random Rules" by the Silver Jews isn'
 
 https://www.youtube.com/watch?v=jKl4Wpu75W0
 
-Featured image by [MacBeales](http://www.flickr.com/photos/53073903@N07/26729308786) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-nd/2.0/ "Attribution-NoDerivs License")
+Featured image by [MacBeales](https://www.flickr.com/photos/53073903@N07/26729308786) [![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by-nd/2.0/ "Attribution-NoDerivs License")

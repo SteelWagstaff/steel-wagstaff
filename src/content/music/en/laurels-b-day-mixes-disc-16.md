@@ -17,4 +17,4 @@ Here's the sixteenth disc in a series of mixtapes I made for Laurel's birthday
 
 
 
-Photo by [Kim Bost](http://www.flickr.com/photos/57873916@N00/2545318262)
+Photo by [Kim Bost](https:://www.flickr.com/photos/57873916@N00/2545318262)

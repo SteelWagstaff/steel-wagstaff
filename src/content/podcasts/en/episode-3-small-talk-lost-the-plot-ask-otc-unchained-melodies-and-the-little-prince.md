@@ -12,16 +12,16 @@ draft: false
 locale: en
 ---
 
-In this episode of _Off the Chain_, we introduce a new segment called _Small Talk_, in which we offer you some advice for improving your conversation skills and give you some rich content for your next informal chat with friends (Is it safe to read on the toilet? Coke vs. Pepsi? What does Ayn Rand think of recent children's movies?), play another version of our _Lost the Plot_ game, in which Dave asks Steel to describe the plot of a bad action movie he's never seen (this week it's [_Lockout_](http://www.imdb.com/title/tt1592525/ "Lockout")!), answer listener questions in another installment of _Ask Off the Chain_, share some of our favorite recent songs, and drop some book wisdom from French adventurer Antoine de Saint-Exupéry.
+In this episode of _Off the Chain_, we introduce a new segment called _Small Talk_, in which we offer you some advice for improving your conversation skills and give you some rich content for your next informal chat with friends (Is it safe to read on the toilet? Coke vs. Pepsi? What does Ayn Rand think of recent children's movies?), play another version of our _Lost the Plot_ game, in which Dave asks Steel to describe the plot of a bad action movie he's never seen (this week it's [_Lockout_](https://www.imdb.com/title/tt1592525/ "Lockout")!), answer listener questions in another installment of _Ask Off the Chain_, share some of our favorite recent songs, and drop some book wisdom from French adventurer Antoine de Saint-Exupéry.
 
 ## Links
 
 ### Small Talk
 
-- "Reading on the Loo" article in [_The Guardian_](http://www.theguardian.com/books/booksblog/2011/oct/21/reading-on-the-loo-study)
-- Why blind taste tests might be misleading & the Coke vs. Pepsi wars by Matthew Yglesias in [_Slate_](http://www.slate.com/articles/business/rivalries/2013/08/pepsi_paradox_why_people_prefer_coke_even_though_pepsi_wins_in_taste_tests.html)
-- Guide to open heart surgery from [Healthline](http://www.healthline.com/health/open-heart-surgery).
-- Ayn Rand reviews children's movies by Mallory Ortberg in _[The New Yorker](http://www.newyorker.com/humor/daily-shouts/ayn-rand-reviews-childrens-movies)._
+- "Reading on the Loo" article in [_The Guardian_](https://www.theguardian.com/books/booksblog/2011/oct/21/reading-on-the-loo-study)
+- Why blind taste tests might be misleading & the Coke vs. Pepsi wars by Matthew Yglesias in [_Slate_](https://www.slate.com/articles/business/rivalries/2013/08/pepsi_paradox_why_people_prefer_coke_even_though_pepsi_wins_in_taste_tests.html)
+- Guide to open heart surgery from [Healthline](https://www.healthline.com/health/open-heart-surgery).
+- Ayn Rand reviews children's movies by Mallory Ortberg in _[The New Yorker](https://www.newyorker.com/humor/daily-shouts/ayn-rand-reviews-childrens-movies)._
 
 ### Lost the Plot
 
@@ -33,4 +33,4 @@ Benjamin Booker: Violent Shiver https://www.youtube.com/watch?v=zm-rb8k1HkU Pave
 
 ### Book Wisdom
 
-- Taken from Chapter 21 of Antoine de Saint-Exupéry's story _Le Petit Prince_ \[_[The Little Prince](http://www.thelittleprince.com/)_\]
+- Taken from Chapter 21 of Antoine de Saint-Exupéry's story _Le Petit Prince_ \[_[The Little Prince](https://www.thelittleprince.com/)_\]

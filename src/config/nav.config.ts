@@ -12,10 +12,10 @@ export interface NavItem {
 }
 
 export const navItems: NavItem[] = [
-  { label: 'Radio + Podcasts', href: '/radio-podcasts', order: 1 },
+  { label: 'Blog', href: '/blog', order: 1 },
   { label: 'Writing + Storytelling', href: '/writing-storytelling', order: 2 },
-  { label: 'Commonplace', href: '/commonplace', order: 3 },
-  { label: 'Blog', href: '/blog', order: 4 },
+  { label: 'Radio + Podcasts', href: '/radio-podcasts', order: 3 },
+  { label: 'The Commonplace', href: '/commonplace', order: 4 },
 ];
 
 /**

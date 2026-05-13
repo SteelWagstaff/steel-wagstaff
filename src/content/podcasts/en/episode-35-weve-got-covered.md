@@ -20,7 +20,7 @@ This week Dave and Steel bring Zac back on the show to discuss the joys and terr
 
 - Top 5 Pauly Shore films \[Dave\]
 - Robbie Maddison surfed a 20 foot wave on a motorcycle with skis: https://www.youtube.com/watch?v=lDi9uFcD7XI
-- Alexander Hamilton, [the hip-hop musical](http://www.vox.com/2015/9/30/9419835/hamilton-musical-lin-manuel-miranda)
+- Alexander Hamilton, [the hip-hop musical](https:://www.vox.com/2015/9/30/9419835/hamilton-musical-lin-manuel-miranda)
 
 ### Unchained Melodies: Cover Me!
 
@@ -28,6 +28,6 @@ https://www.youtube.com/playlist?list=PLcPWWK79NBW0VyUX-MUmQRzjs6Suy67In
 
 ### Book Wisdom
 
-This week's book wisdom was provided by [Brian Teare](http://www.brianteare.net/)'s poem "[When we are on the right track, we are surprised by joy](https://www.poets.org/poetsorg/poem/when-we-are-right-track-we-are-rewarded-joy)"
+This week's book wisdom was provided by [Brian Teare](https:://www.brianteare.net/)'s poem "[When we are on the right track, we are surprised by joy](https://www.poets.org/poetsorg/poem/when-we-are-right-track-we-are-rewarded-joy)"
 
-Featured image by [Robert Bejil Productions](http://www.flickr.com/photos/28618109@N05/3988357319) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by/2.0/ "Attribution License")
+Featured image by [Robert Bejil Productions](https:://www.flickr.com/photos/28618109@N05/3988357319) [![]https:s://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)https:ps://creativecommons.org/licenses/by/2.0/ "Attribution License")

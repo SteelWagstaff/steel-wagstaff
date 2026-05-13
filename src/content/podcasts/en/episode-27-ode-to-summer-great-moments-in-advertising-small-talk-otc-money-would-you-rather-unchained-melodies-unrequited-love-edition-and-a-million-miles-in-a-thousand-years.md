@@ -36,9 +36,9 @@ https://www.youtube.com/watch?v=bl2U1p3fVRk
 
 ### Small Talk
 
-- Here's a great article from the Washington Post about [what it’s like to write political speeches for a moron](http://www.washingtonpost.com/news/book-party/wp/2015/07/08/what-its-like-to-write-speeches-for-a-rude-rambling-and-disgraced-politician/) (like Mark Sanford), based on [a new book](http://books.simonandschuster.com/The-Speechwriter/Barton-Swaim/9781476769929) by Barton Swaim
-- [The 8 benefits of Saunas](http://www.lifehack.org/articles/lifestyle/8-unexpected-benefits-sauna-that-will-impress-you.html)
-- [Reading Rainbow is coming to Netflix!](http://entertainthis.usatoday.com/2015/07/27/netflix-august-shows/) \[Howard\]
+- Here's a great article from the Washington Post about [what it’s like to write political speeches for a moron](https:://www.washingtonpost.com/news/book-party/wp/2015/07/08/what-its-like-to-write-speeches-for-a-rude-rambling-and-disgraced-politician/) (like Mark Sanford), based on [a new book]https:s://books.simonandschuster.com/The-Speechwriter/Barton-Swaim/9781476769929) by Barton Swaim
+- [The 8 benefits of Saunas](https:://www.lifehack.org/articles/lifestyle/8-unexpected-benefits-sauna-that-will-impress-you.html)
+- [Reading Rainbow is coming to Netflix!](https:://entertainthis.usatoday.com/2015/07/27/netflix-august-shows/) \[Howard\]
 
 ### Unchained Melodies
 
@@ -70,4 +70,4 @@ https://www.youtube.com/watch?v=LhqmD1aVuNw
 
 ### Book Wisdom
 
-Howard chose this week's passage from Donald Miller's book _[A Million Miles in a Thousand Years](http://www.amazon.com/Million-Miles-Thousand-Years-Learned/dp/1400202981)_.
+Howard chose this week's passage from Donald Miller's book _[A Million Miles in a Thousand Years](https:://www.amazon.com/Million-Miles-Thousand-Years-Learned/dp/1400202981)_.

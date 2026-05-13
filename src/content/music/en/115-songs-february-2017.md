@@ -13,4 +13,4 @@ imageAlt: ""
 
 Here's a megamix of almost 8 hours worth of music I listened to and enjoyed in February 2017. Records I had on pretty frequent rotation: Clap! Clap!'s _A Thousand Skies_, Jesca Hoop's _Memories Are Now_, Chinese Man's _Shikantaza_, Clap Your Hands Say Yeah's _The Tourist_, Dr. Dog's _Abandoned Mansion_, Kid Koala and Emilíana Torrini's _Music to Draw to: Satellite_, Tinarwen's _Elwan_, Anderson .Paak's _Malibu_, and Orenda Fink's _Blue Dream_. Enjoy!
 
-<small><a href="https://www.flickr.com/photos/jenniferhelen/32569518301/in/datetaken/" target="_blank">Featured image</a> by <a href="http://jenniferbastianphotography.com" target="_blank">Jennifer Bastian</a>.</small>
+<small><a href="https://www.flickr.com/photos/jenniferhelen/32569518301/in/datetaken/" target="_blank">Featured image</a> by <a href="https::::://jenniferbastianphotography.com" target="_blank">Jennifer Bastian</a>.</small>

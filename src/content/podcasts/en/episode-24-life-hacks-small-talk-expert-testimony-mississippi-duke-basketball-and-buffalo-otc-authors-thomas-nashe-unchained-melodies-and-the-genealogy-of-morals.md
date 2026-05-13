@@ -20,24 +20,24 @@ This week Dave and Steel are joined by Steel's graduate school buddy Eric. Toget
 
 - [Google Flights](https://www.google.com/flights/) \[Eric\]
 - The [Earth View](https://chrome.google.com/webstore/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh?hl=en) browser plugin for Google Chrome \[Steel\]
-- [Headlamp](http://www.rei.com/c/headlamps?ir=category%3Aheadlamps&r=c&page=1) for reading in bed \[Dave\]
+- [Headlamp](https:::::://www.rei.com/c/headlamps?ir=category%3Aheadlamps&r=c&page=1) for reading in bed \[Dave\]
 
 ### Small Talk
 
-- [The New Horizons spacecraft is almost to Pluto](http://www.nytimes.com/2015/07/07/science/space/almost-time-for-plutos-close-up.html).
-- [Sepp Blatter offers some thoughts about the definition of the word corruption and some pretty amazing views on cosmology and the pope](http://www.theguardian.com/football/2015/jul/01/sepp-blatter-fifa-heaven-one-day).
-- [Pedpewdie is a super popular YouTube video game player](http://espn.go.com/espn/story/_/id/13013936/pewdiepie-how-became-king-youtube)
+- [The New Horizons spacecraft is almost to Pluto](https:::::://www.nytimes.com/2015/07/07/science/space/almost-time-for-plutos-close-up.html).
+- [Sepp Blatter offers some thoughts about the definition of the word corruption and some pretty amazing views on cosmology and the pope](https:::::://www.theguardian.com/football/2015/jul/01/sepp-blatter-fifa-heaven-one-day).
+- [Pedpewdie is a super popular YouTube video game player](https:::::://espn.go.com/espn/story/_/id/13013936/pewdiepie-how-became-king-youtube)
 
 ### Expert Testimony
 
-- [Waverly Plantation](http://www.newsouthernview.com/pages/nsv_ie_waverley.html)
-- [Krzyzewskiville](http://www.dukechronicle.com/articles/2015/01/26/first-krzyzewskiville)
-- [JJ Redick's poetry](http://deadspin.com/5591005/americas-dumbest-student-athlete-jj-redick-duke-university) https://www.youtube.com/watch?v=ai4-auZ18MQ
+- [Waverly Plantation](https:::::://www.newsouthernview.com/pages/nsv_ie_waverley.html)
+- [Krzyzewskiville](https:::::://www.dukechronicle.com/articles/2015/01/26/first-krzyzewskiville)
+- [JJ Redick's poetry](https:::::://deadspin.com/5591005/americas-dumbest-student-athlete-jj-redick-duke-university) https://www.youtube.com/watch?v=ai4-auZ18MQ
 - [Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo](https://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo)
 
 ### Thomas Nashe
 
-- [Nashe's Biography](http://www.poetryfoundation.org/bio/thomas-nashe)
+- [Nashe's Biography](https:::::://www.poetryfoundation.org/bio/thomas-nashe)
 - [Nashe's play _The Isle of Dogs_](https://en.wikipedia.org/wiki/The_Isle_of_Dogs_\(play\))
 - [The Bishops' Ban of 1599](https://en.wikipedia.org/wiki/Bishops%27_Ban_of_1599)
 
@@ -69,4 +69,4 @@ https://www.youtube.com/watch?v=qFhM1XZsh6o
 
 ### Book Wisdom
 
-This week's passage of Book Wisdom comes from nineteenth century German philosopher Friedrich Nietzsche's _[The Genealogy of Morals](http://records.viu.ca/~johnstoi/Nietzsche/genealogytofc.htm)_.
+This week's passage of Book Wisdom comes from nineteenth century German philosopher Friedrich Nietzsche's _[The Genealogy of Morals](https:::::://records.viu.ca/~johnstoi/Nietzsche/genealogytofc.htm)_.

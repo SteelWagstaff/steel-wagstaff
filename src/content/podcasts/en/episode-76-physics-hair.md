@@ -19,18 +19,18 @@ This week Dave and Steel are joined by Dave's physicist friend Jason. Together t
 ### Great Physics Hair Gallery
 
 - [Young Tesla](https://upload.wikimedia.org/wikipedia/en/c/c1/Tesla_1879_teslauniverse.jpg) & [Seductive Tesla](https://upload.wikimedia.org/wikipedia/commons/d/d4/N.Tesla.JPG)
-- Formal [Isaac Newton](http://anglotopia.wpengine.netdna-cdn.com/wp-content/uploads/2014/08/Sir-Isaac-Newton-HD-Wallpaper.jpg) + [relaxed Newton](https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg)
-- [J. Robert Oppenheimer](http://bancroft.berkeley.edu/Exhibits/physics/learning03.html) - sweet look.
-- [Hans Bethe](http://bethe.cornell.edu/reading.html) AT DINNER: [http://blog.nuclearsecrecy.com/wp-content/uploads/2012/06/bethe\_hans\_c25.jpg](http://blog.nuclearsecrecy.com/wp-content/uploads/2012/06/bethe_hans_c25.jpg)
+- Formal [Isaac Newton](https://anglotopia.wpengine.netdna-cdn.com/wp-content/uploads/2014/08/Sir-Isaac-Newton-HD-Wallpaper.jpg) + [relaxed Newton](https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg)
+- [J. Robert Oppenheimer](https://bancroft.berkeley.edu/Exhibits/physics/learning03.html) - sweet look.
+- [Hans Bethe](https://bethe.cornell.edu/reading.html) AT DINNER: [https://blog.nuclearsecrecy.com/wp-content/uploads/2012/06/bethe\_hans\_c25.jpg](https://blog.nuclearsecrecy.com/wp-content/uploads/2012/06/bethe_hans_c25.jpg)
 - [Michio Kaku](https://www.ccny.cuny.edu/profiles/michio-kaku)
-- [Dr Sylvester James Gates](http://superstringtheory.com/people/jgates.html)
-- [Ashoke Sen](http://resize.indiatvnews.com/en/centered/oldbucket/750_533/mainnational/Allahabad_physi17194.jpg)
+- [Dr Sylvester James Gates](https://superstringtheory.com/people/jgates.html)
+- [Ashoke Sen](https://resize.indiatvnews.com/en/centered/oldbucket/750_533/mainnational/Allahabad_physi17194.jpg)
 - [Peter Higgs](https://coraifeartaigh.files.wordpress.com/2008/09/000105_med.jpg)
-- [Richard Feynman](http://doorofperception.com/wp-content/uploads/doorofperception.com-richard_feynman-2.jpg)
-- [Abdus Salam](http://i.huffpost.com/gen/1587744/images/o-ABDUS-SALAM-facebook.jpg)
+- [Richard Feynman](https://doorofperception.com/wp-content/uploads/doorofperception.com-richard_feynman-2.jpg)
+- [Abdus Salam](https://i.huffpost.com/gen/1587744/images/o-ABDUS-SALAM-facebook.jpg)
 - Max Planck: [before](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Max_Planck_1901.GIF/220px-Max_Planck_1901.GIF) & [after](https://www.maxplanckflorida.org/wp-content/uploads/2014/05/Max-Planck--733x1024.jpg)
-- [Robert Hooke](http://www.thefamouspeople.com/profiles/images/robert-hooke-2.jpg)
-- [Rolf-Dieter Heuer](http://www.nature.com/naturejobs/2008/080101/images/nj7178-602a-i1.0.jpg)
+- [Robert Hooke](https://www.thefamouspeople.com/profiles/images/robert-hooke-2.jpg)
+- [Rolf-Dieter Heuer](https://www.nature.com/naturejobs/2008/080101/images/nj7178-602a-i1.0.jpg)
     
     ### Unchained Melodies: Songs about Physics
     

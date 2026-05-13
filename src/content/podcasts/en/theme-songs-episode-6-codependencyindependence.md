@@ -20,14 +20,14 @@ Sexual assault is a major problem in our society. To get a better sense for the 
 
 ### Resources for men to learn about their role in preventing sexual harassment and violence:
 
-- [http://www.stopstreetharassment.org/resources/male-allies/educating-boys-men/](http://www.stopstreetharassment.org/resources/male-allies/educating-boys-men/)
-- [http://www.acalltomen.org/impact-prevent-sexual-assault/](http://www.acalltomen.org/impact-prevent-sexual-assault/)
+- [https://www.stopstreetharassment.org/resources/male-allies/educating-boys-men/](https://www.stopstreetharassment.org/resources/male-allies/educating-boys-men/)
+- [https://www.acalltomen.org/impact-prevent-sexual-assault/](https://www.acalltomen.org/impact-prevent-sexual-assault/)
 - [https://www.woar.org/counseling-and-support/support-services-for-parents/how-to-teach-prevention/](https://www.woar.org/counseling-and-support/support-services-for-parents/how-to-teach-prevention/)
 
 ### Resources for teaching everyone about consent:
 
-- [http://www.teachconsent.org/](http://www.teachconsent.org/)
-- [http://www.theconsensualproject.com/vision](http://www.theconsensualproject.com/vision)
+- [https://www.teachconsent.org/](https://www.teachconsent.org/)
+- [https://www.theconsensualproject.com/vision](https://www.theconsensualproject.com/vision)
 
 ### Ways for victims to get help and support:
 
@@ -40,4 +40,4 @@ Our love and concern to all those who have suffered sexual violence or harassmen
 
 https://open.spotify.com/user/steelwagstaff/playlist/6kfAfVbeSeVuGjaeLrtVnD
 
-Featured image by [soozed](http://www.flickr.com/photos/45309287@N02/11238409384) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by/2.0/ "Attribution License")
+Featured image by [soozed](https://www.flickr.com/photos/45309287@N02/11238409384) [![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by/2.0/ "Attribution License")

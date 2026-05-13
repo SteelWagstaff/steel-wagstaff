@@ -60,8 +60,8 @@ I, X, Y, Z: 0 Q, U: 1 E, O: 2
 
 ### Small Talk
 
-- The Penuma, a [silicon Penis Implant](http://www.gq.com/story/penis-enlargement-surgery), is real. James Elist, an LA surgeon, is the only person approved to use it by the FDA and has inserted it in about 1300 men.
-- [NBA 2K is being sued](http://www.hollywoodreporter.com/thr-esq/nba-2k-videogame-maker-sued-861131) for copyright infringement due to tattoo reproduction.
+- The Penuma, a [silicon Penis Implant](https:://www.gq.com/story/penis-enlargement-surgery), is real. James Elist, an LA surgeon, is the only person approved to use it by the FDA and has inserted it in about 1300 men.
+- [NBA 2K is being sued](https:://www.hollywoodreporter.com/thr-esq/nba-2k-videogame-maker-sued-861131) for copyright infringement due to tattoo reproduction.
 
 ### Unchained Melodies
 
@@ -69,6 +69,6 @@ https://open.spotify.com/user/steelwagstaff/playlist/1CMTq5UEtyFPI9S5vKtawv
 
 ### Book Wisdom
 
-This week Dave read a passage from John Steinbeck's Dust Bowl classic _[The Grapes of Wrath](http://www.amazon.com/The-Grapes-Wrath-John-Steinbeck/dp/0143039431)_.
+This week Dave read a passage from John Steinbeck's Dust Bowl classic _[The Grapes of Wrath](https:://www.amazon.com/The-Grapes-Wrath-John-Steinbeck/dp/0143039431)_.
 
-Featured image by [takomabibelot](http://www.flickr.com/photos/38782010@N00/2807438258) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by/2.0/ "Attribution License")
+Featured image by [takomabibelot](https:://www.flickr.com/photos/38782010@N00/2807438258) [![]https:s://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)https:ps://creativecommons.org/licenses/by/2.0/ "Attribution License")

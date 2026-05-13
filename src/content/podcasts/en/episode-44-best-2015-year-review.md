@@ -14,7 +14,7 @@ locale: en
 
 This week Dave and Steel reflect on the year that was 2015. We discuss news you might have missed in science, technology, and medicine, and give our 2015: The Year in Review summary, covering highlights from the year in sports, and share our list of bests from 2015 (new bands, food, day trips, films, children's books, podcasts, films, magazines, humans, and social issues), say goodbye to some prominent people who died this last year, share great music from Leon Bridges, Anna B. Savage, Nathaniel Rateliff & the Night Sweats, The Tallest Man on Earth, The Handsome Family, and Dom La Nena & Rosemary Standley, before closing the episode out with some timeless wisdom from Abraham Lincoln's second inaugural address.
 
-![2015!](http://appskyworld.com/wp-content/uploads/2014/12/2015.jpg)
+![2015!](https://appskyworld.com/wp-content/uploads/2014/12/2015.jpg)
 
 ## Links
 
@@ -49,17 +49,17 @@ This week Dave and Steel reflect on the year that was 2015. We discuss news you 
 
 #### Best new band
 
-- Dave - [Leon Bridges](http://www.leonbridges.com/tour/)
-- Steel - [Dom La Nena](http://www.domlanena.com/tour.html)
+- Dave - [Leon Bridges](https://www.leonbridges.com/tour/)
+- Steel - [Dom La Nena](https://www.domlanena.com/tour.html)
 
 #### Best Food you had in 2015
 
-- Steel - [The Acorn](http://www.theacornrestaurant.ca/welcome#menu) \[Vancouver, BC\]
-- Dave - Burger at [Arizona Wilderness Brewing Co.](http://www.azwbeer.com/)
+- Steel - [The Acorn](https://www.theacornrestaurant.ca/welcome#menu) \[Vancouver, BC\]
+- Dave - Burger at [Arizona Wilderness Brewing Co.](https://www.azwbeer.com/)
 
 #### Best Meal under $10
 
-- Dave - [Backyard Taco](http://www.backyardtaco.com/menu) in Mesa, AZ
+- Dave - [Backyard Taco](https://www.backyardtaco.com/menu) in Mesa, AZ
 - Steel - Luang Prabang Thai food cart in Madison, WI
 
 #### Best Day Trip
@@ -68,13 +68,13 @@ This week Dave and Steel reflect on the year that was 2015. We discuss news you 
 
 #### Best expensive purchase of the year
 
-- Steel - Fancy new camera \[[Panasonic Lumix DMC-FZ1000](http://www.cnet.com/products/panasonic-lumix-dmc-fz1000/)\]
+- Steel - Fancy new camera \[[Panasonic Lumix DMC-FZ1000](https://www.cnet.com/products/panasonic-lumix-dmc-fz1000/)\]
 - Dave - My house in Snowflake
 
 #### Best Hike you took
 
-- Steel - [Stanley Park](http://vancouver.ca/parks-recreation-culture/stanley-park.aspx), Prospect Point, Lost Lagoon -- Vancouver
-- Dave - [Kanab, UT](http://kanab.utah.gov/)
+- Steel - [Stanley Park](https://vancouver.ca/parks-recreation-culture/stanley-park.aspx), Prospect Point, Lost Lagoon -- Vancouver
+- Dave - [Kanab, UT](https://kanab.utah.gov/)
 
 #### Best Film
 
@@ -83,43 +83,43 @@ This week Dave and Steel reflect on the year that was 2015. We discuss news you 
 
 #### Best Children’s Book you read this year
 
-- Steel - [Journey](http://www.storybreathing.com/journey/) \- Aaron Becker
-- Dave - [It’s only Stanley](http://www.penguinrandomhouse.com/books/311803/its-only-stanley-by-jon-agee/9780803739079/) - Jon Agee
+- Steel - [Journey](https://www.storybreathing.com/journey/) \- Aaron Becker
+- Dave - [It’s only Stanley](https://www.penguinrandomhouse.com/books/311803/its-only-stanley-by-jon-agee/9780803739079/) - Jon Agee
 
 #### Best board game
 
-- Dave - [Lords of Waterdeep](http://dnd.wizards.com/products/tabletop-games/board-games/lords-waterdeep)
-- Steel - [Ticket to Ride Europe](http://www.daysofwonder.com/tickettoride/en/europe/)
+- Dave - [Lords of Waterdeep](https://dnd.wizards.com/products/tabletop-games/board-games/lords-waterdeep)
+- Steel - [Ticket to Ride Europe](https://www.daysofwonder.com/tickettoride/en/europe/)
 
 #### Best Non-OTC podcast
 
-- Steel - [The Memory Palace](http://thememorypalace.us/)
-- Dave - [Reveal](https://www.revealnews.org/) OR [The Bill Simmons Podcast](http://thebillsimmonspodcast.tumblr.com/)
+- Steel - [The Memory Palace](https://thememorypalace.us/)
+- Dave - [Reveal](https://www.revealnews.org/) OR [The Bill Simmons Podcast](https://thebillsimmonspodcast.tumblr.com/)
 
 #### Best Condiment
 
 - Dave - Honey
-- Steel - [Green dragon hot sauce](http://www.traderjoes.com/digin/post/green-dragon-hot-sauce), Trader Joe’s
+- Steel - [Green dragon hot sauce](https://www.traderjoes.com/digin/post/green-dragon-hot-sauce), Trader Joe’s
 
 #### Magazine you subscribe to
 
-- Steel - _[Poetry](http://www.poetryfoundation.org/poetrymagazine/)_
-- Dave - _[Arizona Highways](http://www.arizonahighways.com/)_
+- Steel - _[Poetry](https://www.poetryfoundation.org/poetrymagazine/)_
+- Dave - _[Arizona Highways](https://www.arizonahighways.com/)_
 
 #### Man of the Year
 
 - Dave - [John Oliver](https://www.youtube.com/channel/UC3XTzVzaHQEd30rQbuvCtTQ)
-- Steel - [Bono](http://www.cnn.com/videos/tv/2015/12/05/exp-gps-bono-web-extra-song.cnn)
+- Steel - [Bono](https://www.cnn.com/videos/tv/2015/12/05/exp-gps-bono-web-extra-song.cnn)
 
 #### Woman of the Year
 
-- Dave - [Rachel Nichols](http://www.cnn.com/profiles/rachel-nichols-profile)
-- Steel - [Loretta Lynch](http://www.justice.gov/ag/meet-attorney-general)
+- Dave - [Rachel Nichols](https://www.cnn.com/profiles/rachel-nichols-profile)
+- Steel - [Loretta Lynch](https://www.justice.gov/ag/meet-attorney-general)
 
 #### Social Issue of the Year
 
-- Dave - [police violence in the US, especially against unarmed black men](http://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-police-killings-us-database)
-- Steel - [Global Climate Change](http://climate.nasa.gov/evidence/) & [the recent conference in Paris](http://www.cop21.gouv.fr/en/)
+- Dave - [police violence in the US, especially against unarmed black men](https://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-police-killings-us-database)
+- Steel - [Global Climate Change](https://climate.nasa.gov/evidence/) & [the recent conference in Paris](https://www.cop21.gouv.fr/en/)
 
 ### Unchained Melodies: Songs of the year edition
 

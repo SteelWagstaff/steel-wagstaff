@@ -12,4 +12,4 @@ imageAlt: ""
 
 Here's the thirteenth in a big collection of mixtapes I made for Laurel's name day a couple years bygone.
 
-[Photo](http://wpinject.com/) by [gamene](http://www.flickr.com/photos/12670507@N02/4103068880)
+[Photo](https:://wpinject.com/) by [gamene]https:s://www.flickr.com/photos/12670507@N02/4103068880)

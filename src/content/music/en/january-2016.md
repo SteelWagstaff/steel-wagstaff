@@ -14,4 +14,4 @@ imageAlt: ""
 
 Here's a playlist of several songs I listened to and enjoyed in January 2016.
 
-<small>Photo by <a href="http://www.flickr.com/photos/86651923@N00/6768568263" target="_blank">Shamanic Shift</a> <a title="Attribution License" href="http://creativecommons.org/licenses/by/2.0/" target="_blank" rel="nofollow"><img src="http://music.steelwagstaff.com/wp-content/plugins/wp-inject/images/cc.png" alt="" /></a></small>
+<small>Photo by <a href="https:://www.flickr.com/photos/86651923@N00/6768568263" target="_blank">Shamanic Shift</a> <a title="Attribution License" href=https:s://creativecommons.org/licenses/by/2.0/" target="_blank" rel="nofollow"><img srchttps:ps://music.steelwagstaff.com/wp-content/plugins/wp-inject/images/cc.png" alt="" /></a></small>

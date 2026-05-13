@@ -15,7 +15,7 @@ imageAlt: "The Changing of the Seasons"
 
 Each year it happens suddenly, sometimes surprisingly so. This year I began to notice it first when the pickup soccer game I play in ended when the light began to fail, and I biked home and showered and it wasn't yet 8 o'clock. While puttering around the house the past few days, I closed the windows and put socks on for the first time in several months, signs that it was happening, that summer was giving way to something else, that the long bout of sunshine and lush, abundant verdancy and good weather we've enjoyed in Madison was beginning to give way to something else. Today I even got an email from the community garden committee with the ominous subject line "Frost Warning," which sobered us so much that we pulled indoors the rubber tree and jade plant we'd been keeping on the back porch. I love living in Wisconsin, and I love the richness of it's several seasons, but I've grown especially fond of Spring and Summer. I hope it's a lengthy Autumn, but even if not, here's a beautiful song by the great Ane Brun to both chill and keep you warm in all the right ways:
 
-[youtube=http://www.youtube.com/watch?v=wkgwkhEIldU]
+[youtube=https://www.youtube.com/watch?v=wkgwkhEIldU]
 
 Lyrics:
 He falls asleep on her chest, / the best sleep he'd ever met, nevertheless / he dreams of some stranger's caress

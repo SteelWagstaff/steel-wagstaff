@@ -13,4 +13,4 @@ imageAlt: ""
 
 Number 29 in a series of 30 birthday mixtapes I made for Laurel's birthday several years ago. Enjoy!
 
-Photo by [ZeePack](http://www.flickr.com/photos/9237707@N05/2842720447)
+Photo by [ZeePack](https:://www.flickr.com/photos/9237707@N05/2842720447)

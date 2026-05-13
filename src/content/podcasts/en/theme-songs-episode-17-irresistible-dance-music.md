@@ -20,10 +20,10 @@ This week's theme was Irresistible Dance Music. Dave & Steel were joined by Stee
 https://youtu.be/RJFt5YwAFZ8
 
 - Tani Diakite's Bandcamp page: https://tanidiakite.bandcamp.com/
-- Wellesley's student radio station: http://wzly.net/ \[Alice was a former DJ for a Friday night show called "The Jazz Enthusiast"
+- Wellesley's student radio station: https://wzly.net/ \[Alice was a former DJ for a Friday night show called "The Jazz Enthusiast"
 
 https://open.spotify.com/user/steelwagstaff/playlist/738lt9pJENLtQvn5lBkJUN?si=ToIv3HVfQrGFyjCPFVIejg
 
-**Special Bonus Gift:** [Advice from Alice](http://aliceastarita.info/fac/movement-meditation/) on how to practice movement meditation.
+**Special Bonus Gift:** [Advice from Alice](https://aliceastarita.info/fac/movement-meditation/) on how to practice movement meditation.
 
-## Featured image by [Ministerio de Cultura de la Nación](http://www.flickr.com/photos/52498302@N08/33904220075)[![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-sa/2.0/ "Attribution-ShareAlike License")
+## Featured image by [Ministerio de Cultura de la Nación](https://www.flickr.com/photos/52498302@N08/33904220075)[![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by-sa/2.0/ "Attribution-ShareAlike License")

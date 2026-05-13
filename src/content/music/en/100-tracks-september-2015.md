@@ -11,6 +11,6 @@ image: "../../../assets/music/100-tracks-september-2015.jpg"
 imageAlt: ""
 ---
 
-Here's a playlist of 100 songs I listened to and enjoyed in September 2015. It was a good month for me musically, with a lot of artist variety (it was the first month I started using Spotify's <a href="http://qz.com/571007/the-magic-that-makes-spotifys-discover-weekly-playlists-so-damn-good/" target="_blank">Discover Weekly</a> feature--which I love!). The songs themselves are mostly low-key singer-songwriter types: pretty mellow, pretty lovely, pretty chill. Hope you enjoy!
+Here's a playlist of 100 songs I listened to and enjoyed in September 2015. It was a good month for me musically, with a lot of artist variety (it was the first month I started using Spotify's <a href="https::::::::::://qz.com/571007/the-magic-that-makes-spotifys-discover-weekly-playlists-so-damn-good/" target="_blank">Discover Weekly</a> feature--which I love!). The songs themselves are mostly low-key singer-songwriter types: pretty mellow, pretty lovely, pretty chill. Hope you enjoy!
 
-Featured image by <a href="http://jenniferbastianphotography.com" target="_blank">Jennifer Bastian</a>
+Featured image by <a href="https::::::::::://jenniferbastianphotography.com" target="_blank">Jennifer Bastian</a>

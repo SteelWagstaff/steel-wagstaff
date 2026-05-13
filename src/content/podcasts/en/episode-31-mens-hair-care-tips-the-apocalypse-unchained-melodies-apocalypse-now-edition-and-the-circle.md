@@ -18,9 +18,9 @@ We know that we missed a week (Dave was moving his lucrative nursing practice to
 
 ### Hair Care & Grooming Tips for Men
 
-- Dave recommends Garniet Fructis' now-discontinued [Surf Hair](http://www.amazon.com/Garnier-Fructis-Style-Texture-Paste/dp/B004ZWMDZ4) product.
-- Steel once bought some Malin+Goetz [hair pomade](http://www.malinandgoetz.com/hair/hair-pomade). The one time he used it was pretty nice.
-- Josh is a big fan of Brut [spray-on deodorant](http://www.amazon.com/Brut-Aerosol-Deodorant-Low-VOC/dp/B0009I4IT2), especially when applied in poorly-ventilated locker rooms. Do everyone a favor and use a ton of this stuff.
+- Dave recommends Garniet Fructis' now-discontinued [Surf Hair](https://www.amazon.com/Garnier-Fructis-Style-Texture-Paste/dp/B004ZWMDZ4) product.
+- Steel once bought some Malin+Goetz [hair pomade](https://www.malinandgoetz.com/hair/hair-pomade). The one time he used it was pretty nice.
+- Josh is a big fan of Brut [spray-on deodorant](https://www.amazon.com/Brut-Aerosol-Deodorant-Low-VOC/dp/B0009I4IT2), especially when applied in poorly-ventilated locker rooms. Do everyone a favor and use a ton of this stuff.
 
 ### The Apocalypse
 
@@ -49,12 +49,12 @@ Some recommendations, sorted by type of apocalypse:
 #### Alien Invasion
 
 - Independence Day
-- [Attack the Block](http://www.imdb.com/title/tt1478964/)
-- [The World’s End](http://www.imdb.com/title/tt1213663/?ref_=nm_flmg_act_15)
+- [Attack the Block](https://www.imdb.com/title/tt1478964/)
+- [The World’s End](https://www.imdb.com/title/tt1213663/?ref_=nm_flmg_act_15)
 
 #### Zombies
 
-- The Zombie in Film ([FULL ESSAY: Parts I, II, and III](http://thesocietypages.org/cyborgology/2012/02/27/the-zombie-in-film-full-essay-parts-i-ii-and-iii/))
+- The Zombie in Film ([FULL ESSAY: Parts I, II, and III](https://thesocietypages.org/cyborgology/2012/02/27/the-zombie-in-film-full-essay-parts-i-ii-and-iii/))
 - Maggie
 - World War Z
 - Fido
@@ -86,11 +86,11 @@ Some recommendations, sorted by type of apocalypse:
 
 - Left Behind
 - Leftovers
-- [This is the End](http://www.imdb.com/title/tt1245492/)
+- [This is the End](https://www.imdb.com/title/tt1245492/)
 
 #### Zombie Preparedness Resources
 
-- [CDC Zombie Preparedness](http://www.cdc.gov/phpr/zombies/#/page/1)
+- [CDC Zombie Preparedness](https://www.cdc.gov/phpr/zombies/#/page/1)
 - [Zombie Safe House Competition](https://zombiesafehouse.wordpress.com/) 
 
 ### Unchained Melodies: Apocalypse NOW! edition
@@ -99,6 +99,6 @@ https://www.youtube.com/playlist?list=PLcPWWK79NBW3WeqzL5Gfj8oQT9VXttJ-E
 
 ### Book Wisdom
 
-This week's edition of Book Wisdom comes from Dave Eggers' satire of the new media and tech industries, _[The Circle](http://knopfdoubleday.com/book/232010/the-circle/)_.
+This week's edition of Book Wisdom comes from Dave Eggers' satire of the new media and tech industries, _[The Circle](https://knopfdoubleday.com/book/232010/the-circle/)_.
 
-Photo by [Abode of Chaos](http://www.flickr.com/photos/40936370@N00/5571367765) [![](http://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by/2.0/ "Attribution License")
+Photo by [Abode of Chaos](https://www.flickr.com/photos/40936370@N00/5571367765) [![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by/2.0/ "Attribution License")

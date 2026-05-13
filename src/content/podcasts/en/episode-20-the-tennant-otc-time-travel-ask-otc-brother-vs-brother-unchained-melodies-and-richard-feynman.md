@@ -26,28 +26,28 @@ https://www.youtube.com/watch?v=KNPjXmaSsZs
 
 ### OTC Science
 
-- Dave loves the idea of amateur physicists. See [here](http://www.slate.com/articles/health_and_science/new_scientist/2012/01/amateur_physicists_take_on_the_priesthood_of_mainstream_science_.html) and [here](http://boingboing.net/2013/07/01/amateur-scientists-vs-cranks.html) and [here](http://blogs.scientificamerican.com/critical-opalescence/hacking-the-quantum-a-new-book-explains-how-anyone-can-become-a-amateur-quantum-physicist/) for more on why.
+- Dave loves the idea of amateur physicists. See [here](https://www.slate.com/articles/health_and_science/new_scientist/2012/01/amateur_physicists_take_on_the_priesthood_of_mainstream_science_.html) and [here](https://boingboing.net/2013/07/01/amateur-scientists-vs-cranks.html) and [here](https://blogs.scientificamerican.com/critical-opalescence/hacking-the-quantum-a-new-book-explains-how-anyone-can-become-a-amateur-quantum-physicist/) for more on why.
 - Peter Vranas' [faculty page](https://c13ca880c5ada7482ffb88bcc940a049e8947cec.googledrive.com/host/0B2n_jRn0gefLUGphT2NtelhVQVU/index.htm) (see the research page to read about his thoughts on the retrosuicide paradox).
 
 ### Ask OTC
 
-- [Mars One](http://www.mars-one.com/), a project led by an intriguing Dutchman that hopes to establish a human colony on Mars.
-- Eccentric visionary billionaire Elon Musk also [wants us to go to Mars](http://aeon.co/magazine/technology/the-elon-musk-interview-on-mars/).
-- Bios of NASA's [current roster of astronauts](http://www.jsc.nasa.gov/Bios/astrobio.html)
+- [Mars One](https://www.mars-one.com/), a project led by an intriguing Dutchman that hopes to establish a human colony on Mars.
+- Eccentric visionary billionaire Elon Musk also [wants us to go to Mars](https://aeon.co/magazine/technology/the-elon-musk-interview-on-mars/).
+- Bios of NASA's [current roster of astronauts](https://www.jsc.nasa.gov/Bios/astrobio.html)
 
 ### OTC Video Games
 
 #### Favorite Game of All Time
 
-- [River Raid](http://en.wikipedia.org/wiki/River_Raid) \[Dave\]
-- [Pirates! Gold](http://en.wikipedia.org/wiki/Sid_Meier%27s_Pirates!) \[Steel\]
-- [The Legend of Zelda: Skyward Sword](http://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword) \[Jon\]
+- [River Raid](https://en.wikipedia.org/wiki/River_Raid) \[Dave\]
+- [Pirates! Gold](https://en.wikipedia.org/wiki/Sid_Meier%27s_Pirates!) \[Steel\]
+- [The Legend of Zelda: Skyward Sword](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword) \[Jon\]
 
 #### Favorite Game Currently
 
-- [Jaws](http://en.wikipedia.org/wiki/Jaws_\(video_game\)) \[Dave\]
-- [Championship Manager: Season 01/02](http://en.wikipedia.org/wiki/Championship_Manager:_Season_01/02) \[Steel\]
-- [Splatoon](http://en.wikipedia.org/wiki/Splatoon) \[Jon\]
+- [Jaws](https://en.wikipedia.org/wiki/Jaws_\(video_game\)) \[Dave\]
+- [Championship Manager: Season 01/02](https://en.wikipedia.org/wiki/Championship_Manager:_Season_01/02) \[Steel\]
+- [Splatoon](https://en.wikipedia.org/wiki/Splatoon) \[Jon\]
 
 ### Unchained Melodies
 
@@ -73,4 +73,4 @@ https://www.youtube.com/watch?v=2t\_OzVTphrc
 
 ### Book Wisdom
 
-This week's book wisdom was taken primarily from Richard Feynman's book _[The Meaning of It All: Thoughts of a Citizen-Scientist](http://www.amazon.com/The-Meaning-It-All-Citizen-Scientist/dp/0465023940)_, which collected three of his best known lectures on science and human understanding.
+This week's book wisdom was taken primarily from Richard Feynman's book _[The Meaning of It All: Thoughts of a Citizen-Scientist](https://www.amazon.com/The-Meaning-It-All-Citizen-Scientist/dp/0465023940)_, which collected three of his best known lectures on science and human understanding.

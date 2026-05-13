@@ -40,4 +40,4 @@ https://www.youtube.com/watch?v=rKaQzQAlNn4
 
 ### Book Wisdom
 
-This week Jordan read a passage from [Charles L. Black](http://www.nytimes.com/2001/05/08/nyregion/charles-l-black-jr-85-constitutional-law-expert-who-wrote-on-impeachment-dies.html?pagewanted=all)'s _[The Humane Imagination](http://www.amazon.com/Humane-Imagination-Charles-L/dp/1881987078/ref=sr_1_1?s=books&ie=UTF8&qid=1431201358&sr=1-1&keywords=charles+black+the+humane+imagination)_
+This week Jordan read a passage from [Charles L. Black](https://www.nytimes.com/2001/05/08/nyregion/charles-l-black-jr-85-constitutional-law-expert-who-wrote-on-impeachment-dies.html?pagewanted=all)'s _[The Humane Imagination](https://www.amazon.com/Humane-Imagination-Charles-L/dp/1881987078/ref=sr_1_1?s=books&ie=UTF8&qid=1431201358&sr=1-1&keywords=charles+black+the+humane+imagination)_

@@ -16,7 +16,7 @@ This week Dave and Steel were joined by Jack Bangerter to talk about the best ha
 
 ## Links
 
-[Name of the Year](http://www.nameoftheyear.com/)
+[Name of the Year](https://www.nameoftheyear.com/)
 
 ### Unchained Melodies: Embarrassing Spring Jams from 2007 and 1997
 

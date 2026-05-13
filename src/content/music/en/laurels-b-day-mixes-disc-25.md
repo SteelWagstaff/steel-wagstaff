@@ -13,4 +13,4 @@ imageAlt: ""
 
 Disc #25 in a series of mixtapes made for Laurel's birthday in years gone by.
 
-Photo by [Key Foster](http://www.flickr.com/photos/61411590@N03/8439792631)
+Photo by [Key Foster](https:://www.flickr.com/photos/61411590@N03/8439792631)

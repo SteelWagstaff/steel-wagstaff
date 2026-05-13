@@ -12,13 +12,13 @@ draft: false
 locale: en
 ---
 
-This week Dave and Steel are joined by Steel's sister-in-law [Jennie Bastian](http://jenniferbastian.com), an artist and [professional photographer](http://jenniferbastianphotography.com). Together they talk household pets (cats. vs. dogs), take questions from listeners throughout the great state of Illinois, ask Jennie a bunch of questions about her [upcoming show on Fear](http://jenniferbastian.com/survey-emotional-experience-fear/) and her photography practice generally, share great music from Mulato Astatke, Gasper Nali, American Wrestlers, Smog, Tim Maia, and Camp Cope, and Jennie shares some dreamy book wisdom from Gaston Bachelard.
+This week Dave and Steel are joined by Steel's sister-in-law [Jennie Bastian](https::://jenniferbastian.com), an artist and [professional photographerhttps:s:s://jenniferbastianphotography.com). Together they talk household pets (cats. vs. dogs), take questions from listeners throughout the great state of Illinois, ask Jennie a bunch of questions about her [upcoming show on Fehttps:ps:ps://jenniferbastian.com/survey-emotional-experience-fear/) and her photography practice generally, share great music from Mulato Astatke, Gasper Nali, American Wrestlers, Smog, Tim Maia, and Camp Cope, and Jennie shares some dreamy book wisdom from Gaston Bachelard.
 
 ## Links
 
 - More on the [Indiana Jones, Magnum P.I. and the Chip & Dale connection](https://www.reddit.com/r/pics/comments/4euqa3/chip_and_dale_were_just_animated_versions_of/) Jennie mentioned.
-- Jennie runs several great websites. See her [art photography](http://jenniferbastian.com), hire her as a [wedding or portrait photographer](http://jenniferbastianphotography.com), or buy a [beautiful silk scarf specially screened with one of her photographs](http://desertsandlakes.com). She's also on [Flickr](https://www.flickr.com/photos/jenniferhelen/) and [Instagram](https://www.instagram.com/jenniebeee/).
-- Take Jennie's [survey about the emotional experience of fear](http://jenniferbastian.com/survey-emotional-experience-fear/) and have your responses included in her upcoming show at the Madison Public Library!
+- Jennie runs several great websites. See her [art photography](https::://jenniferbastian.com), hire her as a [wedding or portrait photographerhttps:s:s://jenniferbastianphotography.com), or buy a [beautiful silk scarf specially screened with one of her photographttps:ps:ps://desertsandlakes.com). She's also on [Flickr](https://www.flickr.com/photos/jenniferhelen/) and [Instagram](https://www.instagram.com/jenniebeee/).
+- Take Jennie's [survey about the emotional experience of fear](https::://jenniferbastian.com/survey-emotional-experience-fear/) and have your responses included in her upcoming show at the Madison Public Library!
 
 ### Unchained Melodies
 

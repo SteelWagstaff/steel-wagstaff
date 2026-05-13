@@ -15,4 +15,4 @@ Here's a playlist with 40 songs I listened to and liked in the summer of 2015 [M
 
 Enjoy!
 
-<small><a href="https://www.flickr.com/photos/jenniferhelen/19350356703/in/datetaken/" target="_blank">Featured image</a> by <a href="http://jenniferbastianphotography.com" target="_blank">Jennifer Bastian</a></small>
+<small><a href="https://www.flickr.com/photos/jenniferhelen/19350356703/in/datetaken/" target="_blank">Featured image</a> by <a href="https://jenniferbastianphotography.com" target="_blank">Jennifer Bastian</a></small>

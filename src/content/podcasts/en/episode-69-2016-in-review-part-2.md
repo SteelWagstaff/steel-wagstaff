@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=Ig7mvxZ4GvU
 
 #### Jack's Art Show of the Year:
 
-[John Kilduff's Art Basil LA](http://artbasilla.tumblr.com/)
+[John Kilduff's Art Basil LA](https://artbasilla.tumblr.com/)
 
 #### Our TV Recommendations from 2016:
 
@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=Ig7mvxZ4GvU
 - _Stranger Things_ \[Dave\]
 - Rewatch _30 Rock_ \[Dave\]
 
-### The Year in Film with [Aaron Peck](http://www.highdefdigest.com/author/aaron-peck.html)
+### The Year in Film with [Aaron Peck](https://www.highdefdigest.com/author/aaron-peck.html)
 
 #### Top 5 movies this year that you probably didn’t see
 
@@ -92,4 +92,4 @@ https://www.youtube.com/watch?v=ChpLV9AMqm4
 
 https://www.youtube.com/watch?v=JwMKRevYa\_M
 
-Featured image: Photography of a recent oil painting by [Jack Bangerter](http://jackbangerter.net/). Jack writes: "There are spirit/shadows of the players represented by chess pieces. I was inspired by images of Ajax and Achilles playing a board game/planning a war on some Greek amphora pots."
+Featured image: Photography of a recent oil painting by [Jack Bangerter](https://jackbangerter.net/). Jack writes: "There are spirit/shadows of the players represented by chess pieces. I was inspired by images of Ajax and Achilles playing a board game/planning a war on some Greek amphora pots."

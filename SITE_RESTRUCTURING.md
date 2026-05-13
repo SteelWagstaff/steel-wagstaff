@@ -162,7 +162,7 @@ All pages use consistent theming:
 
 ## Next Steps / Future Enhancements
 
-### Commonplace Page
+### The Commonplace Page
 - [ ] Integrate Tumblr data feed
 - [ ] Create content collection for quotations, videos, songs
 - [ ] Design masonry layout for visual items

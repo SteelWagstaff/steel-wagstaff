@@ -22,4 +22,4 @@ https://www.youtube.com/playlist?list=PLcPWWK79NBW0ejPJvfBTYcTyJcwhbvGnE
 
 ### Book Wisdom
 
-This week's passage of book wisdom was Philip Larkin's gorgeous poem "[The Explosion](http://www.poetryfoundation.org/harriet/2010/04/the-explosion/)"
+This week's passage of book wisdom was Philip Larkin's gorgeous poem "[The Explosion](https://www.poetryfoundation.org/harriet/2010/04/the-explosion/)"
