@@ -4,6 +4,7 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import { formatDate } from '@/lib/utils';
 
 const blog = await getCollection('blog');
+const heroImage = '/oracle.webp';
 
 // Sort blog posts by date (newest first)
 const sortedPosts = blog
@@ -18,10 +19,20 @@ const allWriting = sortedPosts;
     <div class="mx-auto max-w-4xl px-6 py-12">
       <h1 class="text-4xl font-bold mb-4">Writing + Storytelling</h1>
       <p class="text-lg text-muted-foreground mb-8">
-        Writing was an important part of my professional life as a graduate student & instructional technology consultant. For many years, Laurel and I were regular participants at community storytelling events.
+        Writing was an important part of my professional life for the decade plus I spent working at a large public research university. For many years, Laurel and I were regular participants at community storytelling events.
       </p>
+      <!-- Hero Image -->
+    <div class="relative w-full h-64 md:h-80 lg:h-96 overflow-hidden rounded-lg mb-8">
+        <img 
+          src={heroImage}
+          alt="Steel as the Oracle at public library event"
+          class="w-full h-full object-cover"
+        />
+      </div>  
+    
     </div>
 
+    
     <!-- Content Sections -->
     <div class="mx-auto max-w-4xl px-6 space-y-16 pb-16">
       
@@ -51,8 +62,8 @@ const allWriting = sortedPosts;
           <li>In May 2015, I wrote a short essay for CHE's <em>Edge Effects</em> blog on <a href="http://edgeeffects.net/lorine-niedecker-ecopoetics/" class="text-brand-500 hover:underline">Lorine Niedecker's ecopoetics</a>.</li>
           <li>In 2012, published <a href="http://eoagh.com/?p=1562" class="text-brand-500 hover:underline">"Hollowing the Stalks,"</a> a story about my grandparents in a <a href="http://eoagh.com/?p=1371" class="text-brand-500 hover:underline">special issue of <em>EOAGH</em> devoted to writing about dementia</a> edited by <a href="http://tinfisheditor.blogspot.com/" class="text-brand-500 hover:underline">Susan Schultz</a>.</li>
           <li>In 2012, I published two media projects dealing with silence, noise, poetics, formal constraints, chance, and the work of John Cage in the journal <a href="http://www.enculturation.net/essays-into-silence-noise-and-john-cage" class="text-brand-500 hover:underline"><em>Enculturation</em></a>: a graphic essay/magazine called <em><a href="https://www.enculturation.net/essays-into-silence-noise-and-john-cage" class="text-brand-500 hover:underline">&#123;Sile / nce&#125;</a></em> which remediated an experimental seminar paper, and <a href="https://www.youtube.com/embed/WQTzoiTwNqg" class="text-brand-500 hover:underline">a short film adaptation</a> (my first time using iMovie!).</li>
-          <li>In 2011, Lynn Keller and I traveled to Chicago to talk about poetry with Ed Roberson. The resulting interview was published in <em>Contemporary Literature</em> | <a href="http://steelwagstaff.files.wordpress.com/2013/02/roberson_interview.pdf" class="text-brand-500 hover:underline">pdf</a>.</li>
-          <li>In 2010, I published an interview with the poet <a href="http://steelwagstaff.com/my-favorite-artists-series-1-mark-nowak/" class="text-brand-500 hover:underline">Mark Nowak</a> in <em>Contemporary Literature</em> | <a href="http://steelwagstaff.files.wordpress.com/2013/02/nowak_interview.pdf" class="text-brand-500 hover:underline">pdf</a>.</li>
+          <li>In 2011, Lynn Keller and I traveled to Chicago to talk about poetry with Ed Roberson. The <a href="/writing/roberson_interview.pdf" class="text-brand-500 hover:underline">resulting interview</a> was published in <em>Contemporary Literature</em>.</li>
+          <li>In 2010, I <a href="/writing/nowak_interview.pdf" class="text-brand-500 hover:underline">published an interview</a> with the poet <a href="/blog/mark-nowak/" class="text-brand-500 hover:underline">Mark Nowak</a> in <em>Contemporary Literature</em>.</li>
         </ul>
       </section>
 
