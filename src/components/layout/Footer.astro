@@ -156,7 +156,7 @@ function getSocialIcon(platform: string): string {
         )}
 
         {/* Navigation Links */}
-        <nav class="flex flex-wrap justify-center gap-[var(--space-inline-lg)] md:gap-[var(--space-stack-lg)] text-sm font-medium text-foreground-muted">
+        <nav class="flex flex-wrap justify-center gap-[var(--space-inline-lg)] md:gap-[var(--space-stack-lg)] text-md font-medium text-foreground-muted">
           {allNavItems.map((item) => (
             <a
               href={item.href}
@@ -252,7 +252,7 @@ function getSocialIcon(platform: string): string {
                     <li>
                       <a
                         href={link.href}
-                        class="text-sm transition-colors text-foreground-muted hover:text-foreground"
+                        class="text-md transition-colors text-foreground-muted hover:text-foreground"
                         target={link.external || link.href.startsWith('http') ? '_blank' : undefined}
                         rel={link.external || link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                       >
@@ -281,7 +281,7 @@ function getSocialIcon(platform: string): string {
                     {legalLinks.map((link) => (
                       <a
                         href={link.href}
-                        class="text-sm transition-colors text-foreground-muted hover:text-foreground"
+                        class="text-md transition-colors text-foreground-muted hover:text-foreground"
                       >
                         {link.label}
                       </a>
