@@ -92,15 +92,16 @@ if (includeProfessionalServiceSchema) {
 
 
 
-    <!-- Theme script (runs before body paint; <html> starts with class="dark" as default) -->
+    <!-- Theme script (runs before body paint; defaults to light mode and emerald theme) -->
     <script is:inline>
       (function () {
         const COLOR_THEMES = ['orange', 'amber', 'lime', 'emerald', 'teal', 'cyan', 'sky', 'blue', 'indigo', 'violet', 'purple', 'magenta'];
 
         function applyTheme(el) {
           try {
-            // Dark / light mode
-            if (sessionStorage.getItem('theme') === 'light') {
+            // Dark / light mode — default to light
+            const theme = sessionStorage.getItem('theme') || 'light';
+            if (theme === 'light') {
               el.classList.remove('dark');
             } else {
               el.classList.add('dark');
@@ -108,9 +109,9 @@ if (includeProfessionalServiceSchema) {
           } catch { /* ignored */ }
 
           try {
-            // Color theme — persisted in sessionStorage so it resets to sky on every new visit
-            const saved = sessionStorage.getItem('color-theme');
-            if (saved && COLOR_THEMES.indexOf(saved) !== -1) {
+            // Color theme — default to emerald
+            const saved = sessionStorage.getItem('color-theme') || 'emerald';
+            if (COLOR_THEMES.indexOf(saved) !== -1) {
               el.setAttribute('data-theme', saved);
             }
           } catch { /* ignored */ }

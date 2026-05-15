@@ -70,31 +70,30 @@ const fullUrl = new URL(Astro.url.pathname, Astro.site).toString();
     shape="bar"
     variant="solid"
     size="lg"
-    showThemeSelector
+    showThemeToggle={false}
+    showThemeSelector={false}
     showCta={false}
     cta={{ label: 'Get in touch', href: '/contact' }}
     showScrollProgress
   />
 
   <div class="min-h-screen pt-16">
-  <!-- Article Hero -->
-  <ArticleHero
-    title={title}
-    description={description}
-    publishedAt={publishedAt}
-    updatedAt={updatedAt}
-    author={author}
-    tags={tags}
-    image={image}
-    imageAlt={imageAlt}
-    svgSlug={svgSlug}
-  />
+    <!-- Article Hero -->
+    <ArticleHero
+      title={title}
+      description={description}
+      publishedAt={publishedAt}
+      updatedAt={updatedAt}
+      author={author}
+      tags={tags}
+      image={image}
+      imageAlt={imageAlt}
+      svgSlug={svgSlug}
+      breadcrumbs={breadcrumbs}
+    />
 
   <article class="pt-8 pb-[var(--space-section-md)]">
     <div class="mx-auto max-w-4xl px-6">
-      <!-- Breadcrumbs -->
-      <Breadcrumbs items={breadcrumbs} class="mb-8" />
-
       <!-- Article Content -->
       <div
         class="prose prose-lg max-w-none"
