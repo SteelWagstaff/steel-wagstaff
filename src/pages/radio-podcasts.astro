@@ -24,7 +24,7 @@ const themeSongsAll = podcasts
 
 // Filter Steel's Magnolias shows from music collection
 const steelsMagnoliasAll = music
-  .filter(m => m.data.podcast === "Steel's Magnolias")
+  .filter(m => m.id.includes('show-'))
   .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 
 // Filter mixtapes (have 'mixtape' tag)
@@ -62,6 +62,8 @@ const getSlug = (id: string) => id.replace('en/', '');
         <Image 
           src={heroImage} 
           alt="Steel in WSUM studio"
+          width={1200}
+          height={400}
           class="w-full h-full object-cover"
         />
       </div>
@@ -75,23 +77,29 @@ const getSlug = (id: string) => id.replace('en/', '');
         <h2 class="text-3xl font-bold mb-2">What I've Been Listening To</h2>
         <p class="text-muted-foreground mb-6">Monthly curated playlists of favorite tracks</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {playlists.map((item) => (
+          {playlists.map((item) => {
+            const resolvedImage = resolveMusicImage(item.data.image);
+            return (
             <a
               href={`/music/${getSlug(item.id)}`}
               class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
             >
-              {item.data.image && (
+              {resolvedImage && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  {(() => {
-                    const resolvedImg = resolveMusicImage(item.data.image);
-                    return typeof resolvedImg === 'object' && resolvedImg ? (
-                      <Image 
-                        src={resolvedImg}
-                        alt={item.data.imageAlt || item.data.title}
-                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      />
-                    ) : null;
-                  })()}
+                  {typeof resolvedImage === 'string' ? (
+                    <img 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <Image 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                  )}
                 </div>
               )}
               <div class="p-4">
@@ -112,7 +120,8 @@ const getSlug = (id: string) => id.replace('en/', '');
                 )}
               </div>
             </a>
-          ))}
+            );
+          })}
         </div>
         {playlistsAll.length > 6 && (
           <div class="mt-6">
@@ -129,23 +138,29 @@ const getSlug = (id: string) => id.replace('en/', '');
         <h2 class="text-3xl font-bold mb-2">Mixtapes</h2>
         <p class="text-muted-foreground mb-6">An assortment of mixtapes I've made as gifts for family and friends over the years. A lost art.</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {mixtapes.map((item) => (
+          {mixtapes.map((item) => {
+            const resolvedImage = resolveMusicImage(item.data.image);
+            return (
             <a
               href={`/music/${getSlug(item.id)}`}
               class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
             >
-              {item.data.image && (
+              {resolvedImage && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  {(() => {
-                    const resolvedImg = resolveMusicImage(item.data.image);
-                    return typeof resolvedImg === 'object' && resolvedImg ? (
-                      <Image 
-                        src={resolvedImg}
-                        alt={item.data.imageAlt || item.data.title}
-                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      />
-                    ) : null;
-                  })()}
+                  {typeof resolvedImage === 'string' ? (
+                    <img 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <Image 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                  )}
                 </div>
               )}
               <div class="p-4">
@@ -166,7 +181,8 @@ const getSlug = (id: string) => id.replace('en/', '');
                 )}
               </div>
             </a>
-          ))}
+            );
+          })}
         </div>
         {mixtapesAll.length > 6 && (
           <div class="mt-6">
@@ -183,23 +199,29 @@ const getSlug = (id: string) => id.replace('en/', '');
         <h2 class="text-3xl font-bold mb-2">Steel's Magnolias</h2>
         <p class="text-muted-foreground mb-6">For several months in 2012, I hosted Steel's Magnolias, a weekly music show on <a href="https://wsum.org/" class="text-brand-500 hover:underline">WSUM</a> (91.7FM in Madison), the University of Wisconsin-Madison's student radio station. On each episode I'd play an hour or two of music organized around a single shared theme. Sadly, I had to stop making the show when I started a full-time job at the university. You can listen to old episodes below:</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {steelsMagnolias.map((item) => (
+          {steelsMagnolias.map((item) => {
+            const resolvedImage = resolveMusicImage(item.data.image);
+            return (
             <a
               href={`/music/${getSlug(item.id)}`}
               class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
             >
-              {item.data.image && (
+              {resolvedImage && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  {(() => {
-                    const resolvedImg = resolveMusicImage(item.data.image);
-                    return typeof resolvedImg === 'object' && resolvedImg ? (
-                      <Image 
-                        src={resolvedImg}
-                        alt={item.data.imageAlt || item.data.title}
-                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      />
-                    ) : null;
-                  })()}
+                  {typeof resolvedImage === 'string' ? (
+                    <img 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <Image 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                  )}
                 </div>
               )}
               <div class="p-4">
@@ -220,7 +242,8 @@ const getSlug = (id: string) => id.replace('en/', '');
                 )}
               </div>
             </a>
-          ))}
+            );
+          })}
         </div>
         {steelsMagnoliasAll.length > 6 && (
           <div class="mt-6">
@@ -239,23 +262,29 @@ const getSlug = (id: string) => id.replace('en/', '');
         <h2 class="text-3xl font-bold mb-2">Off the Chain Podcast</h2>
         <p class="text-muted-foreground mb-6">In January 2015 I started making a Off the Chain with Dave & Steel, a DIY podcast with my old college roommate <a href="https://asknursedave.blogspot.com/" class="text-brand-500 hover:underline">Dave Jenson</a>. We ran it as a ramshackle variety show, with regular segments dedicated to things Dave loves (action movies, incredible feats of human endurance, children’s books), things I love (terrible haircuts, unusual names, documentary films) and things we both love (sports, music, & literature).</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {offTheChain.map((item) => (
+          {offTheChain.map((item) => {
+            const resolvedImage = resolveMusicImage(item.data.image);
+            return (
             <a
               href={`/podcasts/${getSlug(item.id)}`}
               class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
             >
-              {item.data.image && (
+              {resolvedImage && (
                 <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  {(() => {
-                    const resolvedImg = resolveMusicImage(item.data.image);
-                    return typeof resolvedImg === 'object' && resolvedImg ? (
-                      <Image 
-                        src={resolvedImg}
-                        alt={item.data.imageAlt || item.data.title}
-                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      />
-                    ) : null;
-                  })()}
+                  {typeof resolvedImage === 'string' ? (
+                    <img 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <Image 
+                      src={resolvedImage}
+                      alt={item.data.imageAlt || item.data.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                  )}
                 </div>
               )}
               <div class="p-4">
@@ -267,7 +296,8 @@ const getSlug = (id: string) => id.replace('en/', '');
                 </p>
               </div>
             </a>
-          ))}
+            );
+          })}
         </div>
         {offTheChainAll.length > 6 && (
           <div class="mt-6">
@@ -287,23 +317,29 @@ const getSlug = (id: string) => id.replace('en/', '');
           <h2 class="text-3xl font-bold mb-2">Theme Songs Podcast</h2>
           <p class="text-muted-foreground mb-6">After 70+ episodes of Off the Chain, we retired the show and started making a new music-themed podcast called Theme Songs, which ran from August 2017-March 2018. We typically invited old friends on the show as guests, giving us an excuse to catch up with them as much as anything else.</p>
           <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {themeSongs.map((item) => (
+            {themeSongs.map((item) => {
+              const resolvedImage = resolveMusicImage(item.data.image);
+              return (
               <a
                 href={`/podcasts/${getSlug(item.id)}`}
                 class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
               >
-                {item.data.image && (
+                {resolvedImage && (
                   <div class="aspect-[3/2] bg-muted overflow-hidden">
-                    {(() => {
-                      const resolvedImg = resolveMusicImage(item.data.image);
-                      return typeof resolvedImg === 'object' && resolvedImg ? (
-                        <Image 
-                          src={resolvedImg}
-                          alt={item.data.imageAlt || item.data.title}
-                          class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                        />
-                      ) : null;
-                    })()}
+                    {typeof resolvedImage === 'string' ? (
+                      <img 
+                        src={resolvedImage}
+                        alt={item.data.imageAlt || item.data.title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <Image 
+                        src={resolvedImage}
+                        alt={item.data.imageAlt || item.data.title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      />
+                    )}
                   </div>
                 )}
                 <div class="p-4">
@@ -315,7 +351,8 @@ const getSlug = (id: string) => id.replace('en/', '');
                   </p>
                 </div>
               </a>
-            ))}
+              );
+            })}
           </div>
           {themeSongsAll.length > 6 && (
             <div class="mt-6">
