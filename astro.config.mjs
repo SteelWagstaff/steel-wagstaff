@@ -11,8 +11,9 @@ import { remarkSpotifyEmbed } from './src/lib/remark-spotify-embed.ts';
 const isNetlify = process.env.DEPLOY_TARGET === 'netlify';
 
 export default defineConfig({
+  output: 'static',
   adapter: isNetlify ? netlify() : vercel(),
-  site: process.env.SITE_URL || 'https://example.com',
+  site: process.env.SITE_URL || 'https://steelwagstaff.info',
 
   env: {
     schema: {
