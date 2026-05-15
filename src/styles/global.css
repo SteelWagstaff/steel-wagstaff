@@ -12,6 +12,7 @@
 /* Self-hosted fonts via Fontsource (CSP-safe, no external requests) */
 @import '@fontsource-variable/manrope';
 @import '@fontsource-variable/outfit';
+@import '@fontsource/gentium-plus';
 @import '@fontsource-variable/jetbrains-mono';
 
 /* Dark mode variant */
@@ -83,18 +84,18 @@
   --color-brand-800: var(--brand-800);
   --color-brand-900: var(--brand-900);
 
-  /* Font Sizes - matches original design scale */
-  --font-size-xs: 0.75rem;     /* 12px */
-  --font-size-sm: 0.875rem;    /* 14px */
-  --font-size-base: 1rem;      /* 16px */
-  --font-size-lg: 1.125rem;    /* 18px */
-  --font-size-xl: 1.25rem;     /* 20px */
-  --font-size-2xl: 1.5rem;     /* 24px */
-  --font-size-3xl: 1.875rem;   /* 30px */
-  --font-size-4xl: 2.25rem;    /* 36px */
-  --font-size-5xl: 3rem;       /* 48px */
-  --font-size-6xl: 3.75rem;    /* 60px */
-  --font-size-7xl: 4.5rem;     /* 72px */
+  /* Font Sizes - scaled for Gentium Plus readability */
+  --font-size-xs: 0.8125rem;   /* 13px */
+  --font-size-sm: 0.9375rem;   /* 15px */
+  --font-size-base: 1.0625rem; /* 17px */
+  --font-size-lg: 1.1875rem;   /* 19px */
+  --font-size-xl: 1.3125rem;   /* 21px */
+  --font-size-2xl: 1.5625rem;  /* 25px */
+  --font-size-3xl: 1.9375rem;  /* 31px */
+  --font-size-4xl: 2.3125rem;  /* 37px */
+  --font-size-5xl: 3.0625rem;  /* 49px */
+  --font-size-6xl: 3.8125rem;  /* 61px */
+  --font-size-7xl: 4.5625rem;  /* 73px */
 
   /* Border Radius - theme-controlled */
   --radius-sm: var(--theme-radius-sm);
