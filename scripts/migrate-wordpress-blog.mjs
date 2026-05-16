@@ -40,7 +40,7 @@ const PROJECT_ROOT = resolve(__dirname, '..');
 const XML_PATH = '/home/steelwagstaff/Downloads/steelwagstaff.WordPress.2026-04-24.xml';
 const MEDIA_EXPORTS_DIR = join(PROJECT_ROOT, 'media-exports');
 const BLOG_OUTPUT_DIR = join(PROJECT_ROOT, 'src/content/blog/en');
-const BLOG_ASSETS_DIR = join(PROJECT_ROOT, 'src/assets/blog');
+const BLOG_ASSETS_DIR = join(PROJECT_ROOT, 'src/content/blog/en/images');
 const MISSING_MEDIA_REPORT = join(PROJECT_ROOT, 'scripts/missing-media-report.json');
 
 const EXCLUDED_CATEGORIES = new Set([
@@ -148,7 +148,7 @@ function resolveFeaturedImage(thumbnailId, attachmentById, attachmentByBasename,
     return null;
   }
 
-  return `../../../assets/blog/${destFilename}`;
+  return `./images/${destFilename}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -207,7 +207,7 @@ function transformPost(item, attachmentById, attachmentByBasename, td) {
   const { html: htmlAfterImages, missing: missingImages } = rewriteImageSrcs(
     html,
     attachmentByBasename,
-    '../../../assets/blog'
+    './images'
   );
   html = htmlAfterImages;
 
@@ -248,7 +248,7 @@ function transformPost(item, attachmentById, attachmentByBasename, td) {
 
 function copyInlineImages(html, attachmentByBasename) {
   const copies = [];
-  const srcPattern = /src="(\.\.\/\.\.\/\.\.\/assets\/blog\/[^"]+)"/g;
+  const srcPattern = /src="(\.\/images\/[^"]+)"/g;
   // After rewriteImageSrcs, the src is already a local relative path.
   // We need to find which files were used and copy them.
   // This is handled by matching the resolved filenames from the map.
@@ -257,7 +257,7 @@ function copyInlineImages(html, attachmentByBasename) {
   // we scan the output html for local asset paths and copy the source files.
   let match;
   while ((match = srcPattern.exec(html)) !== null) {
-    const localRef = match[1]; // e.g. "../../../assets/blog/photo.jpg"
+    const localRef = match[1]; // e.g. "./images/photo.jpg"
     const filename = localRef.split('/').pop();
     const normalised = stripSizeSuffix(filename).toLowerCase();
     const srcPath = attachmentByBasename.get(normalised);

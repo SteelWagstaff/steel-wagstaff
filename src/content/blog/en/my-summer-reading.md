@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "books", "higher-education", "literature", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/steve-halama-133032.jpg"
+image: "./images/steve-halama-133032.jpg"
 imageAlt: "My Summer Reading"
 ---
 

@@ -6,7 +6,7 @@ author: steel
 tags: ["education-technology", "higher-education", "open-educational-resources", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/landmark_locator.jpeg"
+image: "./images/landmark_locator.jpeg"
 imageAlt: "Thoughts on Licensing: Why I Prefer CC-BY Licenses"
 ---
 

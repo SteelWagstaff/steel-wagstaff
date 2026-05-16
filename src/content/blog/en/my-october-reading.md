@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "literature", "philosophy"]
 draft: false
 locale: en
-image: "../../../assets/blog/tumblr_mx1olyycw11sfie3io1_1280.jpg"
+image: "./images/tumblr_mx1olyycw11sfie3io1_1280.jpg"
 imageAlt: "My October 2016 Reading"
 ---
 

@@ -6,7 +6,7 @@ author: steel
 tags: ["lessons-from-oppens-letters", "the-objectivists", "ezra-pound", "forgiveness", "generosity", "george-oppen", "james-laughlin", "mary-oppen", "new-directions", "politics", "publishing", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/thisisnotaboutwesz.jpg"
+image: "./images/thisisnotaboutwesz.jpg"
 imageAlt: "Expressing Gratitude"
 ---
 

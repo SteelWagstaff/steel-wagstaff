@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "ignazio-silone", "storytelling", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/silone.jpg"
+image: "./images/silone.jpg"
 imageAlt: "From the Preface to Ignazio Silone's Fontamara"
 ---
 

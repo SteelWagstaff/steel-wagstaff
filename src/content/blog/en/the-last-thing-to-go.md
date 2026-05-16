@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "../../../assets/blog/CHFight.jpg"
+image: "./images/CHFight.jpg"
 imageAlt: "The Last Thing To Go"
 ---
 

@@ -6,7 +6,7 @@ author: steel
 tags: ["reading-notes", "reading"]
 draft: false
 locale: en
-image: "../../../assets/blog/pyramid.jpg"
+image: "./images/pyramid.jpg"
 imageAlt: "Favorite Passages from Jonathan Wilson's Inverting the Pyramid"
 ---
 

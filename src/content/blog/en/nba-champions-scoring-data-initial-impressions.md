@@ -6,7 +6,7 @@ author: steel
 tags: ["visualizing-data", "basketball", "data", "nba", "san-antonio-spurs", "sports", "statistics"]
 draft: false
 locale: en
-image: "../../../assets/blog/spurs-1.jpg"
+image: "./images/spurs-1.jpg"
 imageAlt: "NBA Champions &amp; Scoring Data: Some Initial Impressions about the 2014 Spurs"
 ---
 

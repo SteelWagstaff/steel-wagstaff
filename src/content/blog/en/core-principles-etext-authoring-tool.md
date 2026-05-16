@@ -6,7 +6,7 @@ author: steel
 tags: ["education-technology", "authoring", "educational-technology", "etexts", "higher-education", "oer", "openauthor", "publishing"]
 draft: false
 locale: en
-image: "../../../assets/blog/23806298056_725f168eb4_k.jpg"
+image: "./images/23806298056_725f168eb4_k.jpg"
 imageAlt: "Core Principles for an eText Authoring Tool"
 ---
 

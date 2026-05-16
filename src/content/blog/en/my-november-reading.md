@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "books", "literature", "poetry"]
 draft: false
 locale: en
-image: "../../../assets/blog/liwf2uhxs0q-annie-spratt.jpg"
+image: "./images/liwf2uhxs0q-annie-spratt.jpg"
 imageAlt: "My November 2016 Reading"
 ---
 

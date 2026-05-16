@@ -6,7 +6,7 @@ author: steel
 tags: ["reading-notes", "reading", "ignazio-silone", "poetry", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/fontamara_1st_edition.jpg"
+image: "./images/fontamara_1st_edition.jpg"
 imageAlt: "Ignazio Silone's Fontamara"
 ---
 

@@ -64,7 +64,7 @@ Once the rings were flat, we then took files and shaped the edges so that they h
 
 It took me quite a while to really get the hang of using the file to shape the ring's edges, and even longer to figure out how to use the magnifying visor I was wearing, but it ended up being one of my favorite parts of the whole experience because I could actually see the change in shape and curve that I was making with the file and I began to feel how changes in weight and pressure from my hand would manifest themselves in the gold that I was working with. It's easy to understand how metalworkers can get lost in their art, it's a very sensuous and rewarding embodied experience.
 
-<figure class="align-left"><img class="size-full wp-image-1065" title="IMG_0291" src="../../../assets/blog/IMG_0291.jpg" alt="" width="500" height="375"><figcaption>Two of Laurel's rings, after filing.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-1065" title="IMG_0291" src="./images/IMG_0291.jpg" alt="" width="500" height="375"><figcaption>Two of Laurel's rings, after filing.</figcaption></figure>
 
 <figure class="align-left"><img class="size-full wp-image-1066" title="IMG_0292" src="https://steelwagstaff.files.wordpress.com/2012/05/img_0292.jpg" alt="" width="500" height="375"><figcaption>Another view of two filed rings.</figcaption></figure>
 
@@ -74,7 +74,7 @@ Once the rings were filed and shaped, all they needed was a bit of polish to mak
 
 <figure class="align-left"><img class="size-full wp-image-1068" title="IMG_0295" src="https://steelwagstaff.files.wordpress.com/2012/05/img_0295.jpg" alt="" width="500" height="375"><figcaption>I'm holding the polished ring that Laurel made for me!</figcaption></figure>
 
-<figure class="align-left"><img class="size-full wp-image-1070" title="IMG_0301" src="../../../assets/blog/img_0301.jpg" alt="" width="500" height="375"><figcaption>The finished ring Laurel made for me.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-1070" title="IMG_0301" src="./images/img_0301.jpg" alt="" width="500" height="375"><figcaption>The finished ring Laurel made for me.</figcaption></figure>
 
 Laurel also decided that she'd like a stone set in the center band, and picked out a setting that looked good and a modest gem-cut [Moissanite](http://en.wikipedia.org/wiki/Moissanite) (synthetic diamond) stone that Hiroko placed in a setting for us.
 
@@ -82,6 +82,6 @@ Laurel also decided that she'd like a stone set in the center band, and picked o
 
 Hiroko finished setting the stone in practically no time, and the rings were completely finished within three hours on our last day in the shop. We almost couldn't believe how beautifully the rings turned out, and were surprised and amazed to see the work of our own hands (we obviously had a master teacher). We went to Noodles for a celebratory meal (Indonesian Peanut Saute!) and took this photograph of all four finished rings:
 
-<figure class="align-left"><img class="size-full wp-image-1071" title="IMG_0303" src="../../../assets/blog/img_0303.jpg" alt="" width="500" height="375"><figcaption>Finished rings in a jewelry box.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-1071" title="IMG_0303" src="./images/img_0303.jpg" alt="" width="500" height="375"><figcaption>Finished rings in a jewelry box.</figcaption></figure>
 
 All told we spent about 10 hours working on the rings, spread out over three working Sundays. We also arranged a work trade with Hiroko, who was extraordinarily generous with her time and expertise, so that we ended up paying much less than we ordinarily would have paid for comparable rings at any jeweler. I don't feel comfortable publishing the total cost of the rings, since I think that's a private matter between us and Hiroko, but I will say that Hiroko was an absolute dream to work with. She was patient, encouraging, and funny, and she let us do just about everything in the shop, even when we made mistakes and were doing things awkwardly (we broke a couple of saw blades and Laurel even sliced her finger at one point). All told, it was one of the best shared experiences Laurel and I have ever had, and so much of it was shaped and conditioned by Hiroko, who made us feel comfortable, empowered, and wholly involved in the processes of design and creation. We can't recommend Hiroko's work or her gallery highly enough. She is one of the best and most generous people we've ever known as well as the most gifted metal worker we've ever seen.

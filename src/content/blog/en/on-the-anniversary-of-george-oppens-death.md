@@ -6,7 +6,7 @@ author: steel
 tags: ["the-objectivists", "death", "george-oppen", "poetry"]
 draft: false
 locale: en
-image: "../../../assets/blog/pages-from-mss33-b1-f12.jpg"
+image: "./images/pages-from-mss33-b1-f12.jpg"
 imageAlt: "On the Anniversary of George Oppen's Death"
 ---
 

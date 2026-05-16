@@ -6,7 +6,7 @@ author: steel
 tags: ["education-technology", "higher-education", "oer", "open-educational-resources", "pressbooks", "technology"]
 draft: false
 locale: en
-image: "../../../assets/blog/2237305969_a4b01298e2_b.jpg"
+image: "./images/2237305969_a4b01298e2_b.jpg"
 imageAlt: "2016: The Year in OER at UW-Madison"
 ---
 
@@ -22,13 +22,13 @@ In 2015, LSS conducted a pilot test of [Pressbooks](https://pressbooks.com/about
 
 #### HIRING AN OER GRADUATE ASSISTANT
 
-<figure class="align-left"><img class="size-medium wp-image-6111" src="../../../assets/blog/13880423_10154347746966698_6817741806037198999_n.jpg" alt="Amanda Larson" width="300" height="300"><figcaption>Amanda Larson, LSS's&nbsp;OER TA for the 2016-2017 academic year.</figcaption></figure>
+<figure class="align-left"><img class="size-medium wp-image-6111" src="./images/13880423_10154347746966698_6817741806037198999_n.jpg" alt="Amanda Larson" width="300" height="300"><figcaption>Amanda Larson, LSS's&nbsp;OER TA for the 2016-2017 academic year.</figcaption></figure>
 
 The other big development in 2016 was that Learning Support Services received an Educational Innovation grant which allowed us to hire a 50% graduate assistant for the 2016–2017 academic year specifically devoted to the creation and adoption of Open Educational Resources. In September 2016, we hired Amanda Larson, a graduate student in the School of Library and Information Studies, to serve as our OER TA, and she’s been a terrific asset in helping faculty and staff become more skilled in their use of Pressbooks, in addition to her ongoing work in creating a set of tutorial and training resources that we expect will serve our users well for years to come. If you’re looking for help getting started in creating an open text of your own, want training in doing something that feels new or complicated, or just want advice and consulting as you plan the next step in your development process, please don’t hesitate to [contact Amanda](mailto:larson26@wisc.edu). She’s great (as many members of our Pressbooks user community can already attest)!
 
 ### Active OER Projects in Pressbooks
 
-<figure class="align-right"><img class="wp-image-6110 size-medium" src="../../../assets/blog/portugues_para_principiantes_cover-1.jpg" alt="Cover for the first edition of Português para Principiantes" width="200" height="300"><figcaption>The cover for the first edition of Português para Principiantes. Design by Steel Wagstaff. Images licensed under a CC-BY license.</figcaption></figure>
+<figure class="align-right"><img class="wp-image-6110 size-medium" src="./images/portugues_para_principiantes_cover-1.jpg" alt="Cover for the first edition of Português para Principiantes" width="200" height="300"><figcaption>The cover for the first edition of Português para Principiantes. Design by Steel Wagstaff. Images licensed under a CC-BY license.</figcaption></figure>
 
 Even though our efforts in 2016 were almost exclusively grassroots, driven by personal connections and word of mouth recommendations, we were pleasantly surprised by the breadth and depth of OER authoring activity undertaken by various colleagues around campus. As of January 1, 2017, we had more than 50 active text projects on the Unizin Pressbooks server, with several more that we know of coming soon. While we can’t describe every project with the detail it deserves, here are 10 quick highlights that give a good cross-section of the exciting work that we’ve been able to support in Pressbooks over the past year:
 

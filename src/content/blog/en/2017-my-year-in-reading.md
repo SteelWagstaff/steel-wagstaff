@@ -6,7 +6,7 @@ author: steel
 tags: ["reading"]
 draft: false
 locale: en
-image: "../../../assets/blog/8703997248_274eea3496_k.jpg"
+image: "./images/8703997248_274eea3496_k.jpg"
 imageAlt: "2017: My Year in Reading"
 ---
 

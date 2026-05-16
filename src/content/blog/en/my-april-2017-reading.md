@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "books", "literature", "poetry"]
 draft: false
 locale: en
-image: "../../../assets/blog/2464682583_75238b8f03_b_moles-yorkshire.jpg"
+image: "./images/2464682583_75238b8f03_b_moles-yorkshire.jpg"
 imageAlt: "My April 2017 Reading"
 ---
 
