@@ -1,9 +1,9 @@
 ---
 title: "Adrianne Lenker & Buck Meek & Big Thief"
-description: "I don't know exactly why or how it happened, but for the past several months I've been unusually absorbed by pretty much everything that Adrianne Lenker and Buck Meek have ever recorded. I don't know "
+description: "Playlist of favorite songs from Adrianne Lenker and Buck Meek"
 publishedAt: 2017-07-08
 author: steel
-tags: []
+tags: ["mixtape"]
 draft: false
 locale: en
 ---
