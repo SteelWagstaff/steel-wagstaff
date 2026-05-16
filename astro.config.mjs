@@ -4,16 +4,12 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import icon from 'astro-icon';
 import tailwindcss from '@tailwindcss/vite';
-import vercel from '@astrojs/vercel';
 import netlify from '@astrojs/netlify';
 import { remarkSpotifyEmbed } from './src/lib/remark-spotify-embed.ts';
 
-const isNetlify = process.env.DEPLOY_TARGET === 'netlify';
-
 export default defineConfig({
-  output: 'static',
-  adapter: isNetlify ? netlify() : vercel(),
-  site: process.env.SITE_URL || 'https://steelwagstaff.info',
+  adapter: netlify(),
+  site: 'https://steelwagstaff.info',
 
   env: {
     schema: {
