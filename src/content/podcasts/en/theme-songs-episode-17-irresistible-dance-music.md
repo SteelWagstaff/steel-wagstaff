@@ -26,4 +26,4 @@ https://open.spotify.com/user/steelwagstaff/playlist/738lt9pJENLtQvn5lBkJUN?si=T
 
 **Special Bonus Gift:** [Advice from Alice](https://aliceastarita.info/fac/movement-meditation/) on how to practice movement meditation.
 
-## Featured image by [Ministerio de Cultura de la Nación](https://www.flickr.com/photos/52498302@N08/33904220075)[![](https://otc.awesomecity.org/wp-content/plugins/wp-inject/images/cc.png)](https://creativecommons.org/licenses/by-sa/2.0/ "Attribution-ShareAlike License")
+## Featured image by [Ministerio de Cultura de la Nación](https://www.flickr.com/photos/52498302@N08/33904220075)
