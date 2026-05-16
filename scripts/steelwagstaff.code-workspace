@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../tumblr"
+		}
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"ForEach-Object": true
+		}
+	}
+}
