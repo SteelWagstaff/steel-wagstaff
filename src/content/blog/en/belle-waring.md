@@ -12,11 +12,12 @@ imageAlt: "Belle Waring"
 
 I can't remember exactly when I first read Belle Waring's poems. It probably would have been at least a decade ago, and I do remember that it was one of her poems about nursing, maybe even "It Was My First Nursing Job". What I remember most was feeling that I had discovered a voice that I trusted, a speaker that I respected, a sensibility that I wanted to befriend and follow. Her voice was human, riven with grief, honest and angry in equal measures, desirous of less pain but not deluded into thinking that suffering could be ended. It was my kind of voice.
 
--        \*      \*
+
+* * *
 
 When I was running the FELIX reading series several years ago, I used to make a list every couple of months of poets that I wanted to bring to read for us in Madison. Belle Waring's name was always on that list. I searched for her on the internet, learned that she had published two books in the 90s, _[Refuge](https://www.upress.pitt.edu/BookDetails.aspx?bookId=34877)_ and _[Dark Blonde](http://www.sarabandebooks.org/all-titles/dark-blonde-belle-waring)_, and even found that she was reading at a Split this Rock event in Washington, DC (this would have been in 2008, I think). While I found a now-defunct website that featured her work in 2008, I never got much further than that--I never could turn up an email address for her, for instance, so I never did extend an invitation to her to read for us. I just filed her away as a poet I admired and wanted to meet one day. I felt sure that the human being behind the poems would be one worth knowing, and that mattered to me tremendously.
 
--        \*      \*
+* * *
 
 I make a [podcast](http://otc.awesomecity.org/) now with a friend of mine who just finished his doctorate in nursing. We had a fellow nurse on as a guest, and I was thinking about what I could share for a segment at the end of the show where we read a piece of literature that has really moved us. Since they both worked as nurses, I thought of Belle Waring. It had been years since I'd done any searching, so I went to [WorldCat](http://www.worldcat.org/search?q=au%3AWaring%2C+Belle%2C&qt=hot_author#x0%253Abook-%2C%2528x0%253Abook%2Bx4%253Aprintbook%2529%2C%2528x0%253Abook%2Bx4%253Adigital%2529format) and found that she had no new book publications since Sarabande published _Dark Blonde_ in 1997. I checked out both of her books from the library. I read them, and was deeply moved, especially by the poems in _Dark Blonde_. Her writing voice reminded me in many ways of my wife's, and since she was working on retooling her manuscript, I shared both of the books with her as well. Here's a small taste of Ms. Waring's voice, which speaks to me most powerfully when she writes about her time in the caring profession. This is "Baby Random", the second poem in her first book, _[Refuge](http://www.amazon.com/Refuge-Poetry-Series-Belle-Waring/dp/0822954419):_
 
@@ -30,7 +31,7 @@ This is "Country Life," the second-to-last poem in the book:
 
 > You smell of ginger root and cedar and a child's Crayola crayons. From miles around people flock to admire us waltzing in our kitchen. Watch them get a little tight. The swans with necks entwined try to take the floor. The modest bull- dogs dance the time-step. Our mirrored globe whirls into the night, entincellating light up the scullery stairs, riding the notes up through the roof beams. Your hands are ten tiger's-eye butterflies. There is nothing I would not do for you.
 
--        \*      \*
+* * *
 
 A few months ago, I learned that Belle Waring was dead. After Laurel and I read her books, I decided that I wanted to send her a message to tell her a little about what her poetry had meant to me. I spent a few hours searching for anything I could find about her. I had to wade through a lot of disambiguation, since there's a prominent Crooked Timber blogger who shares her name, but I eventually I saw [this death notice](http://www.sarabandebooks.org/blog/2015/2/5/remembering-belle-waring) from Sarabande, her publisher, in February of this year, which simply stated that she had died and shared a poem from _Dark Blonde_ encouraging someone not to take their life. I did a bit more digging and found [this article](https://nihrecord.nih.gov/newsletters/2015/03_13_2015/milestones.htm#Waring) from a NIH newsletter which filled in a bit of the backstory. Ms. Waring had battled cancer for several years and had joined the NIH in 2002, before becoming a writer-editor for the _NIH Record_ in 2006.
 
@@ -38,15 +39,15 @@ A few months ago, I learned that Belle Waring was dead. After Laurel and I rea
 
 Here's what her co-workers said about her following her death: "With the _NIH Record_, the stories Belle enjoyed the most were about the ordinary people that make this place run. Belle was also a great mentor to a lot of people around here. She took people under her wing and nurtured them. ... We spent hours talking about life in general, philosophy, my kids." -- Calvin Jackson "Her respect for its science and public health mission and her affection for its people were evident in every story she turned in. She wrote as if she were talking to an intelligent, sympathetic and curious friend. That’s what she transformed all of us into." -- Rich McManus Belle was funny, lighthearted and selfless … Belle was a great listener and always saw the best in everybody … My kids—both aspiring writers—came to know her. She was a great teacher, empathetic and results-oriented. She got great joy from making things right. She was genuine and thoughtful; that’s what I miss." -- Cyndi Burrus-Shaw
 
--        \*      \*
+* * *
 
 The final sentence of the NIH's notice of Waring's death stated that she was survived by her mother, Patricia Waring, of Chesterton, Maryland. When I searched to see if I could find contact information for her mother, I found [this story](http://www.nbcnews.com/id/15061701/ns/msnbc-hardball_with_chris_matthews/t/hardball-chris-matthews-sept/#.VfBYp51VhBc) from 2006, in which Mrs. Waring gave her account of George Allen's use of racist language as a young man. I have not found a way to contact Mrs. Waring, to describe my feelings about her daughter's writing, but I'd like to. You would too, if you'd read her poems.
 
--        \*      \*
+* * *
 
 Even though she is now dead, you can listen to [Belle Waring's voice](http://www.loc.gov/poetry/media/avfiles/waring_cybulski.mp3) (in a reading and interview she gave to Grace Cavalieri for her The Poet and the Poem series). You can even [watch her read from _Refuge_](https://www.youtube.com/watch?v=UFKPvALBLvA) (a video was made of her reading in Pennsylvania in 1993). You can do these things, of course, and you can read her poems. This is the last thing I will share with you about Belle Waring. It's from _[Dark Blonde](https://books.google.com/books?id=eFvLtrX2xPMC&lpg=PP1&pg=PP1#v=twopage&q&f=false)_. Find this book. It is a treasure.
 
--        \*      \*
+* * *
 
 ### "Twenty-Four-Week Preemie, Change of Shift"
 

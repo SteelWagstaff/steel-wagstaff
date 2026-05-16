@@ -1,7 +1,7 @@
 ---
 title: "Dear reader:"
 description: "[caption id=\"attachment_22\" align=\"alignright\" width=\"240\" caption=\"Michel de Montaigne\"][/caption]"
-publishedAt: 2011-04-18
+publishedAt: 2011-04-17
 author: steel
 tags: []
 draft: false
@@ -10,8 +10,6 @@ image: "./images/montaigne.jpg"
 imageAlt: "Dear reader:"
 ---
 
-
-[caption id="attachment_22" align="alignright" width="240" caption="Michel de Montaigne"][/caption]
 
 I must apologize, if for nothing else than for lacking the kind of grace and characteristic honesty possessed by Michel de Montaigne, whose prefatory remarks to his Essais are for me still the gold standard of an apologia for keeping a record like the one I hope this will soon become. Though I certainly lacking Montaigne's stylish modesty, I still wish to explain myself as best I can: I've felt for some time that I should begin keeping a blog.
 

@@ -4,16 +4,16 @@ description: "It's a huge subject, death. I know this, and yet I still want to w
 publishedAt: 2016-10-15
 author: steel
 tags: []
-draft: false
+draft: true
 locale: en
 ---
 
 
 It's a huge subject, death. I know this, and yet I still want to write about it today.
 
-Two stories from StoryCorps that moved me recently: Brian Korbon: http://www.npr.org/templates/story/story.php?storyId=120580047 + http://storycorps.org/listen/stories/gregg-korbon-and-his-wife-kathryn/
+Two stories from StoryCorps that moved me recently: Brian Korbon: https://www.npr.org/templates/story/story.php?storyId=120580047 + https://storycorps.org/listen/stories/gregg-korbon-and-his-wife-kathryn/
 
-David Shea: http://storycorps.org/listen/stories/david-shea-and-alice-doyle/
+David Shea: https://storycorps.org/listen/stories/david-shea-and-alice-doyle/
 
 A Poor Wayfaring Man of Grief:
 "These deeds shall thy memorial be,
