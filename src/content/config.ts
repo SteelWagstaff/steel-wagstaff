@@ -24,6 +24,7 @@ const blogCollection = defineCollection({
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     locale: z.string().default('en'),
+    spotifyPlaylist: z.string().url().optional(),
     image: image().optional(),
     imageAlt: z.string().optional(),
   }),
