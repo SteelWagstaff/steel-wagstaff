@@ -57,7 +57,7 @@ The script does **not** touch `src/content/podcasts/`, `src/content/music/`, or 
 ```yaml
 ---
 title: "Post Title"
-description: "First sentence of content, truncated to ~160 chars."
+description: ""                              # left blank by migration script; populated by generate-blog-descriptions.mjs
 publishedAt: 2017-01-20
 author: steel
 tags: ["wedding-planning", "photography", "madison"]
@@ -133,6 +133,14 @@ Use `turndown` with these configuration rules:
 | `src/assets/blog/{filename}` | Resolved images copied here |
 | `scripts/missing-media-report.json` | Array of `{ slug, title, originalUrl }` for unresolved images |
 
+**Second script:** `scripts/generate-blog-descriptions.mjs`
+
+| Path | Description |
+|------|-------------|
+| `src/content/blog/en/{slug}.md` | Adds `description` field to existing frontmatter (in-place update) |
+
+For each post with a blank `description`, reads the post body, calls an LLM API with a prompt like: _"Write a single sentence (under 160 characters) summarising this blog post."_ and writes the result back to the frontmatter. Uses `ANTHROPIC_API_KEY` or `OPENAI_API_KEY` from `.env`. Skips posts that already have a non-empty description.
+
 ### New components needed
 
 Two Astro components need to be created (modeled on existing `SpotifyEmbed.astro`):
@@ -147,11 +155,12 @@ Both use privacy-enhanced / lite embeds and accept a single `url` prop.
 - `src/content/music/` — Mixtapes stay as-is
 - `src/content/commonplace/` — Tumblr content stays as-is
 
-### Post-migration manual steps
+### Post-migration steps
 
-1. **Pressbooks post** — 9 PNGs already in `src/assets/blog/` are safe; script may regenerate the Markdown but the image copy step is idempotent. Verify the post renders correctly after migration.
-2. **Missing media report** — work through `scripts/missing-media-report.json` to manually source unresolved featured images.
-3. **Verify build** — run `pnpm build` and check for errors.
+1. Run `node scripts/generate-blog-descriptions.mjs` to populate `description` fields via LLM.
+2. **Pressbooks post** — 9 PNGs already in `src/assets/blog/` are safe; script may regenerate the Markdown but the image copy step is idempotent. Verify the post renders correctly after migration.
+3. **Missing media report** — work through `scripts/missing-media-report.json` to manually source unresolved featured images.
+4. **Verify build** — run `pnpm build` and check for errors.
 
 ---
 
