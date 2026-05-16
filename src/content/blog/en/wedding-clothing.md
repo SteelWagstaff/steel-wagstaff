@@ -3,7 +3,7 @@ title: "#7: Wedding Clothing"
 description: ""
 publishedAt: 2012-07-06
 author: steel
-tags: ["wedding-planning", "clothing", "marriage", "planning", "wedding"]
+tags: ["Wedding Planning Series", "clothing", "marriage", "planning", "wedding"]
 draft: false
 locale: en
 ---

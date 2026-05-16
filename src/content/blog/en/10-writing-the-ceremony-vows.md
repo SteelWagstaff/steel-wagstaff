@@ -4,7 +4,7 @@ description: "A blog post by Steel Wagstaff"
 publishedAt: 2012-05-30
 author: steel
 tags: []
-draft: false
+draft: true
 locale: en
 ---
 
