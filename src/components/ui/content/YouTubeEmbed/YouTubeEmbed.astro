@@ -1,0 +1,41 @@
+---
+/**
+ * YouTubeEmbed — Embedded YouTube player (privacy-enhanced)
+ * Accepts a full YouTube URL and extracts the video ID.
+ */
+interface Props {
+  url: string;
+  title?: string;
+}
+
+const { url, title = 'YouTube video' } = Astro.props;
+
+// Extract video ID from youtu.be/ID or ?v=ID formats
+function extractYouTubeId(rawUrl: string): string | null {
+  try {
+    const u = new URL(rawUrl);
+    if (u.hostname === 'youtu.be') return u.pathname.slice(1);
+    return u.searchParams.get('v');
+  } catch {
+    return null;
+  }
+}
+
+const videoId = extractYouTubeId(url);
+const embedUrl = videoId
+  ? `https://www.youtube-nocookie.com/embed/${videoId}`
+  : null;
+---
+
+{embedUrl && (
+  <div class="youtube-embed-container relative w-full overflow-hidden rounded-lg" style="aspect-ratio: 16/9;">
+    <iframe
+      src={embedUrl}
+      title={title}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      loading="lazy"
+      class="absolute inset-0 h-full w-full border-0"
+    />
+  </div>
+)}
