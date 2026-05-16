@@ -6,6 +6,8 @@ author: steel
 tags: ["mixtape"]
 draft: false
 locale: en
+image: "../../../assets/music/big-thief.jpg"
+imageAlt: "Big Thief band"
 ---
 
 I don't know exactly why or how it happened, but for the past several months I've been unusually absorbed by pretty much everything that Adrianne Lenker and Buck Meek have ever recorded. I don't know much about Buck other than that's he's from Texas, but here's some part of Adrianne's story in a nutshell: born into something like a religious cult, her parents leave the religious community they're a part of when she's a child, she moves around the midwest a bit before settling in the Twin Cities, Minnesota area, proceeds to have an unconventional but musically rich childhood with lots of encouragement and coaching from her father. At 17, she decides wants to have a college experience--mostly to be around peers for a while and focus on music. She ends up auditioning for the director of admissions at the Berklee School of Music and plays her an original song. He's impressed, and ultimately arranges for her to attend the school on a scholarship sponsored by legendary guitarist Susan Tedeschi. She's one of just a handful of female guitarists at Berklee--she makes music while she's honing her craft there and ends up recording a solo record, Hours Were the Birds, shortly after finishing school.
