@@ -1,0 +1,29 @@
+---
+/**
+ * SoundCloudEmbed — Embedded SoundCloud player
+ * Accepts a full SoundCloud URL (track or playlist).
+ */
+interface Props {
+  url: string;
+  height?: number;
+}
+
+const { url, height = 166 } = Astro.props;
+
+const encodedUrl = encodeURIComponent(url);
+const embedSrc = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`;
+---
+
+<div class="soundcloud-embed-container w-full overflow-hidden rounded-lg">
+  <iframe
+    width="100%"
+    height={height}
+    scrolling="no"
+    frameborder="no"
+    allow="autoplay"
+    loading="lazy"
+    src={embedSrc}
+    title="SoundCloud player"
+    class="w-full border-0"
+  />
+</div>
