@@ -4,7 +4,7 @@ const commonplaceCollection = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    type: z.enum(['photo', 'audio', 'video', 'quote']),
+    type: z.enum(['photo', 'audio', 'video', 'quote', 'text']),
     content: z.string().optional(),
     publishedAt: z.coerce.date(),
     tags: z.array(z.string()).default([]),
