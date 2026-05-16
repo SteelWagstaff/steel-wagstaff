@@ -3,7 +3,7 @@ title: "#2b: Designing and Making Invitations, Part 2"
 description: ""
 publishedAt: 2012-05-31
 author: steel
-tags: ["wedding-planning", "letter-press", "marriage", "planning", "poetry", "wedding", "writing"]
+tags: ["Wedding Planning Series", "letter-press", "marriage", "planning", "poetry", "wedding", "writing"]
 draft: false
 locale: en
 ---

@@ -3,7 +3,7 @@ title: "#8: Choosing an Officiant &amp; Getting a Marriage License"
 description: ""
 publishedAt: 2015-06-11
 author: steel
-tags: ["wedding-planning"]
+tags: ["Wedding Planning Series"]
 draft: false
 locale: en
 image: "./images/7207450958_432986c333_o-copy-2.jpg"

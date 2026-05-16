@@ -3,12 +3,22 @@ title: "#5: Planning and Preparing Decorations"
 description: ""
 publishedAt: 2012-06-17
 author: steel
-tags: ["wedding-planning", "marriage", "planning", "wedding"]
+tags: ["Wedding Planning Series", "marriage", "planning", "wedding"]
 draft: false
 locale: en
 ---
 
-It's been a little while since the last wedding planning post. I took some time with this one, in part because I was busy with other things, but also (I confess) because this was the aspect of the wedding planning that I felt least involved with. To paraphrase my old roommate Spencer Gardner, it wasn't that I didn't really care what the decorations _looked like_, it was that I didn't really _care_ what the decorations looked like. It's not entirely true, but it's partially true, which means that I didn't have quite the same enthusiasm for decorating our reception space as I did for, say, making our invitations or planning what food we'd offer guests. **Decorating the Pizza Party:** We went minimalist on this one. I set up tables and chairs, and we had paper plates and napkins. That's it. The space was a community center--it was mostly clean, it was functional, and the room was large and full of people talking and laughing. Towards the end, my college roommates set up all their instruments and rocked out a bit on a stage area near where we were eating, but they did all that themselves. Total cost of decorations: $0 **Decorating the Wedding:** We went minimalist on this one as well. We married inside a former synagogue now owned by the city parks department. Here's their decoration policy: "To maintain the beauty of the building, no nails, staples, or other fasteners that will harm the walls or floors may be used in this or any park shelter. The Madison Parks Division recommends using free standing decorations." We weren't inclined for much fancy decorating at the wedding, and this policy made that decision even easier. The room was simple and beautiful, full of abundant natural light, and there was an old tablet of the 10 commandments in Hebrew above the alcove where our officiant stood at the front of the room.
+It's been a little while since the last wedding planning post. I took some time with this one, in part because I was busy with other things, but also (I confess) because this was the aspect of the wedding planning that I felt least involved with. To paraphrase my old roommate Spencer Gardner, it wasn't that I didn't really care what the decorations _looked like_, it was that I didn't really _care_ what the decorations looked like. It's not entirely true, but it's partially true, which means that I didn't have quite the same enthusiasm for decorating our reception space as I did for, say, making our invitations or planning what food we'd offer guests. 
+
+## **Decorating the Pizza Party:** 
+
+We went minimalist on this one. I set up tables and chairs, and we had paper plates and napkins. That's it. The space was a community center--it was mostly clean, it was functional, and the room was large and full of people talking and laughing. Towards the end, my college roommates set up all their instruments and rocked out a bit on a stage area near where we were eating, but they did all that themselves. 
+
+Total cost of decorations: $0 
+
+## **Decorating the Wedding:** 
+
+We went minimalist on this one as well. We married inside a former synagogue now owned by the city parks department. Here's their decoration policy: "To maintain the beauty of the building, no nails, staples, or other fasteners that will harm the walls or floors may be used in this or any park shelter. The Madison Parks Division recommends using free standing decorations." We weren't inclined for much fancy decorating at the wedding, and this policy made that decision even easier. The room was simple and beautiful, full of abundant natural light, and there was an old tablet of the 10 commandments in Hebrew above the alcove where our officiant stood at the front of the room.
 
 <figure class="align-left"><img src="https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-397.jpg" alt="" title="Steel and Laurel (397)" width="500" height="333" class="size-full wp-image-1130"><figcaption>This is one of the best shots of the front of the room. The 10 commandments are clearly visible above our heads.</figcaption></figure>
 
@@ -16,11 +26,13 @@ I did wear a boutonniere that Laurel made from flowers she purchased from a loca
 
 <figure class="align-left"><img src="https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-80.jpg" alt="" title="Steel and Laurel (80)" width="500" height="333" class="size-full wp-image-1127"><figcaption>Laurel pins my corsage on, minutes before the wedding begins. You can also see my dad's boutonniere quite well in this shot.</figcaption></figure>
 
-. I didn't realize it until we saw the photos, but my sister Camille either nabbed a leftover corsage or made one and put it in her hair. I think it looked good.
+I didn't realize it until we saw the photos, but my sister Camille either nabbed a leftover corsage or made one and put it in her hair. I think it looked good.
 
 <figure class="align-left"><img src="https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-175.jpg" alt="" title="Steel and Laurel (175)" width="500" height="750" class="size-full wp-image-1129"><figcaption>The back of Camille's head--with a corsage in her hair. That well-dressed man leaning against the wall? That's Dave Jenson, of Ask Nurse Dave fame. Google it. You won't regret it.</figcaption></figure>
 
-**Wedding Reception:** For decorations, we wanted to buy flowers from a local grower that we felt was ethically and environmentally responsible. Laurel did some looking around and found [Stems Cut Flowers](http://stemscutflowers.com/), a fantastic grower based in Milwaukee. Emily has a degree in biology/wildlife ecology from UW-Madison and has started her own flower farm, where she follows [several responsible/sustainable practices](http://stemscutflowers.com/how-we-grow.php) that we wanted to support. Laurel arranged to buy a do-it-yourself package of in-season flowers, which her mom picked up in Milwaukee and brought to Madison for us (she lives in Milwaukee, so it worked out perfectly). We paid $250 for flowers, which provided us with narcissus and tulips in a dazzling array of colors, enough flowers for 18 full table settings, with several left over for corsages and additional creative designs.
+## **Wedding Reception:** 
+
+For decorations, we wanted to buy flowers from a local grower that we felt was ethically and environmentally responsible. Laurel did some looking around and found [Stems Cut Flowers](http://stemscutflowers.com/), a fantastic grower based in Milwaukee. Emily has a degree in biology/wildlife ecology from UW-Madison and has started her own flower farm, where she follows [several responsible/sustainable practices](http://stemscutflowers.com/how-we-grow.php) that we wanted to support. Laurel arranged to buy a do-it-yourself package of in-season flowers, which her mom picked up in Milwaukee and brought to Madison for us (she lives in Milwaukee, so it worked out perfectly). We paid $250 for flowers, which provided us with narcissus and tulips in a dazzling array of colors, enough flowers for 18 full table settings, with several left over for corsages and additional creative designs.
 
 <figure class="align-left"><img src="https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-438.jpg" alt="" title="Steel and Laurel (438)" width="500" height="750" class="size-full wp-image-1134"><figcaption>Several extra narcissus in water. They ended up arranged on our table.</figcaption></figure>
 
@@ -54,7 +66,6 @@ My biggest contribution to the decoration planning was my enthusiasm for Japanes
 
 <figure class="align-left"><img class="size-full wp-image-1123" title="Steel and Laurel (31)" src="https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-31.jpg" alt="" width="500" height="333"><figcaption>The solar lanterns getting charged up on a bush in front of our home.</figcaption></figure>
 
-I wrote about the lanterns in an [earlier post](http://steelwagstaff.wordpress.com/2012/05/29/the-wedding-planning-series-1-events-and-venues-part-2/), so you should read it and look at its pictures if you want to know more about them.
 
 <figure class="align-left"><img src="https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-434.jpg" alt="" title="Steel and Laurel (434)" width="500" height="750" class="size-full wp-image-1133"><figcaption>Several lanterns glow on a table before they're strung up.</figcaption></figure>
 

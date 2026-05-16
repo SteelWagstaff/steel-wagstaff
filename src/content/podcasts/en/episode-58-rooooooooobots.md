@@ -16,7 +16,7 @@ This week Dave and Steel are joined by their old friend Spencer. The trio discus
 
 ## Links
 
-Enjoy Steel's multi-part blog series on [wedding planning](https://steelwagstaff.com/wedding-planning/), especially if you're thinking about getting married.
+Enjoy Steel's multi-part blog series on [wedding planning], especially if you're thinking about getting married.
 
 ### Unchained Melodies: Dystopian Technological Future Edition
 

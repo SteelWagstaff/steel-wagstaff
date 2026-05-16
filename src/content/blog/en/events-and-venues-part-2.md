@@ -3,7 +3,7 @@ title: "#1b: Events and Venues, Part 2"
 description: ""
 publishedAt: 2012-05-29
 author: steel
-tags: ["wedding-planning", "marriage", "planning", "wedding"]
+tags: ["Wedding Planning Series", "marriage", "planning", "wedding"]
 draft: false
 locale: en
 ---

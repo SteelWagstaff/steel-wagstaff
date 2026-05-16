@@ -3,7 +3,7 @@ title: "#9: Planning and Selecting Music"
 description: "There are many reasons why people get married, and many ways of celebrating this commitment, but nearly all wedding celebrations involve some form of music. How could we rejoice without song? It scarc"
 publishedAt: 2015-07-28
 author: steel
-tags: []
+tags: ["Wedding Planning Series"]
 draft: false
 locale: en
 ---

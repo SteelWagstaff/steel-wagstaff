@@ -3,7 +3,7 @@ title: "#6: Choosing a Photographer &#038; Videographer"
 description: ""
 publishedAt: 2012-06-24
 author: steel
-tags: ["wedding-planning", "marriage", "photography", "planning", "techmology", "wedding"]
+tags: ["Wedding Planning Series", "marriage", "photography", "planning", "techmology", "wedding"]
 draft: false
 locale: en
 ---

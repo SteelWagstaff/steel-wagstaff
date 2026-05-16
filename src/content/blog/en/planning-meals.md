@@ -3,7 +3,7 @@ title: "#4: Planning Meals"
 description: ""
 publishedAt: 2012-06-04
 author: steel
-tags: ["wedding-planning", "food", "marriage", "planning", "wedding"]
+tags: ["Wedding Planning Series", "food", "marriage", "planning", "wedding"]
 draft: false
 locale: en
 image: "./images/7207494506_c683842e91_b.jpg"
