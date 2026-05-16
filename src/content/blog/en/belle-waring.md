@@ -6,7 +6,7 @@ author: steel
 tags: ["favorite-people", "reading", "literature", "poetry", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/3005145811_932a4645f8_o.jpg"
+image: "./images/3005145811_932a4645f8_o.jpg"
 imageAlt: "Belle Waring"
 ---
 
@@ -34,7 +34,7 @@ This is "Country Life," the second-to-last poem in the book:
 
 A few months ago, I learned that Belle Waring was dead. After Laurel and I read her books, I decided that I wanted to send her a message to tell her a little about what her poetry had meant to me. I spent a few hours searching for anything I could find about her. I had to wade through a lot of disambiguation, since there's a prominent Crooked Timber blogger who shares her name, but I eventually I saw [this death notice](http://www.sarabandebooks.org/blog/2015/2/5/remembering-belle-waring) from Sarabande, her publisher, in February of this year, which simply stated that she had died and shared a poem from _Dark Blonde_ encouraging someone not to take their life. I did a bit more digging and found [this article](https://nihrecord.nih.gov/newsletters/2015/03_13_2015/milestones.htm#Waring) from a NIH newsletter which filled in a bit of the backstory. Ms. Waring had battled cancer for several years and had joined the NIH in 2002, before becoming a writer-editor for the _NIH Record_ in 2006.
 
-<figure class="align-left"><img class="size-full wp-image-6231" src="../../../assets/blog/20150313_milestonesPic7.jpg" alt="" width="417" height="586"><figcaption>This is the photo of Belle used by the NIH in their notice of her death.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-6231" src="./images/20150313_milestonesPic7.jpg" alt="" width="417" height="586"><figcaption>This is the photo of Belle used by the NIH in their notice of her death.</figcaption></figure>
 
 Here's what her co-workers said about her following her death: "With the _NIH Record_, the stories Belle enjoyed the most were about the ordinary people that make this place run. Belle was also a great mentor to a lot of people around here. She took people under her wing and nurtured them. ... We spent hours talking about life in general, philosophy, my kids." -- Calvin Jackson "Her respect for its science and public health mission and her affection for its people were evident in every story she turned in. She wrote as if she were talking to an intelligent, sympathetic and curious friend. That’s what she transformed all of us into." -- Rich McManus Belle was funny, lighthearted and selfless … Belle was a great listener and always saw the best in everybody … My kids—both aspiring writers—came to know her. She was a great teacher, empathetic and results-oriented. She got great joy from making things right. She was genuine and thoughtful; that’s what I miss." -- Cyndi Burrus-Shaw
 

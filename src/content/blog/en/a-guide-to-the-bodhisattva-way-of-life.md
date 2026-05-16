@@ -6,7 +6,7 @@ author: steel
 tags: ["reading-notes", "reading", "attention", "buddhism", "literature", "mindfulness", "philosophy", "religion", "wisdom"]
 draft: false
 locale: en
-image: "../../../assets/blog/9781559390613.png"
+image: "./images/9781559390613.png"
 imageAlt: "A Guide to the Bodhisattva Way of Life"
 ---
 

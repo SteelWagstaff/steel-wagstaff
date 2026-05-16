@@ -6,7 +6,7 @@ author: steel
 tags: ["memory-collector-project", "childhood", "communication", "ethics", "friendship", "memory", "techmology", "whittenberger-summer-writing-project", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/448748186_a72b035ca7_b.jpg"
+image: "./images/448748186_a72b035ca7_b.jpg"
 imageAlt: "In Search of Lost Whittenbergers"
 ---
 

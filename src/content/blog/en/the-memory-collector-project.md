@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "../../../assets/blog/img_0152.jpg"
+image: "./images/img_0152.jpg"
 imageAlt: "The Memory Collector Project: Post 1"
 ---
 

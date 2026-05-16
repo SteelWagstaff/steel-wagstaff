@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "../../../assets/blog/13934661976_57d4dc5407_z-e1404840788633.jpg"
+image: "./images/13934661976_57d4dc5407_z-e1404840788633.jpg"
 imageAlt: "Best of April/May 2014"
 ---
 

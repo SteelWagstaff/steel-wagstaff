@@ -6,7 +6,7 @@ author: steel
 tags: ["reading-notes", "reading", "cesare-pavese", "politics", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/bread_wine.jpg"
+image: "./images/bread_wine.jpg"
 imageAlt: "Ignazio Silone's Bread and Wine"
 ---
 

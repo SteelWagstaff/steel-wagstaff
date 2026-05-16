@@ -6,7 +6,7 @@ author: steel
 tags: ["education-technology", "academics", "higher-education", "web-design"]
 draft: false
 locale: en
-image: "../../../assets/blog/15273343947_855a5a9d3a_b_network-boston-ivy-leaf.jpg"
+image: "./images/15273343947_855a5a9d3a_b_network-boston-ivy-leaf.jpg"
 imageAlt: "Making a Personal Website: A guide for grad students and other academics"
 ---
 
@@ -68,7 +68,7 @@ If you’re simply building a single personal/professional website for yourself,
 
 Use [domcomp](https://www.domcomp.com/), a very simple comparison website. You enter the name you’re thinking of, and it’ll show you which TLDs are available and who’s offering what price. Look at your registrar’s going renewal price as well (since you’ll likely want to renew your registration annually) — don’t simply jump for the company offering you the lowest new registration cost. If you already have a domain registered somewhere, you should also take a look at the transfer costs — transferring domain registrations is fairly easy, and if you find a good, low-cost registrar, will save you money in the long run (I’ve transferred all my domains to NameSilo, for example).
 
-<figure class="align-none"><img class="wp-image-6136 size-full" src="../../../assets/blog/Screen-Shot-2017-02-18-at-2.32.52-PM.png" alt="Screenshot from domcomp.com" width="1204" height="897"><figcaption>Sample domcomp.com search for the domain ‘snidelywhiplash’. You can see that&nbsp;.com is already reserved, but&nbsp;.net,&nbsp;.org.&nbsp;.info, etc. are all available and what the going price&nbsp;is.</figcaption></figure>
+<figure class="align-none"><img class="wp-image-6136 size-full" src="./images/Screen-Shot-2017-02-18-at-2.32.52-PM.png" alt="Screenshot from domcomp.com" width="1204" height="897"><figcaption>Sample domcomp.com search for the domain ‘snidelywhiplash’. You can see that&nbsp;.com is already reserved, but&nbsp;.net,&nbsp;.org.&nbsp;.info, etc. are all available and what the going price&nbsp;is.</figcaption></figure>
 
 ### Domain Registrar:
 
@@ -88,7 +88,7 @@ I strongly recommend buying hosting from [Reclaim Hosting](https://reclaimhostin
 
 **Why I like Reclaim:** their basic hosting services are fantastic, their customer service [is legendarily good](https://reclaimhosting.com/what-people-are-saying/), and their prices are unmatched. They offer three [shared hosting packages](https://reclaimhosting.com/shared-hosting/), which are identical, except for how much space they give you on the server. “Students & Individuals” gives you 2GB for $30/year, “Faculty & Professionals” gives you 10GB for $50/year and Large “Organizations” gives you 100GB for $100/year. If you’re just going to be hosting a simple personal website, 2GB should be more than enough space.
 
-<figure class="align-none"><img class="wp-image-6134 size-full" src="../../../assets/blog/Screen-Shot-2017-02-18-at-2.56.18-PM.png" alt="Screenshot from Reclaim Hosting" width="1517" height="820"><figcaption>The three <a href="https://reclaimhosting.com/shared-hosting/" target="_blank">shared hosting packages</a> offered by Reclaim Hosting.</figcaption></figure>
+<figure class="align-none"><img class="wp-image-6134 size-full" src="./images/Screen-Shot-2017-02-18-at-2.56.18-PM.png" alt="Screenshot from Reclaim Hosting" width="1517" height="820"><figcaption>The three <a href="https://reclaimhosting.com/shared-hosting/" target="_blank">shared hosting packages</a> offered by Reclaim Hosting.</figcaption></figure>
 
 ### Hosting for Registered Nonprofit Organizations:
 

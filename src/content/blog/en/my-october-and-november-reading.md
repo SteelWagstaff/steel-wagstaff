@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "books", "literature"]
 draft: false
 locale: en
-image: "../../../assets/blog/35332790134_ebb6938e70_k.jpg"
+image: "./images/35332790134_ebb6938e70_k.jpg"
 imageAlt: "My October and November Reading"
 ---
 

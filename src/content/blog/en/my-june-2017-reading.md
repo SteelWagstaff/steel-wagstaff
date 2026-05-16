@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "books", "literature"]
 draft: false
 locale: en
-image: "../../../assets/blog/8515538001_4a12feab52_k.jpg"
+image: "./images/8515538001_4a12feab52_k.jpg"
 imageAlt: "My June 2017 Reading"
 ---
 

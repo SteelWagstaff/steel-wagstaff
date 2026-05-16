@@ -6,7 +6,7 @@ author: steel
 tags: ["the-objectivists", "ecopoetics", "lorine-niedecker", "poetry", "wisconsin", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/hfad0136.jpg"
+image: "./images/hfad0136.jpg"
 imageAlt: "Essay on Lorine Niedecker for Edge Effects"
 ---
 

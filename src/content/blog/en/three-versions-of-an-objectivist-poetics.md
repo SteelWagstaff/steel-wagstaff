@@ -6,7 +6,7 @@ author: steel
 tags: ["the-objectivists", "reading", "animals", "george-oppen", "ignazio-silone", "language", "objectivist-poetics", "wittgenstein"]
 draft: false
 locale: en
-image: "../../../assets/blog/8128375073_d28072f931_b.jpg"
+image: "./images/8128375073_d28072f931_b.jpg"
 imageAlt: "Three versions of an Objectivist Poetics"
 ---
 

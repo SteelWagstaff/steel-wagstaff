@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "../../../assets/blog/iron-lung.jpg"
+image: "./images/iron-lung.jpg"
 imageAlt: "To be a Carer"
 ---
 

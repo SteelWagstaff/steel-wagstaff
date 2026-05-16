@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "love", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/fredelle-and-sydney.jpg"
+image: "./images/fredelle-and-sydney.jpg"
 imageAlt: "Joyce Maynard on her mother and adult love"
 ---
 

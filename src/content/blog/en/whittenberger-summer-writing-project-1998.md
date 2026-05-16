@@ -6,7 +6,7 @@ author: steel
 tags: ["memory-collector-project", "childhood", "friendship", "idaho", "literature", "memory", "teenagers", "whittenberger", "writing"]
 draft: false
 locale: en
-image: "../../../assets/blog/img_0131.jpg"
+image: "./images/img_0131.jpg"
 imageAlt: "Whittenberger Summer Writing Project: 1998"
 ---
 
@@ -20,7 +20,7 @@ This past weekend I decided to do something about it. It started a few weeks ago
 
 I knew I still had the postcard and a letter from this woman, but that it was buried somewhere amidst the boxes and boxes of things in what I'll call my 'personal archives.' That was the immediate motivation for digging out the boxes and beginning the big sort, but it soon took on a life of its own. I found all kinds of strange and wonderful memories from my past, many of which I had almost completely forgotten that had taken place, and even more that I didn't even know that I still had or had saved. One of the sweetest and most unexpected discoveries was this:
 
-<figure class="align-left"><img class="size-large wp-image-1568" src="../../../assets/blog/img_0131.jpg" alt="Photograph of Whittenberger Summer Writing Project Publication" width="500" height="669"><figcaption>Cover of the 1998 Whittenberger Summer Writing Project publication.</figcaption></figure>
+<figure class="align-left"><img class="size-large wp-image-1568" src="./images/img_0131.jpg" alt="Photograph of Whittenberger Summer Writing Project Publication" width="500" height="669"><figcaption>Cover of the 1998 Whittenberger Summer Writing Project publication.</figcaption></figure>
 
 This was a kind of teenage literary magazine written and published by a group of roughly three dozen 15-16 year old high school students from all over the state of Idaho. In the summer between my sophomore and junior years of high school (in 1998, just before I turned 16 years old), I applied for and was invited to participate in something called the Whittenberger Summer Writing Project. The project was really something incredible, in that it brought teenagers from all over the state of Idaho to the campus of Albertson's College of Idaho, a small liberal arts school in Caldwell, where we lived, slept, ate, wrote, and flirted wildly with each other for a couple of weeks (I don't recall exactly how the long the project was). The project's director was a man named [Stan Tag](http://www.wwu.edu/fairhaven/about/faculty/tag.shtml), then a youngish 30-something professor who quoted Cat Stevens and took us into the wilderness to observe and write. He brought his 8 year old daughter, Arwen (who I realize is probably 23 years old now--insane!). He was wonderfully earnest and is now an associate professor of English at Fairhaven College (Western Washington University), where he has cultivated a tremendous beard.
 

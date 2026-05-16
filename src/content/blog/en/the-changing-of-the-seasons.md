@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "../../../assets/blog/aspen_cycle_owen_mortensen.png"
+image: "./images/aspen_cycle_owen_mortensen.png"
 imageAlt: "The Changing of the Seasons"
 ---
 

@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "../../../assets/blog/ato_boldon1.jpg"
+image: "./images/ato_boldon1.jpg"
 imageAlt: "Eyewear (Rec Specs) and Professional Athletes"
 ---
 

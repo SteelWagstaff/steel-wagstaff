@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "books", "literature"]
 draft: false
 locale: en
-image: "../../../assets/blog/harry-redknapp-paper.jpg"
+image: "./images/harry-redknapp-paper.jpg"
 imageAlt: "My May 2017 Reading"
 ---
 

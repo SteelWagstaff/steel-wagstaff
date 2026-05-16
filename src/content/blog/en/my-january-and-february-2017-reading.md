@@ -6,7 +6,7 @@ author: steel
 tags: ["reading", "books", "literature"]
 draft: false
 locale: en
-image: "../../../assets/blog/14153958438_d3b3869add_k.jpg"
+image: "./images/14153958438_d3b3869add_k.jpg"
 imageAlt: "My January and February 2017 Reading"
 ---
 
