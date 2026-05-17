@@ -106,6 +106,11 @@ const getSlug = (id: string) => id.replace('en/', '');
                 <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
                   {item.data.title}
                 </h3>
+                {item.data.description && (
+                  <p class="text-sm text-muted-foreground line-clamp-2 mt-2 mb-4">
+                    {item.data.description}
+                  </p>
+                )}
                 <p class="text-sm text-muted-foreground mt-2">
                   {formatDate(item.data.publishedAt)}
                 </p>
@@ -167,6 +172,11 @@ const getSlug = (id: string) => id.replace('en/', '');
                 <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
                   {item.data.title}
                 </h3>
+                {item.data.description && (
+                  <p class="text-sm text-muted-foreground mt-1 line-clamp-2">
+                    {item.data.description}
+                  </p>
+                )}
                 <p class="text-sm text-muted-foreground mt-2">
                   {formatDate(item.data.publishedAt)}
                 </p>
@@ -228,6 +238,11 @@ const getSlug = (id: string) => id.replace('en/', '');
                 <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
                   {item.data.title}
                 </h3>
+                {item.data.description && (
+                  <p class="text-sm text-muted-foreground mt-1 line-clamp-2">
+                    {item.data.description}
+                  </p>
+                )}
                 <p class="text-sm text-muted-foreground mt-2">
                   {formatDate(item.data.publishedAt)}
                 </p>
@@ -291,6 +306,11 @@ const getSlug = (id: string) => id.replace('en/', '');
                 <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
                   {item.data.title}
                 </h3>
+                {item.data.description && (
+                  <p class="text-sm text-muted-foreground mt-1 line-clamp-2">
+                    {item.data.description}
+                  </p>
+                )}
                 <p class="text-sm text-muted-foreground mt-2">
                   Episode {item.data.episode} • {formatDate(item.data.publishedAt)}
                 </p>
@@ -346,6 +366,11 @@ const getSlug = (id: string) => id.replace('en/', '');
                   <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
                     {item.data.title}
                   </h3>
+                  {item.data.description && (
+                    <p class="text-sm text-muted-foreground mt-1 line-clamp-2">
+                      {item.data.description}
+                    </p>
+                  )}
                   <p class="text-sm text-muted-foreground mt-2">
                     {item.data.episode && `Episode ${item.data.episode} • `}{formatDate(item.data.publishedAt)}
                   </p>

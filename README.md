@@ -11,6 +11,38 @@ A personal website showcasing music, podcasts, writing, and blog content. Built 
 
 ---
 
+## Recent Updates
+
+### Content & Migration
+- **Tumblr Import**: Successfully imported and migrated 1,494 Tumblr posts to the blog collection
+- **Wedding Post Recovery**: Restored missing wedding planning post content (song titles and descriptions) from WordPress XML archives
+- **Poetry Restoration**: Fixed poetry lineation in Belle Waring essay — restored 4 embedded poems with proper line breaks from original markup
+
+### Tag System Improvements
+- **Tag Consolidation**: Analyzed all 120 unique tags across 105 blog posts, consolidated to 48 unique tags (60% reduction)
+- **Tag Standardization**: Unified tag casing and naming conventions (Title Case throughout)
+- **Smart Tag Merging**: 
+  - Education technology variants (`educational-technology`, `education-technology`) → `Educational Technology`
+  - Author tags consolidated (`george-oppen`, `oppen`, `mary-oppen`) → `George Oppen`
+  - Niche single-use tags merged into broader categories
+
+### UX & Design Enhancements
+- **Homepage Standardization**: Applied consistent responsive paragraph styling across "Who I am", "What I do", and contact sections using `space-y-4 text-lg text-foreground-muted leading-relaxed` pattern
+- **Blog Filter Enhancement**: 
+  - Added tag frequency counting to filter dropdown
+  - Implemented frequency-based sorting (highest to lowest usage)
+  - Dropdown now displays counts inline: `{tag} ({count})`
+- **Global Draft Filtering**: Enforced consistent draft post exclusion across all 13 collection pages (enforced in dev and production equally)
+
+### Music & Content Creation
+- **Playlist Template System**: Created reusable template for "What I've Been Listening To" monthly playlists
+- **Monthly Playlists**: Generated 12 monthly playlist posts:
+  - **2025**: January–December (9 posts with featured images)
+  - **2026**: January–March (3 posts with featured images, pattern continues)
+- **Spotify Integration**: Each playlist includes Spotify embed URL and embed ID for direct player integration
+
+---
+
 ## Quick Start
 
 ### Prerequisites
