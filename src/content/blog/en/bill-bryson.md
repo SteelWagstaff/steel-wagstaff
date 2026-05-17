@@ -7,7 +7,7 @@ tags:
 - My Favorite People
 - Literature
 - Mission Stories
-- Writing
+- Reading Notes
 draft: false
 locale: en
 ---

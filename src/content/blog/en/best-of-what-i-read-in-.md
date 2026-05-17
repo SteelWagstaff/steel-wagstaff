@@ -1,13 +1,13 @@
 ---
-title: "Best of What I Read in [ ]"
+title: "Best of What I Read in February 2015"
 description: "I read a lot. When I'm on the bus, when I'm traveling, when I'm hanging out with a sleeping baby, when I've got a few minutes spare, whenever. I still read print books, but because I do a lot of my re"
-publishedAt: 2015-03-27
+publishedAt: 2015-03-01
 author: steel
-tags: []
+tags:
+    - What I've Been Reading
 draft: false
 locale: en
 ---
-
 
 I read a lot. When I'm on the bus, when I'm traveling, when I'm hanging out with a sleeping baby, when I've got a few minutes spare, whenever. I still read print books, but because I do a lot of my reading in low-light situations, lately I've been reading more and more in my iPad.
 

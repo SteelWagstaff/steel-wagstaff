@@ -6,7 +6,6 @@ author: steel
 tags:
 - Mission Stories
 - Reading Notes
-- Reading
 - Politics
 - Childhood
 - Friendship

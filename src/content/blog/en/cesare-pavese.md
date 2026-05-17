@@ -5,11 +5,7 @@ publishedAt: 2014-10-19
 author: steel
 tags:
 - My Favorite People
-- Reading Notes
-- Reading
-- Books
-- Cesare Pavese
-- Literature
+- What I've Been Reading
 - Poetry
 draft: false
 locale: en
