@@ -1,5 +1,5 @@
 ---
-const svgs = import.meta.glob<string>('/src/assets/blog/*.svg', { as: 'raw', eager: true });
+const svgs = import.meta.glob<string>('/src/assets/blog/*.svg', { query: '?raw', import: 'default', eager: true });
 
 interface Props {
   slug: string;
