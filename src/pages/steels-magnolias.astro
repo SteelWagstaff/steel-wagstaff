@@ -10,7 +10,7 @@ import { resolveMusicImage } from '@/lib/music-image-resolver';
 
 // Get all published music shows (Steel's Magnolias)
 const allMusic = await getCollection('music', ({ data }) => {
-  return import.meta.env.PROD ? data.draft !== true : true;
+  return data.draft !== true;
 });
 
 // Filter to only shows (identified by 'show-' in id)

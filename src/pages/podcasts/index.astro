@@ -8,7 +8,7 @@ import { getCollection } from 'astro:content';
 
 // Get all published podcast episodes
 const allEpisodes = await getCollection('podcasts', ({ data }) => {
-  return import.meta.env.PROD ? data.draft !== true : true;
+  return data.draft !== true;
 });
 
 // Filter by English locale and sort by date descending
