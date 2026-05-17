@@ -5,7 +5,6 @@ publishedAt: 2015-07-09
 author: steel
 tags:
 - Reading Notes
-- Reading
 - Ignazio Silone
 - Poetry
 - Writing

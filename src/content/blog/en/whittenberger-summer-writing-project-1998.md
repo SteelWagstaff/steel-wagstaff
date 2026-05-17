@@ -7,8 +7,6 @@ tags:
 - Memory Collector Project
 - Childhood
 - Friendship
-- Literature
-- Memory
 - Whittenberger
 - Writing
 draft: false

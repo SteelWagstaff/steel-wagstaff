@@ -4,9 +4,8 @@ description: ''
 publishedAt: 2015-07-31
 author: steel
 tags:
-- Reading
+- Reading Notes
 - Love
-- Writing
 draft: false
 locale: en
 image: ./images/fredelle-and-sydney.jpg

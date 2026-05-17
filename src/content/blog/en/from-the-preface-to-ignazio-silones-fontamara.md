@@ -4,9 +4,8 @@ description: ''
 publishedAt: 2015-07-07
 author: steel
 tags:
-- Reading
+- Reading Notes
 - Ignazio Silone
-- Writing
 draft: false
 locale: en
 image: ./images/silone.jpg

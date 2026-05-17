@@ -5,11 +5,9 @@ publishedAt: 2015-09-21
 author: steel
 tags:
 - Reading Notes
-- Reading
 - Death
 - Medicine
 - Philosophy
-- Writing
 draft: false
 locale: en
 image: ./images/5664261318_7d5db1cda9_b.jpg

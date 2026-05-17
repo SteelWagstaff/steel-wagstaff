@@ -13,5 +13,3 @@ imageAlt: ""
 ---
 
 55 songs I listened to and liked in March 2016. Lots of new music for me here, and fairly varied. It was a good month musically, I'd say. Enjoy!
-
-Featured image by [Steel Wagstaff](https://steelwagstaff.com)

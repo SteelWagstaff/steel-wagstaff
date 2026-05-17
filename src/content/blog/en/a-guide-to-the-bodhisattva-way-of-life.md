@@ -5,7 +5,6 @@ publishedAt: 2013-04-12
 author: steel
 tags:
 - Reading Notes
-- Reading
 - Attention
 - Philosophy
 - Literature

@@ -6,8 +6,6 @@ author: steel
 tags:
 - Educational Technology
 - Writing
-- Literature
-- Higher Education
 - Open Educational Resources
 - Publishing
 draft: false

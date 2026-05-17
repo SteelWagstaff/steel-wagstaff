@@ -5,7 +5,6 @@ publishedAt: 2014-09-03
 author: steel
 tags:
 - Reading Notes
-- Reading
 draft: false
 locale: en
 image: ./images/pyramid.jpg

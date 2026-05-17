@@ -4,11 +4,10 @@ description: ''
 publishedAt: 2017-10-03
 author: steel
 tags:
-- Reading
+- What I've Been Reading
 - Books
 - Higher Education
 - Literature
-- Writing
 draft: false
 locale: en
 image: ./images/steve-halama-133032.jpg

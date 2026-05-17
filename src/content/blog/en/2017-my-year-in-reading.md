@@ -4,7 +4,7 @@ description: ''
 publishedAt: 2018-01-03
 author: steel
 tags:
-- Reading
+- What I've Been Reading
 draft: false
 locale: en
 image: ./images/8703997248_274eea3496_k.jpg
