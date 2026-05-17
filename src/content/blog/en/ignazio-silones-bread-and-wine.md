@@ -1,13 +1,18 @@
 ---
-title: "Ignazio Silone's Bread and Wine"
-description: ""
+title: Ignazio Silone's Bread and Wine
+description: ''
 publishedAt: 2015-07-16
 author: steel
-tags: ["reading-notes", "reading", "cesare-pavese", "politics", "writing"]
+tags:
+- Reading Notes
+- Reading
+- Cesare Pavese
+- Politics
+- Writing
 draft: false
 locale: en
-image: "./images/bread_wine.jpg"
-imageAlt: "Ignazio Silone's Bread and Wine"
+image: ./images/bread_wine.jpg
+imageAlt: Ignazio Silone's Bread and Wine
 ---
 
 I just finished _Bread and Wine_, the second book in Ignazio Silone's _The Abruzzio Trilogy_ (translated by Eric Mosbacher). The book is a moving, funny, and sometimes unbelievable look into provincial life in Italy under Mussolini. Set near the start of the Second Italo-Ethiopian War, the novel largely focuses on a character named Pietro Spina, an exiled Communist revolutionary, who has returned surreptitiously to the country under disguise as a convalescing Catholic priest named Paolo Spada. I won't say much more fear of spoiling the book (you should definitely read it yourself), only to note that there's a peasant named Sciatap \[pronounced _shut up_\] who briefly lived in America and remembers just one English phrase (you'll never guess what it is). He also delivers one of the novel's most ironic (and bleakly hilarious, within its context) lines, when he tells his son: "Don Paolo's right. If you want to live at all well you have to sell your soul. There's no other way." Dark absurdity, wise cynicism, violent resignation, futile idealism, the novel has it all, really. In his author's note, written in 1962, Silone writes:

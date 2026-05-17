@@ -1,9 +1,12 @@
 ---
-title: "#2a: Designing and Making Invitations, Part 1"
-description: ""
+title: '#2a: Designing and Making Invitations, Part 1'
+description: ''
 publishedAt: 2012-05-30
 author: steel
-tags: ["Wedding Planning Series", "design", "letter-press", "marriage"]
+tags:
+- Wedding Planning Series
+- Art
+- Letterpress
 draft: false
 locale: en
 ---

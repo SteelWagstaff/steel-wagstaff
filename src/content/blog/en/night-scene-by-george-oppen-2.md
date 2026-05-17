@@ -1,9 +1,10 @@
 ---
-title: "\"Night Scene\" by George Oppen"
-description: ""
+title: '"Night Scene" by George Oppen'
+description: ''
 publishedAt: 2012-06-15
 author: steel
-tags: ["the-objectivists"]
+tags:
+- The Objectivists
 draft: false
 locale: en
 ---

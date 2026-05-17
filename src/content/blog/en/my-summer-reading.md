@@ -1,13 +1,18 @@
 ---
-title: "My Summer Reading"
-description: ""
+title: My Summer Reading
+description: ''
 publishedAt: 2017-10-03
 author: steel
-tags: ["reading", "books", "higher-education", "literature", "writing"]
+tags:
+- Reading
+- Books
+- Higher Education
+- Literature
+- Writing
 draft: false
 locale: en
-image: "./images/steve-halama-133032.jpg"
-imageAlt: "My Summer Reading"
+image: ./images/steve-halama-133032.jpg
+imageAlt: My Summer Reading
 ---
 
 I haven't kept up as regularly with these monthly updates as I had hoped, but I did keep reading through the summer. I stayed really plugged into my dissertation reading and research, which really cut down my leisure reading, but I still managed to get through several books that struck my fancy in some way or another.

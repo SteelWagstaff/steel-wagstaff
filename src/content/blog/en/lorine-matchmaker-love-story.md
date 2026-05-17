@@ -1,9 +1,15 @@
 ---
-title: "Lorine Was Our Matchmaker: A Love Story"
-description: ""
+title: 'Lorine Was Our Matchmaker: A Love Story'
+description: ''
 publishedAt: 2012-03-09
 author: steel
-tags: ["the-objectivists", "friendship", "lorine-niedecker", "love", "poetry", "wedding", "writing"]
+tags:
+- The Objectivists
+- Friendship
+- Lorine Niedecker
+- Love
+- Poetry
+- Writing
 draft: false
 locale: en
 ---

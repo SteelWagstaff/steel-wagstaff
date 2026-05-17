@@ -1,13 +1,16 @@
 ---
-title: "Making a Personal Website: A guide for grad students and other academics"
-description: ""
+title: 'Making a Personal Website: A guide for grad students and other academics'
+description: ''
 publishedAt: 2017-02-19
 author: steel
-tags: ["education-technology", "academics", "higher-education", "web-design"]
+tags:
+- Educational Technology
+- Higher Education
+- Technology
 draft: false
 locale: en
-image: "./images/15273343947_855a5a9d3a_b_network-boston-ivy-leaf.jpg"
-imageAlt: "Making a Personal Website: A guide for grad students and other academics"
+image: ./images/15273343947_855a5a9d3a_b_network-boston-ivy-leaf.jpg
+imageAlt: 'Making a Personal Website: A guide for grad students and other academics'
 ---
 
 I currently work as an educational technology consultant at a large Midwestern research university. Most of the people I work with are humanities/social science grad students or faculty. One of the most common questions I get asked is how to build a website. I’ve heard it so often, helped so many friends [build quick, simple websites](http://steelwagstaff.info/design) by now, and seen enough capable-yet- overwhelmed-veering-on-desperate people overpay for something that’s relatively simple to do yourself that I figured it was time to write up my advice.((The ideas for much of what I’m presenting here originated in [a presentation for grad students in the environmental humanities](https://docs.google.com/document/d/10Gm3HsS6TJoB19GDSa6-FY9LNx9ijS_CetM0AELfnHI/edit?usp=sharing) I put together a couple of years ago along with my friend [Garrett Nelson](http://people.matinic.us/garrett/#about), who is now a postdoctoral geographer at Dartmouth.))

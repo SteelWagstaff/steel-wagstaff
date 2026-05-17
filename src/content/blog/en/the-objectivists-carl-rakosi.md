@@ -1,9 +1,13 @@
 ---
-title: "The Objectivists: Carl Rakosi"
-description: ""
+title: 'The Objectivists: Carl Rakosi'
+description: ''
 publishedAt: 2012-08-24
 author: steel
-tags: ["favorite-people", "the-objectivists", "carl-rakosi", "objectivist", "poetry"]
+tags:
+- My Favorite People
+- The Objectivists
+- Carl Rakosi
+- Poetry
 draft: false
 locale: en
 ---

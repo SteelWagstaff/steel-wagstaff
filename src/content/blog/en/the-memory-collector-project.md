@@ -3,13 +3,13 @@ title: "The Memory Collector Project: Post 1"
 description: "A few weeks ago I decided it was time to tame the archive of my life. I've been something of a collector over the years, accumulating all kinds of things (papers, notes, writing, letters, books, music"
 publishedAt: 2013-05-08
 author: steel
-tags: []
+tags: 
+    - Memory Collector Project
 draft: false
 locale: en
 image: "./images/img_0152.jpg"
 imageAlt: "The Memory Collector Project: Post 1"
 ---
-
 
 A few weeks ago I decided it was time to tame the archive of my life. I've been something of a collector over the years, accumulating all kinds of things (papers, notes, writing, letters, books, music (especially records), baseball cards, coins, etc.). Most of them I never use, but keep in closets, only pulling out when it's time to move from one apartment to the next. I don't want to do that anymore. I want to harvest and organize my possessions, strip them down to a more essential and portable collection, to decide what I plan to use and delight in and what I'm able to jettison and live without.
 

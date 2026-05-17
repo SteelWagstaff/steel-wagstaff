@@ -1,13 +1,16 @@
 ---
-title: "#4: Planning Meals"
-description: ""
+title: 'Wedding Planning Series #4: Planning Meals'
+description: 'Planning the meals we served at our wedding reception'
 publishedAt: 2012-06-04
 author: steel
-tags: ["Wedding Planning Series", "food", "marriage", "planning", "wedding"]
+tags:
+- Wedding Planning Series
+
+
 draft: false
 locale: en
-image: "./images/7207494506_c683842e91_b.jpg"
-imageAlt: "#4: Planning Meals"
+image: ./images/7207494506_c683842e91_b.jpg
+imageAlt: '#4: Planning Meals'
 ---
 
 One of the most fun (and most tricky) parts of wedding planning for us was selecting the food that we wanted to serve our guests. Weddings have historically been associated with feasting, and we were traditionally minded in at least this respect: that we wanted to share good food and drink with those we loved. Laurel and I are both vegetarians, though, and neither of us felt comfortable with the idea of causing animals to die in order to celebrate our marriage. We did feel some compunction about having a strictly vegetarian wedding party and reception, especially because we knew that many of our guests, including some of the people we have loved most deeply for the longest time, are not vegetarians, and some might even feel a little nervous and uncomfortable trying to happily enjoy a meal without some of the staple foods they're accustomed to eating. So while we felt solid about our own principles and confident that we'd be able to provide varied, delicious meals without animal flesh, we had a little trepidation about how much our guests would enjoy the meal, and whether some of our guests would leave hungry or a little bewildered.

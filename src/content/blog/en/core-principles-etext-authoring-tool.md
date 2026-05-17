@@ -1,13 +1,19 @@
 ---
-title: "Core Principles for an eText Authoring Tool"
-description: ""
+title: Core Principles for an eText Authoring Tool
+description: ''
 publishedAt: 2016-03-18
 author: steel
-tags: ["education-technology", "authoring", "educational-technology", "etexts", "higher-education", "oer", "openauthor", "publishing"]
+tags:
+- Educational Technology
+- Writing
+- Literature
+- Higher Education
+- Open Educational Resources
+- Publishing
 draft: false
 locale: en
-image: "./images/23806298056_725f168eb4_k.jpg"
-imageAlt: "Core Principles for an eText Authoring Tool"
+image: ./images/23806298056_725f168eb4_k.jpg
+imageAlt: Core Principles for an eText Authoring Tool
 ---
 
 ### eText Authoring at UW-Madison

@@ -1,9 +1,12 @@
 ---
-title: "#6: Choosing a Photographer &#038; Videographer"
-description: ""
+title: 'Wedding Planning Series #6: Choosing a Photographer &#038; Videographer'
+description: 'Choosing someone to take pictures and videos at a wedding'
 publishedAt: 2012-06-24
 author: steel
-tags: ["Wedding Planning Series", "marriage", "photography", "planning", "techmology", "wedding"]
+tags:
+- Wedding Planning Series
+- Photography
+- Technology
 draft: false
 locale: en
 ---

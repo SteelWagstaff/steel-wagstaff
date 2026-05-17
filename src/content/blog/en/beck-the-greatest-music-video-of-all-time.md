@@ -1,6 +1,6 @@
 ---
 title: "Beck & the Greatest Music Video of All Time"
-description: "As a teenager, I was wild for Beck. It started with \"Loser,\" a song I liked so much when I was 12 that I bought the Mellow Gold album and started collecting everything else I could find by the musicia"
+description: "On the extended cut of Beck's _Sexx Laws_"
 publishedAt: 2011-04-28
 author: steel
 tags: []

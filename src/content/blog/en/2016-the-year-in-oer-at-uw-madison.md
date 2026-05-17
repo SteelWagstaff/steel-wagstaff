@@ -1,13 +1,18 @@
 ---
-title: "2016: The Year in OER at UW-Madison"
-description: ""
+title: '2016: The Year in OER at UW-Madison'
+description: ''
 publishedAt: 2017-01-19
 author: steel
-tags: ["education-technology", "higher-education", "oer", "open-educational-resources", "pressbooks", "technology"]
+tags:
+- Educational Technology
+- Higher Education
+- Open Educational Resources
+- Pressbooks
+- Technology
 draft: false
 locale: en
-image: "./images/2237305969_a4b01298e2_b.jpg"
-imageAlt: "2016: The Year in OER at UW-Madison"
+image: ./images/2237305969_a4b01298e2_b.jpg
+imageAlt: '2016: The Year in OER at UW-Madison'
 ---
 
 ## OER STRATEGIC FRAMEWORK

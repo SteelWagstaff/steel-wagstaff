@@ -1,13 +1,16 @@
 ---
-title: "My March 2017 Reading"
-description: ""
+title: My March 2017 Reading
+description: ''
 publishedAt: 2017-04-04
 author: steel
-tags: ["reading", "books", "literature"]
+tags:
+- Reading
+- Books
+- Literature
 draft: false
 locale: en
-image: "./images/6253846737_e626eed66f_b.jpg"
-imageAlt: "My March 2017 Reading"
+image: ./images/6253846737_e626eed66f_b.jpg
+imageAlt: My March 2017 Reading
 ---
 
 ## Books

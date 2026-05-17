@@ -1,13 +1,17 @@
 ---
-title: "My November 2016 Reading"
-description: ""
+title: My November 2016 Reading
+description: ''
 publishedAt: 2016-12-02
 author: steel
-tags: ["reading", "books", "literature", "poetry"]
+tags:
+- Reading
+- Books
+- Literature
+- Poetry
 draft: false
 locale: en
-image: "./images/liwf2uhxs0q-annie-spratt.jpg"
-imageAlt: "My November 2016 Reading"
+image: ./images/liwf2uhxs0q-annie-spratt.jpg
+imageAlt: My November 2016 Reading
 ---
 
 ## Books

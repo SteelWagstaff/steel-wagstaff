@@ -1,13 +1,14 @@
 ---
-title: "A Guide to DIY Podcast Recording"
-description: ""
+title: A Guide to DIY Podcast Recording
+description: ''
 publishedAt: 2017-02-24
 author: steel
-tags: ["education-technology", "audio-production", "diy", "podcasting", "recording"]
+tags:
+- Educational Technology
 draft: false
 locale: en
-image: "./images/img_0950.jpg"
-imageAlt: "A Guide to DIY Podcast Recording"
+image: ./images/img_0950.jpg
+imageAlt: A Guide to DIY Podcast Recording
 ---
 
 A little more than two years ago, my friend Dave had an idea: he wanted to do a weekly podcast called “Off the Chain,” on which he would talk about things he thought were off the chain: chiefly, his love of Vin Diesel and terrible action movies. I couldn’t care less about Diesel or action movies, but I like making things. I used to have a radio show on a student radio station here in Madison (it was called ‘[Steel’s Magnolias](http://music.steelwagstaff.info/category/radio-shows/)’!), and I have some experience as a DIY audio engineer, so I told him it sounded like fun and I’d help him do it. 

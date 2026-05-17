@@ -1,13 +1,20 @@
 ---
-title: "Mark Nowak"
-description: ""
+title: Mark Nowak
+description: ''
 publishedAt: 2011-05-02
 author: steel
-tags: ["favorite-people", "art", "family", "mark-nowak", "mining", "mission", "photography", "poetry", "work"]
+tags:
+- My Favorite People
+- Art
+- Family
+- Literature
+- Mission Stories
+- Photography
+- Poetry
 draft: false
 locale: en
-image: "./images/mark_nowak.jpg"
-imageAlt: "Mark Nowak"
+image: ./images/mark_nowak.jpg
+imageAlt: Mark Nowak
 ---
 
 So, among other things, I'm going to start on ongoing series of features on this blog, one of which will be posts about my favorite artists, called, appropriately enough, "My Favorite People Series." This post is the first in what I hope will be a long line of posts about all kinds of people that I admire and respect. The first artist (documentary poet, social critic, labor activist, blogger) I want to write about, Mark Nowak, is someone that I would class as a friend, in addition to being one of my favorite poets. In fact, I interviewed Mark over the holiday break in January 2010 for _[Contemporary Literature](http://uwpress.wisc.edu/journals/journals/cl.html)_, and [that interview](http://steelwagstaff.files.wordpress.com/2011/05/nowak_interview.pdf) was my first publication in an academic journal, so it's fitting that I start this series with a feature on Mark.

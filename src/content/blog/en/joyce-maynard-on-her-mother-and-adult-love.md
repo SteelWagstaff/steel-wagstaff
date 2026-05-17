@@ -1,13 +1,16 @@
 ---
-title: "Joyce Maynard on her mother and adult love"
-description: ""
+title: Joyce Maynard on her mother and adult love
+description: ''
 publishedAt: 2015-07-31
 author: steel
-tags: ["reading", "love", "writing"]
+tags:
+- Reading
+- Love
+- Writing
 draft: false
 locale: en
-image: "./images/fredelle-and-sydney.jpg"
-imageAlt: "Joyce Maynard on her mother and adult love"
+image: ./images/fredelle-and-sydney.jpg
+imageAlt: Joyce Maynard on her mother and adult love
 ---
 
 A few months after meeting Sydney Bacon, Joyce Maynard's mother, Fredelle wrote this, in a letter to a friend:

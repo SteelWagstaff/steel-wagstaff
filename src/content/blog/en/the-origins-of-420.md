@@ -1,6 +1,6 @@
 ---
 title: "The Origins of 4:20"
-description: "I should state right at the outset that I'm not a pot-smoker. Never tried marijuana in any form, actually, nor does the drug have any real appeal for me. Nevertheless, it was frequently invoked as an "
+description: "An investigation into the origins of a cultural phenomenon"
 publishedAt: 2011-04-22
 author: steel
 tags: []

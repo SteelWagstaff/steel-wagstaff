@@ -1,13 +1,16 @@
 ---
-title: "My January and February 2017 Reading"
-description: ""
+title: My January and February 2017 Reading
+description: ''
 publishedAt: 2017-03-01
 author: steel
-tags: ["reading", "books", "literature"]
+tags:
+- Reading
+- Books
+- Literature
 draft: false
 locale: en
-image: "./images/14153958438_d3b3869add_k.jpg"
-imageAlt: "My January and February 2017 Reading"
+image: ./images/14153958438_d3b3869add_k.jpg
+imageAlt: My January and February 2017 Reading
 ---
 
 ## Books

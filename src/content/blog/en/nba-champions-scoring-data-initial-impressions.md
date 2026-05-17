@@ -1,13 +1,18 @@
 ---
-title: "NBA Champions &amp; Scoring Data: Some Initial Impressions about the 2014 Spurs"
-description: ""
+title: 'NBA Champions &amp; Scoring Data: Some Initial Impressions about the 2014
+  Spurs'
+description: ''
 publishedAt: 2014-07-29
 author: steel
-tags: ["visualizing-data", "basketball", "data", "nba", "san-antonio-spurs", "sports", "statistics"]
+tags:
+- Data Visualization
+- Sports
+- Data
 draft: false
 locale: en
-image: "./images/spurs-1.jpg"
-imageAlt: "NBA Champions &amp; Scoring Data: Some Initial Impressions about the 2014 Spurs"
+image: ./images/spurs-1.jpg
+imageAlt: 'NBA Champions &amp; Scoring Data: Some Initial Impressions about the 2014
+  Spurs'
 ---
 
 One of my personal/professional goals for this summer has been to learn how to work with and visualize data. I want to know how to make beautiful data visualizations, and tell interesting stories with the use of data. To that end, I've started working through some self-directed reading, and signed up for a couple of open online courses. The first course I completed was Google's [Making Sense of Data](https://datasense.withgoogle.com/course) course. The course itself is pretty sleek and activity driven (it took me part of two days to complete the whole thing), and it seems primarily designed to introduce users to very basic data management concepts and train them to use their experimental [Google Fusion Tables](https://support.google.com/fusiontables/answer/2571232?hl=en) tool. I've been working on a couple of data projects using the tool. The first has to do with global university rankings (more on that one later), and the second is a fun project that was intended to answer some questions that have been kicking around in my mind since the San Antonio Spurs won the 2013-2014 NBA championship. I didn't follow the most recent NBA season very carefully; in fact, I really only saw parts of a couple of playoff games. Even though I don't watch the actual games very often anymore, I still read sports journalism fairly avidly, and have been especially intrigued by the recent explosion of interest in and coverage of advanced analytics (witness the meteoric rise of the [MIT Sloan Sports conference](http://www.sloansportsconference.com/?page_id=1851) over the past half-decade, for example). I had a range of questions about the Spurs this year, inspired in part by what seemed to me to be an unusually balanced team: for those who don't follow basketball closely, it's worth noting that Gregg Popovich has gained notoriety in recent years for (among other things) [judiciously regulating his aging stars' regular season minutes](http://www.washingtonpost.com/blogs/early-lead/wp/2012/11/30/gregg-popovich-spurs-await-word-from-david-stern/), and for developing [a deep cast of role players](http://www.sbnation.com/nba/2014/7/8/5880289/spurs-free-agency-boris-diaw-patty-mills) which are deployed in novel and ultimately successful ways. Despite the lack of (or perhaps because of) a single offensive focal point, the Spurs seemed like (from what I saw of them) an absolute offensive juggernaut: one of the few parts of the playoffs I saw was the first half of Game 3 of the Finals, a game in which the Spurs went nearly 11 minutes without missing a field goal, shooting better than 86% in the first quarter and better than 75% in the half. With seven minutes to go in the first half, in fact, they had made 19 of 21 attempted field goals. It was the most breathtaking display of offensive basketball I have ever seen: fluid, team-oriented, lethal. I couldn't imagine them losing the series, and after they had defeated the Heat in 5 games and Kawhi Leonard was named Finals MVP, I started racking my brain in search of another comparable team. I didn't come up with anything, and started wondering whether systematic statistical analysis, albeit of the fairly rudimentary sort of which I am capable, might bear out my hunch.

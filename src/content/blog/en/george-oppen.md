@@ -1,9 +1,16 @@
 ---
-title: "George Oppen"
-description: ""
+title: George Oppen
+description: ''
 publishedAt: 2012-06-15
 author: steel
-tags: ["favorite-people", "the-objectivists", "alzheimers", "george-oppen", "letters", "love", "poetry", "writing"]
+tags:
+- My Favorite People
+- The Objectivists
+- Medicine
+- George Oppen
+- Writing
+- Love
+- Poetry
 draft: false
 locale: en
 ---

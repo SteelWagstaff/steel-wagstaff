@@ -1,13 +1,16 @@
 ---
-title: "My June 2017 Reading"
-description: ""
+title: My June 2017 Reading
+description: ''
 publishedAt: 2017-07-03
 author: steel
-tags: ["reading", "books", "literature"]
+tags:
+- Reading
+- Books
+- Literature
 draft: false
 locale: en
-image: "./images/8515538001_4a12feab52_k.jpg"
-imageAlt: "My June 2017 Reading"
+image: ./images/8515538001_4a12feab52_k.jpg
+imageAlt: My June 2017 Reading
 ---
 
 ## Books

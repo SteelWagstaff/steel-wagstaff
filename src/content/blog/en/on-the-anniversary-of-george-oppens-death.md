@@ -1,13 +1,17 @@
 ---
-title: "On the Anniversary of George Oppen's Death"
-description: ""
+title: On the Anniversary of George Oppen's Death
+description: ''
 publishedAt: 2015-07-07
 author: steel
-tags: ["the-objectivists", "death", "george-oppen", "poetry"]
+tags:
+- The Objectivists
+- Death
+- George Oppen
+- Poetry
 draft: false
 locale: en
-image: "./images/pages-from-mss33-b1-f12.jpg"
-imageAlt: "On the Anniversary of George Oppen's Death"
+image: ./images/pages-from-mss33-b1-f12.jpg
+imageAlt: On the Anniversary of George Oppen's Death
 ---
 
 31 years ago today, the poet George Oppen died in the Idylwood Convalescent Home (now the [Idylwood Care Cente](http://crestwoodbehavioralhealth.com/location/sunnyvale/)r) in Sunnyvale, California. He was 76 years old, and had been suffering from dementia (Alzheimer's disease) for several years before his death. Hardly a day goes by when I don't think about George or his wife Mary, either their lives or some words that they have written. This past week, while researching the life of Oppen's friend and contemporary Carl Rakosi, I reread Rakosi's [wrenching account of Oppen's last days](https://steelwagstaff.info/wordpress/wp-content/uploads/2019/08/rakosi_on_oppen.pdf), published in the _[Carl Rakosi: Man and Poet](https://secure.touchnet.com/C22921_ustores/web/product_detail.jsp?PRODUCTID=418&SINGLESTORE=true)_ collection that Michael Heller edited. To be undone in such a way, or to survive the deterioration of the one you've entwined your life with!

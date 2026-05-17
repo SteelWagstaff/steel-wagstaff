@@ -1,13 +1,19 @@
 ---
-title: "Adding Interactivity to Web Annotation"
-description: ""
+title: Adding Interactivity to Web Annotation
+description: ''
 publishedAt: 2017-10-28
 author: steel
-tags: ["education-technology", "higher-education", "hypothesis", "open-educational-resources", "pressbooks", "techmology", "web-annotation"]
+tags:
+- Educational Technology
+- Higher Education
+- Data Visualization
+- Open Educational Resources
+- Pressbooks
+- Technology
 draft: false
 locale: en
-image: "./images/9707006091_a6e3d87bd5_b_marginalia.jpg"
-imageAlt: "Adding Interactivity to Web Annotation"
+image: ./images/9707006091_a6e3d87bd5_b_marginalia.jpg
+imageAlt: Adding Interactivity to Web Annotation
 ---
 
 For the past few years, I've been working to improve how content experts at my university can write, develop, and publish open educational resources. Early in 2016, I published [my own set of core principles](https://medium.com/@steelwagstaff/core-principles-for-an-open-authoring-tool-db2df933dd8) for an authoring & publishing tool. 

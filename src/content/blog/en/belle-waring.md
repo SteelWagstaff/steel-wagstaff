@@ -1,13 +1,18 @@
 ---
-title: "Belle Waring"
-description: ""
+title: Belle Waring
+description: ''
 publishedAt: 2015-09-09
 author: steel
-tags: ["favorite-people", "reading", "literature", "poetry", "writing"]
+tags:
+- My Favorite People
+- Reading
+- Literature
+- Poetry
+- Writing
 draft: false
 locale: en
-image: "./images/3005145811_932a4645f8_o.jpg"
-imageAlt: "Belle Waring"
+image: ./images/3005145811_932a4645f8_o.jpg
+imageAlt: Belle Waring
 ---
 
 I can't remember exactly when I first read Belle Waring's poems. It probably would have been at least a decade ago, and I do remember that it was one of her poems about nursing, maybe even "It Was My First Nursing Job". What I remember most was feeling that I had discovered a voice that I trusted, a speaker that I respected, a sensibility that I wanted to befriend and follow. Her voice was human, riven with grief, honest and angry in equal measures, desirous of less pain but not deluded into thinking that suffering could be ended. It was my kind of voice.

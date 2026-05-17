@@ -1,9 +1,13 @@
 ---
-title: "#2b: Designing and Making Invitations, Part 2"
-description: ""
+title: 'Wedding Planning Series #2b: Designing and Making Invitations, Part 2'
+description: 'More on designing and making wedding invitations'
 publishedAt: 2012-05-31
 author: steel
-tags: ["Wedding Planning Series", "letter-press", "marriage", "planning", "poetry", "wedding", "writing"]
+tags:
+- Wedding Planning Series
+- Letterpress
+- Poetry
+- Writing
 draft: false
 locale: en
 ---

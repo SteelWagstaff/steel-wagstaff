@@ -1,9 +1,13 @@
 ---
-title: "Bill Bryson"
-description: ""
+title: Bill Bryson
+description: ''
 publishedAt: 2011-05-26
 author: steel
-tags: ["favorite-people", "bill-bryson", "literature", "mission", "writing"]
+tags:
+- My Favorite People
+- Literature
+- Mission Stories
+- Writing
 draft: false
 locale: en
 ---

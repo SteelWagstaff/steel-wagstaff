@@ -1,9 +1,16 @@
 ---
-title: "Lorine Niedecker and the 99%"
-description: ""
+title: Lorine Niedecker and the 99%
+description: ''
 publishedAt: 2011-12-15
 author: steel
-tags: ["favorite-people", "the-objectivists", "george-oppen", "lorine-niedecker", "marginalia", "poetry", "poverty", "writing"]
+tags:
+- My Favorite People
+- The Objectivists
+- George Oppen
+- Lorine Niedecker
+- Literature
+- Poetry
+- Writing
 draft: false
 locale: en
 ---

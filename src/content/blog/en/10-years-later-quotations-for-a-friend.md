@@ -1,13 +1,20 @@
 ---
-title: "10 Years Later: Quotations for a Friend"
-description: ""
+title: '10 Years Later: Quotations for a Friend'
+description: Words worth sharing to 18 year old me
 publishedAt: 2011-04-30
 author: steel
-tags: ["mission-stories", "reading-notes", "reading", "anarchism", "childhood", "friendship", "nonviolence"]
+tags:
+- Mission Stories
+- Reading Notes
+- Reading
+- Politics
+- Childhood
+- Friendship
+- Philosophy
 draft: false
 locale: en
-image: "./images/img_0628.jpg"
-imageAlt: "10 Years Later: Quotations for a Friend"
+image: ./images/img_0628.jpg
+imageAlt: '10 Years Later: Quotations for a Friend'
 ---
 
 <figure class="align-right"><img title="Three Friends" src="./images/img_0628-e1432060078410.jpg" alt="Photograph of Mark, Steel, &amp; Howard"><figcaption>Mark, Myself, and Matt Howard (L-R), sometime during college</figcaption></figure>

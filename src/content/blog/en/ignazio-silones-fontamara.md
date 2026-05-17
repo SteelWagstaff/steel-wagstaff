@@ -1,13 +1,18 @@
 ---
-title: "Ignazio Silone's Fontamara"
-description: ""
+title: Ignazio Silone's Fontamara
+description: ''
 publishedAt: 2015-07-09
 author: steel
-tags: ["reading-notes", "reading", "ignazio-silone", "poetry", "writing"]
+tags:
+- Reading Notes
+- Reading
+- Ignazio Silone
+- Poetry
+- Writing
 draft: false
 locale: en
-image: "./images/fontamara_1st_edition.jpg"
-imageAlt: "Ignazio Silone's Fontamara"
+image: ./images/fontamara_1st_edition.jpg
+imageAlt: Ignazio Silone's Fontamara
 ---
 
 At the recommendation of my friend Spencer, I recently began reading the Italian novelist Ignazio Silone's _The Abruzzio Trilogy_, beginning with his 1933 novel _Fontamara_. It is an extraordinary bit of social-realist inflected anti-fascist satire, and I found myself quickly devouring it and eager to begin the next book in the series. It's a very short book, and if by the end you don't find yourself deeply moved and inspired by the tragic character of Berardo Viola, I don't know what to tell you. I won't quote anything from the book here (you should read it yourself), but will provide a few pieces from the paratext that I found of particular interest. Both are taken from the author's "Note on the revision of _Fontamara_" \[written from Rome in 1960\]
