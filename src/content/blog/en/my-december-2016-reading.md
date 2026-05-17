@@ -1,9 +1,15 @@
 ---
-title: "My December 2016 Reading"
-description: ""
+title: My December 2016 Reading
+description: ''
 publishedAt: 2017-01-20
 author: steel
-tags: ["reading", "books", "ignazio-silone", "literature", "philosophy", "poetry"]
+tags:
+- Reading
+- Books
+- Ignazio Silone
+- Literature
+- Philosophy
+- Poetry
 draft: false
 locale: en
 ---

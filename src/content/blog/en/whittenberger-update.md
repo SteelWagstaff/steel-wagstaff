@@ -1,9 +1,11 @@
 ---
-title: "Whittenberger Update"
-description: "I wrote several months ago about my efforts to reconnect with several of my fellow 1998 Whittenberger Summer Writing Project attendees. Since then, the Facebook group has swelled to nearly half a doze"
+title: Whittenberger Update
+description: An update on our 1998 Summer Writing Project Cohort
 publishedAt: 2016-10-15
 author: steel
-tags: []
+tags:
+- Memory Collector Project
+- Whittenberger
 draft: false
 locale: en
 ---

@@ -1,9 +1,13 @@
 ---
-title: "The Things I Do Not Remember: September 11, 2001"
-description: ""
+title: 'The Things I Do Not Remember: September 11, 2001'
+description: ''
 publishedAt: 2011-09-13
 author: steel
-tags: ["mission-stories", "grief", "memory", "mission", "mourning", "september-11", "war"]
+tags:
+- Mission Stories
+- Grief
+- Memory
+- Politics
 draft: false
 locale: en
 ---

@@ -1,13 +1,20 @@
 ---
-title: "Expressing Gratitude"
-description: ""
+title: Expressing Gratitude
+description: ''
 publishedAt: 2013-10-18
 author: steel
-tags: ["lessons-from-oppens-letters", "the-objectivists", "ezra-pound", "forgiveness", "generosity", "george-oppen", "james-laughlin", "mary-oppen", "new-directions", "politics", "publishing", "writing"]
+tags:
+- Lessons from Oppen's Letters
+- The Objectivists
+- Literature
+- George Oppen
+- Politics
+- Publishing
+- Writing
 draft: false
 locale: en
-image: "./images/thisisnotaboutwesz.jpg"
-imageAlt: "Expressing Gratitude"
+image: ./images/thisisnotaboutwesz.jpg
+imageAlt: Expressing Gratitude
 ---
 
 In 1934, when George Oppen was 26 years old, he published _Discrete Series_, a volume of his poetry. It included a preface from Ezra Pound, then living in Rapallo, Italy, which ended with these lines: "I salute a serious craftsman, a sensibility which is not every man’s sensibility and which has not been got out of any other man’s books." It was accurate in many ways, emphasizing Oppen's carefully cultivated identity as a craftsman, a skilled laborer and mechanic, even as it contained a slight dig at Oppen's own lack of erudition or learning. Shortly after its publication, George and his wife Mary would abandon poetry for many years, joining the Communist Party and becoming active organizers in several Popular Front efforts around labor, housing, and relief in New York City.

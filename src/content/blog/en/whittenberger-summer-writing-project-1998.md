@@ -1,13 +1,20 @@
 ---
-title: "Whittenberger Summer Writing Project: 1998"
-description: ""
+title: 'Whittenberger Summer Writing Project: 1998'
+description: ''
 publishedAt: 2013-05-09
 author: steel
-tags: ["memory-collector-project", "childhood", "friendship", "idaho", "literature", "memory", "teenagers", "whittenberger", "writing"]
+tags:
+- Memory Collector Project
+- Childhood
+- Friendship
+- Literature
+- Memory
+- Whittenberger
+- Writing
 draft: false
 locale: en
-image: "./images/img_0131.jpg"
-imageAlt: "Whittenberger Summer Writing Project: 1998"
+image: ./images/img_0131.jpg
+imageAlt: 'Whittenberger Summer Writing Project: 1998'
 ---
 
 One of the other things that I've recently decided to do (apart from weeding my library and [pruning my record collection](http://steelwagstaff.wordpress.com/2013/05/08/the-memory-collector-project/ "The Memory Collector Project: Post 1")) is to finally dig into the huge pile of papers, photos, notes, letters, and memories I've stored in boxes and carried from apartment to apartment over the past decade or so. It's just been accumulating, and I rarely think about it, much less look at it, touch it, or even read what's in it.

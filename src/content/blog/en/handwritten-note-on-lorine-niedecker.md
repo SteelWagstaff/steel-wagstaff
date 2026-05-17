@@ -1,9 +1,12 @@
 ---
-title: "Handwritten note on Lorine Niedecker"
-description: ""
+title: Handwritten note on Lorine Niedecker
+description: ''
 publishedAt: 2015-06-08
 author: steel
-tags: ["the-objectivists", "carl-rakosi", "lorine-niedecker", "objectivists"]
+tags:
+- The Objectivists
+- Carl Rakosi
+- Lorine Niedecker
 draft: false
 locale: en
 ---

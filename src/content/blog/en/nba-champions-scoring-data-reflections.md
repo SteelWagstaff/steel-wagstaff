@@ -1,9 +1,12 @@
 ---
-title: "NBA Champions and Scoring Data: Further Reflections"
-description: ""
+title: 'NBA Champions and Scoring Data: Further Reflections'
+description: ''
 publishedAt: 2014-07-30
 author: steel
-tags: ["visualizing-data", "analytics", "basketball", "data", "nba", "sports"]
+tags:
+- Data Visualization
+- Sports
+- Data
 draft: false
 locale: en
 ---

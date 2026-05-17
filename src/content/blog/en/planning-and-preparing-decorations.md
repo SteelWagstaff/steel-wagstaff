@@ -1,9 +1,12 @@
 ---
-title: "#5: Planning and Preparing Decorations"
-description: ""
+title: '#5: Planning and Preparing Decorations'
+description: ''
 publishedAt: 2012-06-17
 author: steel
-tags: ["Wedding Planning Series", "marriage", "planning", "wedding"]
+tags:
+- Wedding Planning Series
+
+
 draft: false
 locale: en
 ---

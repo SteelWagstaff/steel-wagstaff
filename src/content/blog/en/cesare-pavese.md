@@ -1,13 +1,20 @@
 ---
-title: "Cesare Pavese"
-description: ""
+title: Cesare Pavese
+description: ''
 publishedAt: 2014-10-19
 author: steel
-tags: ["favorite-people", "reading-notes", "reading", "books", "cesare-pavese", "literature", "poetry"]
+tags:
+- My Favorite People
+- Reading Notes
+- Reading
+- Books
+- Cesare Pavese
+- Literature
+- Poetry
 draft: false
 locale: en
-image: "./images/fotosegnaletiche.jpg"
-imageAlt: "Cesare Pavese"
+image: ./images/fotosegnaletiche.jpg
+imageAlt: Cesare Pavese
 ---
 
 I just finished Geoffrey Brock's translation of Cesare Pavese's poetry: _[Disaffection: Complete Poems 1930-1950](https://www.coppercanyonpress.org/pages/browse/book.asp?bg=%7BA8FECCCA-1BF2-4E83-B0B9-5F1CE8FA145C%7D)_. It was outstanding. I think I had been vaguely aware of Pavese as a 20th century giant of Italian literature, but I had never read anything by or about him, apart from some long forgotten praise by Phil Levine, who was my favorite poet as a teenager. It was, strangely enough, in the poet Robert Bringhurst's _The Elements of Typographic Style_, a guide to print typography and book composition, that I read this epigraph from Pavese's _Dialogues with Leucò:_

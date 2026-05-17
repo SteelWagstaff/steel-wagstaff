@@ -1,9 +1,15 @@
 ---
-title: "On Seeing the One Thing Clearly"
-description: ""
+title: On Seeing the One Thing Clearly
+description: ''
 publishedAt: 2012-02-03
 author: steel
-tags: ["the-objectivists", "attention", "george-oppen", "literature", "poetry", "writing"]
+tags:
+- The Objectivists
+- Attention
+- George Oppen
+- Literature
+- Poetry
+- Writing
 draft: false
 locale: en
 ---

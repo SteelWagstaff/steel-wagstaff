@@ -1,13 +1,16 @@
 ---
-title: "My October 2016 Reading"
-description: ""
+title: My October 2016 Reading
+description: ''
 publishedAt: 2016-11-01
 author: steel
-tags: ["reading", "literature", "philosophy"]
+tags:
+- Reading
+- Literature
+- Philosophy
 draft: false
 locale: en
-image: "./images/tumblr_mx1olyycw11sfie3io1_1280.jpg"
-imageAlt: "My October 2016 Reading"
+image: ./images/tumblr_mx1olyycw11sfie3io1_1280.jpg
+imageAlt: My October 2016 Reading
 ---
 
 ## Books

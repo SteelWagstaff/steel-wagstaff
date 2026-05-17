@@ -1,13 +1,16 @@
 ---
-title: "My May 2017 Reading"
-description: ""
+title: My May 2017 Reading
+description: ''
 publishedAt: 2017-06-12
 author: steel
-tags: ["reading", "books", "literature"]
+tags:
+- Reading
+- Books
+- Literature
 draft: false
 locale: en
-image: "./images/harry-redknapp-paper.jpg"
-imageAlt: "My May 2017 Reading"
+image: ./images/harry-redknapp-paper.jpg
+imageAlt: My May 2017 Reading
 ---
 
 ## Books

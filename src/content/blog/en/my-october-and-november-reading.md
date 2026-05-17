@@ -1,13 +1,16 @@
 ---
-title: "My October and November Reading"
-description: ""
+title: My October and November Reading
+description: ''
 publishedAt: 2017-11-27
 author: steel
-tags: ["reading", "books", "literature"]
+tags:
+- Reading
+- Books
+- Literature
 draft: false
 locale: en
-image: "./images/35332790134_ebb6938e70_k.jpg"
-imageAlt: "My October and November Reading"
+image: ./images/35332790134_ebb6938e70_k.jpg
+imageAlt: My October and November Reading
 ---
 
 In my last reading update, I mentioned that I had read the first book in Patrick O'Brian's Aubrey-Maturin series. Since then, apart from reading for my dissertation, that's pretty much _all_ I've read. I just finished _The Yellow Admiral_, which means that I've read 18 of the 21 books (one left unfinished at the author's death) in the series. Because I was so engrossed in dissertation research on the one hand and these historical novels on the other, I dramatically cut down on my longform reading in Pocket, so this update will be much shorter than past ones. My biggest recommendation would be to give the O'Brian novels a try. They're engaging, candid, humane, and funny.

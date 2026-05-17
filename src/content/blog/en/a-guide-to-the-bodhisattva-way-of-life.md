@@ -1,13 +1,19 @@
 ---
-title: "A Guide to the Bodhisattva Way of Life"
-description: ""
+title: A Guide to the Bodhisattva Way of Life
+description: ''
 publishedAt: 2013-04-12
 author: steel
-tags: ["reading-notes", "reading", "attention", "buddhism", "literature", "mindfulness", "philosophy", "religion", "wisdom"]
+tags:
+- Reading Notes
+- Reading
+- Attention
+- Philosophy
+- Literature
+- Religion
 draft: false
 locale: en
-image: "./images/9781559390613.png"
-imageAlt: "A Guide to the Bodhisattva Way of Life"
+image: ./images/9781559390613.png
+imageAlt: A Guide to the Bodhisattva Way of Life
 ---
 
 For as long as I can remember, I've always been attracted to wisdom literature. In my early teens, that attraction was felt most strongly toward Thoreau, Tolstoy, Marcus Aurelius and the other Stoics, Joseph Smith's King Benjamin (from the book of Mosiah in the _Book of Mormon_) & Enoch (from the Book of Moses in the LDS _Pearl of Great Price),_ and Ecclesiastes' Koheleth, all voices that really gripped and engaged me. It wasn't their status as scripture so much as it was their moral voice, perhaps even their austerity, their asceticism, their renunciation of materialism and their claims to wisdom, virtue, and even joy. My reading interests have certainly meandered since my early teens, but much of that core attraction remains. Scouring our library for some late night reading recently, I found a copy of one of Laurel's books that exerted the same attraction on me as other wisdom literatures had previously done. The book was Vesna and Alan Wallace's translation of Santideva's _A Guide to the Bodhisattva Way of Life_, published in 1997 by Snow Lion press.

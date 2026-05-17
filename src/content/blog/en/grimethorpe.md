@@ -1,13 +1,17 @@
 ---
-title: "Grimethorpe"
-description: ""
+title: Grimethorpe
+description: ''
 publishedAt: 2012-10-31
 author: steel
-tags: ["mission-stories", "barnsley", "family", "grief", "grimethorpe", "memory", "mining", "mission"]
+tags:
+- Mission Stories
+- Family
+- Grief
+- Memory
 draft: false
 locale: en
-image: "./images/carlton_street.jpg"
-imageAlt: "Grimethorpe"
+image: ./images/carlton_street.jpg
+imageAlt: Grimethorpe
 ---
 
 When I was 19 years old, just after completing my first year at [a large university](http://www.byu.edu) in the American West, I left school to spend two years as a Mormon missionary in the Northeast of England. When I arrived in Britain, I knew little to nothing about the present social or economic conditions of the cities that I would be living and working in. For the next two years I lived and worked in a string of devastated colliery and fishing towns whose economic centers had been ravaged by Thatcher-era political decisions, particularly the contentious privatization of Britain’s coal industry in the mid 1980s. My last assignment before returning home was in Barnsley, in South Yorkshire.

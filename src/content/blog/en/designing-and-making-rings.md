@@ -1,9 +1,10 @@
 ---
-title: "#3: Designing and Making Rings"
-description: ""
+title: '#3: Designing and Making Rings'
+description: ''
 publishedAt: 2012-06-01
 author: steel
-tags: ["Wedding Planning Series", "marriage", "planning", "rings", "wedding"]
+tags:
+- Wedding Planning Series
 draft: false
 locale: en
 ---

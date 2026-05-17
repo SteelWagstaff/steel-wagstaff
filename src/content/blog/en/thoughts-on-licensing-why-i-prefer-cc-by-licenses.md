@@ -1,13 +1,17 @@
 ---
-title: "Thoughts on Licensing: Why I Prefer CC-BY Licenses"
-description: ""
+title: 'Thoughts on Licensing: Why I Prefer CC-BY Licenses'
+description: ''
 publishedAt: 2018-10-20
 author: steel
-tags: ["education-technology", "higher-education", "open-educational-resources", "writing"]
+tags:
+- Educational Technology
+- Higher Education
+- Open Educational Resources
+- Writing
 draft: false
 locale: en
-image: "./images/landmark_locator.jpeg"
-imageAlt: "Thoughts on Licensing: Why I Prefer CC-BY Licenses"
+image: ./images/landmark_locator.jpeg
+imageAlt: 'Thoughts on Licensing: Why I Prefer CC-BY Licenses'
 ---
 
 Robin DeRosa recently posted an open question about CC licensing on Twitter that got me thinking: https://twitter.com/actualham/status/1052908074263035905 The subsequent conversation has been fascinating and thought-provoking. Here are my initial thoughts: I choose to use CC-BY licenses for almost all of my work that I want to make available to others. It is my view that the very act of selecting a CC-BY license (and ensuring that the work is distributed in a way that lends itself to copying, editing, and redistribution) effectively destroys the commercial resale value of that work, provided that the work in question exists in a digital form. I’m making two assumptions here. They are as follows:

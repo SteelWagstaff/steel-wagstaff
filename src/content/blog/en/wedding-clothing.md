@@ -1,9 +1,10 @@
 ---
-title: "#7: Wedding Clothing"
-description: ""
+title: 'Wedding Planning Series #7: Wedding Clothing'
+description: ''
 publishedAt: 2012-07-06
 author: steel
-tags: ["Wedding Planning Series", "clothing", "marriage", "planning", "wedding"]
+tags:
+- Wedding Planning Series
 draft: false
 locale: en
 ---
@@ -12,7 +13,10 @@ They say that [clothes make the man](http://www.gainesonbrains.com/2012/04/clot
 
 <figure class="align-none"><img title="Mark Twain" src="http://steelwagstaff.files.wordpress.com/2012/07/mark-twain.jpg?w=246" alt="" width="700" height="853"><figcaption>Mark Twain in a rocking chair, rocking a white suit</figcaption></figure>
 
-While nudity is certainly the preferred mode for _[celebrating](http://www.youtube.com/watch?v=FWfYF-XwugY)_ a wedding, we decided to conduct that part of the celebration in private and to wear clothing to our wedding and reception. We were pretty traditional in our choices. **Laurel's attire** Laurel wore a white dress. Going into the wedding, Laurel was pretty wary of the whole 'wedding dress' experience, and was pretty set against the idea of a 'fancy' or expensive dress. She did some sleuthing online and ordered a couple of very simple dresses from J. Crew to try on at home. Just after Christmas last year, Laurel and I went to Arizona with her mom and sister Jennie to visit her aunt and uncle. While we were there, we talked Laurel into all going out together to look for dresses, eventually convincing her that since we were all going together it would be fun and not totally gross or idiotic. We went to Nordstrom's just before they closed, and a really kind saleswoman helped Laurel try on a few dresses. Even though none of them fit her very well (she was too slender for just about anything they had in stock), she looked stunning in everything--most spectacularly so in a simple, floor length [Nicole Miller dress](http://www1.bloomingdales.com/shop/product/nicole-miller-lace-square-neck-gown?ID=514786&PartnerID=LINKSHARE&cm_mmc=LINKSHARE-_-n-_-n-_-n&LinkshareID=J84DHJLQkR4-BXCxlnDGeACWs8zOm1ydwQ).
+While nudity is certainly the preferred mode for _[celebrating](http://www.youtube.com/watch?v=FWfYF-XwugY)_ a wedding, we decided to conduct that part of the celebration in private and to wear clothing to our wedding and reception. We were pretty traditional in our choices. 
+
+## **Laurel's attire** 
+Laurel wore a white dress. Going into the wedding, Laurel was pretty wary of the whole 'wedding dress' experience, and was pretty set against the idea of a 'fancy' or expensive dress. She did some sleuthing online and ordered a couple of very simple dresses from J. Crew to try on at home. Just after Christmas last year, Laurel and I went to Arizona with her mom and sister Jennie to visit her aunt and uncle. While we were there, we talked Laurel into all going out together to look for dresses, eventually convincing her that since we were all going together it would be fun and not totally gross or idiotic. We went to Nordstrom's just before they closed, and a really kind saleswoman helped Laurel try on a few dresses. Even though none of them fit her very well (she was too slender for just about anything they had in stock), she looked stunning in everything--most spectacularly so in a simple, floor length [Nicole Miller dress](http://www1.bloomingdales.com/shop/product/nicole-miller-lace-square-neck-gown?ID=514786&PartnerID=LINKSHARE&cm_mmc=LINKSHARE-_-n-_-n-_-n&LinkshareID=J84DHJLQkR4-BXCxlnDGeACWs8zOm1ydwQ).
 
 <figure class="align-left"><img class="size-full wp-image-1185" title="Steel and Laurel (3)" src="http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-3.jpg" alt="" width="500" height="750"><figcaption>Laurel's dress in full length.</figcaption></figure>
 
@@ -28,7 +32,8 @@ On her feet, Laurel bought a pair of simple white shoes with very modest heels. 
 
 <figure class="align-left"><img class="size-full wp-image-1200" title="Steel and Laurel (12)" src="http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-121-e1341604144651.jpg" alt="" width="500" height="267"><figcaption>One of Laurel's shoes, on our apartment's staircase.</figcaption></figure>
 
-**Steel's attire** I wore a [black tuxedo suit](http://www.menswearhouse.com/shop/p_pronto-uomo-tuxedo_12001_700000432_12751_700032825_-1_700000432_____noSpecialSizes), purchased from the Men's Wearhouse. They had a deal on where you bought one of something and got a second free. I had been wanting to get a nice blue suit for some time, so I bought a [vested navy blue suit](http://www.menswearhouse.com/shop/p_pronto-uomo-platinum-navy-vested-suit_12001_700000435_12751_700025143_-1_700000435_____noSpecialSizes)at full price and got the tuxedo for free. I thought that silver paired nicely with my suit, so I chose to wear silver as the complementary color--picking out a silver vest, tie, and pocket square. I would have liked to buy the tuxedo vest so that I owned the whole tux ensemble, but the one I liked was rental only, so I rented the vest and bought the tie (which let me have the pocket square for free). I bought a formal dress shirt I liked (and got another, less formal one thrown in). For the cuff links I wore a very simple silver pair that I had found at an antique mall in Fort Atkinson for a dollar a couple of months before the wedding.
+## **Steel's attire** 
+I wore a [black tuxedo suit](http://www.menswearhouse.com/shop/p_pronto-uomo-tuxedo_12001_700000432_12751_700032825_-1_700000432_____noSpecialSizes), purchased from the Men's Wearhouse. They had a deal on where you bought one of something and got a second free. I had been wanting to get a nice blue suit for some time, so I bought a [vested navy blue suit](http://www.menswearhouse.com/shop/p_pronto-uomo-platinum-navy-vested-suit_12001_700000435_12751_700025143_-1_700000435_____noSpecialSizes) at full price and got the tuxedo for free. I thought that silver paired nicely with my suit, so I chose to wear silver as the complementary color--picking out a silver vest, tie, and pocket square. I would have liked to buy the tuxedo vest so that I owned the whole tux ensemble, but the one I liked was rental only, so I rented the vest and bought the tie (which let me have the pocket square for free). I bought a formal dress shirt I liked (and got another, less formal one thrown in). For the cuff links I wore a very simple silver pair that I had found at an antique mall in Fort Atkinson for a dollar a couple of months before the wedding.
 
 <figure class="align-left"><img class="size-full wp-image-1195" title="Steel and Laurel (35)" src="http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-35.jpg" alt="" width="500" height="750"><figcaption>Cutting the pocket seams in the suit jacket.</figcaption></figure>
 

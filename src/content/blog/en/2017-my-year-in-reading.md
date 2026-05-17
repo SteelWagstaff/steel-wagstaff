@@ -1,13 +1,14 @@
 ---
-title: "2017: My Year in Reading"
-description: ""
+title: '2017: My Year in Reading'
+description: ''
 publishedAt: 2018-01-03
 author: steel
-tags: ["reading"]
+tags:
+- Reading
 draft: false
 locale: en
-image: "./images/8703997248_274eea3496_k.jpg"
-imageAlt: "2017: My Year in Reading"
+image: ./images/8703997248_274eea3496_k.jpg
+imageAlt: '2017: My Year in Reading'
 ---
 
 This is the first year that I've really made an effort to keep track of my leisure reading. One of my goals for the year was to read less internet-based news and more books, and I think I was more or less successful, though some months were better for reading than others. In the end, leaving aside everything I read to our son (lots of graphic novels this year!), for my work as an educational technology consultant and for my ongoing dissertation project on the Objectivist poets, I read 60 books for pleasure in 2017. Here's the full list of my 2017 leisure reading, nearly all of which I read in ebook form on my iPad, usually at night after our son had gone to bed:

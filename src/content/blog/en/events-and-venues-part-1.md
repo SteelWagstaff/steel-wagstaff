@@ -1,9 +1,13 @@
 ---
-title: "#1a: Events and Venues Part 1"
-description: ""
+title: '#1a: Events and Venues Part 1'
+description: ''
 publishedAt: 2012-05-29
 author: steel
-tags: ["Wedding Planning Series", "love", "marriage", "planning", "wedding"]
+tags:
+- Wedding Planning Series
+- Love
+
+
 draft: false
 locale: en
 ---

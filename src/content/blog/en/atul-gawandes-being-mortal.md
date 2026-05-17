@@ -1,13 +1,19 @@
 ---
-title: "Atul Gawande's Being Mortal"
-description: ""
+title: Atul Gawande's Being Mortal
+description: ''
 publishedAt: 2015-09-21
 author: steel
-tags: ["reading-notes", "reading", "death", "medicine", "philosophy", "writing"]
+tags:
+- Reading Notes
+- Reading
+- Death
+- Medicine
+- Philosophy
+- Writing
 draft: false
 locale: en
-image: "./images/5664261318_7d5db1cda9_b.jpg"
-imageAlt: "Atul Gawande's Being Mortal"
+image: ./images/5664261318_7d5db1cda9_b.jpg
+imageAlt: Atul Gawande's Being Mortal
 ---
 
 I recently went to Salt Lake City for a family reunion. Among the relatives I saw was my only surviving grandparent, who is now 89 years old. He's literally my oldest friend, and the oldest living human being that I know right now. 

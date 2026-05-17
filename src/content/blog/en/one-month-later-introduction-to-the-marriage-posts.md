@@ -1,9 +1,12 @@
 ---
-title: "One Month Later: Introducing the Wedding Planning Series"
-description: ""
+title: 'One Month Later: Introducing the Wedding Planning Series'
+description: ''
 publishedAt: 2012-05-25
 author: steel
-tags: ["Wedding Planning Series", "marriage", "planning", "wedding"]
+tags:
+- Wedding Planning Series
+
+
 draft: false
 locale: en
 ---

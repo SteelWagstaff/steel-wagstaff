@@ -1,13 +1,17 @@
 ---
-title: "My April 2017 Reading"
-description: ""
+title: My April 2017 Reading
+description: ''
 publishedAt: 2017-05-01
 author: steel
-tags: ["reading", "books", "literature", "poetry"]
+tags:
+- Reading
+- Books
+- Literature
+- Poetry
 draft: false
 locale: en
-image: "./images/2464682583_75238b8f03_b_moles-yorkshire.jpg"
-imageAlt: "My April 2017 Reading"
+image: ./images/2464682583_75238b8f03_b_moles-yorkshire.jpg
+imageAlt: My April 2017 Reading
 ---
 
 ## Books

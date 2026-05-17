@@ -1,9 +1,15 @@
 ---
-title: "How to Write a Letter to the Editor"
-description: ""
+title: How to Write a Letter to the Editor
+description: ''
 publishedAt: 2012-06-28
 author: steel
-tags: ["lessons-from-oppens-letters", "the-objectivists", "literature", "oppen", "poetry", "writing"]
+tags:
+- Lessons from Oppen's Letters
+- The Objectivists
+- Literature
+- George Oppen
+- Poetry
+- Writing
 draft: false
 locale: en
 ---

@@ -1,9 +1,12 @@
 ---
-title: "Getting Started with Pressbooks: A guide for Higher Education use cases"
-description: ""
+title: 'Getting Started with Pressbooks: A guide for Higher Education use cases'
+description: ''
 publishedAt: 2017-11-09
 author: steel
-tags: ["education-technology", "educational-technology", "open-educational-resources", "pressbooks"]
+tags:
+- Educational Technology
+- Open Educational Resources
+- Pressbooks
 draft: false
 locale: en
 ---

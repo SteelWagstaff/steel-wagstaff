@@ -1,9 +1,12 @@
 ---
-title: "The last years of J.B. Jackson"
-description: ""
+title: The last years of J.B. Jackson
+description: ''
 publishedAt: 2017-07-05
 author: steel
-tags: ["favorite-people", "reading", "j-b-jackson", "landscape", "place"]
+tags:
+- My Favorite People
+- Reading
+- Literature
 draft: false
 locale: en
 ---

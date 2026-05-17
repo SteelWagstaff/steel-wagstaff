@@ -1,13 +1,15 @@
 ---
-title: "Favorite Passages from Jonathan Wilson's Inverting the Pyramid"
-description: ""
+title: Favorite Passages from Jonathan Wilson's Inverting the Pyramid
+description: ''
 publishedAt: 2014-09-03
 author: steel
-tags: ["reading-notes", "reading"]
+tags:
+- Reading Notes
+- Reading
 draft: false
 locale: en
-image: "./images/pyramid.jpg"
-imageAlt: "Favorite Passages from Jonathan Wilson's Inverting the Pyramid"
+image: ./images/pyramid.jpg
+imageAlt: Favorite Passages from Jonathan Wilson's Inverting the Pyramid
 ---
 
 In the past several years, I've become a full-fledged soccer fan. I've always followed (and played) sports, switching over the years from an interest in baseball to football to basketball and most recently, to soccer. It's now the sport that I follow most closely, play most regularly for recreation, and read and think about most often. Over the past couple of years I've become a regular reader of a few soccer journalists that I think are generally quite outstanding, among whom my favorites lately have been [Brian Phillips](http://www.runofplay.com/brian-phillips/ "Brian Phillips"), who's just a gorgeous, intelligent, thoughtful writer and [Michael Cox](http://www.zonalmarking.net/ "Zonal Marking"), who's really helped me to understand the tactical nuances of the game and develop an appreciation for some of global football's more subtle playmakers and geniuses. I think I saw the book referenced a few times by Cox (or perhaps it was [Simon Kuper](http://www.ft.com/intl/life-arts/simon-kuper "Simon Kuper")?), but I recently decided it was time for me to read _Inverting the Pyramid_, Jonathan Wilson's well-regarded history of soccer tactics. I just finished it. It was excellent, and in what follows, I'll present some of my favorite passages:

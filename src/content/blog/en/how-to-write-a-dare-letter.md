@@ -1,9 +1,14 @@
 ---
-title: "How To Write a \"DARE\" Letter"
-description: ""
+title: How To Write a "DARE" Letter
+description: ''
 publishedAt: 2012-06-26
 author: steel
-tags: ["lessons-from-oppens-letters", "the-objectivists", "drugs", "george-oppen", "mormon", "poetry"]
+tags:
+- Lessons from Oppen's Letters
+- The Objectivists
+- George Oppen
+- Religion
+- Poetry
 draft: false
 locale: en
 ---

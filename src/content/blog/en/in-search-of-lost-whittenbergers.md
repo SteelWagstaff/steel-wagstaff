@@ -1,13 +1,20 @@
 ---
-title: "In Search of Lost Whittenbergers"
-description: ""
+title: In Search of Lost Whittenbergers
+description: ''
 publishedAt: 2013-05-10
 author: steel
-tags: ["memory-collector-project", "childhood", "communication", "ethics", "friendship", "memory", "techmology", "whittenberger-summer-writing-project", "writing"]
+tags:
+- Memory Collector Project
+- Childhood
+- Philosophy
+- Friendship
+- Memory
+- Technology
+- Writing
 draft: false
 locale: en
-image: "./images/448748186_a72b035ca7_b.jpg"
-imageAlt: "In Search of Lost Whittenbergers"
+image: ./images/448748186_a72b035ca7_b.jpg
+imageAlt: In Search of Lost Whittenbergers
 ---
 
 It's been a little bit of a whirlwind ever since I dug out the old issue of the Whittenberger Summer Writing Project and decided that I wanted to try to find and contact _everyone_ who had attended. I can only imagine what organizers of high school reunions have to deal with, but this has been a little different--to start with there were only about three dozen of us, and we started off being scattered all over the state (little chance of family connections or mutual friend networks among someone from, say, Pocatello, and someone from Bonner's Ferry, for instance), which made finding everyone seem like an especially thorny endeavor.
