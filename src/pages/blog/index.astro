@@ -11,9 +11,9 @@ import { resolveSocialLinks } from '@/lib/utils';
 
 const socialLinks = resolveSocialLinks(siteConfig.socialLinks);
 
-// Get all published posts
+// Get all published posts (exclude drafts)
 const allPosts = await getCollection('blog', ({ data }) => {
-  return import.meta.env.PROD ? data.draft !== true : true;
+  return data.draft !== true;
 });
 
 // Filter by English locale and sort by date
@@ -28,8 +28,16 @@ const nonFeaturedPosts = posts.filter((post) => !post.data.featured);
 // If ALL posts are featured, show them all in the main listing too (to avoid empty section)
 const regularPosts = nonFeaturedPosts.length > 0 ? nonFeaturedPosts : posts;
 
-// Collect all unique tags across all posts
-const allTags = [...new Set(posts.flatMap((post) => post.data.tags))].sort();
+// Collect all unique tags with counts, sorted by count (descending)
+const tagCounts: Record<string, number> = {};
+posts.forEach((post) => {
+  post.data.tags.forEach((tag) => {
+    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+  });
+});
+const allTags = Object.keys(tagCounts).sort(
+  (a, b) => tagCounts[b] - tagCounts[a]
+);
 
 const getPostUrl = (postId: string) => {
   // Remove locale prefix from id (e.g., "en/welcome-to-velocity" -> "welcome-to-velocity")
@@ -102,7 +110,7 @@ const getPostUrl = (postId: string) => {
               >
                 <option value="all">All posts</option>
                 {allTags.map((tag) => (
-                  <option value={tag}>{tag}</option>
+                  <option value={tag}>{tag} ({tagCounts[tag]})</option>
                 ))}
               </select>
               <span class="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-foreground-muted">

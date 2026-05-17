@@ -10,7 +10,7 @@ import { resolveMusicImage } from '@/lib/music-image-resolver';
 
 // Get all published music playlists
 const allPlaylists = await getCollection('music', ({ data }) => {
-  return import.meta.env.PROD ? data.draft !== true : true;
+  return data.draft !== true;
 });
 
 // Filter by English locale and sort by date

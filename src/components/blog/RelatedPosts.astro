@@ -13,7 +13,7 @@ const { currentSlug, tags, locale = 'en', maxPosts = 3 } = Astro.props;
 
 // Get all published posts in the same locale
 const allPosts = await getCollection('blog', ({ data }) => {
-  return data.locale === locale && (import.meta.env.PROD ? data.draft !== true : true);
+  return data.locale === locale && data.draft !== true;
 });
 
 // Filter to find posts with matching tags

@@ -10,7 +10,7 @@ import { resolveMusicImage } from '@/lib/music-image-resolver';
 
 // Get all published podcast episodes for Off the Chain
 const allEpisodes = await getCollection('podcasts', ({ data }) => {
-  return import.meta.env.PROD ? data.draft !== true : true;
+  return data.draft !== true;
 });
 
 // Filter to only Off the Chain episodes

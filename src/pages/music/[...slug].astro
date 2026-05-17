@@ -8,7 +8,7 @@ import { extractSpotifyId, detectSpotifyType } from '@/lib/spotify';
 
 export async function getStaticPaths() {
   const playlists = await getCollection('music', ({ data }) => {
-    return data.locale === 'en' && (import.meta.env.PROD ? data.draft !== true : true);
+    return data.locale === 'en' && data.draft !== true;
   });
 
   return playlists.map((playlist) => ({
