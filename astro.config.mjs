@@ -4,11 +4,10 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import icon from 'astro-icon';
 import tailwindcss from '@tailwindcss/vite';
-import netlify from '@astrojs/netlify';
 import { remarkSpotifyEmbed } from './src/lib/remark-spotify-embed.ts';
 
 export default defineConfig({
-  adapter: netlify(),
+  output: 'static',
   site: 'https://steelwagstaff.info',
 
   env: {
