@@ -1,5 +1,8 @@
 # Cloudflare Pages configuration
 # For static deployment to Cloudflare Pages
 
-name = "astro-rocket"
+name = "steel-wagstaff-website"
 compatibility_date = "2026-01-31"
+
+[assets]
+directory = "./dist"
