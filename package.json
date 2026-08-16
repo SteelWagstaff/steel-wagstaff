@@ -84,7 +84,7 @@
     "pagefind": "^1.5.2",
     "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.14",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "sharp": "^0.35.3",
     "tailwindcss": "^4.3.3",
     "turndown": "^7.2.4",
