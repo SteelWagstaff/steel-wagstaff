@@ -65,7 +65,7 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@anthropic-ai/sdk": "^0.96.0",
+    "@anthropic-ai/sdk": "^0.116.0",
     "@astrojs/check": "^0.9.8",
     "@eslint/js": "^9.17.0",
     "@pagefind/default-ui": "^1.3.0",
