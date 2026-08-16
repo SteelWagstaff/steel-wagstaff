@@ -3,8 +3,18 @@ updates:
   - package-ecosystem: "npm"
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
     allow: 
       - dependency-type: "direct"
-    open-pull-requests-limit: 10
+    groups:
+    # All patch updates together.
+    patch-updates:
+      update-types: [ "patch" ]
+
+    # All minor updates together.
+    minor-updates:
+      update-types: [ "minor" ]
+
+    # Space left: 5 PRs of ungrouped major updates.
+    open-pull-requests-limit: 5
     versioning-strategy: "increase-if-necessary"
