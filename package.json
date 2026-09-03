@@ -1,8 +1,8 @@
 {
   "name": "astro-rocket",
-  "version": "2.5.3",
+  "version": "2.6.0",
   "packageManager": "pnpm@10.33.0",
-  "description": "Astro Rocket — A production-ready Astro 7 theme built on Tailwind CSS v4",
+  "description": "Astro Rocket \u2014 A production-ready Astro 7 theme built on Tailwind CSS v4",
   "type": "module",
   "author": "Hans Martens",
   "license": "MIT",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.0.1",
-    "@astrojs/mdx": "7.0.3",
+    "@astrojs/mdx": "8.0.0",
     "@astrojs/netlify": "^8.0.0",
     "@astrojs/react": "6.0.1",
     "@astrojs/sitemap": "^3.7.3",
@@ -55,7 +55,7 @@
     "@iconify-json/lucide": "^1.2.98",
     "@iconify-json/simple-icons": "^1.2.74",
     "@iconify/react": "^6.0.2",
-    "astro": "7.2.0",
+    "astro": "7.3.1",
     "astro-icon": "^1.1.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
