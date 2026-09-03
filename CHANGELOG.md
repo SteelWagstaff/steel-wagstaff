@@ -8,6 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- **Astro 7.3.1**, up from 7.2.0. No source change was needed and the theme's
+  152 tests pass unaltered, so a site built on this theme needs no changes when
+  it merges this. The README's Astro badge follows the pin, which
+  `readme-claims.test.ts` enforces. Node.js 22.12.0+ is still the floor.
+  `@astrojs/mdx` stays on 7.0.3: it pins `@astrojs/markdown-remark` to 7.2.1
+  exactly, while Astro 7.3.1 declares a peer of `^7.3.0`, so that peer is
+  currently unsatisfied. `@astrojs/mdx` 8.0.0 is the release that peers
+  `^7.3.0` and resolves it; that upgrade is a major and is not in this change.
+
 ### Fixed
 
 - Dark-mode contrast figure for the primary button corrected to 4.56:1 (amber, at rest). All twelve themes clear WCAG AA.
