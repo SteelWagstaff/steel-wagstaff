@@ -10,14 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 
-- **Astro 7.3.1**, up from 7.2.0. No source change was needed and the theme's
-  152 tests pass unaltered, so a site built on this theme needs no changes when
-  it merges this. The README's Astro badge follows the pin, which
-  `readme-claims.test.ts` enforces. Node.js 22.12.0+ is still the floor.
-  `@astrojs/mdx` stays on 7.0.3: it pins `@astrojs/markdown-remark` to 7.2.1
-  exactly, while Astro 7.3.1 declares a peer of `^7.3.0`, so that peer is
-  currently unsatisfied. `@astrojs/mdx` 8.0.0 is the release that peers
-  `^7.3.0` and resolves it; that upgrade is a major and is not in this change.
+- **Astro 7.3.1**, up from 7.2.0 — nothing is deprecated and no migration is required, so a site built on this theme needs no changes when it merges this. 7.3.1 rather than 7.3.0: 7.3.0 carried an error that stopped projects using `astro:assets` from starting or building, and this theme uses `astro:assets` in four places. What 7.3 adds is opt-in or for authors of custom services — an `--ignore-lock` flag for `astro preview` so several preview servers can run at once, and a `logger` argument for custom image services and for cache providers, so their messages go through the configured logger and respect the log level instead of going straight to the console. Astro's own Sharp service and `memoryCache()` now use it; this theme defines neither a custom image service nor a cache provider.
+- Two of 7.3's fixes reach this theme: Astro's remaining internal warnings and errors now go through the configured logger rather than the console, and build performance improves for sites with many pages drawn from many modules. Three do not — the server-island fix for styles, links and scripts missing from content-collection entries, the `experimental.incrementalBuild` concurrency work, and the `memoryCache()` fix for `Vary: Cookie` — because the theme uses none of those. One is worth knowing for anyone who turns i18n on with a fallback: a page such as `src/pages/en/enterprise.astro` under `fallback: { es: 'en' }` used to generate `/es/esterprise`, since the locale code was rewritten wherever it appeared rather than only at the front. The theme ships i18n without a `fallback`, so it was never affected; a site that adds one was.
+- `@astrojs/mdx` stays on 7.0.3. It pins `@astrojs/markdown-remark` to 7.2.1 exactly while Astro 7.3.1 declares that package as a peer at `^7.3.0`, so the peer is currently unsatisfied and pnpm does not warn. Nothing here exercises the gap: the build is clean and all 152 tests pass. `@astrojs/mdx` 8.0.0 is the release that peers `^7.3.0` and resolves it, and it is a major that also moves `markdown-satteri` from `^0.3.1` to `^0.4.0`, so it is a separate change.
+- The README's Astro badge follows the pin, which `readme-claims.test.ts` enforces. Node.js 22.12.0+ is still the floor.
 
 ### Fixed
 
