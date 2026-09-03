@@ -8,6 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [2.6.0] — 2026-08-27
+
 ### Changed
 
 - **Astro 7.3.1**, up from 7.2.0 — nothing is deprecated and no migration is required, so a site built on this theme needs no changes when it merges this. 7.3.1 rather than 7.3.0: 7.3.0 carried an error that stopped projects using `astro:assets` from starting or building, and this theme uses `astro:assets` in four places. What 7.3 adds is opt-in or for authors of custom services — an `--ignore-lock` flag for `astro preview` so several preview servers can run at once, and a `logger` argument for custom image services and for cache providers, so their messages go through the configured logger and respect the log level instead of going straight to the console. Astro's own Sharp service and `memoryCache()` now use it; this theme defines neither a custom image service nor a cache provider.

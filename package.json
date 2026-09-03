@@ -1,6 +1,6 @@
 {
   "name": "astro-rocket",
-  "version": "2.5.3",
+  "version": "2.6.0",
   "packageManager": "pnpm@10.33.0",
   "description": "Astro Rocket \u2014 A production-ready Astro 7 theme built on Tailwind CSS v4",
   "type": "module",
