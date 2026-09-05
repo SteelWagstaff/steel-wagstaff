@@ -12,7 +12,7 @@ import {
 } from '@/lib/commonplace';
 
 export async function getStaticPaths() {
-  const types: CommonplaceType[] = ['photo', 'text', 'quote', 'video', 'audio'];
+  const types: CommonplaceType[] = ['photo', 'text', 'video', 'audio'];
   const allItems = sortCommonplaceEntries(await getCollection('commonplace', ({ data }) => {
     return !data.draft && data.locale === 'en';
   }));

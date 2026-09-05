@@ -143,9 +143,9 @@ const commonplace = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/commonplace' }),
   schema: z.object({
     title: z.string().max(300).optional(),
-    type: z.enum(['quote', 'photo', 'video', 'audio', 'text']),
+    type: z.enum(['photo', 'video', 'audio', 'text']),
     content: z.string().optional(),
-    source: z.string().optional(), // For quotes
+    source: z.string().optional(),
     image: z.string().optional(), // For photos - URL string, not asset import
     imageAlt: z.string().optional(),
     audioUrl: z.string().optional(), // For audio
