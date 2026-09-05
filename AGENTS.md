@@ -84,8 +84,12 @@ trust the theme, so a commit message is part of the product.
 - **Never narrate the process.** No first-person account of what was tried,
   what was missed, or what was learned. "The gate is scoped to the demo
   deployment" belongs here; "I only tested two states" does not.
-- **No tool or session trailers.** No `Co-Authored-By` for an assistant, and no
-  links to an AI session. Some tooling adds these by default — remove them.
+- **Assistant trailers stay.** A commit written with an assistant ends with a
+  `Co-Authored-By` line naming it and a `Claude-Session` link to the session
+  that produced it. The tooling adds both and they are kept, so the authorship
+  recorded on a commit matches who wrote it. This file asked for them to be
+  stripped until 2026-09-05, while 218 commits on `main` carried them; the rule
+  now says what the history does.
 - **Present tense, describing the code after the change.** "Scope demo content
   to the demo deployment", not "Fixed the demo leaking".
 - **The subject names the change; it does not argue for it.** "Rewrite the

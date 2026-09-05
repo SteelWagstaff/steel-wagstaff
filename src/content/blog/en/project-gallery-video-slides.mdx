@@ -89,4 +89,4 @@ ffmpeg -i recording.mov -vf "scale=1280:720" -c:v libx264 -crf 28 \
 
 For reference: the slide union is validated in `src/content.config.ts` (a slide is *either* `src`+`alt` *or* `video`+`poster`+`alt` — anything else fails the build), the shared `GallerySlide` type lives in `src/lib/gallery.ts`, and the rendering happens in `ProjectCarousel.astro` (hero) and `ProjectGallery.astro` (body + lightbox). No new dependencies, no client framework — the same native scroll-snap carousel, with a `<video>` element where a slide asks for one.
 
-`src/content/projects/en/ecommerce-store.mdx` carries a ready-to-uncomment video slide as a starting point. Drop a file in `public/videos/`, point a slide at it, give it a poster — done.
+`src/content/projects/en/astro-rocket.mdx` carries a ready-to-uncomment video slide as a starting point. Drop a file in `public/videos/`, point a slide at it, give it a poster — done.

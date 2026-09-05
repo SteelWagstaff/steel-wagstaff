@@ -4,68 +4,11 @@ locale: en
 description: "Custom storefront for an independent fashion brand — product pages, cart, and checkout built for performance and a smooth mobile experience."
 icon: "shopping-bag"
 tags: ["Astro", "TypeScript", "Tailwind CSS", "Client Work"]
-featured: false
-order: 6
+featured: true
+order: 1
 year: 2026
 client: "Your Client Name"
 role: "Designer & Developer"
 services: ["Web Design", "Web Development", "E-Commerce"]
-# Multiple images? Add a `gallery` array and the hero swaps the single
-# `image` for a swipeable carousel. The first slide is the lead image.
-# (Galleries render on the project detail page, so this demo project is
-# routable — placeholder projects only appear as cards.)
-#
-# A slide can also be a self-hosted video: drop the file in `public/`
-# and give it a poster image (required — the slide costs zero bytes
-# until the visitor presses play). Uncomment the example below to try.
-gallery:
-#  - video: "/videos/demo.mp4"
-#    poster: "../../../assets/projects/ecommerce-store-catalog.svg"
-#    alt: "Product demo video"
-  - src: "../../../assets/projects/ecommerce-store-catalog.svg"
-    alt: "Product catalogue grid with eight product cards"
-  - src: "../../../assets/projects/ecommerce-store-product.svg"
-    alt: "Product detail page with size selector and add-to-cart button"
-  - src: "../../../assets/projects/ecommerce-store-checkout.svg"
-    alt: "Checkout flow with shipping form and order summary"
+placeholder: true
 ---
-
-import ProjectGallery from '@/components/projects/ProjectGallery.astro';
-import catalog from '@/assets/projects/ecommerce-store-catalog.svg';
-import product from '@/assets/projects/ecommerce-store-product.svg';
-import checkout from '@/assets/projects/ecommerce-store-checkout.svg';
-
-## The Brief
-
-Replace this with the actual client brief. What was the brand? What did their old shop look like? What were the conversion problems they were trying to solve?
-
-*Example: An independent fashion label was losing sales to a slow, poorly structured Shopify theme. They wanted a custom storefront that reflected their aesthetic and loaded instantly on mobile.*
-
-## What I Built
-
-Describe the store's structure and what made it technically interesting.
-
-- Product listing and detail pages
-- Cart and checkout flow
-- Mobile-first design
-- Performance optimisation strategy
-
-## Screens
-
-Need an image carousel with a lightbox inside the body of a project? Import `ProjectGallery` and pass it your screenshots — click any slide to zoom. Replace these placeholder wireframes with real screenshots of your work.
-
-<ProjectGallery
-  images={[
-    { src: catalog, alt: 'Product catalogue grid', caption: 'The catalogue — eight products per page, filterable by collection.' },
-    { src: product, alt: 'Product detail page', caption: 'Product detail with size selector and sticky add-to-cart.' },
-    { src: checkout, alt: 'Checkout flow', caption: 'Two-step checkout with a persistent order summary.' },
-  ]}
-/>
-
-## Mobile-First Approach
-
-E-commerce lives on mobile. Describe the specific decisions you made to serve mobile shoppers — touch targets, image loading, checkout simplification.
-
-## Results
-
-Conversion rate change, page speed improvements, revenue impact, or client feedback. Replace with your real outcome.

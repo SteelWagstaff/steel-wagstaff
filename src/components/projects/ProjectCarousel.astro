@@ -111,8 +111,13 @@ const posters = await Promise.all(
       </button>
 
       <div class="flex items-center gap-3">
+        {/* The dot a visitor sees is 8px, which is far below the 24px minimum
+            a touch target needs. The button carries the 24x24 target and the
+            span carries the appearance, so the control is thumb-sized without
+            drawing a thumb-sized dot. The row has no gap: the targets meet
+            edge to edge rather than overlapping. */}
         <div
-          class="flex items-center gap-2"
+          class="flex items-center"
           role="tablist"
           aria-label={t('projects.carouselChooseSlide', locale)}
           data-carousel-dots
@@ -120,14 +125,16 @@ const posters = await Promise.all(
           {slides.map((_, i) => (
             <button
               type="button"
-              class="carousel-dot h-2 w-2 rounded-full bg-border transition-all hover:bg-brand-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 focus-visible:ring-offset-background data-[active=true]:w-6 data-[active=true]:bg-brand-500"
+              class="carousel-dot group flex h-6 w-6 items-center justify-center rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
               data-carousel-dot
               data-index={i}
               role="tab"
               aria-label={`Go to slide ${i + 1}`}
               aria-selected={i === 0 ? 'true' : 'false'}
               data-active={i === 0 ? 'true' : 'false'}
-            ></button>
+            >
+              <span class="h-2 w-2 rounded-full bg-border transition-all group-hover:bg-brand-400 group-data-[active=true]:w-4 group-data-[active=true]:bg-brand-500"></span>
+            </button>
           ))}
         </div>
         <span
