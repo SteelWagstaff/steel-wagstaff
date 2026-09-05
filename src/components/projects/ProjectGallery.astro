@@ -93,15 +93,23 @@ const slideData = images.map((item, i) =>
 
   <!-- Dots + counter -->
   <div class="mt-4 flex flex-col items-center gap-2">
-    <div id={`dots-${id}`} class="flex items-center gap-1.5" role="tablist">
+    {/* As in ProjectCarousel: the button carries a 24x24 touch target and the
+        span carries the 6px dot, so the control is thumb-sized without the
+        dot growing. The active state is an attribute rather than a rewritten
+        class list, so the target sizing cannot be overwritten at runtime. */}
+    <div id={`dots-${id}`} class="flex items-center" role="tablist">
       {images.map((_, i) => (
         <button
           role="tab"
           aria-label={`Go to slide ${i + 1}`}
           data-dot={i}
           data-dots-gallery={`gallery-${id}`}
-          class={`h-1.5 rounded-full transition-all duration-300 ${i === 0 ? 'w-5 bg-brand-500' : 'w-1.5 bg-border'}`}
-        />
+          data-active={i === 0 ? 'true' : 'false'}
+          aria-selected={i === 0 ? 'true' : 'false'}
+          class="group flex h-6 w-6 items-center justify-center rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+        >
+          <span class="h-1.5 w-1.5 rounded-full bg-border transition-all duration-300 group-data-[active=true]:w-4 group-data-[active=true]:bg-brand-500"></span>
+        </button>
       ))}
     </div>
     <span id={`counter-${id}`} class="text-xs text-foreground-muted">
@@ -206,11 +214,9 @@ const slideData = images.map((item, i) =>
     nextBtn.disabled = index === total - 1;
     pauseInactiveVideos(index);
     dots.forEach((dot, i) => {
-      if (i === index) {
-        dot.className = 'h-1.5 rounded-full transition-all duration-300 w-5 bg-brand-500';
-      } else {
-        dot.className = 'h-1.5 rounded-full transition-all duration-300 w-1.5 bg-border';
-      }
+      const active = i === index;
+      dot.setAttribute('data-active', active ? 'true' : 'false');
+      dot.setAttribute('aria-selected', active ? 'true' : 'false');
     });
   }
 
