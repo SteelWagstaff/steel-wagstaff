@@ -37,9 +37,15 @@ const typeIconColors = {
   photo: 'text-blue-400',
   audio: 'text-orange-400',
   video: 'text-violet-400',
-  quote: 'text-emerald-400',
   text: 'text-teal-400',
 } as const;
+
+const typeStats: Array<{ type: CommonplaceType; label: string; count: number; color: string }> = [
+  { type: 'text', label: 'Text', count: counts.text, color: 'text-teal-400' },
+  { type: 'photo', label: 'Images', count: counts.photo, color: 'text-blue-400' },
+  { type: 'video', label: 'Videos', count: counts.video, color: 'text-violet-400' },
+  { type: 'audio', label: 'Audio', count: counts.audio, color: 'text-orange-400' },
+].sort((a, b) => b.count - a.count);
 ---
 
 <div class="mx-auto max-w-6xl space-y-10 px-6 py-12">
@@ -50,17 +56,11 @@ const typeIconColors = {
     </p>
   </header>
 
-  <div class="grid grid-cols-2 gap-4 md:grid-cols-5 mb-4">
-    {[
-      { type: 'photo', label: 'Images', count: counts.photo, color: 'text-blue-400' },
-      { type: 'text', label: 'Text', count: counts.text, color: 'text-teal-400' },
-      { type: 'quote', label: 'Quotes', count: counts.quote, color: 'text-emerald-400' },
-      { type: 'video', label: 'Videos', count: counts.video, color: 'text-violet-400' },
-      { type: 'audio', label: 'Audio', count: counts.audio, color: 'text-orange-400' },
-    ].map((stat) => (
+  <div class="grid grid-cols-2 gap-4 mb-4 md:grid-cols-4">
+    {typeStats.map((stat) => (
       <a href={typeUrl(stat.type)} class:list={['rounded-lg border border-border bg-background-secondary p-4 transition-colors hover:border-brand-500', typeFilter === stat.type && 'border-brand-500']}>
         <p class:list={['text-2xl font-bold', stat.color]}>{stat.count}</p>
-        <p class="text-sm text-foreground-muted">{stat.label}</p>
+        <p class="text-md text-foreground-muted">{stat.label}</p>
       </a>
     ))}
   </div>
@@ -81,19 +81,20 @@ const typeIconColors = {
       ) : <span />}
     </nav>
 
-    <div class="grid gap-6 md:grid-cols-2">
+    <div class="columns-1 gap-6 md:columns-2">
       {items.map((item) => {
         const previewText = getPreviewText(item);
         return (
-          <article class="group overflow-hidden rounded-lg border border-border bg-background transition-colors hover:border-brand-500">
+          <article class="group mb-6 break-inside-avoid overflow-hidden rounded-lg border border-border bg-background transition-colors hover:border-brand-500">
             <div class="flex flex-col gap-4 p-5">
               {item.data.type === 'photo' && item.data.image && (
                 <div class="w-full overflow-hidden rounded-md bg-background-secondary">
                   <img
                     src={`/${item.data.image}`.replace(/^\/+/, '/')}
                     alt={item.data.imageAlt || item.data.title || 'Commonplace image'}
-                    class="block h-auto w-full"
+                      class="block h-auto w-full"
                     loading="lazy"
+                      decoding="async"
                   />
                 </div>
               )}
@@ -102,7 +103,6 @@ const typeIconColors = {
                 <div class="mb-2 flex items-start gap-2">
                   {item.data.title && <h3 class="line-clamp-3 text-lg font-semibold text-foreground">{item.data.title}</h3>}
                   <svg class:list={['mt-1 h-4 w-4 shrink-0', typeIconColors[item.data.type]]} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    {item.data.type === 'quote' && <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />}
                     {item.data.type === 'audio' && <path d="M12 3a9 9 0 100 18 9 9 0 000-18zm1 4v5.59l3.7 2.14-.75 1.3L11 13.45V7h2z" />}
                     {item.data.type === 'video' && <path d="M8 5v14l11-7z" />}
                     {item.data.type === 'photo' && <path d="M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2zm1 12h12l-3.5-4.5-2.5 3-1.5-2L6 16z" />}
@@ -123,16 +123,10 @@ const typeIconColors = {
                   </div>
                 )}
 
-                {item.data.type === 'quote' ? (
-                  <blockquote class="line-clamp-8 whitespace-pre-line border-l-2 border-emerald-400 pl-3 text-sm italic leading-relaxed text-foreground-muted">
+                {previewText && (
+                  <p class="whitespace-pre-line text-md leading-relaxed text-foreground-muted">
                     {previewText}
-                  </blockquote>
-                ) : (
-                  previewText && (
-                    <p class="line-clamp-8 whitespace-pre-line text-sm leading-relaxed text-foreground-muted">
-                      {previewText}
-                    </p>
-                  )
+                  </p>
                 )}
 
                 {item.data.type === 'audio' && item.data.audioUrl && (

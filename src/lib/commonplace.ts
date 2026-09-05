@@ -1,6 +1,6 @@
 import type { CollectionEntry } from 'astro:content';
 
-export const COMMONPLACE_PAGE_SIZE = 50;
+export const COMMONPLACE_PAGE_SIZE = 25;
 
 export type CommonplaceEntry = CollectionEntry<'commonplace'>;
 export type CommonplaceType = CommonplaceEntry['data']['type'];
@@ -8,7 +8,6 @@ export type CommonplaceType = CommonplaceEntry['data']['type'];
 export interface CommonplaceCounts {
   photo: number;
   text: number;
-  quote: number;
   video: number;
   audio: number;
 }
@@ -37,7 +36,7 @@ export function getCommonplaceCounts(entries: CommonplaceEntry[]): CommonplaceCo
       counts[entry.data.type] += 1;
       return counts;
     },
-    { photo: 0, text: 0, quote: 0, video: 0, audio: 0 }
+    { photo: 0, text: 0, video: 0, audio: 0 }
   );
 }
 
