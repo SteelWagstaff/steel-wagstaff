@@ -76,7 +76,13 @@ const { data } = project;
     -->
     <div class="mb-3 flex flex-col items-center gap-2 text-center">
       <Icon name={data.icon ?? 'layers'} class="w-10 h-10 text-brand-500 shrink-0" />
-      <h3 class="font-display text-lg font-bold text-foreground">{data.title}</h3>
+      {/* h2, as BlogCard's title already is. The projects index and the tag
+          archives put these cards straight under the page's h1 with no
+          section heading between, so an h3 skipped a level there. On the home
+          page they still sit below the section's own h2, which a repeat of
+          the same level does not break. The size comes from the classes, so
+          the level carries no visual weight of its own. */}
+      <h2 class="font-display text-lg font-bold text-foreground">{data.title}</h2>
     </div>
 
     <p class="text-sm text-foreground-muted leading-relaxed mb-4 flex-1 text-center">{data.description}</p>
