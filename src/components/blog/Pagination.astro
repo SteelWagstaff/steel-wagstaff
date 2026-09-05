@@ -39,22 +39,38 @@ function buildWindow(current: number, total: number, max = 5): number[] {
 const pages = buildWindow(currentPage, totalPages);
 const prevHref = currentPage > 1 ? href(currentPage - 1) : null;
 const nextHref = currentPage < totalPages ? href(currentPage + 1) : null;
+
+/**
+ * Shared shape of the two arrows, so the link and the spent version cannot
+ * drift apart visually.
+ */
+const arrowBase =
+  'inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background text-foreground-muted transition-colors';
+const arrowLive = 'hover:border-brand-500 hover:text-brand-500';
+const arrowSpent = 'cursor-not-allowed opacity-40';
 ---
 
 {totalPages > 1 && (
   <nav class="mt-12 flex items-center justify-center gap-2" aria-label={t('pagination.label', locale)}>
-    <a
-      href={prevHref ?? undefined}
-      class:list={[
-        'inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background text-foreground-muted transition-colors',
-        prevHref ? 'hover:border-brand-500 hover:text-brand-500' : 'cursor-not-allowed opacity-40 pointer-events-none',
-      ]}
-      aria-label={t('pagination.previousPage', locale)}
-      aria-disabled={prevHref ? undefined : 'true'}
-      rel={prevHref ? 'prev' : undefined}
-    >
-      <Icon name="arrow-left" size="sm" />
-    </a>
+    {/* An anchor without an href is not a link — it falls back to a generic
+        role, and `aria-label` and `aria-disabled` are both prohibited there.
+        So the spent arrow is a span, hidden from assistive technology: it
+        offers nothing to act on, and the live arrow still names the direction
+        that is available. */}
+    {prevHref ? (
+      <a
+        href={prevHref}
+        class:list={[arrowBase, arrowLive]}
+        aria-label={t('pagination.previousPage', locale)}
+        rel="prev"
+      >
+        <Icon name="arrow-left" size="sm" />
+      </a>
+    ) : (
+      <span class:list={[arrowBase, arrowSpent]} aria-hidden="true">
+        <Icon name="arrow-left" size="sm" />
+      </span>
+    )}
 
     <ol class="flex items-center gap-1">
       {pages[0] > 1 && (
@@ -107,17 +123,19 @@ const nextHref = currentPage < totalPages ? href(currentPage + 1) : null;
       )}
     </ol>
 
-    <a
-      href={nextHref ?? undefined}
-      class:list={[
-        'inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background text-foreground-muted transition-colors',
-        nextHref ? 'hover:border-brand-500 hover:text-brand-500' : 'cursor-not-allowed opacity-40 pointer-events-none',
-      ]}
-      aria-label={t('pagination.nextPage', locale)}
-      aria-disabled={nextHref ? undefined : 'true'}
-      rel={nextHref ? 'next' : undefined}
-    >
-      <Icon name="arrow-right" size="sm" />
-    </a>
+    {nextHref ? (
+      <a
+        href={nextHref}
+        class:list={[arrowBase, arrowLive]}
+        aria-label={t('pagination.nextPage', locale)}
+        rel="next"
+      >
+        <Icon name="arrow-right" size="sm" />
+      </a>
+    ) : (
+      <span class:list={[arrowBase, arrowSpent]} aria-hidden="true">
+        <Icon name="arrow-right" size="sm" />
+      </span>
+    )}
   </nav>
 )}
