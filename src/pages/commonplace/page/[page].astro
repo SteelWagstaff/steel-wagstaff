@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '@/layouts/PageLayout.astro';
+import CommonplaceArchive from '@/components/commonplace/CommonplaceArchive.astro';
+import {
+  getCommonplacePageCount,
+  getCommonplacePageEntries,
+  getCommonplaceCounts,
+  sortCommonplaceEntries,
+} from '@/lib/commonplace';
+
+export async function getStaticPaths() {
+  const allItems = sortCommonplaceEntries(await getCollection('commonplace', ({ data }) => {
+    return !data.draft && data.locale === 'en';
+  }));
+  const totalPages = getCommonplacePageCount(allItems.length);
+
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+    const page = index + 2;
+    return {
+      params: { page: String(page) },
+      props: {
+        items: getCommonplacePageEntries(allItems, page),
+        totalItems: allItems.length,
+        currentPage: page,
+        totalPages,
+        counts: getCommonplaceCounts(allItems),
+      },
+    };
+  });
+}
+
+const { items, totalItems, currentPage, totalPages, counts } = Astro.props;
+---
+
+<PageLayout title={`The Commonplace, page ${currentPage}`} description="Words, images, songs worth remembering.">
+  <CommonplaceArchive
+    items={items}
+    totalItems={totalItems}
+    currentPage={currentPage}
+    totalPages={totalPages}
+    counts={counts}
+  />
+</PageLayout>

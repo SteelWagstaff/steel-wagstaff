@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '@/layouts/PageLayout.astro';
+import CommonplaceArchive from '@/components/commonplace/CommonplaceArchive.astro';
+import {
+  filterCommonplaceEntries,
+  getCommonplaceCounts,
+  getCommonplacePageCount,
+  getCommonplacePageEntries,
+  sortCommonplaceEntries,
+  type CommonplaceType,
+} from '@/lib/commonplace';
+
+export async function getStaticPaths() {
+  const types: CommonplaceType[] = ['photo', 'text', 'quote', 'video', 'audio'];
+  const allItems = sortCommonplaceEntries(await getCollection('commonplace', ({ data }) => {
+    return !data.draft && data.locale === 'en';
+  }));
+  const counts = getCommonplaceCounts(allItems);
+  const paths = [];
+
+  for (const type of types) {
+    const filteredItems = filterCommonplaceEntries(allItems, type);
+    const totalPages = getCommonplacePageCount(filteredItems.length);
+
+    for (let page = 1; page <= totalPages; page += 1) {
+      paths.push({
+        params: { type, page: String(page) },
+        props: {
+          items: getCommonplacePageEntries(filteredItems, page),
+          totalItems: filteredItems.length,
+          currentPage: page,
+          totalPages,
+          counts,
+          typeFilter: type,
+        },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { type, page } = Astro.params;
+const { items, totalItems, currentPage, totalPages, counts, typeFilter } = Astro.props;
+const label = type === 'photo' ? 'Images' : type ? `${type.charAt(0).toUpperCase()}${type.slice(1)}` : 'Commonplace';
+---
+
+<PageLayout title={`The Commonplace: ${label}`} description={`Commonplace ${type} entries.`}>
+  <CommonplaceArchive
+    items={items}
+    totalItems={totalItems}
+    currentPage={currentPage}
+    totalPages={totalPages}
+    counts={counts}
+    typeFilter={typeFilter}
+  />
+</PageLayout>
