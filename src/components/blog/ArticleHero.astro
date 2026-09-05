@@ -16,6 +16,7 @@ interface Props {
   title: string;
   description: string;
   readingTime: number;
+  author?: string;
   publishedAt: Date;
   updatedAt?: Date;
   tags?: string[];
@@ -29,6 +30,7 @@ const {
   title,
   description,
   readingTime,
+  author: _author,
   publishedAt,
   updatedAt,
   tags = [],

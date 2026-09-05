@@ -52,7 +52,6 @@ const getEpisodeUrl = (id: string) => {
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {episodes.map((episode, idx) => (
           <div
-            key={episode.id}
             data-reveal
             data-reveal-delay={idx % 3}
             class="h-full"

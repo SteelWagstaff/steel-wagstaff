@@ -12,6 +12,7 @@ interface Props {
   readingTime: number;
   href: string;
   publishedAt: Date;
+  author?: string;
   tags?: string[];
   featured?: boolean;
   image?: ImageMetadata;
@@ -25,6 +26,7 @@ const {
   readingTime,
   href,
   publishedAt,
+  author: _author,
   tags = [],
   image,
   imageAlt,

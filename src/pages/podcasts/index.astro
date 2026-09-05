@@ -51,7 +51,6 @@ const getEpisodeUrl = (id: string) => {
           </button>
           {podcasts.map((podcast) => (
             <button
-              key={podcast}
               data-filter={podcast}
               class="px-4 py-2 rounded-lg bg-background-secondary border border-border text-foreground text-sm font-medium hover:border-brand hover:text-brand transition-colors"
             >
@@ -65,7 +64,6 @@ const getEpisodeUrl = (id: string) => {
       <div class="flex flex-col gap-4">
         {episodes.map((episode, idx) => (
           <div
-            key={episode.id}
             data-reveal
             data-reveal-delay={idx % 2}
             class="episode-card"
@@ -131,7 +129,7 @@ const getEpisodeUrl = (id: string) => {
 
 <script>
   const filterButtons = document.querySelectorAll('button[data-filter]');
-  const episodeCards = document.querySelectorAll('.episode-card');
+  const episodeCards = document.querySelectorAll<HTMLElement>('.episode-card');
 
   filterButtons.forEach((button) => {
     button.addEventListener('click', () => {

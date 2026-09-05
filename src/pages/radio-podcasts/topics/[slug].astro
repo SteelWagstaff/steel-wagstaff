@@ -27,7 +27,11 @@ export async function getStaticPaths() {
 const { taxonomy, entries } = Astro.props;
 const getSlug = (id: string) => id.replace('en/', '');
 
-const getGrouping = (entry: typeof entries[number]) => {
+type MediaEntry =
+  | { entry: { id: string; data: { tags: string[]; podcast?: string } }; source: 'music' }
+  | { entry: { id: string; data: { tags: string[]; podcast?: string } }; source: 'podcasts' };
+
+const getGrouping = (entry: MediaEntry) => {
   if (entry.source === 'podcasts') {
     return { label: entry.entry.data.podcast, slug: entry.entry.data.podcast ? entry.entry.data.podcast.toLowerCase().replace(/\s+/g, '-') : undefined };
   }
