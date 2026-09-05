@@ -7,27 +7,19 @@ A personal website showcasing music, podcasts, writing, and blog content. Built 
 - **Blog** — Articles and posts
 - **Writing + Storytelling** — Articles, essays, and storytelling recordings
 - **Radio + Podcasts** — Music playlists and podcast episodes (Off the Chain, Theme Songs, Steel's Magnolias)
-- **The Commonplace** — Curated thoughts and ideas
+- **The Commonplace** — Curated text, images, video, and audio (originally imported from Tumblr)
 
 ---
 
 ## Recent Updates
 
-### Content & Migration
-- **Tumblr Import**: Successfully imported and migrated 1,494 Tumblr posts to the blog collection
-- **Wedding Post Recovery**: Restored missing wedding planning post content (song titles and descriptions) from WordPress XML archives
-- **Poetry Restoration**: Fixed poetry lineation in Belle Waring essay — restored 4 embedded poems with proper line breaks from original markup
 
 ### Tag System Improvements
-- **Tag Consolidation**: Analyzed all 120 unique tags across 105 blog posts, consolidated to 48 unique tags (60% reduction)
+- **Tag Consolidation**: Consolidated to 48 unique tags in blog (60% reduction). Niche single-use tags merged into broader categories.
 - **Tag Standardization**: Unified tag casing and naming conventions (Title Case throughout)
-- **Smart Tag Merging**: 
-  - Education technology variants (`educational-technology`, `education-technology`) → `Educational Technology`
-  - Author tags consolidated (`george-oppen`, `oppen`, `mary-oppen`) → `George Oppen`
-  - Niche single-use tags merged into broader categories
 
 ### UX & Design Enhancements
-- **Homepage Standardization**: Applied consistent responsive paragraph styling across "Who I am", "What I do", and contact sections using `space-y-4 text-lg text-foreground-muted leading-relaxed` pattern
+- **Homepage Standardization**: Applied consistent responsive paragraph styling across "Who I am", "What I do", and contact sections
 - **Blog Filter Enhancement**: 
   - Added tag frequency counting to filter dropdown
   - Implemented frequency-based sorting (highest to lowest usage)
@@ -36,10 +28,13 @@ A personal website showcasing music, podcasts, writing, and blog content. Built 
 
 ### Music & Content Creation
 - **Playlist Template System**: Created reusable template for "What I've Been Listening To" monthly playlists
-- **Monthly Playlists**: Generated 12 monthly playlist posts:
-  - **2025**: January–December (9 posts with featured images)
-  - **2026**: January–March (3 posts with featured images, pattern continues)
 - **Spotify Integration**: Each playlist includes Spotify embed URL and embed ID for direct player integration
+
+### Image Performance
+- **Build-Time Optimization**: Homepage, shared profile, and Commonplace images are optimized with Sharp during builds
+- **Modern Formats**: Generates responsive AVIF and WebP variants at 640px and 1280px widths, with original images retained as fallbacks
+- **Responsive Delivery**: Images use `<picture>` sources, responsive `sizes`, lazy loading, and prioritized loading for the homepage profile image
+- **Cached Output**: Generated files are written to `public/_optimized-images/` and ignored by Git; rerunning the optimizer only processes changed source files
 
 ---
 
@@ -72,16 +67,16 @@ pnpm preview    # Preview production build
 pnpm check      # Run type checker
 pnpm lint       # Run ESLint
 pnpm format     # Format code with Prettier
+node scripts/optimize-images.mjs  # Regenerate optimized AVIF/WebP assets
 ```
 
 ---
 
 ## Features
 
-- **12 color themes** — click a swatch in the header to change instantly
-- **Dark mode** — respects user preferences
 - **Responsive design** — mobile, tablet, and desktop
 - **Fast** — optimized for Core Web Vitals, zero JavaScript by default
+- **Optimized images** — responsive AVIF/WebP output for homepage and Commonplace media
 - **Animations** — smooth page transitions and scroll-triggered effects
 - **Built with Astro 6** — modern static site generator
 - **Tailwind CSS v4** — utility-first CSS with OKLCH colors
@@ -126,17 +121,6 @@ Your content here...
 
 ## Deployment
 
-### Vercel (Recommended)
-
-```bash
-vercel
-```
-
-### Netlify
-
-```bash
-netlify deploy --prod
-```
 
 ### Cloudflare Pages
 

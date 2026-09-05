@@ -48,6 +48,7 @@ test-results/
 
 # Pagefind
 public/pagefind/
+public/_optimized-images/
 
 # Claude Code
 .claude/

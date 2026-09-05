@@ -3,10 +3,11 @@
  * Converts Spotify URLs into embedded iframes
  */
 import { visit } from 'unist-util-visit';
+import type { Root } from 'mdast';
 import { extractSpotifyId, detectSpotifyType } from './spotify';
 
 export function remarkSpotifyEmbed() {
-  return (tree) => {
+  return (tree: Root) => {
     try {
       let foundSpotify = false;
       let replacementCount = 0;
@@ -44,7 +45,7 @@ export function remarkSpotifyEmbed() {
                 const embedUrl = `https://open.spotify.com/embed/${type}/${id}`;
 
                 const embedNode = {
-                  type: 'html',
+                  type: 'html' as const,
                   value: `<div class="spotify-embed-container my-8"><iframe src="${embedUrl}" width="100%" height="380" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify ${type}" style="border-radius: 12px; border: none;"></iframe></div>`,
                 };
 

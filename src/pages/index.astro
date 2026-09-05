@@ -6,6 +6,7 @@ import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Card from '@/components/ui/data-display/Card/Card.astro';
 import Icon from '@/components/ui/primitives/Icon/Icon.astro';
 import ConnectWithMe from '@/components/patterns/ConnectWithMe.astro';
+import OptimizedImage from '@/components/ui/content/OptimizedImage.astro';
 ---
 
 <LandingLayout
@@ -37,10 +38,13 @@ import ConnectWithMe from '@/components/patterns/ConnectWithMe.astro';
         <!-- Right Column: Profile Image -->
         <div class="flex items-center justify-center is-visible" data-reveal="true" data-reveal-delay="1">
           <div class="rounded-2xl overflow-hidden shadow-xl border-4 border-brand-500/20">
-              <img 
+              <OptimizedImage
                 src="/steel_wagstaff.jpg" 
                 alt="Steel Wagstaff" 
                 class="w-full h-full object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                loading="eager"
+                fetchpriority="high"
               />
           </div>
         </div>
@@ -55,10 +59,11 @@ import ConnectWithMe from '@/components/patterns/ConnectWithMe.astro';
         <!-- Left Column: Profile Image -->
         <div class="flex items-center justify-center is-visible" data-reveal>
           <div class="rounded-2xl overflow-hidden shadow-xl border-4 border-brand-500/20">
-            <img 
+            <OptimizedImage
               src="/pb_team.jpg" 
               alt="the Pressbooks Team" 
               class="w-full h-full object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
         </div>
@@ -194,10 +199,11 @@ import ConnectWithMe from '@/components/patterns/ConnectWithMe.astro';
         <!-- Right Column: Flower Image -->
         <div class="flex items-center justify-center is-visible" data-reveal="true" data-reveal-delay="1">
           <div class="rounded-2xl overflow-hidden shadow-xl border-4 border-brand-500/20">
-            <img 
+            <OptimizedImage
               src="/spring_camas.jpg" 
               alt="Spring camas" 
               class="w-full h-full object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
         </div>
