@@ -1,20 +1,36 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/" # Location of package manifests
+  - package-ecosystem: npm
+    directory: /
     schedule:
-      interval: "weekly"
-    allow: 
-      - dependency-type: "direct"
+      interval: weekly
+      day: monday
+    cooldown:
+      default-days: 5
+
+    allow:
+      - dependency-type: direct
+
     groups:
-      # All patch updates together.
-      patch-updates:
-        update-types: [ "patch" ]
+      production-minor-patch:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch
 
-      # All minor updates together.
-      minor-updates:
-        update-types: [ "minor" ]
+      development-minor-patch:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch
+    
+    labels:
+      - dependencies
+      - dependabot
 
-    # Space left: 5 PRs of ungrouped major updates.
-    open-pull-requests-limit: 5
-    versioning-strategy: "increase-if-necessary"
+    commit-message:
+      prefix: chore
+      include: scope
+
+    open-pull-requests-limit: 6
+    versioning-strategy: increase-if-necessary
