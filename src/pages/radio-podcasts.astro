@@ -2,7 +2,8 @@
 import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
 import PageLayout from '@/layouts/PageLayout.astro';
-import { formatDate } from '@/lib/utils';
+import DateMeta from '@/components/ui/data-display/DateMeta.astro';
+import MediaCard from '@/components/radio/MediaCard.astro';
 import { resolveMusicImage } from '@/lib/music-image-resolver';
 import heroImage from '@/assets/blog/IMG_1842.jpg';
 
@@ -74,57 +75,22 @@ const getSlug = (id: string) => id.replace('en/', '');
       
       <!-- Spotify Playlists -->
       <section>
-        <h2 class="text-3xl font-bold mb-2">What I've Been Listening To</h2>
+        <h2 class="text-3xl font-bold mb-2"><a href="/radio-podcasts/topics/playlists" class="hover:text-primary transition-colors">What I've Been Listening To</a></h2>
         <p class="text-muted-foreground mb-6">Monthly curated playlists of favorite tracks</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {playlists.map((item) => {
-            const resolvedImage = resolveMusicImage(item.data.image);
             return (
-            <a
-              href={`/music/${getSlug(item.id)}`}
-              class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
-            >
-              {resolvedImage && (
-                <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  {typeof resolvedImage === 'string' ? (
-                    <img 
-                      src={resolvedImage}
-                      alt={item.data.imageAlt || item.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <Image 
-                      src={resolvedImage}
-                      alt={item.data.imageAlt || item.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
-                  )}
-                </div>
-              )}
-              <div class="p-4">
-                <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
-                  {item.data.title}
-                </h3>
-                {item.data.description && (
-                  <p class="text-sm text-muted-foreground line-clamp-2 mt-2 mb-4">
-                    {item.data.description}
-                  </p>
-                )}
-                <p class="text-sm text-muted-foreground mt-2">
-                  {formatDate(item.data.publishedAt)}
-                </p>
-                {item.data.tags && item.data.tags.length > 0 && (
-                  <div class="flex flex-wrap gap-1 mt-3">
-                    {item.data.tags.map((tag) => (
-                      <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </a>
+              <MediaCard
+                title={item.data.title}
+                href={`/music/${getSlug(item.id)}`}
+                publishedAt={item.data.publishedAt}
+                description={item.data.description}
+                image={item.data.image}
+                imageAlt={item.data.imageAlt}
+                tags={item.data.tags}
+                groupLabel="Playlists"
+                groupSlug="playlists"
+              />
             );
           })}
         </div>
@@ -140,57 +106,22 @@ const getSlug = (id: string) => id.replace('en/', '');
         )}
       </section>
       <section>
-        <h2 class="text-3xl font-bold mb-2">Mixtapes</h2>
+        <h2 class="text-3xl font-bold mb-2"><a href="/radio-podcasts/topics/mixtapes" class="hover:text-primary transition-colors">Mixtapes</a></h2>
         <p class="text-muted-foreground mb-6">An assortment of mixtapes I've made as gifts for family and friends over the years. A lost art.</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {mixtapes.map((item) => {
-            const resolvedImage = resolveMusicImage(item.data.image);
             return (
-            <a
-              href={`/music/${getSlug(item.id)}`}
-              class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
-            >
-              {resolvedImage && (
-                <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  {typeof resolvedImage === 'string' ? (
-                    <img 
-                      src={resolvedImage}
-                      alt={item.data.imageAlt || item.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <Image 
-                      src={resolvedImage}
-                      alt={item.data.imageAlt || item.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
-                  )}
-                </div>
-              )}
-              <div class="p-4">
-                <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
-                  {item.data.title}
-                </h3>
-                {item.data.description && (
-                  <p class="text-sm text-muted-foreground mt-1 line-clamp-2">
-                    {item.data.description}
-                  </p>
-                )}
-                <p class="text-sm text-muted-foreground mt-2">
-                  {formatDate(item.data.publishedAt)}
-                </p>
-                {item.data.tags && item.data.tags.length > 0 && (
-                  <div class="flex flex-wrap gap-1 mt-3">
-                    {item.data.tags.map((tag) => (
-                      <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </a>
+              <MediaCard
+                title={item.data.title}
+                href={`/music/${getSlug(item.id)}`}
+                publishedAt={item.data.publishedAt}
+                description={item.data.description}
+                image={item.data.image}
+                imageAlt={item.data.imageAlt}
+                tags={item.data.tags}
+                groupLabel="Mixtapes"
+                groupSlug="mixtapes"
+              />
             );
           })}
         </div>
@@ -206,57 +137,22 @@ const getSlug = (id: string) => id.replace('en/', '');
         )}
       </section>
 <section>
-        <h2 class="text-3xl font-bold mb-2">Steel's Magnolias</h2>
+        <h2 class="text-3xl font-bold mb-2"><a href="/radio-podcasts/topics/steels-magnolias" class="hover:text-primary transition-colors">Steel's Magnolias</a></h2>
         <p class="text-muted-foreground mb-6">For several months in 2012, I hosted Steel's Magnolias, a weekly music show on <a href="https://wsum.org/" class="text-brand-500 hover:underline">WSUM</a> (91.7FM in Madison), the University of Wisconsin-Madison's student radio station. On each episode I'd play an hour or two of music organized around a single shared theme. Sadly, I had to stop making the show when I started a full-time job at the university. You can listen to old episodes below:</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {steelsMagnolias.map((item) => {
-            const resolvedImage = resolveMusicImage(item.data.image);
             return (
-            <a
-              href={`/music/${getSlug(item.id)}`}
-              class="group block rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all overflow-hidden"
-            >
-              {resolvedImage && (
-                <div class="aspect-[3/2] bg-muted overflow-hidden">
-                  {typeof resolvedImage === 'string' ? (
-                    <img 
-                      src={resolvedImage}
-                      alt={item.data.imageAlt || item.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <Image 
-                      src={resolvedImage}
-                      alt={item.data.imageAlt || item.data.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
-                  )}
-                </div>
-              )}
-              <div class="p-4">
-                <h3 class="font-semibold group-hover:text-primary transition-colors line-clamp-2">
-                  {item.data.title}
-                </h3>
-                {item.data.description && (
-                  <p class="text-sm text-muted-foreground mt-1 line-clamp-2">
-                    {item.data.description}
-                  </p>
-                )}
-                <p class="text-sm text-muted-foreground mt-2">
-                  {formatDate(item.data.publishedAt)}
-                </p>
-                {item.data.tags && item.data.tags.length > 0 && (
-                  <div class="flex flex-wrap gap-1 mt-3">
-                    {item.data.tags.map((tag) => (
-                      <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </a>
+              <MediaCard
+                title={item.data.title}
+                href={`/music/${getSlug(item.id)}`}
+                publishedAt={item.data.publishedAt}
+                description={item.data.description}
+                image={item.data.image}
+                imageAlt={item.data.imageAlt}
+                tags={item.data.tags}
+                groupLabel="Steel's Magnolias"
+                groupSlug="steels-magnolias"
+              />
             );
           })}
         </div>
@@ -274,7 +170,7 @@ const getSlug = (id: string) => id.replace('en/', '');
       
       <!-- OTC with Dave & Steel -->
       <section>
-        <h2 class="text-3xl font-bold mb-2">Off the Chain Podcast</h2>
+        <h2 class="text-3xl font-bold mb-2"><a href="/radio-podcasts/topics/off-the-chain" class="hover:text-primary transition-colors">Off the Chain Podcast</a></h2>
         <p class="text-muted-foreground mb-6">In January 2015 I started making a Off the Chain with Dave & Steel, a DIY podcast with my old college roommate <a href="https://asknursedave.blogspot.com/" class="text-brand-500 hover:underline">Dave Jenson</a>. We ran it as a ramshackle variety show, with regular segments dedicated to things Dave loves (action movies, incredible feats of human endurance, children’s books), things I love (terrible haircuts, unusual names, documentary films) and things we both love (sports, music, & literature).</p>
         <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {offTheChain.map((item) => {
@@ -311,9 +207,10 @@ const getSlug = (id: string) => id.replace('en/', '');
                     {item.data.description}
                   </p>
                 )}
-                <p class="text-sm text-muted-foreground mt-2">
-                  Episode {item.data.episode} • {formatDate(item.data.publishedAt)}
-                </p>
+                <div class="mt-2 flex items-center gap-1 text-sm text-muted-foreground">
+                  Episode {item.data.episode} •
+                  <DateMeta date={item.data.publishedAt} />
+                </div>
               </div>
             </a>
             );
@@ -334,7 +231,7 @@ const getSlug = (id: string) => id.replace('en/', '');
       <!-- Theme Songs Podcast -->
       {themeSongs.length > 0 && (
         <section>
-          <h2 class="text-3xl font-bold mb-2">Theme Songs Podcast</h2>
+          <h2 class="text-3xl font-bold mb-2"><a href="/radio-podcasts/topics/theme-songs" class="hover:text-primary transition-colors">Theme Songs Podcast</a></h2>
           <p class="text-muted-foreground mb-6">After 70+ episodes of Off the Chain, we retired the show and started making a new music-themed podcast called Theme Songs, which ran from August 2017-March 2018. We typically invited old friends on the show as guests, giving us an excuse to catch up with them as much as anything else.</p>
           <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {themeSongs.map((item) => {
@@ -371,9 +268,10 @@ const getSlug = (id: string) => id.replace('en/', '');
                       {item.data.description}
                     </p>
                   )}
-                  <p class="text-sm text-muted-foreground mt-2">
-                    {item.data.episode && `Episode ${item.data.episode} • `}{formatDate(item.data.publishedAt)}
-                  </p>
+                  <div class="mt-2 flex items-center gap-1 text-sm text-muted-foreground">
+                    {item.data.episode && `Episode ${item.data.episode} • `}
+                    <DateMeta date={item.data.publishedAt} />
+                  </div>
                 </div>
               </a>
               );

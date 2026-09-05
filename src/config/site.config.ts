@@ -66,8 +66,9 @@ const siteConfig: SiteConfig = {
   author: 'Steel Wagstaff',
   email: 'steelwagstaff@gmail.com',
   socialLinks: [
-    'https://github.com/steelwagstaff',
     'https://www.linkedin.com/in/steel-wagstaff/',
+    'https://social.coop/@steelwagstaff',
+    'https://github.com/steelwagstaff',
   ],
   verification: {
     google: GOOGLE_SITE_VERIFICATION,
