@@ -12,8 +12,26 @@ role: "Designer & Developer"
 services: ["Design System", "Component Library", "Open Source"]
 meta: ["Free & open source", "MIT licence", "Astro 7", "Lighthouse 4×100"]
 icon: "rocket"
-image: "../../../assets/projects/hans-martens-dev-astro-rocket.jpg"
-imageAlt: "Astro Rocket — my open-source Astro 7 theme, shown on its astrorocket.dev demo."
+image: "../../../assets/projects/astro-rocket-hero-blue.jpg"
+imageAlt: "The Astro Rocket homepage hero in Blue, the default colour theme."
+# Multiple images? Add a `gallery` array and the hero swaps the single
+# `image` for a swipeable carousel. The first slide is the lead image.
+# (Galleries render on the project detail page, so a project with one has
+# to be routable — placeholder projects only appear as cards.)
+#
+# A slide can also be a self-hosted video: drop the file in `public/`
+# and give it a poster image (required — the slide costs zero bytes
+# until the visitor presses play). Uncomment the example below to try.
+gallery:
+#  - video: "/videos/demo.mp4"
+#    poster: "../../../assets/projects/astro-rocket-hero-blue.jpg"
+#    alt: "Product demo video"
+  - src: "../../../assets/projects/astro-rocket-hero-blue.jpg"
+    alt: "The Astro Rocket homepage hero in Blue, the default colour theme."
+  - src: "../../../assets/projects/astro-rocket-hero-purple.jpg"
+    alt: "The same homepage hero in the Purple colour theme."
+  - src: "../../../assets/projects/astro-rocket-hero-teal.jpg"
+    alt: "The same homepage hero in the Teal colour theme."
 ---
 
 import LighthouseScoresGrid from '@/components/landing/LighthouseScoresGrid.astro';
