@@ -88,7 +88,7 @@ const getShowUrl = (id: string) => {
                     {show.data.tags?.length > 0 && (
                       <div class="flex gap-1">
                         {show.data.tags.slice(0, 2).map((tag) => (
-                          <Badge key={tag} variant="subtle" size="sm">
+                          <Badge variant="subtle" size="sm">
                             {tag}
                           </Badge>
                         ))}

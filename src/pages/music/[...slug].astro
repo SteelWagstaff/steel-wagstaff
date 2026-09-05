@@ -72,7 +72,7 @@ if (playlist.id.includes('show-')) {
             <div class="flex flex-wrap gap-2">
               {playlist.data.tags.map((tag) => (
                 <a href={`/radio-podcasts/topics/${slugifyTaxonomyLabel(tag)}`}>
-                  <Badge key={tag} variant="subtle">
+                  <Badge variant="subtle">
                     {tag}
                   </Badge>
                 </a>

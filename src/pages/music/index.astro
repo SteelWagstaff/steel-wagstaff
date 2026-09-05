@@ -83,7 +83,7 @@ const getPlaylistUrl = (id: string) => {
                     {playlist.data.tags?.length > 0 && (
                       <div class="flex gap-1">
                         {playlist.data.tags.slice(0, 2).map((tag) => (
-                          <Badge key={tag} variant="subtle" size="sm">
+                          <Badge variant="subtle" size="sm">
                             {tag}
                           </Badge>
                         ))}

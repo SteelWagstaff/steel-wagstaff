@@ -88,7 +88,7 @@ if (episode.data.podcast === 'Off the Chain') {
             <div class="flex flex-wrap gap-2">
               {episode.data.tags.map((tag) => (
                 <a href={`/radio-podcasts/topics/${slugifyTaxonomyLabel(tag)}`}>
-                  <Badge key={tag} variant="subtle" size="sm">
+                  <Badge variant="subtle" size="sm">
                     {tag}
                   </Badge>
                 </a>
