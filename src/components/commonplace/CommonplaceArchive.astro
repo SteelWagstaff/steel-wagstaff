@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import type { CommonplaceCounts, CommonplaceType } from '@/lib/commonplace';
+import OptimizedImage from '@/components/ui/content/OptimizedImage.astro';
 
 interface Props {
   items: CollectionEntry<'commonplace'>[];
@@ -40,12 +41,14 @@ const typeIconColors = {
   text: 'text-teal-400',
 } as const;
 
-const typeStats: Array<{ type: CommonplaceType; label: string; count: number; color: string }> = [
+const typeStats = ([
   { type: 'text', label: 'Text', count: counts.text, color: 'text-teal-400' },
   { type: 'photo', label: 'Images', count: counts.photo, color: 'text-blue-400' },
   { type: 'video', label: 'Videos', count: counts.video, color: 'text-violet-400' },
   { type: 'audio', label: 'Audio', count: counts.audio, color: 'text-orange-400' },
-].sort((a, b) => b.count - a.count);
+] satisfies Array<{ type: CommonplaceType; label: string; count: number; color: string }>).sort(
+  (a, b) => b.count - a.count
+);
 ---
 
 <div class="mx-auto max-w-6xl space-y-10 px-6 py-12">
@@ -89,12 +92,12 @@ const typeStats: Array<{ type: CommonplaceType; label: string; count: number; co
             <div class="flex flex-col gap-4 p-5">
               {item.data.type === 'photo' && item.data.image && (
                 <div class="w-full overflow-hidden rounded-md bg-background-secondary">
-                  <img
+                  <OptimizedImage
                     src={`/${item.data.image}`.replace(/^\/+/, '/')}
                     alt={item.data.imageAlt || item.data.title || 'Commonplace image'}
-                      class="block h-auto w-full"
+                    class="block h-auto w-full"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     loading="lazy"
-                      decoding="async"
                   />
                 </div>
               )}

@@ -1,0 +1,22 @@
+---
+import { getOptimizedImageSources } from '@/lib/optimized-images';
+
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  sizes?: string;
+  loading?: 'eager' | 'lazy';
+  fetchpriority?: 'high' | 'low' | 'auto';
+}
+
+const { src, alt, class: className, sizes = '100vw', loading = 'lazy', fetchpriority = 'auto' } = Astro.props;
+const sources = getOptimizedImageSources(src);
+const sourceSet = (urls: string[]) => urls.map((url, index) => `${url} ${[640, 1280][index]}w`).join(', ');
+---
+
+<picture>
+  <source type="image/avif" srcset={sourceSet(sources.avif)} sizes={sizes} />
+  <source type="image/webp" srcset={sourceSet(sources.webp)} sizes={sizes} />
+  <img src={src} alt={alt} class={className} sizes={sizes} loading={loading} decoding="async" fetchpriority={fetchpriority} />
+</picture>

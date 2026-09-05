@@ -246,7 +246,7 @@ function buildSource(doc) {
   h = h.replace(/<a[^>]*>(.*?)<\/a>/gis, '$1');
   h = h.replace(/<[^>]+>/g, '');
   let source = decodeEntities(h).trim();
-  source = source.replace(/\s*\(via\s+[^\)]+\)/gi, '').trim();
+  source = source.replace(/\s*\(via\s+[^)]+\)/gi, '').trim();
   source = source.replace(/[,;]+$/, '').trim();
   return source;
 }

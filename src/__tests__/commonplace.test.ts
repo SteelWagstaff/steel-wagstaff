@@ -17,6 +17,6 @@ describe('Commonplace pagination', () => {
 
   it('calculates at least one page for an empty archive', () => {
     expect(getCommonplacePageCount(0)).toBe(1);
-    expect(getCommonplacePageCount(101)).toBe(3);
+    expect(getCommonplacePageCount(51)).toBe(3);
   });
 });

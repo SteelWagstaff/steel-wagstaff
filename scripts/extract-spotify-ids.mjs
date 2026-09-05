@@ -26,7 +26,7 @@ function extractSpotifyId(url) {
   if (uriMatch) return uriMatch[2];
 
   // URL format: open.spotify.com/[type]/[id] or open.spotify.com/user/[user]/[type]/[id]
-  const urlMatch = url.match(/open\.spotify\.com(?:\/user\/[^\/]+)?\/(?:playlist|album|track)\/([a-zA-Z0-9]+)/);
+  const urlMatch = url.match(/open\.spotify\.com(?:\/user\/[^/]+)?\/(?:playlist|album|track)\/([a-zA-Z0-9]+)/);
   if (urlMatch) return urlMatch[1];
 
   // Fallback: check if it's already just an ID

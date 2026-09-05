@@ -26,8 +26,8 @@
     "url": "https://github.com/hansmartens68/astro-rocket/issues"
   },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "node scripts/optimize-images.mjs && astro dev",
+    "build": "node scripts/optimize-images.mjs && astro build",
     "preview": "astro preview",
     "check": "astro check",
     "lint": "eslint .",
@@ -72,6 +72,7 @@
     "@playwright/test": "^1.62.1",
     "@tailwindcss/vite": "^4.3.3",
     "@types/js-yaml": "^4.0.9",
+    "@types/mdast": "^4.0.4",
     "@types/node": "^22.20.1",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
