@@ -5,6 +5,7 @@ import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Card from '@/components/ui/data-display/Card/Card.astro';
 import SpotifyEmbed from '@/components/ui/content/SpotifyEmbed/SpotifyEmbed.astro';
 import { extractSpotifyId, detectSpotifyType } from '@/lib/spotify';
+import { slugifyTaxonomyLabel } from '@/lib/taxonomy';
 
 export async function getStaticPaths() {
   const playlists = await getCollection('music', ({ data }) => {
@@ -70,9 +71,11 @@ if (playlist.id.includes('show-')) {
           {playlist.data.tags?.length > 0 && (
             <div class="flex flex-wrap gap-2">
               {playlist.data.tags.map((tag) => (
-                <Badge key={tag} variant="subtle">
-                  {tag}
-                </Badge>
+                <a href={`/radio-podcasts/topics/${slugifyTaxonomyLabel(tag)}`}>
+                  <Badge key={tag} variant="subtle">
+                    {tag}
+                  </Badge>
+                </a>
               ))}
             </div>
           )}

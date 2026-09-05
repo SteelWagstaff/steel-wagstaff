@@ -5,6 +5,7 @@ import { formatDate } from '@/lib/utils';
 import Logo from '@/components/ui/marketing/Logo/Logo.astro';
 import BlogImageSVG from '@/components/blog/BlogImageSVG.astro';
 import Breadcrumbs from '@/components/seo/Breadcrumbs.astro';
+import { slugifyTaxonomyLabel } from '@/lib/taxonomy';
 
 interface BreadcrumbItem {
   label: string;
@@ -14,6 +15,7 @@ interface BreadcrumbItem {
 interface Props {
   title: string;
   description: string;
+  readingTime: number;
   publishedAt: Date;
   updatedAt?: Date;
   tags?: string[];
@@ -26,6 +28,7 @@ interface Props {
 const {
   title,
   description,
+  readingTime,
   publishedAt,
   updatedAt,
   tags = [],
@@ -35,10 +38,6 @@ const {
   breadcrumbs = [],
 } = Astro.props;
 
-// Estimate reading time
-const wordsPerMinute = 200;
-const estimatedWords = description.split(' ').length * 15;
-const readingTime = Math.max(1, Math.ceil(estimatedWords / wordsPerMinute));
 ---
 
 <header class="relative overflow-hidden pt-[var(--space-page-top-sm)] pb-[var(--space-stack-lg)]">
@@ -47,9 +46,9 @@ const readingTime = Math.max(1, Math.ceil(estimatedWords / wordsPerMinute));
     {tags.length > 0 && (
       <div class="mb-[var(--space-heading-gap)] flex flex-wrap gap-2">
         {tags.map((tag) => (
-          <span class="inline-flex items-center rounded-full bg-brand-100 dark:bg-brand-900/30 px-3 py-1 text-xs font-semibold text-brand-700 dark:text-brand-300 ring-1 ring-inset ring-brand-200 dark:ring-brand-800">
+          <a href={`/blog?tag=${slugifyTaxonomyLabel(tag)}`} class="inline-flex items-center rounded-full bg-brand-100 dark:bg-brand-900/30 px-3 py-1 text-xs font-semibold text-brand-700 dark:text-brand-300 ring-1 ring-inset ring-brand-200 dark:ring-brand-800 hover:bg-brand-200 dark:hover:bg-brand-800">
             {tag}
-          </span>
+          </a>
         ))}
       </div>
     )}

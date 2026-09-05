@@ -3,13 +3,11 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import BlogCard from '@/components/blog/BlogCard.astro';
 import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Icon from '@/components/ui/primitives/Icon/Icon.astro';
-import CTA from '@/components/ui/marketing/CTA/CTA.astro';
+import ConnectWithMe from '@/components/patterns/ConnectWithMe.astro';
 import { Hero } from '@/components/hero';
 import { getCollection } from 'astro:content';
-import siteConfig from '@/config/site.config';
-import { resolveSocialLinks } from '@/lib/utils';
-
-const socialLinks = resolveSocialLinks(siteConfig.socialLinks);
+import { getReadingTime } from '@/lib/utils';
+import { slugifyTaxonomyLabel } from '@/lib/taxonomy';
 
 // Get all published posts (exclude drafts)
 const allPosts = await getCollection('blog', ({ data }) => {
@@ -30,13 +28,16 @@ const regularPosts = nonFeaturedPosts.length > 0 ? nonFeaturedPosts : posts;
 
 // Collect all unique tags with counts, sorted by count (descending)
 const tagCounts: Record<string, number> = {};
+const tagLabels: Record<string, string> = {};
 posts.forEach((post) => {
   post.data.tags.forEach((tag) => {
-    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+    const slug = slugifyTaxonomyLabel(tag);
+    tagLabels[slug] ||= tag;
+    tagCounts[slug] = (tagCounts[slug] || 0) + 1;
   });
 });
 const allTags = Object.keys(tagCounts).sort(
-  (a, b) => tagCounts[b] - tagCounts[a]
+  (a, b) => tagCounts[b] - tagCounts[a] || tagLabels[a].localeCompare(tagLabels[b])
 );
 
 const getPostUrl = (postId: string) => {
@@ -55,7 +56,7 @@ const getPostUrl = (postId: string) => {
 
     <h1 slot="title">Blog</h1>
 
-    <p slot="description">Essays and reflections on poetry, culture, technology, open education, and anything else that captures my attention.</p>
+    <p slot="description">Essays and reflections on poetry, culture, technology, memory, open education, or other things that capture my attention.</p>
   </Hero>
 
   <!-- Featured Posts Section -->
@@ -69,10 +70,11 @@ const getPostUrl = (postId: string) => {
 
           <div class="grid gap-6 md:grid-cols-2" data-reveal data-reveal-delay="1">
             {featuredPosts.map((post) => (
-              <div class="post-card" data-tags={JSON.stringify(post.data.tags)}>
+              <div class="post-card" data-tags={JSON.stringify(post.data.tags.map(slugifyTaxonomyLabel))}>
                 <BlogCard
                   title={post.data.title}
                   description={post.data.description}
+                  readingTime={getReadingTime(post.body ?? '')}
                   href={getPostUrl(post.id)}
                   publishedAt={post.data.publishedAt}
                   tags={post.data.tags}
@@ -110,7 +112,7 @@ const getPostUrl = (postId: string) => {
               >
                 <option value="all">All posts</option>
                 {allTags.map((tag) => (
-                  <option value={tag}>{tag} ({tagCounts[tag]})</option>
+                  <option value={tag}>{tagLabels[tag]} ({tagCounts[tag]})</option>
                 ))}
               </select>
               <span class="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-foreground-muted">
@@ -128,10 +130,11 @@ const getPostUrl = (postId: string) => {
         regularPosts.length > 0 ? (
           <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" data-reveal data-reveal-delay="1">
             {regularPosts.map((post) => (
-              <div class="post-card" data-tags={JSON.stringify(post.data.tags)}>
+              <div class="post-card" data-tags={JSON.stringify(post.data.tags.map(slugifyTaxonomyLabel))}>
                 <BlogCard
                   title={post.data.title}
                   description={post.data.description}
+                  readingTime={getReadingTime(post.body ?? '')}
                   href={getPostUrl(post.id)}
                   publishedAt={post.data.publishedAt}
                   tags={post.data.tags}
@@ -162,39 +165,7 @@ const getPostUrl = (postId: string) => {
     </div>
   </section>
 
-  <!-- Follow CTA Section -->
-  <CTA variant="default" size="md" maxWidth="lg" glow={false} data-reveal class:list={[featuredPosts.length > 0 && '!bg-background-secondary']}>
-    <h2 slot="heading" class="!text-4xl">Follow along</h2>
-    <p slot="description" class="!text-lg text-balance">Stay in the loop — new articles, thoughts, and updates.</p>
-
-    <div class="flex flex-wrap items-center justify-center gap-3">
-      <a
-        href="/rss.xml"
-        class="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-brand-500 hover:text-brand-500"
-      >
-        <Icon name="rss" size="sm" />
-        RSS Feed
-      </a>
-      {socialLinks.map((link) => (
-        <a
-          href={link.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-brand-500 hover:text-brand-500"
-        >
-          <Icon name={link.icon} size="sm" />
-          {link.label}
-        </a>
-      ))}
-      <a
-        href={`mailto:${siteConfig.email}`}
-        class="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-brand-500 hover:text-brand-500"
-      >
-        <Icon name="mail" size="sm" />
-        Email
-      </a>
-    </div>
-  </CTA>
+  <ConnectWithMe />
 </PageLayout>
 
 <style>
@@ -214,8 +185,7 @@ const getPostUrl = (postId: string) => {
 
     if (!select) return;
 
-    select.addEventListener('change', () => {
-      const tag = select.value;
+    const applyFilter = (tag: string) => {
 
       if (tag === 'all') {
         cards.forEach((card) => card.style.removeProperty('display'));
@@ -251,7 +221,15 @@ const getPostUrl = (postId: string) => {
         filterCount.textContent = `${visibleCount} post${visibleCount !== 1 ? 's' : ''}`;
         filterCount.classList.remove('hidden');
       }
-    });
+    };
+
+    select.addEventListener('change', () => applyFilter(select.value));
+
+    const requestedTag = new URLSearchParams(window.location.search).get('tag');
+    if (requestedTag && select.querySelector(`option[value="${CSS.escape(requestedTag)}"]`)) {
+      select.value = requestedTag;
+      applyFilter(requestedTag);
+    }
   }
 
   document.addEventListener('astro:page-load', initTagFilter);

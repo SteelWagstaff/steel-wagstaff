@@ -1,6 +1,7 @@
 ---
 import BlogCard from './BlogCard.astro';
 import { getCollection } from 'astro:content';
+import { getReadingTime } from '@/lib/utils';
 
 interface Props {
   currentSlug: string;
@@ -54,6 +55,7 @@ const getPostUrl = (postId: string) => {
         <BlogCard
           title={post.data.title}
           description={post.data.description}
+          readingTime={getReadingTime(post.body ?? '')}
           href={getPostUrl(post.id)}
           publishedAt={post.data.publishedAt}
           tags={post.data.tags}
