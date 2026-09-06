@@ -4,7 +4,7 @@ publishedAt: 2016-02-26
 author: steel
 podcast: "Off the Chain"
 episode: 51
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_051.mp3"
+audioUrl: "/podcasts/episode_051.mp3"
 imageAlt: "Episode 51: Hey, Sister!"
 tags: []
 draft: false

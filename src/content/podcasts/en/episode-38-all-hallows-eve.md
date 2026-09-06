@@ -4,7 +4,7 @@ publishedAt: 2015-10-30
 author: steel
 podcast: "Off the Chain"
 episode: 38
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_038.mp3"
+audioUrl: "/podcasts/episode_038.mp3"
 image: "../../../assets/podcasts/10601198054_0a503594d2_b_ghost.jpg"
 imageAlt: "Episode 38: All Hallows&#039; Eve!"
 tags: []

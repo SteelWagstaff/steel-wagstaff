@@ -4,7 +4,7 @@ publishedAt: 2016-07-15
 author: steel
 podcast: "Off the Chain"
 episode: 60
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_060.mp3"
+audioUrl: "/podcasts/episode_060.mp3"
 image: "../../../assets/podcasts/steve_von_bergen.jpg"
 imageAlt: "Episode 60: Art Talk with Jack Bangerter"
 tags: []

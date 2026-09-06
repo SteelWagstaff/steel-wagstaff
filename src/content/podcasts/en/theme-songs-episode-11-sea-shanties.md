@@ -4,6 +4,7 @@ publishedAt: 2018-01-02
 author: steel
 podcast: "Theme Songs"
 episode: 11
+audioUrl: "/podcasts/ts_011.mp3"
 image: "../../../assets/podcasts/Boxwood-76-gun-ship-of-the-line-det.jpg"
 imageAlt: "Theme Songs, Episode 11: Sea Shanties"
 tags: []

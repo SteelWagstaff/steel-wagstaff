@@ -4,7 +4,7 @@ publishedAt: 2015-09-18
 author: steel
 podcast: "Off the Chain"
 episode: 33
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_033.mp3"
+audioUrl: "/podcasts/episode_033.mp3"
 imageAlt: "Episode 33: Small Town USA, Small Talk, To the Limits, Great Moments in Advertising History, OTC Hall of Fame, Unchained Melodies: 6 Degrees of Kevin Bacon, and &quot;Pig in First Person&quot;"
 tags: []
 draft: false

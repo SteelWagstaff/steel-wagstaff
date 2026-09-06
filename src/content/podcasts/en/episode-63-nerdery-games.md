@@ -4,7 +4,7 @@ publishedAt: 2016-09-02
 author: steel
 podcast: "Off the Chain"
 episode: 63
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_063.mp3"
+audioUrl: "/podcasts/episode_063.mp3"
 image: "../../../assets/podcasts/stratego.jpg"
 imageAlt: "Episode 63: On Nerdery and Games"
 tags: []

@@ -4,7 +4,7 @@ publishedAt: 2015-06-05
 author: steel
 podcast: "Off the Chain"
 episode: 19
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_019.mp3"
+audioUrl: "/podcasts/episode_019.mp3"
 image: "../../../assets/podcasts/pillsbury-toasters-strudel-hans-strudel-large-6.jpg"
 imageAlt: "Episode 19: Hug Daddy Game, Top 5 Norwegian Words, Small Talk, Expert Testimony: Ask the Marketer, Brother vs. Brother, Unchained Melodies, and East of Eden"
 tags: []

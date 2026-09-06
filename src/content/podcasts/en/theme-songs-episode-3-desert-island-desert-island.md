@@ -7,6 +7,7 @@ episode: 3
 tags: []
 draft: false
 locale: en
+audioUrl: "/podcasts/ts_003.mp3"
 image: "../../../assets/podcasts/26729308786_4d416c6931_c.jpg"
 imageAlt: "Desert island scene"
 ---

@@ -4,7 +4,7 @@ publishedAt: 2015-05-29
 author: steel
 podcast: "Off the Chain"
 episode: 18
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_018.mp3"
+audioUrl: "/podcasts/episode_018.mp3"
 image: "../../../assets/podcasts/IMG_0576.jpg"
 imageAlt: "Episode 18: Name of the Year, OTC Vacations, To the Limits, Unchained Melodies: Fight Edition, and White Noise"
 tags: []

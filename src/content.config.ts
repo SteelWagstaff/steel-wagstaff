@@ -128,7 +128,7 @@ const podcasts = defineCollection({
     podcast: z.string(), // "Off the Chain" or "Theme Songs"
     season: z.number().optional(),
     episode: z.number().optional(),
-    audioUrl: z.string().url().optional(),
+    audioUrl: z.union([z.string().url(), z.string().startsWith('/')]).optional(),
     duration: z.string().optional(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),

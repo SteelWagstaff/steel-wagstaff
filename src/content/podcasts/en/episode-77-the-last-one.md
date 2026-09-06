@@ -4,7 +4,7 @@ publishedAt: 2017-08-04
 author: steel
 podcast: "Off the Chain"
 episode: 77
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_077.mp3"
+audioUrl: "/podcasts/episode_077.mp3"
 image: "../../../assets/podcasts/awesome_city_spartan_090.jpg"
 imageAlt: "Episode 77: The Last One"
 tags: []

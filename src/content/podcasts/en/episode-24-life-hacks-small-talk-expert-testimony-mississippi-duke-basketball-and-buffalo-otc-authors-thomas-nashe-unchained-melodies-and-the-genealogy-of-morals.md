@@ -4,7 +4,7 @@ publishedAt: 2015-07-10
 author: steel
 podcast: "Off the Chain"
 episode: 24
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_024.mp3"
+audioUrl: "/podcasts/episode_024.mp3"
 image: "../../../assets/podcasts/sepp.jpg"
 imageAlt: "Episode 24: Life Hacks, Small Talk, Expert Testimony: Mississippi, Duke Basketball, and Buffalo!, OTC Authors: Thomas Nashe, Unchained Melodies, and The Genealogy of Morals"
 tags: []
