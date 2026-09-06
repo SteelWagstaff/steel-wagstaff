@@ -4,7 +4,7 @@ publishedAt: 2015-06-12
 author: steel
 podcast: "Off the Chain"
 episode: 20
-audioUrl: "/podcasts/episode_020.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_020.mp3"
 image: "../../../assets/podcasts/jon.gif"
 imageAlt: "Episode 20: The Tennant, OTC Time Travel, Ask OTC, Brother vs. Brother, Unchained Melodies, and Richard Feynman"
 tags: []

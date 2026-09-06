@@ -4,7 +4,7 @@ publishedAt: 2016-04-29
 author: steel
 podcast: "Off the Chain"
 episode: 54
-audioUrl: "/podcasts/episode_054.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_054.mp3"
 tags: ["assigned-reading", "book-wisdom", "childrens-books", "expert-testimony", "otc-parenting", "unchained-melodies"]
 draft: false
 locale: en

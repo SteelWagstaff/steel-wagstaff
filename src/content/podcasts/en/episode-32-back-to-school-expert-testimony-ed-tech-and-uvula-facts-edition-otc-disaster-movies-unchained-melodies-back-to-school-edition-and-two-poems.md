@@ -4,7 +4,7 @@ publishedAt: 2015-09-11
 author: steel
 podcast: "Off the Chain"
 episode: 32
-audioUrl: "/podcasts/episode_032.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_032.mp3"
 image: "../../../assets/podcasts/14802054903_88a1334d53_b_uvula-e1441404090943.jpg"
 imageAlt: "Episode 32: Back to School, Expert Testimony: Ed Tech and Uvula Facts Edition, OTC Disaster Movies, Unchained Melodies: Back to School Edition, and Two Poems"
 tags: []

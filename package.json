@@ -26,8 +26,9 @@
     "url": "https://github.com/hansmartens68/astro-rocket/issues"
   },
   "scripts": {
-    "dev": "node scripts/optimize-images.mjs && astro dev",
-    "build": "node scripts/optimize-images.mjs && astro build",
+    "dev": "astro dev",
+    "images:optimize": "node scripts/optimize-images.mjs",
+    "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
     "lint": "eslint .",

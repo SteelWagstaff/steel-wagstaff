@@ -48,7 +48,9 @@ test-results/
 
 # Pagefind
 public/pagefind/
-public/_optimized-images/
+
+# Podcast audio is hosted on media.steelwagstaff.info.
+public/podcasts/*.mp3
 
 # Claude Code
 .claude/

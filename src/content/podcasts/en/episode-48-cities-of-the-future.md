@@ -4,7 +4,7 @@ publishedAt: 2016-01-29
 author: steel
 podcast: "Off the Chain"
 episode: 48
-audioUrl: "/podcasts/episode_048.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_048.mp3"
 image: "../../../assets/podcasts/gold_donut.jpg"
 imageAlt: "Episode 48: Cities of the Future"
 tags: []

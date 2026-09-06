@@ -31,10 +31,10 @@ A personal website showcasing music, podcasts, writing, and blog content. Built 
 - **Spotify Integration**: Each playlist includes Spotify embed URL and embed ID for direct player integration
 
 ### Image Performance
-- **Build-Time Optimization**: Homepage, shared profile, and Commonplace images are optimized with Sharp during builds
+- **Pre-Deploy Optimization**: Homepage, shared profile, and Commonplace images are optimized with Sharp when image sources change
 - **Modern Formats**: Generates responsive AVIF and WebP variants at 640px and 1280px widths, with original images retained as fallbacks
 - **Responsive Delivery**: Images use `<picture>` sources, responsive `sizes`, lazy loading, and prioritized loading for the homepage profile image
-- **Cached Output**: Generated files are written to `public/_optimized-images/` and ignored by Git; rerunning the optimizer only processes changed source files
+- **Tracked Output**: Generated files are committed in `public/_optimized-images/`, so deploys do not regenerate them
 
 ---
 
@@ -67,7 +67,7 @@ pnpm preview    # Preview production build
 pnpm check      # Run type checker
 pnpm lint       # Run ESLint
 pnpm format     # Format code with Prettier
-node scripts/optimize-images.mjs  # Regenerate optimized AVIF/WebP assets
+pnpm images:optimize  # Regenerate optimized AVIF/WebP assets after image changes
 ```
 
 ---

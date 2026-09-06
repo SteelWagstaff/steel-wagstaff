@@ -4,7 +4,7 @@ publishedAt: 2016-01-08
 author: steel
 podcast: "Off the Chain"
 episode: 45
-audioUrl: "/podcasts/episode_045.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_045.mp3"
 image: "../../../assets/podcasts/17158111309_78cfa2d74a_b_movie-theater-seats.jpg"
 imageAlt: "Episode 45: Everybody&#039;s A Critic"
 tags: []
