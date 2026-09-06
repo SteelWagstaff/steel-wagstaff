@@ -4,7 +4,7 @@ publishedAt: 2016-08-10
 author: steel
 podcast: "Off the Chain"
 episode: 61
-audioUrl: "/podcasts/episode_061.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_061.mp3"
 imageAlt: "Episode 61: That One Time at Band Camp ..."
 tags: []
 draft: false

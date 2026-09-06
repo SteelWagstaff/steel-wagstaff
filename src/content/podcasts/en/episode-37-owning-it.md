@@ -4,7 +4,7 @@ publishedAt: 2015-10-23
 author: steel
 podcast: "Off the Chain"
 episode: 37
-audioUrl: "/podcasts/episode_037.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_037.mp3"
 image: "../../../assets/podcasts/schott.jpg"
 imageAlt: "Episode 37: Owning It"
 tags: []

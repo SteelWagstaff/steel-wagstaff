@@ -4,7 +4,7 @@ publishedAt: 2015-11-26
 author: steel
 podcast: "Off the Chain"
 episode: 41
-audioUrl: "/podcasts/episode_041.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_041.mp3"
 imageAlt: "Episode 41: College Memories"
 tags: []
 draft: false

@@ -4,7 +4,7 @@ publishedAt: 2015-12-04
 author: steel
 podcast: "Off the Chain"
 episode: 42
-audioUrl: "/podcasts/episode_042.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_042.mp3"
 image: "../../../assets/podcasts/022_19A-e1449169489181.jpg"
 imageAlt: "Two Mormon missionaries in front of a burned out car in England"
 tags: []

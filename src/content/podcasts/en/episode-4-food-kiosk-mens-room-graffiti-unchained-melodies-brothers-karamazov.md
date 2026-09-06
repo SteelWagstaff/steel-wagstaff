@@ -4,7 +4,7 @@ publishedAt: 2015-02-20
 author: steel
 podcast: "Off the Chain"
 episode: 4
-audioUrl: "/podcasts/episode_004.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_004.mp3"
 image: "../../../assets/podcasts/graffiti.jpg"
 imageAlt: "Episode 4: Food Kiosk, Men&#039;s Room Graffiti, Unchained Melodies, and the Brothers Karamazov"
 tags: []

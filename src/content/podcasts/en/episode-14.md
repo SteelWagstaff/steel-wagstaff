@@ -4,7 +4,7 @@ publishedAt: 2015-05-01
 author: steel
 podcast: "Off the Chain"
 episode: 14
-audioUrl: "/podcasts/episode_014.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_014.mp3"
 image: "../../../assets/podcasts/giphy.gif"
 imageAlt: "Geena Davis in A League of their Own"
 tags: ["ask-otc", "book-wisdom", "expert-testimony", "poetry", "small-talk", "unchained-melodies"]

@@ -5,7 +5,7 @@ author: steel
 podcast: "Theme Songs"
 episode: 7
 tags: []
-audioUrl: "/podcasts/ts_007.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/ts_007.mp3"
 image: "../../../assets/podcasts/15498245665_3253ec79c9_b_jack-o-lantern.jpg"
 imageAlt: "Theme Songs, Episode 7: Spooky Songs"
 draft: false

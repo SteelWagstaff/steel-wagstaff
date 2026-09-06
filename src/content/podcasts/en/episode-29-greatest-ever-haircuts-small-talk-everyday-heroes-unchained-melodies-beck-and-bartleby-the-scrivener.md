@@ -4,7 +4,7 @@ publishedAt: 2015-08-14
 author: steel
 podcast: "Off the Chain"
 episode: 29
-audioUrl: "/podcasts/episode_029.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/episode_029.mp3"
 image: "../../../assets/podcasts/net.jpg"
 imageAlt: "Episode 29: Greatest Ever Haircuts, Small Talk, Everyday Heroes, Unchained Melodies: BECK!, and Bartleby, the Scrivener"
 tags: []

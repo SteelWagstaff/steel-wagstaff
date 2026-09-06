@@ -4,7 +4,7 @@ publishedAt: 2018-03-22
 author: steel
 podcast: "Theme Songs"
 episode: 16
-audioUrl: "/podcasts/ts_016.mp3"
+audioUrl: "https://media.steelwagstaff.info/podcasts/ts_016.mp3"
 image: "../../../assets/podcasts/suot.jpg"
 imageAlt: "Theme Songs, Episode 16: Songs You've Listened to >1000 Times"
 tags: []
