@@ -4,7 +4,7 @@ publishedAt: 2015-03-27
 author: steel
 podcast: "Off the Chain"
 episode: 9
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_009.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_009.mp3"
 image: "../../../assets/podcasts/ostrich.jpg"
 imageAlt: "Episode 9: Ostrich Fest, March Madness!, Lost the Plot: Backdraft, Unchained Melodies, and Raise Hight the Roof Beam, Carpenters"
 tags: []

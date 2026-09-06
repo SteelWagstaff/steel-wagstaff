@@ -4,7 +4,7 @@ publishedAt: 2016-08-24
 author: steel
 podcast: "Off the Chain"
 episode: 62
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_062.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_062.mp3"
 image: "../../../assets/podcasts/16-08-2016-Gymnastic-Artistics-Floor-Exercice-Women-01.jpg"
 imageAlt: "Simone Biles"
 tags: []

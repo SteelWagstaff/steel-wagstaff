@@ -4,7 +4,7 @@ publishedAt: 2017-03-03
 author: steel
 podcast: "Off the Chain"
 episode: 71
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_071.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_071.mp3"
 image: "../../../assets/podcasts/149718410_85b917698c_b_Public-Library.jpg"
 imageAlt: "Episode 71: We're Baaaack!"
 tags: []

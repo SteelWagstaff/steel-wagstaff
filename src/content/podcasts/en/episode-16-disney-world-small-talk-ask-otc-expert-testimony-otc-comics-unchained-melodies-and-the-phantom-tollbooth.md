@@ -4,7 +4,7 @@ publishedAt: 2015-05-15
 author: steel
 podcast: "Off the Chain"
 episode: 16
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_016.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_016.mp3"
 image: "../../../assets/podcasts/oliver_bendorf-camping_essentials-e1431270049837.jpg"
 imageAlt: "Episode 16:  Disney World, Small Talk, Ask OTC, Expert Testimony: OTC Comics, Unchained Melodies, and The Phantom Tollbooth"
 tags: []

@@ -4,7 +4,7 @@ publishedAt: 2017-07-06
 author: steel
 podcast: "Off the Chain"
 episode: 76
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_076.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_076.mp3"
 image: "../../../assets/podcasts/N.Tesla_-e1499365964355.jpg"
 imageAlt: "Episode 76: Physics Hair"
 tags: []

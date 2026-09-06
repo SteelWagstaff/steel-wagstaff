@@ -4,7 +4,7 @@ publishedAt: 2017-12-05
 author: steel
 podcast: "Theme Songs"
 episode: 9
-audioUrl: "https://media.steelwagstaff.info/podcasts/ts_009.mp3"
+audioUrl: "https://media.steelwagstaff.info/ts_009.mp3"
 image: "../../../assets/podcasts/dancing_kid_gif.gif"
 imageAlt: "Theme Songs, Episode 9: Kids Music You Don't Hate"
 tags: []

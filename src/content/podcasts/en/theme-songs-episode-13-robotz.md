@@ -4,7 +4,7 @@ publishedAt: 2018-01-31
 author: steel
 podcast: "Theme Songs"
 episode: 13
-audioUrl: "https://media.steelwagstaff.info/podcasts/ts_013.mp3"
+audioUrl: "https://media.steelwagstaff.info/ts_013.mp3"
 image: "../../../assets/podcasts/34056989693_d03e51f1ce_k.jpg"
 imageAlt: "Theme Songs, Episode 13: ROBOTZ!!!"
 tags: []

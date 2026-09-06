@@ -7,7 +7,7 @@ episode: 5
 tags: []
 draft: false
 locale: en
-audioUrl: "https://media.steelwagstaff.info/podcasts/ts_005.mp3"
+audioUrl: "https://media.steelwagstaff.info/ts_005.mp3"
 image: "../../../assets/podcasts/4162842268_30593b4e67_w.jpg"
 imageAlt: "Bob Seger Night Moves album cover"
 spotifyPlaylist: "https://open.spotify.com/user/steelwagstaff/playlist/3MR4I7hW7ZX1QC4BYVQxYp"

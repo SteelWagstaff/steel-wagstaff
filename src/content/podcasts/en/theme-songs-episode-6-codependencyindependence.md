@@ -5,7 +5,7 @@ author: steel
 podcast: "Theme Songs"
 episode: 6
 tags: []
-audioUrl: "https://media.steelwagstaff.info/podcasts/ts_006.mp3"
+audioUrl: "https://media.steelwagstaff.info/ts_006.mp3"
 image: "../../../assets/podcasts/11238409384_0cdb908f46_b_independence.jpg"
 imageAlt: "Independence"
 

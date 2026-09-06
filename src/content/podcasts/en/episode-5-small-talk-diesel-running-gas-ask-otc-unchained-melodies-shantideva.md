@@ -4,7 +4,7 @@ publishedAt: 2015-02-27
 author: steel
 podcast: "Off the Chain"
 episode: 5
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_005.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_005.mp3"
 image: "../../../assets/podcasts/vin-diesel-riddick.jpg"
 imageAlt: "Episode 5: Small Talk, Diesel: Running on Gas, Ask OTC, Unchained Melodies, and Shantideva"
 tags: []
