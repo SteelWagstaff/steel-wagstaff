@@ -17,16 +17,16 @@ html[data-theme="emerald"] {
      Brand Scale Override — Emerald (hue 160)
      Richer and warmer than teal, crisper than lime.
      ------------------------------------------------------------------------- */
-  --brand-50:  oklch(97.5% 0.02  160);
-  --brand-100: oklch(94.8% 0.05  160);
-  --brand-200: oklch(87.5% 0.10  160);
-  --brand-300: oklch(77.8% 0.16  160);
-  --brand-400: oklch(69.5% 0.20  160);
-  --brand-500: oklch(62.5% 0.22  160);
-  --brand-600: oklch(53.2% 0.19  160);
-  --brand-700: oklch(45.5% 0.16  160);
-  --brand-800: oklch(37.2% 0.13  160);
-  --brand-900: oklch(26.5% 0.09  160);
+ --brand-50:  oklch(97.5% 0.025 152);
+--brand-100: oklch(94.8% 0.045 152);
+--brand-200: oklch(88% 0.075 152);
+--brand-300: oklch(78% 0.11 152);
+--brand-400: oklch(66% 0.13 152);
+--brand-500: oklch(53% 0.14 152);
+--brand-600: oklch(45% 0.12 152);
+--brand-700: oklch(37% 0.10 152);
+--brand-800: oklch(29% 0.075 152);
+--brand-900: oklch(22% 0.05 152);
 
   /* -------------------------------------------------------------------------
      Semantic Tokens - Light Mode

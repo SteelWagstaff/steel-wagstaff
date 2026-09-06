@@ -11,7 +11,7 @@ imageAlt: "On Earth Day"
 ---
 
 
-[caption id="attachment_98" align="alignright" width="300" caption="Gaylord Nelson"][/caption]
+<figure class="align-right"><img src="./images/gaylord_nelson.jpg" alt="Gaylord_Nelson" width="300" /><figcaption>Gaylord Nelson</figcaption></figure>
 
 Today is the 41st annual Earth Day, one of my favorite days of the year. Today I want to tell part of the story of its origins, its importance, and why I treasure the values that underlie its celebration and observance.
 
@@ -35,7 +35,7 @@ If you're curious to know more about Gaylord Nelson or Earth Day, I have three r
 
 I'd also recommend the PBS American Experience film Earth Days, which you can watch (or read the transcript) from their website. The site also includes a host of supporting materials, including a teacher's guide.
 
-[caption id="attachment_95" align="alignright" width="300" caption="Earth Day Celebration in Burlington, Wisconsin, 1973."][/caption]
+<figure class="align-right"><img src="./images/earth_day_celebration.jpg" alt="" width="300" /><figcaption>Earth Day Celebration in Burlington, Wisconsin, 1973.</figcaption></figure>
 
 The other recommendation I'd make would be checking out some of the primary historical documents collected by The Wisconsin Historical Society. In addition to housing the incredible Gaylord Nelson Papers, 1954-2006 collection, the WHS has collected an enormous number of documents related to Nelson and his early Earth Day plans, including this newsletter announcing Nelson's plans for the enviromental teach-ins described in the quote above and this newsletter announcing the successes of the first Earth Day Celebration on April 22, 1970 and heralding the beginning of a new "mass movement". My favorite detail? It contains this nugget: the first Earth Day in Madison, Wisconsin was observed "at sunrise over Lake Mendota with a Sanskrit invocation and a reading of the last chapter of the Book of Genesis [presumably Genesis 50] with an apology to God for man's assaults on the landscape." Who knew?
 

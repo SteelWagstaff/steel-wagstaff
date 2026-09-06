@@ -11,7 +11,7 @@ imageAlt: "The Changing of the Seasons"
 ---
 
 
-[caption id="attachment_332" align="alignleft" width="500" caption=""Aspen Cycle" by Owen Mortensen"][/caption]
+<figure class="align-left"><img src="./images/aspen_cycle_owen_mortensen.png" alt="aspen_cycle_Owen_Mortensen" width="500" /><figcaption>"Aspen Cycle" by Owen Mortensen</figcaption></figure>
 
 Each year it happens suddenly, sometimes surprisingly so. This year I began to notice it first when the pickup soccer game I play in ended when the light began to fail, and I biked home and showered and it wasn't yet 8 o'clock. While puttering around the house the past few days, I closed the windows and put socks on for the first time in several months, signs that it was happening, that summer was giving way to something else, that the long bout of sunshine and lush, abundant verdancy and good weather we've enjoyed in Madison was beginning to give way to something else. Today I even got an email from the community garden committee with the ominous subject line "Frost Warning," which sobered us so much that we pulled indoors the rubber tree and jade plant we'd been keeping on the back porch. I love living in Wisconsin, and I love the richness of it's several seasons, but I've grown especially fond of Spring and Summer. I hope it's a lengthy Autumn, but even if not, here's a beautiful song by the great Ane Brun to both chill and keep you warm in all the right ways:
 

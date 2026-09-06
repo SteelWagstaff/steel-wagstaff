@@ -1,6 +1,6 @@
 ---
 title: "To be a Carer"
-description: "I've been thinking a great deal lately about the medical profession, and more broadly, about health. I'm not certain why, particularly since I haven't been ill lately, and we tend usually to think of "
+description: "In praise of those who give care"
 publishedAt: 2011-04-20
 author: steel
 tags: []
@@ -15,8 +15,6 @@ I've been thinking a great deal lately about the medical profession, and more br
 
 The immediate cause may have been this short mother-daughter exchange from StoryCorps, which I listened to earlier this week. There was something about the timbre of the mother's voice, and the daughter's, in this recording that pulled at me and that turned my thoughts towards the role of compassion in the medical profession, of the importance of emotional sensitivity in the work of healing.
 
-[caption id="attachment_38" align="alignleft" width="300" caption="Girl in Iron Lung"][/caption]
-
 Usually when I think of doctors, I think first of my maternal grandfather, JD Mortensen. He was a doctor, a cardiopulmonary surgeon who helped develop the IVOX machine, a heart-lung machine meant to replace the Iron Lung. As a child, I always knew vaguely that grandpa was an important doctor, that he was considered excellent in his field, and heard bragging about his having invented something really amazing that could save and improve lives. 
 
 I remember watching him being interviewed on a national early morning news show as a young child, not understanding a word of what he was saying, and still being awed and proud. In writing this post, I decided I wanted to learn more about his work, and more about Iron Lungs and other artificial heart-lung machines, since I knew next to nothing. I discovered that there are serious concerns about something called postperfusion syndrome, more commonly known as "pumphead". I learned about two remarkable women who spent roughly six decades of their lives inside of iron lungs.
@@ -26,6 +24,7 @@ One was an Australian, June Middleton, who loved dancing, caught polio in her ea
 The other was Martha Mason, a woman from Lattimore, North Carolina (pop. 419) who contracted polio at age 11 following her older brother's death from the disease. Initially given about a year to live, she spent most the next 60 years in an Iron Lung. "She survived, she later said, because she was endlessly curious and there was so much to learn." Ms. Mason "chose to remain in an iron lung, she often said, for the freedom it gave her. It let her breathe without tubes in her throat, incisions or hospital stays, as newer, smaller ventilators might require. It took no professional training to operate, letting her remain mistress of her own house, with just two aides assisting her." 
 
 In many ways she was a kind of social hub for the town, who took care of her:
+
 > If Ms. Mason could not go to the town, then the town was quite prepared to come to her. The doctor visited regularly, of course, but so did all the neighbors and the neighbors’ neighbors. So did members of the local fire department, who came by during power failures to make sure her backup generator was working.
 
 > Ms. Mason often gave dinner parties — she ate lying down, with her guests around the table and the iron lung pushed up beside it — and savored lively conversation, good gossip and the occasional bawdy story. Amid the rhythmic whoosh ... whoosh of the iron lung, the local book club met in her home.

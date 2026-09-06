@@ -8,6 +8,7 @@ import {
   stripSizeSuffix,
   urlToBasename,
   rewriteImageSrcs,
+  replaceRecoveredCaptionShortcodes,
   convertAllCapsHeadings,
   convertYouTubeEmbeds,
   convertSoundCloudEmbeds,
@@ -78,6 +79,26 @@ describe('transformCaptions', () => {
   it('leaves non-caption HTML untouched', () => {
     const input = '<p>Hello world</p>';
     expect(transformCaptions(input)).toBe(input);
+  });
+});
+
+describe('replaceRecoveredCaptionShortcodes', () => {
+  it('embeds a recovered image using its attachment ID', () => {
+    const input = '[caption id="attachment_85" align="alignleft" width="220" caption="Third Grade"][/caption]';
+    const images = new Map([['85', { src: './images/steel_3rd_grade.jpg' }]]);
+    const result = replaceRecoveredCaptionShortcodes(input, images);
+
+    expect(result.html).toContain('<img src="./images/steel_3rd_grade.jpg" alt="Third Grade" width="220" />');
+    expect(result.html).toContain('<figcaption>Third Grade</figcaption>');
+    expect(result.resolved).toEqual(['85']);
+  });
+
+  it('leaves unresolved attachment shortcodes in place and reports their IDs', () => {
+    const input = '[caption id="attachment_59" align="alignright" width="300" caption="Missing"][/caption]';
+    const result = replaceRecoveredCaptionShortcodes(input, new Map());
+
+    expect(result.html).toBe(input);
+    expect(result.missing).toEqual(['59']);
   });
 });
 

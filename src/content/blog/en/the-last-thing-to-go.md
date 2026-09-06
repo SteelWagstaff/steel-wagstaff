@@ -16,6 +16,7 @@ I play basketball on Wednesday nights. Pick-up games, at a church building in Ma
 I've played basketball ever since I was a kid. I've always been into sports, and have always liked playing them more than watching them. Commercials don't help--I abhor them, and televised sporting events are filled with them, with the glorious exception of soccer, which is the sport I watch the most of these days, but I've never been much of a live sports aficionado either. 
 
 Mostly I think it's because whenever I'm watching other bodies run and move and play, I wish I was doing it myself. I'm not much of a "true fan" in the traditional sense, either. I don't understand people who root passionately for the same team ever year. It seems as dumb as nationalism, or brand lust, or any number of other prejudices. I identify 100% with Chuck Klosterman when he writes 
+
 > I absolutely do not understand why you believe geography should have any significance on which teams you are somehow "obligated" to support. That will always strike me as the most irrational reason for liking anything. There is no inherent regional quality to pro sports, beyond the imaginary relationship created by fans. I remember when I lived in Akron, Ohio, during the late 1990s, and it was suddenly announced that the Browns were returning to Cleveland. People in Northeast Ohio immediately began insisting that the Browns were their favorite team; this was before the expansion draft. People were buying Browns' jerseys before they had acquired any players. They didn't even have a coach or a GM. It was a wholly theoretical franchise. So -- essentially -- these people were rooting for (a) an incorporated municipality with a shared tax base, and (b) a color best-described as "burnt orange." 
  
 > These things have nothing to do with football, and you should never like any specific team more than you like the sport itself. ... Basically, I am an intense fan of sports, but I am able to detach from the insane tendency of just rooting for any given team out of habit. And I'll never understand why so many smart people refuse to think critically about sports. ... I don't see why it would be "honorable" to support anything unconditionally. That kind of thinking has been the source of almost every significant problem in the entire world, except for maybe the hurricanes.
@@ -26,13 +27,13 @@ I'm convinced that the reason why I both like sports but not teams and enjoy pl
 
 For me, sports were the easiest way to socialize and become accepted by other young boys when I arrived at a new school. So I played them, and my success and skill at them helped to normalize and ingratiate me among my new classmates. It helped that I liked them, mostly.
 
-[caption id="attachment_85" align="alignleft" width="220" caption="Steel Wagstaff, Third Grader"][/caption]
+<figure class="align-left"><img src="./images/steel_3rd_grade.jpg" alt="Steel_3rd_grade" width="220" /><figcaption>Steel Wagstaff, Third Grader</figcaption></figure>
 
 From 2nd until 4th grade, I was the fastest kid in my school, which won me a lot of respect, especially since I was white--what's striking to me in recalling this now is realizing the degree to which most of us children had already absorbed, accepted, and had begun policing and maintaining racially suspect theories of innate athletic ability. 
 
 Being fast certainly did more for me with my peers than winning the school spelling bee (which I did, but was so nervous at the district spelling bee that I misspelled my first word: "strength." At the time, I actually considered my early exit fortunate because I had peed my pants a little while I was standing at the microphone trying to spell out the word. It wasn't a full-on puddle, and I was fortunate to be wearing black trousers, but it definitely would have been both visible and conspicuous in later rounds. It should be obvious at this point that I was not what you'd generally class as "cool".).
 
-[caption id="attachment_86" align="alignright" width="220" caption="Steel Wagstaff, Fourth Grader"][/caption]
+<figure class="align-right"><img src="./images/steel_4th_grade.jpg" alt="Steel_4th_grade" width="220" /><figcaption>Steel Wagstaff, Fourth Grader</figcaption></figure>
 
 In 4th grade, I started at a new school, Cordova Gardens, which which required my being bused off the Air Force base where we lived and into a rougher part of Rancho Cordova. My first day there we had an early morning recess, and I joined a group of boys playing football.
 
@@ -122,9 +123,11 @@ the almost-dunkers, all the finger-tip rim touchers, the stilted wrists
 and lead feet, all the stomping ones, the finesse boys with not-enough
 ups or the right kicks, all the tall ones with no hops, all the jammed-thumbs,
 they all watch the ball’s slow roll in the gravel, ...
+
 I think every athlete and even most spectators recognize the awe and grace in the moment Josh describes in this poem. I'm not a dunker--nobody at any of the pickup games I play in is, actually, but their is no paucity of moments of wordlessness in which bodies carry the "arc and degrees of space in [their] wake." Even without dunk attempts, there's something about the social aspect of the game that appeals to me deeply, something about the fluidity of five players shifting and cutting, finding lanes and posting up, calling for the ball, driving hard to the rim or pulling up, something about the ball spinning in its beautiful arc towards the bottom of the net that is inescapably poetic. 
 
 There's another basketball poem that I love written by another Madison poet, Dennis Trudell. It's called "The Jump Shooter" and is the last poem in his book Fragments in Us: Recent & Earlier Poems, which was selected by Philip Levine as the winner of the 1996 Felix Pollak Prize in Poetry. Here it is:
+
 The way the ball
 hung there
 against the blue or purple

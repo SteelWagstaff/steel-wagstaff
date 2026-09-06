@@ -23,7 +23,7 @@ That happened a couple of months into my senior year of high school, when he rel
 
 Despite having never seen Beck myself, when I was a teenager the brother-in-law of my high school girlfriend gave me a pale blue Beck t-shirt from an early tour (thanks Jared Williams!) that I wore on special occasions, mostly when I needed to look especially awesome. I've still got it in a drawer, awaiting the day when I finally see the man live and in person.
 
-[caption id="attachment_110" align="alignleft" width="300" caption="Still from "Sexx Laws" video shoot set. Jack Black on left, Neil Strauss in center, Justin Meldal-Johnsen on right."][/caption]
+<figure class="align-left"><img src="./images/neil-strauss-sexx-laws.jpg" alt="neil strauss sexx laws" width="300" /><figcaption>Still from "Sexx Laws" video shoot set. Jack Black on left, Neil Strauss in center, Justin Meldal-Johnsen on right.</figcaption></figure>
 
 So this post is finally getting to the time of my life that I wanted to write about when I first embarked on detailing my abiding love for Beck, namely the masterpiece that is _Midnite Vultures_. As a freshman at BYU, my closest friends were my roommate Spencer, and the two guys who lived in the dorm room next to us, Mark and Jordan. Jordan was a guitar performance major and a tech/noise/sound wizard, Mark had been the lead singer in a rock band in high school that pretty much defined his identity, and Spencer was a sneaky good guitarist/songwriter. So I was surrounded by music and we were always sharing music and weird things we found on the internet. 
 
