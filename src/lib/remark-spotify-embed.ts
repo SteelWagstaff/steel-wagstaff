@@ -9,7 +9,6 @@ import { extractSpotifyId, detectSpotifyType } from './spotify';
 export function remarkSpotifyEmbed() {
   return (tree: Root) => {
     try {
-      let foundSpotify = false;
       let replacementCount = 0;
 
       // Visit all nodes to find Spotify URLs
@@ -24,7 +23,6 @@ export function remarkSpotifyEmbed() {
               const text = child.value.trim();
               if (text.match(/^https?:\/\/(open\.)?spotify\.com|^spotify:/)) {
                 spotifyUrl = text;
-                foundSpotify = true;
               }
             }
 
@@ -32,7 +30,6 @@ export function remarkSpotifyEmbed() {
             if (child.type === 'link' && child.url) {
               if (child.url.match(/spotify\.com|^spotify:/)) {
                 spotifyUrl = child.url;
-                foundSpotify = true;
               }
             }
 
@@ -46,7 +43,7 @@ export function remarkSpotifyEmbed() {
 
                 const embedNode = {
                   type: 'html' as const,
-                  value: `<div class="spotify-embed-container my-8"><iframe src="${embedUrl}" width="100%" height="380" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify ${type}" style="border-radius: 12px; border: none;"></iframe></div>`,
+                  value: `<div class="spotify-embed-container my-8"><iframe src="${embedUrl}" width="100%" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify ${type}" style="border-radius: 12px; border: none;"></iframe></div>`,
                 };
 
                 parent.children[index] = embedNode;

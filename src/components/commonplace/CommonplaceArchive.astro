@@ -32,7 +32,9 @@ const getMediaUrl = (url: string) => /^https?:\/\//i.test(url) ? url : `/${url}`
 const pageUrl = (page: number) => typeFilter
   ? `/commonplace/type/${typeFilter}/${page}`
   : page === 1 ? '/commonplace' : `/commonplace/page/${page}`;
-const typeUrl = (type: CommonplaceType) => `/commonplace/type/${type}/1`;
+const typeUrl = (type: CommonplaceType) => typeFilter === type
+  ? '/commonplace'
+  : `/commonplace/type/${type}/1`;
 
 const typeStats = ([
   { type: 'text', label: 'Text', count: counts.text, color: 'text-brand-500' },
@@ -54,9 +56,15 @@ const typeStats = ([
 
   <div class="grid grid-cols-2 gap-4 mb-4 md:grid-cols-4">
     {typeStats.map((stat) => (
-      <a href={typeUrl(stat.type)} class:list={['rounded-lg border border-border bg-background-secondary p-4 transition-colors hover:border-brand-500', typeFilter === stat.type && 'border-brand-500']}>
-        <p class:list={['text-2xl font-bold', stat.color]}>{stat.count}</p>
-        <p class="text-md text-foreground-muted">{stat.label}</p>
+      <a
+        href={typeUrl(stat.type)}
+        class:list={[
+          'rounded-lg border border-border bg-background-secondary p-4 transition-colors hover:border-brand-500',
+          typeFilter === stat.type && 'border-brand-700 bg-brand-700 text-white hover:border-brand-800 hover:bg-brand-800',
+        ]}
+      >
+        <p class:list={['text-2xl font-bold', typeFilter === stat.type ? 'text-white' : stat.color]}>{stat.count}</p>
+        <p class:list={['text-md', typeFilter === stat.type ? 'text-white' : 'text-foreground-muted']}>{stat.label}</p>
       </a>
     ))}
   </div>

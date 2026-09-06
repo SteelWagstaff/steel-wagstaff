@@ -22,17 +22,6 @@ const blog = defineCollection({
     }),
 });
 
-// Pages collection for static pages
-const pages = defineCollection({
-  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/pages' }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    updatedAt: z.coerce.date().optional(),
-    locale: z.enum(['en', 'es', 'fr']).default('en'),
-  }),
-});
-
 // Authors collection
 const authors = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/authors' }),
@@ -70,8 +59,8 @@ const projects = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
-      url: z.string().url().optional(),
-      repo: z.string().url().optional(),
+      url: z.url().optional(),
+      repo: z.url().optional(),
       image: image().optional(),
       imageAlt: z.string().optional(),
       tags: z.array(z.string()).default([]),
@@ -92,7 +81,7 @@ const stack = defineCollection({
     name: z.string(),
     description: z.string(),
     version: z.string(),
-    url: z.string().url(),
+    url: z.url(),
     icon: z.string(), // icon name, e.g. 'brand-astro'
     colorOklch: z.string(), // OKLCH params, e.g. '62.5% 0.22 38'
     order: z.number().default(0),
@@ -107,7 +96,7 @@ const music = defineCollection({
     description: z.string().max(500).optional(),
     publishedAt: z.coerce.date(),
     author: z.string().default('Steel Wagstaff'),
-    spotifyUrl: z.string().url().optional(),
+    spotifyUrl: z.url().optional(),
     spotifyEmbedId: z.string().optional(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
@@ -128,7 +117,7 @@ const podcasts = defineCollection({
     podcast: z.string(), // "Off the Chain" or "Theme Songs"
     season: z.number().optional(),
     episode: z.number().optional(),
-    audioUrl: z.union([z.string().url(), z.string().startsWith('/')]).optional(),
+    audioUrl: z.union([z.url(), z.string().startsWith('/')]).optional(),
     duration: z.string().optional(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
@@ -159,7 +148,6 @@ const commonplace = defineCollection({
 
 export const collections = {
   blog,
-  pages,
   authors,
   faqs,
   stack,

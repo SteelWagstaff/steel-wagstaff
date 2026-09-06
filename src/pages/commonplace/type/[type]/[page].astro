@@ -41,7 +41,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { type, page } = Astro.params;
+const { type } = Astro.params;
 const { items, totalItems, currentPage, totalPages, counts, typeFilter } = Astro.props;
 const label = type === 'photo' ? 'Images' : type ? `${type.charAt(0).toUpperCase()}${type.slice(1)}` : 'Commonplace';
 ---
