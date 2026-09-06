@@ -85,6 +85,47 @@ export function transformCaptions(html) {
   return result;
 }
 
+/**
+ * Replace caption shortcodes whose image source has been recovered by ID.
+ * Unresolved IDs are left untouched so they can be reported and repaired later.
+ *
+ * @param {string} html - Markdown or HTML containing WordPress caption shortcodes
+ * @param {Map<string, {src: string, alt?: string}>} imagesByAttachmentId - Recovered image paths by attachment ID
+ * @returns {{html: string, resolved: string[], missing: string[]}}
+ */
+export function replaceRecoveredCaptionShortcodes(html, imagesByAttachmentId) {
+  const resolved = [];
+  const missing = [];
+
+  const result = html.replace(
+    /\[caption([^\]]*)\]([\s\S]*?)\[\/caption\]/gi,
+    (match, attributes, inner) => {
+      const idMatch = attributes.match(/\bid="attachment_(\d+)"/i);
+      if (!idMatch) return match;
+
+      const attachmentId = idMatch[1];
+      const image = imagesByAttachmentId.get(attachmentId);
+      if (!image) {
+        missing.push(attachmentId);
+        return match;
+      }
+
+      const align = attributes.match(/\balign="align(\w+)"/i)?.[1] ?? 'none';
+      const width = attributes.match(/\bwidth="(\d+)"/i)?.[1];
+      const captionAttribute = attributes.match(/\bcaption="([\s\S]*?)"\s*$/i)?.[1];
+      const captionText = captionAttribute ?? inner.replace(/<[^>]+>/g, '').trim();
+      const alt = image.alt ?? captionText;
+      const widthAttribute = width ? ` width="${width}"` : '';
+      const figureCaption = captionText ? `<figcaption>${captionText}</figcaption>` : '';
+
+      resolved.push(attachmentId);
+      return `<figure class="align-${align}"><img src="${image.src}" alt="${alt}"${widthAttribute} />${figureCaption}</figure>`;
+    }
+  );
+
+  return { html: result, resolved, missing: [...new Set(missing)] };
+}
+
 // ---------------------------------------------------------------------------
 // [gallery] shortcode transformation
 // ---------------------------------------------------------------------------

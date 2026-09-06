@@ -1,0 +1,124 @@
+{
+  "dryRun": false,
+  "xmlPath": "/home/steelwagstaff/Code/Astro-Rocket/steelwagstaff.WordPress.2026-04-24.xml",
+  "processedPosts": 8,
+  "changedPosts": 7,
+  "resolved": [
+    {
+      "post": "beck-the-greatest-music-video-of-all-time.md",
+      "attachmentId": "110",
+      "filename": "neil-strauss-sexx-laws.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/neil-strauss-sexx-laws.jpg"
+    },
+    {
+      "post": "distressing-changes-to-wisconsins-mining-laws-proposed-2.md",
+      "attachmentId": "294",
+      "filename": "chairman_wiggins.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/chairman_wiggins.jpg"
+    },
+    {
+      "post": "eyewear-rec-specs-and-professional-athletes.md",
+      "attachmentId": "233",
+      "filename": "tom_kite.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/src/assets/blog/tom_kite.jpg"
+    },
+    {
+      "post": "eyewear-rec-specs-and-professional-athletes.md",
+      "attachmentId": "240",
+      "filename": "al_arbour.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/al_arbour.jpg"
+    },
+    {
+      "post": "eyewear-rec-specs-and-professional-athletes.md",
+      "attachmentId": "224",
+      "filename": "geoff_blethyn.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/geoff_blethyn.jpg"
+    },
+    {
+      "post": "on-completing-my-last-university-course-perhaps-ever.md",
+      "attachmentId": "276",
+      "filename": "sesame_street.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/sesame_street.jpg"
+    },
+    {
+      "post": "on-earth-day.md",
+      "attachmentId": "98",
+      "filename": "gaylord_nelson.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/gaylord_nelson.jpg"
+    },
+    {
+      "post": "on-earth-day.md",
+      "attachmentId": "95",
+      "filename": "earth_day_celebration.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/earth_day_celebration.jpg"
+    },
+    {
+      "post": "the-changing-of-the-seasons.md",
+      "attachmentId": "332",
+      "filename": "aspen_cycle_owen_mortensen.png",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/aspen_cycle_owen_mortensen.png"
+    },
+    {
+      "post": "the-last-thing-to-go.md",
+      "attachmentId": "85",
+      "filename": "steel_3rd_grade.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/steel_3rd_grade.jpg"
+    },
+    {
+      "post": "the-last-thing-to-go.md",
+      "attachmentId": "86",
+      "filename": "steel_4th_grade.jpg",
+      "source": "/home/steelwagstaff/Code/Astro-Rocket/media-exports/steel_4th_grade.jpg"
+    }
+  ],
+  "missing": [
+    {
+      "post": "beck-the-greatest-music-video-of-all-time.md",
+      "attachmentId": "111",
+      "filename": "neil-strauss.jpg",
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/neil-strauss.jpg?w=300"
+    },
+    {
+      "post": "distressing-changes-to-wisconsins-mining-laws-proposed-2.md",
+      "attachmentId": "292",
+      "filename": "tina_van_zile.jpg",
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/tina_van_zile.jpg"
+    },
+    {
+      "post": "hosts.md",
+      "attachmentId": "739",
+      "filename": null,
+      "url": null
+    },
+    {
+      "post": "hosts.md",
+      "attachmentId": "741",
+      "filename": null,
+      "url": null
+    },
+    {
+      "post": "on-completing-my-last-university-course-perhaps-ever.md",
+      "attachmentId": "279",
+      "filename": "barber_science.jpg",
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/barber_science.jpg"
+    },
+    {
+      "post": "on-earth-day.md",
+      "attachmentId": "96",
+      "filename": "earth_day_newsletter.jpg",
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/earth_day_newsletter.jpg?w=174"
+    },
+    {
+      "post": "on-earth-day.md",
+      "attachmentId": "97",
+      "filename": "gaylord_nelson_stewart_udall.jpg",
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/gaylord_nelson_stewart_udall.jpg?w=300"
+    },
+    {
+      "post": "the-last-thing-to-go.md",
+      "attachmentId": "59",
+      "filename": "kid_imagined_gang_fight1.gif",
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/kid_imagined_gang_fight1.gif"
+    }
+  ]
+}

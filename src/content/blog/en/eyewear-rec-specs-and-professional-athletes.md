@@ -47,15 +47,15 @@ Golf
 
 I'm sure there's more, but since I don't really consider golf a sport, one will have to suffice.
 
-[caption id="attachment_233" align="aligncenter" width="300"] Tom Kite[/caption]
+<figure class="align-center"><img src="./images/tom_kite.jpg" alt="" width="300" /><figcaption>Tom Kite</figcaption></figure>
 
 Hockey
 
-[caption id="attachment_240" align="aligncenter" width="241"] Al Arbour, who both wore glasses and played without a helmet![/caption]
+<figure class="align-center"><img src="./images/al_arbour.jpg" alt="Al_Arbour" width="241" /><figcaption>Al Arbour, who both wore glasses and played without a helmet!</figcaption></figure>
 
 Aussie Rules Football
 
-[caption id="attachment_224" align="aligncenter" width="300"] Geoff Blethyn, Aussie Rules footballer[/caption]
+<figure class="align-center"><img src="./images/geoff_blethyn.jpg" alt="Geoff_Blethyn" width="300" /><figcaption>Geoff Blethyn, Aussie Rules footballer</figcaption></figure>
 
 Tennis
 

@@ -1,6 +1,6 @@
 ---
 title: "Information Overload?"
-description: "Since I purchased my first laptop two years ago, one of my most common mental states has been distraction. Too often, I find myself immersed in virtual information scapes teeming with curious, interes"
+description: "On distraction, attention, and technology"
 publishedAt: 2011-04-18
 author: steel
 tags: []

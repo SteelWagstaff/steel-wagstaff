@@ -34,18 +34,11 @@ const pageUrl = (page: number) => typeFilter
   : page === 1 ? '/commonplace' : `/commonplace/page/${page}`;
 const typeUrl = (type: CommonplaceType) => `/commonplace/type/${type}/1`;
 
-const typeIconColors = {
-  photo: 'text-blue-400',
-  audio: 'text-orange-400',
-  video: 'text-violet-400',
-  text: 'text-teal-400',
-} as const;
-
 const typeStats = ([
-  { type: 'text', label: 'Text', count: counts.text, color: 'text-teal-400' },
-  { type: 'photo', label: 'Images', count: counts.photo, color: 'text-blue-400' },
-  { type: 'video', label: 'Videos', count: counts.video, color: 'text-violet-400' },
-  { type: 'audio', label: 'Audio', count: counts.audio, color: 'text-orange-400' },
+  { type: 'text', label: 'Text', count: counts.text, color: 'text-brand-500' },
+  { type: 'photo', label: 'Images', count: counts.photo, color: 'text-brand-500' },
+  { type: 'video', label: 'Videos', count: counts.video, color: 'text-brand-500' },
+  { type: 'audio', label: 'Audio', count: counts.audio, color: 'text-brand-500' },
 ] satisfies Array<{ type: CommonplaceType; label: string; count: number; color: string }>).sort(
   (a, b) => b.count - a.count
 );
@@ -55,7 +48,7 @@ const typeStats = ([
   <header class="max-w-3xl">
     <h1 class="mb-4 text-4xl font-bold text-foreground">The Commonplace</h1>
     <p class="mb-4 text-lg leading-relaxed text-foreground-muted">
-      Images, text, songs, and videos migrated from <a href="https://steelwagstaff.tumblr.com/" class="text-brand-500 hover:underline">Tumblr</a>. Still a work in progress.
+      Text, images, songs, and videos migrated from <a href="https://steelwagstaff.tumblr.com/" class="text-brand-500 hover:underline">Tumblr</a>. Still a work in progress.
     </p>
   </header>
 
