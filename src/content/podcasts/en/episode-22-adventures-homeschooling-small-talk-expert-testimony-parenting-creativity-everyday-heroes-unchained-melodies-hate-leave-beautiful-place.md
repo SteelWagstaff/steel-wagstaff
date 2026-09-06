@@ -4,7 +4,7 @@ publishedAt: 2015-06-26
 author: steel
 podcast: "Off the Chain"
 episode: 22
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_022.mp3"
+audioUrl: "/podcasts/episode_022.mp3"
 image: "../../../assets/podcasts/R3-17_BikeLaneStockSign.jpg"
 imageAlt: "Episode 22: Adventures in Homeschooling, Small Talk, Expert Testimony: Parenting and Creativity, Everyday Heroes, Unchained Melodies, and I Hate To Leave This Beautiful Place"
 tags: []

@@ -4,7 +4,7 @@ publishedAt: 2016-01-22
 author: steel
 podcast: "Off the Chain"
 episode: 47
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_047.mp3"
+audioUrl: "/podcasts/episode_047.mp3"
 image: "../../../assets/podcasts/24379693695_264bb7a984_b_malheur-occupation.jpg"
 imageAlt: "Episode 47: Occupy OTC"
 tags: []

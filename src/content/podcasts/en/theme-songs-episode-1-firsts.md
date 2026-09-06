@@ -4,6 +4,7 @@ publishedAt: 2017-08-28
 author: steel
 podcast: "Theme Songs"
 episode: 1
+audioUrl: "/podcasts/ts_001.mp3"
 image: "../../../assets/podcasts/Bill_Haley_and_the_Comets1956.jpg"
 imageAlt: "Theme Songs, Episode 1: Firsts!"
 tags: []

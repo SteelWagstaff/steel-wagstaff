@@ -4,7 +4,7 @@ publishedAt: 2016-12-30
 author: steel
 podcast: "Off the Chain"
 episode: 70
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_070.mp3"
+audioUrl: "/podcasts/episode_070.mp3"
 image: "../../../assets/podcasts/STEVEN_ADAMS-copy.jpg"
 imageAlt: "Episode 70: 2016 in Review, part 3"
 tags: []

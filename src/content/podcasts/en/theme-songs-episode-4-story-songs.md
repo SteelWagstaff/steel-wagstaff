@@ -4,6 +4,7 @@ publishedAt: 2017-09-18
 author: steel
 podcast: "Theme Songs"
 episode: 4
+audioUrl: "/podcasts/ts_004.mp3"
 image: "../../../assets/podcasts/crane_wife.png"
 imageAlt: "Theme Songs, Episode 4: Story Songs"
 tags: []

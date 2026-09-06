@@ -4,7 +4,7 @@ publishedAt: 2016-05-20
 author: steel
 podcast: "Off the Chain"
 episode: 57
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_057.mp3"
+audioUrl: "/podcasts/episode_057.mp3"
 image: "../../../assets/podcasts/maradona-hand.jpg"
 imageAlt: "Episode 57: [Hidden Track]"
 tags: []

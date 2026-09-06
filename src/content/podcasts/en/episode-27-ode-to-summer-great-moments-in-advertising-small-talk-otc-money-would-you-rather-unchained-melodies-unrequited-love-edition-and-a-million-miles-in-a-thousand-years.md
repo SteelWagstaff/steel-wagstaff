@@ -4,7 +4,7 @@ publishedAt: 2015-07-31
 author: steel
 podcast: "Off the Chain"
 episode: 27
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_027.mp3"
+audioUrl: "/podcasts/episode_027.mp3"
 image: "../../../assets/podcasts/14349010706_4c018beb7f_k-e1438131722255.jpg"
 imageAlt: "Episode 27: Ode to Summer, Great Moments in Advertising, Small Talk, OTC Money, Would You Rather?, Unchained Melodies: Unrequited Love Edition, and A Million Miles in a Thousand Years"
 tags: []

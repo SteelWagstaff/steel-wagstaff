@@ -5,6 +5,7 @@ author: steel
 podcast: "Off the Chain"
 episode: 12
 tags: ["book-wisdom", "otc-sports", "small-talk", "unchained-melodies"]
+audioUrl: "/podcasts/episode_012.mp3"
 image: "../../../assets/podcasts/hillman.jpg"
 imageAlt: "Darnell Hillman dunking"
 draft: false

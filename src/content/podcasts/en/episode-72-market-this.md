@@ -4,7 +4,7 @@ publishedAt: 2017-03-16
 author: steel
 podcast: "Off the Chain"
 episode: 72
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_072.mp3"
+audioUrl: "/podcasts/episode_072.mp3"
 image: "../../../assets/podcasts/catheter.jpg"
 imageAlt: "Episode 72: Market This!"
 tags: []

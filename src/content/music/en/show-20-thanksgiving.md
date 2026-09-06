@@ -12,4 +12,4 @@ image: "../../../assets/music/show-20.jpg"
 spotifyEmbedId: "6ZjQ60mHYG6Bcs8QMrpzsh"
 ---
 
-We came back on the week after Thanksgiving with a sweet little show on Thanksgiving, gratitude, and expressing feelings of appreciation.  Part 1:  Part 2:
+We came back on the week after Thanksgiving with a sweet little show on Thanksgiving, gratitude, and expressing feelings of appreciation.

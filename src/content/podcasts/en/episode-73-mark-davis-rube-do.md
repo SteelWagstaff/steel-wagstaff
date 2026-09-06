@@ -4,7 +4,7 @@ publishedAt: 2017-04-04
 author: steel
 podcast: "Off the Chain"
 episode: 73
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_073.mp3"
+audioUrl: "/podcasts/episode_073.mp3"
 image: "../../../assets/podcasts/mark_davis-e1491271440446.jpg"
 imageAlt: "Episode 73: Mark Davis' \"Rube Do\""
 tags: []

@@ -4,7 +4,7 @@ publishedAt: 2015-03-20
 author: steel
 podcast: "Off the Chain"
 episode: 8
-audioUrl: "https://otc.steelwagstaff.info/podcasts/episode_008.mp3"
+audioUrl: "/podcasts/episode_008.mp3"
 image: "../../../assets/podcasts/hell-michigan.jpeg"
 imageAlt: "Episode 8: Children&#039;s Picture Books, Small Talk, Ask OTC, Unchained Melodies, and The English Patient"
 tags: []
