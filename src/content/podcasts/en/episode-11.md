@@ -4,7 +4,7 @@ publishedAt: 2015-04-10
 author: steel
 podcast: "Off the Chain"
 episode: 11
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_011.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_011.mp3"
 image: "../../../assets/podcasts/Sacrifice_of_Isaac-Caravaggio_Uffizi-e1427992486280.jpg"
 imageAlt: "Caravaggio's Sacrifice of Isaac"
 draft: false

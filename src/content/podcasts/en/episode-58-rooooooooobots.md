@@ -4,7 +4,7 @@ publishedAt: 2016-05-27
 author: steel
 podcast: "Off the Chain"
 episode: 58
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_058.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_058.mp3"
 image: "../../../assets/podcasts/4507289792_c749d647ca_b_Robots-e1464114647792.jpg"
 imageAlt: "Episode 58: ROOOOOOOOOBOTS!"
 tags: []

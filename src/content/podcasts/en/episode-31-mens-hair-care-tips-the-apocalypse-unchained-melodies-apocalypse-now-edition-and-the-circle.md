@@ -4,7 +4,7 @@ publishedAt: 2015-09-04
 author: steel
 podcast: "Off the Chain"
 episode: 31
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_031.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_031.mp3"
 image: "../../../assets/podcasts/5571367765_055a522a1b_b_apocalypse.jpg"
 imageAlt: "Episode 31: Men&#039;s Hair Care Tips, The Apocalypse, Unchained Melodies: Apocalypse Now Edition, and The Circle"
 tags: []

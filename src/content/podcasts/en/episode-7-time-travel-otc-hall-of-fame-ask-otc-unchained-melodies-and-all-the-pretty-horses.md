@@ -4,7 +4,7 @@ publishedAt: 2015-03-13
 author: steel
 podcast: "Off the Chain"
 episode: 7
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_007.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_007.mp3"
 image: "../../../assets/podcasts/bill_ted.gif"
 imageAlt: "Episode 7: Time Travel, OTC Hall of Fame, Ask OTC, Unchained Melodies, and All the Pretty Horses"
 tags: []

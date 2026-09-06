@@ -4,7 +4,7 @@ publishedAt: 2015-08-07
 author: steel
 podcast: "Off the Chain"
 episode: 28
-audioUrl: "https://media.steelwagstaff.info/podcasts/episode_028.mp3"
+audioUrl: "https://media.steelwagstaff.info/episode_028.mp3"
 image: "../../../assets/podcasts/tull-e1438204774464.jpg"
 imageAlt: "Episode 28: Expert Testimony: Self-Help, Teen Boys and Tull edition, To the Limits, Ask OTC, Unchained Melodies: Jethro Tull Forever, and The Things They Carried"
 tags: []
