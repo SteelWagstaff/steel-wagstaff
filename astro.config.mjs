@@ -4,6 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import icon from 'astro-icon';
 import tailwindcss from '@tailwindcss/vite';
+import { unified } from '@astrojs/markdown-remark';
 import { remarkSpotifyEmbed } from './src/lib/remark-spotify-embed.ts';
 
 export default defineConfig({
@@ -32,9 +33,7 @@ export default defineConfig({
 
   integrations: [
     react(),
-    mdx({
-      remarkPlugins: [remarkSpotifyEmbed],
-    }),
+    mdx(),
     sitemap(),
     icon(),
   ],
@@ -48,11 +47,13 @@ export default defineConfig({
   },
 
   markdown: {
+    processor: unified({
+      remarkPlugins: [remarkSpotifyEmbed],
+    }),
     shikiConfig: {
       theme: 'github-dark',
       wrap: true,
     },
-    remarkPlugins: [remarkSpotifyEmbed],
   },
 
 });

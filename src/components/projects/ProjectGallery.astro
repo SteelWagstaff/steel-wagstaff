@@ -127,7 +127,7 @@ const id = Math.random().toString(36).slice(2, 8);
   </button>
 </div>
 
-<script define:vars={{ id, imageData: images.map(img => ({ src: img.src.src, alt: img.alt, caption: img.caption ?? '' })) }}>
+<script is:inline define:vars={{ id, imageData: images.map(img => ({ src: img.src.src, alt: img.alt, caption: img.caption ?? '' })) }}>
 (function () {
   const galleryId = id;
   const track = document.getElementById('track-' + galleryId);

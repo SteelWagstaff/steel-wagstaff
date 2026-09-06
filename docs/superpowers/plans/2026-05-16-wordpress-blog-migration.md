@@ -145,7 +145,6 @@ const embedSrc = `https://w.soundcloud.com/player/?url=${encodedUrl}&color=%23ff
     width="100%"
     height={height}
     scrolling="no"
-    frameborder="no"
     allow="autoplay"
     loading="lazy"
     src={embedSrc}

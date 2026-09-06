@@ -267,7 +267,7 @@ ${yamlContent}
 ${postType === 'quote' ? `> ${frontmatter.content.split('\n').join('\n> ')}${frontmatter.source ? `\n\n${frontmatter.source}` : ''}` : ''}
 ${postType === 'photo' && frontmatter.image ? `![${frontmatter.title}](${frontmatter.image})` : ''}
 ${postType === 'audio' && frontmatter.audioUrl ? `[Listen](${frontmatter.audioUrl})` : ''}
-${postType === 'video' && frontmatter.videoUrl ? `<iframe src="${frontmatter.videoUrl}" width="560" height="315" frameborder="0" allowfullscreen></iframe>` : ''}
+${postType === 'video' && frontmatter.videoUrl ? `<iframe src="${frontmatter.videoUrl}" width="560" height="315" allowfullscreen></iframe>` : ''}
 `;
       
       const mdFilename = `${postId}.md`;
