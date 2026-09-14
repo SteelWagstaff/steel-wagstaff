@@ -148,7 +148,6 @@ const topTags = collectTopTags(posts, BLOG_TAG_CLOUD_LIMIT);
   <!-- Closing CTA -->
   <BlogCta
     locale={locale}
-    ctaClass={['glitch:hidden', featuredPosts.length > 0 && '!bg-background-secondary'].filter(Boolean).join(' ')}
-    bandSectionClass={`hidden glitch:block relative z-10 py-[var(--space-section-md)] ${featuredPosts.length > 0 ? 'bg-background-secondary' : 'bg-background'}`}
+    sectionClass={`relative z-10 py-[var(--space-section-md)] ${featuredPosts.length > 0 ? 'bg-background-secondary' : 'bg-background'}`}
   />
 </PageLayout>

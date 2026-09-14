@@ -682,7 +682,7 @@ Astro Rocket includes 44 components across four categories. All UI components us
 | Layout | 2 | Header (with scroll progress bar), Footer |
 | Hero | 1 | Hero section with centered/split layouts, grid pattern, and typing effect |
 
-`src/components/` also holds components built for this site's own pages — blog, landing, SEO and theme-switching pieces, the `YouTube` embed for MDX, and the `Callout` and `LetterGlitchBand` patterns. They are outside the 44 that `component-registry.json` counts.
+`src/components/` also holds components built for this site's own pages — blog, landing, SEO and theme-switching pieces, the `YouTube` embed for MDX, and the `Callout`, `CtaBand` and `LetterGlitchBand` patterns. They are outside the 44 that `component-registry.json` counts.
 
 ### Usage Example
 
