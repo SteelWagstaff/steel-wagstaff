@@ -23,19 +23,21 @@
   --gray-950: oklch(12.3% 0 0);
 
   /* -------------------------------------------------------------------------
-     Brand Orange Scale - International Orange (#F94C10)
-     OKLCH for perceptual uniformity across the scale
+     Base Brand Scale - Blue (hue 255)
+     OKLCH for perceptual uniformity across the scale. Every theme in
+     styles/themes/ overrides this block; it is what an unrecognised
+     data-theme falls back to, so it matches the default the layout sets.
      ------------------------------------------------------------------------- */
-  --brand-50: oklch(97.5% 0.02 45);
-  --brand-100: oklch(94.1% 0.033 51);
-  --brand-200: oklch(87.5% 0.08 45);
-  --brand-300: oklch(77.8% 0.14 45);
-  --brand-400: oklch(68.5% 0.19 40);
-  --brand-500: oklch(62.7% 0.218 35);
-  --brand-600: oklch(53.4% 0.187 35);
-  --brand-700: oklch(45.5% 0.16 38);
-  --brand-800: oklch(37.2% 0.13 38);
-  --brand-900: oklch(26.5% 0.09 38);
+  --brand-50: oklch(97.5% 0.02 255);
+  --brand-100: oklch(94.5% 0.029 240);
+  --brand-200: oklch(87.1% 0.066 249);
+  --brand-300: oklch(77.2% 0.121 250);
+  --brand-400: oklch(67.7% 0.175 253);
+  --brand-500: oklch(62.1% 0.207 255);
+  --brand-600: oklch(53.2% 0.19 255);
+  --brand-700: oklch(45.5% 0.16 255);
+  --brand-800: oklch(37.2% 0.13 255);
+  --brand-900: oklch(26.5% 0.09 255);
 
   /* Accent - Blue for links/focus */
   --blue-500: oklch(59.5% 0.19 260);

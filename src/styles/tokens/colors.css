@@ -18,9 +18,6 @@
 
 @import './primitives.css';
 
-@import '../themes/orange.css';
-@import '../themes/amber.css';
-@import '../themes/lime.css';
 @import '../themes/emerald.css';
 @import '../themes/teal.css';
 @import '../themes/cyan.css';
@@ -29,4 +26,3 @@
 @import '../themes/indigo.css';
 @import '../themes/violet.css';
 @import '../themes/purple.css';
-@import '../themes/magenta.css';
