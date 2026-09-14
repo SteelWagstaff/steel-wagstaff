@@ -169,21 +169,77 @@ const svgContent = svgs[`/src/assets/projects/${slug}.svg`] ?? '';
 
   /* ── Scene art ───────────────────────────────────────────────────────────
      The second kind of `sh-` drawing: not a piece of the product, but a
-     picture with depth behind a mark and a name. `astro-rocket.svg` uses all
-     of it; `astro-rocket-climb.svg` uses everything except the planet.
+     picture with depth behind a mark and a name.
 
      Same rule as the rest of the `sh-` set — one treatment, no html.dark
      block. These sit on the brand-900 canvas in both modes.
   ── */
 
   /* Sky. Stars carry no meaning, so they take the near-white the text does
-     and are separated by opacity, which is set per star in the file. */
-  .svg-host :global(.sh-star) { fill: var(--brand-100); }
-  .svg-host :global(.sh-glint) {
-    stroke: var(--brand-50);
-    stroke-opacity: 0.55;
-    stroke-width: 1.5;
-    stroke-linecap: round;
+     and are separated by opacity, which is set per star in the file.
+
+     A star was one filled circle, and a filled circle at this size is a dot —
+     a hard edge, the same value all the way to it, no light coming off it.
+     Three things fix that, and none of them moves a star: a core that falls
+     off instead of stopping, a halo on the brighter 28%, and a four-point
+     flare on the brightest nine. The gradients live in each canvas's own
+     defs; only their stops are here, which is how the rest of the drawing
+     recolours with the theme.
+
+     The flare shape is concave-armed on purpose. The hand-placed glints in
+     these files used to be a plus sign drawn with two straight strokes, and a
+     plus sign is the one shape the eye reads as a mark rather than as light.
+     They are the same flare now. */
+  .svg-host :global(.sh-star-in)  { stop-color: var(--brand-50); stop-opacity: 1; }
+  .svg-host :global(.sh-star-mid) { stop-color: var(--brand-100); stop-opacity: 0.72; }
+  .svg-host :global(.sh-star-out) { stop-color: var(--brand-200); stop-opacity: 0; }
+  .svg-host :global(.sh-halo-in)  { stop-color: var(--brand-200); stop-opacity: 0.34; }
+  .svg-host :global(.sh-halo-out) { stop-color: var(--brand-300); stop-opacity: 0; }
+  .svg-host :global(.sh-flare) { fill: var(--brand-50); fill-opacity: 0.62; }
+  .svg-host :global(.sh-glint-flare) { fill-opacity: 0.5; }
+
+  /* Breathing, not blinking. Opacity only, on 10 of the brighter stars in a
+     canvas and on four offset cycles, so the field is never in step with
+     itself. The floor is 0.55 of the star's own opacity: at zero they read as
+     stars going out, which is a fault, not an effect.
+
+     The three flares that bloom are the same idea taken further — they swell
+     and fade over a long cycle with most of it spent at rest, so one happens
+     somewhere in the frame every few seconds rather than all of them at once.
+
+     Both properties here are chosen so the per-star values in the file still
+     count. `fill-opacity` multiplies against each star's own `opacity`
+     attribute, where animating `opacity` would throw that away and flatten
+     the field to one brightness. And the blooming flares are wrapped in a
+     `<g>` that carries their placement, because a CSS `transform` REPLACES
+     the transform attribute rather than composing with it — animate the path
+     itself and it lands at the canvas origin. `transform-box: fill-box` then
+     scales it about its own centre. */
+  @media (prefers-reduced-motion: no-preference) {
+    .svg-host :global(.sh-tw0) { animation: sh-twinkle 4.1s ease-in-out infinite; }
+    .svg-host :global(.sh-tw1) { animation: sh-twinkle 5.3s ease-in-out -1.8s infinite; }
+    .svg-host :global(.sh-tw2) { animation: sh-twinkle 6.7s ease-in-out -3.1s infinite; }
+    .svg-host :global(.sh-tw3) { animation: sh-twinkle 3.4s ease-in-out -2.4s infinite; }
+
+    .svg-host :global(.sh-bloom0),
+    .svg-host :global(.sh-bloom1),
+    .svg-host :global(.sh-bloom2) {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .svg-host :global(.sh-bloom0) { animation: sh-bloom 7.5s ease-in-out infinite; }
+    .svg-host :global(.sh-bloom1) { animation: sh-bloom 9.2s ease-in-out -3.4s infinite; }
+    .svg-host :global(.sh-bloom2) { animation: sh-bloom 11s ease-in-out -6.8s infinite; }
+  }
+
+  @keyframes sh-twinkle {
+    0%, 100% { fill-opacity: 1; }
+    50% { fill-opacity: 0.55; }
+  }
+
+  @keyframes sh-bloom {
+    0%, 62%, 100% { transform: scale(0.75); fill-opacity: 0.38; }
+    78% { transform: scale(1.55); fill-opacity: 0.92; }
   }
 
   /* Light. The burst sits behind the mark; the rays fan up from beyond the
@@ -207,17 +263,6 @@ const svgContent = svgs[`/src/assets/projects/${slug}.svg`] ?? '';
   .svg-host :global(.sh-atmo-2) { fill: none; stroke: var(--brand-400); stroke-opacity: 0.22; stroke-width: 16; }
   .svg-host :global(.sh-atmo-1) { fill: none; stroke: var(--brand-300); stroke-opacity: 0.28; stroke-width: 7; }
   .svg-host :global(.sh-horizon) { fill: none; stroke: var(--brand-100); stroke-opacity: 0.9; stroke-width: 2.5; }
-
-  /* Trail, for the climb variant. */
-  .svg-host :global(.sh-trail-a) { stop-color: var(--brand-500); stop-opacity: 0; }
-  .svg-host :global(.sh-trail-b) { stop-color: var(--brand-400); stop-opacity: 0.45; }
-  .svg-host :global(.sh-trail-c) { stop-color: var(--brand-200); stop-opacity: 0.85; }
-  .svg-host :global(.sh-trail-ln) {
-    fill: none;
-    stroke: var(--brand-300);
-    stroke-width: 2.5;
-    stroke-linecap: round;
-  }
 
   /* Vignette, painted last over everything but the corner brackets. Without
      it the starfield runs to the edges at the same brightness as the middle
