@@ -15,7 +15,7 @@ import Card from '@/components/ui/data-display/Card/Card.astro';
 import ProofTile from '@/components/ui/data-display/ProofTile/ProofTile.astro';
 import Button from '@/components/ui/form/Button/Button.astro';
 import { Hero } from '@/components/hero';
-import LetterGlitchBand from '@/components/patterns/LetterGlitchBand.astro';
+import CtaBand from '@/components/patterns/CtaBand.astro';
 import { t, tData, defaultLocale, localizedPath } from '@/i18n';
 
 interface Props {
@@ -318,32 +318,7 @@ const aboutUrl = localizedPath('/about', locale);
 
   <!-- CTA -->
   <section class="relative z-10 py-[var(--space-section-md)] bg-background border-t border-border">
-    <!-- Mobile: flat section, no card -->
-    <div class="glitch:hidden mx-auto max-w-2xl px-6 text-center" data-reveal>
-      <Badge variant="brand" pill class="mb-6">
-        <Icon name="message-circle" size="sm" />
-        {cta.badge}
-      </Badge>
-      <h2 class="font-display text-4xl font-bold text-foreground mb-4 text-balance">
-        {cta.heading}
-      </h2>
-      <p class="text-lg text-foreground-muted mb-8 text-balance">
-        {cta.description}
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button size="lg" href={contactUrl} class="cta-btn-brand">
-          {cta.primary}
-          <Icon name="arrow-right" size="sm" />
-        </Button>
-        <Button size="lg" variant="brand-outline" href={aboutUrl}>
-          {cta.secondary}
-          <Icon name="arrow-right" size="sm" />
-        </Button>
-      </div>
-    </div>
-
-    <!-- Desktop: contained LetterGlitch band with glass card -->
-    <LetterGlitchBand>
+    <CtaBand>
       <h2 class="font-display text-4xl font-bold text-foreground mb-4 text-balance">
         {cta.heading}
       </h2>
@@ -360,7 +335,7 @@ const aboutUrl = localizedPath('/about', locale);
           <Icon name="arrow-right" size="sm" />
         </Button>
       </div>
-    </LetterGlitchBand>
+    </CtaBand>
   </section>
 </PageLayout>
 

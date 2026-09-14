@@ -21,7 +21,7 @@ import { Hero } from '@/components/hero';
 import ProjectImageSVG from '@/components/projects/ProjectImageSVG.astro';
 import TypingEffect from '@/components/ui/TypingEffect.astro';
 import TechStack from '@/components/landing/TechStack.astro';
-import LetterGlitchBand from '@/components/patterns/LetterGlitchBand.astro';
+import CtaBand from '@/components/patterns/CtaBand.astro';
 import { t, tData, defaultLocale } from '@/i18n';
 
 interface Props {
@@ -286,26 +286,7 @@ const cta = tData<{ badge: string; heading: string; description: string; button:
 
   <!-- CTA -->
   <section class="relative z-10 py-[var(--space-section-md)] bg-background border-t border-border">
-    <!-- Mobile: flat section, no card -->
-    <div class="glitch:hidden mx-auto max-w-2xl px-6 text-center" data-reveal>
-      <Badge variant="brand" pill class="mb-6">
-        <Icon name="rocket" size="sm" />
-        {cta.badge}
-      </Badge>
-      <h2 class="font-display text-4xl font-bold text-foreground mb-4 text-balance">
-        {cta.heading}
-      </h2>
-      <p class="text-lg text-foreground-muted mb-8 text-balance">
-        {cta.description}
-      </p>
-      <Button size="lg" href={GITHUB_URL} target="_blank" rel="noopener noreferrer" class="cta-btn-brand">
-        {cta.button}
-        <Icon name="arrow-right" size="sm" />
-      </Button>
-    </div>
-
-    <!-- Desktop: contained LetterGlitch band with glass card -->
-    <LetterGlitchBand>
+    <CtaBand>
       <h2 class="font-display text-4xl font-bold text-foreground mb-4 text-balance">
         {cta.heading}
       </h2>
@@ -316,7 +297,7 @@ const cta = tData<{ badge: string; heading: string; description: string; button:
         {cta.button}
         <Icon name="arrow-right" size="sm" />
       </Button>
-    </LetterGlitchBand>
+    </CtaBand>
   </section>
 </PageLayout>
 
