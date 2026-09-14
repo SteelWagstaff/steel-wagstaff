@@ -1358,6 +1358,46 @@
   background-color: oklch(47% 0.18 25);
 }
 
+/* ── The CTA band's button pair ─────────────────────────────────────────
+   The band is a saturated brand field with a grid over it, and the grid
+   decides both buttons: anything transparent lets the lines read straight
+   through it. So the pair is a near-white primary and an opaque brand
+   secondary, and neither has a see-through state — including on hover.
+
+   Primary: the near-white pill the home hero already uses on its own
+   gradient. Two rules have to be beaten for it. Button.astro paints
+   `.btn-primary` a brand fill in light mode, which on a brand field is a
+   duller patch of the same colour rather than a button; and
+   `.invert-section .btn-primary` forces a white label, which was right for
+   the brand fill it was written for and would be white-on-white here. Both
+   are answered below, with `!important` for the reason the hero's copy
+   gives: Button's own rule otherwise wins `background-color` back on hover.
+
+   The label is brand-700, not the near-black `--color-background` the pill
+   started with. brand-700 is the step that clears 4.5:1 on a near-white fill
+   in all twelve palettes: brand-500 fails in ten of them and brand-600 still
+   fails on emerald, teal, cyan and sky — the same four the tag pill had to
+   move past.
+
+   Secondary: `.cta-btn-brand`, unchanged — an opaque brand fill with an
+   opaque brand hover and no border. `.hero-btn-brand` would look the same at
+   rest but fades to `opacity: 0.85` on hover, which makes the whole button
+   translucent and shows the grid through it. */
+.cta-band.invert-section .btn-primary {
+  background-color: var(--color-foreground) !important;
+  background-image: linear-gradient(
+    180deg,
+    var(--color-foreground) 0%,
+    color-mix(in oklch, var(--color-foreground) 55%, var(--color-foreground-secondary)) 100%
+  ) !important;
+  border: 1px solid var(--color-foreground-secondary) !important;
+  color: var(--color-brand-700) !important;
+}
+.cta-band.invert-section .btn-primary:hover {
+  background-image: none !important;
+  background-color: color-mix(in oklch, var(--color-foreground) 90%, white) !important;
+}
+
 .hero-btn-learn {
   background-color: transparent !important;
   background-image: none !important;

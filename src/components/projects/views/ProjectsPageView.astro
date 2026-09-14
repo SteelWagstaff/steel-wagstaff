@@ -107,11 +107,11 @@ const aboutUrl = localizedPath('/about', locale);
         {t('projects.ctaLead', locale)}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button size="lg" href={contactUrl} class="hero-btn-brand">
+        <Button size="lg" href={contactUrl}>
           {t('projects.ctaPrimary', locale)}
           <Icon name="arrow-right" size="sm" />
         </Button>
-        <Button size="lg" variant="outline" href={aboutUrl}>
+        <Button size="lg" variant="outline" class="cta-btn-brand" href={aboutUrl}>
           {t('projects.ctaSecondary', locale)}
           <Icon name="arrow-right" size="sm" />
         </Button>
