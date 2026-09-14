@@ -1375,7 +1375,7 @@
 
    The label is brand-700, not the near-black `--color-background` the pill
    started with. brand-700 is the step that clears 4.5:1 on a near-white fill
-   in all twelve palettes: brand-500 fails in ten of them and brand-600 still
+   in all eight palettes: brand-500 fails in seven of them and brand-600 still
    fails on emerald, teal, cyan and sky — the same four the tag pill had to
    move past.
 
@@ -1484,7 +1484,7 @@ summary {
    brand in dark mode too, mirroring the light-mode primary: brand-600 fill,
    brand-700 hover, white label. The same four cooler hues as light mode
    (cyan/emerald/sky/teal) sit on brand-700/800 so the white text keeps
-   WCAG AA — worst case across all 12 themes is 4.56:1 (amber, at rest),
+   WCAG AA — worst case across the eight themes is 5.31:1 (blue, at rest),
    measured from each theme's --brand-600/700 against white. */
 html.dark .btn-primary.project-live-btn,
 html.dark .mobile-menu-cta-wrap .btn-primary {

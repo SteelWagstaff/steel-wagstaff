@@ -1,6 +1,6 @@
 ---
 title: "Every Configuration Toggle, Theme and Layout"
-description: "A walkthrough of every configuration option: 12 colour themes, OKLCH colours, typography, radius and shadow tokens, header styles, and dark mode."
+description: "A walkthrough of every configuration option: 8 colour themes, OKLCH colours, typography, radius and shadow tokens, header styles, and dark mode."
 publishedAt: 2026-04-18
 author: "Hans Martens"
 tags: ["astro-rocket", "configuration", "customization", "themes"]
@@ -159,55 +159,49 @@ branding: {
 
 ## Colour themes
 
-Astro Rocket ships with **12 colour themes**. All 12 are shown as coloured swatches in the header via the `ThemeSelector` component. Clicking a swatch switches the active theme instantly — no file edits, no rebuild. The logo badge, blog image gradients, and every brand colour on the page update live together.
+Astro Rocket ships with **8 colour themes**. All 8 are shown as coloured swatches in the header via the `ThemeSelector` component. Clicking a swatch switches the active theme instantly — no file edits, no rebuild. The logo badge, blog image gradients, and every brand colour on the page update live together.
 
 ### Changing the active theme
 
 The default theme is set with `data-theme` on the `<html>` element in `src/layouts/BaseLayout.astro`:
 
 ```html
-data-theme="indigo"
+data-theme="blue"
 ```
 
-Available values — all 12 themes:
+Available values — all 8 themes:
 
 | Value | Hue | Best for |
 |-------|-----|----------|
-| `orange` | 38° | Bold and warm — the original Velocity/International Orange |
-| `amber` | 75° | Editorial, luxury, food, warm creative brands |
-| `lime` | 130° | Dev tools, high-energy product sites (Vercel/Linear aesthetic) |
-| `emerald` | 160° | All-rounder — works for SaaS, portfolios, and organic brands |
+| `emerald` | 151° | All-rounder — works for SaaS, portfolios, and organic brands |
 | `teal` | 190° | Developer tooling, modern SaaS, trustworthy services |
-| `cyan` | 200° | Fresh, vibrant tech — more energetic than teal |
-| `sky` | 222° | Clean and airy — between teal and blue, great for services |
-| `blue` | 255° | Studio aesthetic (Linear/Raycast feel), authoritative |
-| `indigo` | 264° | Enterprise, productivity tools, serious B2B — the default |
-| `violet` | 277° | Creative and premium — sweet spot between indigo and purple |
-| `purple` | 303° | Expressive, personality-forward, vivid |
-| `magenta` | 330° | Creative agencies, bold personal brands — maximum vivid |
+| `cyan` | 208° | Fresh, vibrant tech — more energetic than teal |
+| `sky` | 239° | Clean and airy — between cyan and blue, great for services |
+| `blue` | 255° | Studio aesthetic (Linear/Raycast feel), authoritative — the default |
+| `indigo` | 263° | Enterprise, productivity tools, serious B2B |
+| `violet` | 279° | Creative and premium — sweet spot between indigo and purple |
+| `purple` | 296° | Expressive, personality-forward, vivid |
 
 ### The live theme selector
 
-All 12 themes appear as colour swatches in the header dropdown (desktop) and in the mobile menu when `showThemeSelector` is enabled on the `<Header>` component. The visitor's choice is saved to `sessionStorage` and persists for the duration of the tab session — every new tab resets to the configured default. This is intentional for a portfolio or marketing site: first impressions stay on-brand. (The colour mode — System / Light / Dark — is stored separately in `localStorage` and *does* persist across reloads and new tabs; see [the colour-mode post](/blog/colour-mode-system) for that side of the system.)
+All 8 themes appear as colour swatches in the header dropdown (desktop) and in the mobile menu when `showThemeSelector` is enabled on the `<Header>` component. The visitor's choice is saved to `sessionStorage` and persists for the duration of the tab session — every new tab resets to the configured default. This is intentional for a portfolio or marketing site: first impressions stay on-brand. (The colour mode — System / Light / Dark — is stored separately in `localStorage` and *does* persist across reloads and new tabs; see [the colour-mode post](/blog/colour-mode-system) for that side of the system.)
 
-The `themes` array in `src/components/layout/ThemeSelector.astro` controls which swatches are shown and in what order. The current set:
+The `colourThemes` array in `src/lib/themes.ts` is the single source of truth — it controls which swatches are shown and in what order, and both the desktop row and the dropdown read it. The current set:
 
 ```ts
-const themes = [
-  { id: 'orange',  name: 'Orange',  color: 'oklch(62.5% 0.22  38)' },
-  { id: 'amber',   name: 'Amber',   color: 'oklch(68%   0.19  75)' },
-  { id: 'lime',    name: 'Lime',    color: 'oklch(64%   0.27 130)' },
-  { id: 'emerald', name: 'Emerald', color: 'oklch(62.5% 0.22 160)' },
-  { id: 'teal',    name: 'Teal',    color: 'oklch(62.5% 0.22 190)' },
-  { id: 'cyan',    name: 'Cyan',    color: 'oklch(65%   0.22 200)' },
-  { id: 'sky',     name: 'Sky',     color: 'oklch(67%   0.21 222)' },
-  { id: 'blue',    name: 'Blue',    color: 'oklch(62.5% 0.22 255)' },
-  { id: 'indigo',  name: 'Indigo',  color: 'oklch(60%   0.24 264)' },
-  { id: 'violet',  name: 'Violet',  color: 'oklch(62.5% 0.26 277)' },
-  { id: 'purple',  name: 'Purple',  color: 'oklch(62.5% 0.25 303)' },
-  { id: 'magenta', name: 'Magenta', color: 'oklch(58%   0.28 330)' },
+export const colourThemes: ColourTheme[] = [
+  { id: 'emerald', name: 'Emerald', color: 'oklch(65.2% 0.174 151)', showInSelector: true },
+  { id: 'teal',    name: 'Teal',    color: 'oklch(67.2% 0.116 190)', showInSelector: true },
+  { id: 'cyan',    name: 'Cyan',    color: 'oklch(67.2% 0.116 208)', showInSelector: true },
+  { id: 'sky',     name: 'Sky',     color: 'oklch(66.5% 0.150 239)', showInSelector: true },
+  { id: 'blue',    name: 'Blue',    color: 'oklch(62.1% 0.207 255)', showInSelector: true },
+  { id: 'indigo',  name: 'Indigo',  color: 'oklch(58.9% 0.224 263)', showInSelector: true },
+  { id: 'violet',  name: 'Violet',  color: 'oklch(59.9% 0.222 279)', showInSelector: true },
+  { id: 'purple',  name: 'Purple',  color: 'oklch(59.7% 0.251 296)', showInSelector: true },
 ];
 ```
+
+Set `showInSelector: false` to hide a theme from the pickers while keeping its palette working — useful when a visitor has one saved from an earlier session.
 
 Once you've settled on your brand colour, you can remove the selector from the header entirely. Open `src/layouts/LandingLayout.astro` and delete the `showThemeSelector` prop — the swatches disappear without breaking anything else.
 
@@ -230,27 +224,27 @@ To shift a theme to a completely different colour, you only need to change the h
 Every theme is a CSS file in `src/styles/themes/`. Each file defines the full set of colour tokens for both light and dark mode. Open the relevant file and adjust the `--brand-*` scale — all ten steps from 50 to 900:
 
 ```css
-html[data-theme="indigo"] {
-  --brand-50:  oklch(97.5% 0.02 264);
-  --brand-100: oklch(94.5% 0.05 264);
-  --brand-200: oklch(86%   0.11 264);
-  --brand-300: oklch(75%   0.18 264);
-  --brand-400: oklch(67%   0.22 264);
-  --brand-500: oklch(60%   0.24 264); /* primary accent in light mode */
-  --brand-600: oklch(52%   0.22 264);
-  --brand-700: oklch(44%   0.18 264);
-  --brand-800: oklch(36%   0.14 264);
-  --brand-900: oklch(26%   0.09 264);
+html[data-theme="teal"] {
+  --brand-50:  oklch(97.5% 0.02  190);
+  --brand-100: oklch(94.8% 0.04  190);
+  --brand-200: oklch(87.5% 0.09  190);
+  --brand-300: oklch(78.5% 0.136 190);
+  --brand-400: oklch(72.0% 0.125 189);
+  --brand-500: oklch(67.2% 0.116 190); /* primary accent in light mode */
+  --brand-600: oklch(57.4% 0.099 189);
+  --brand-700: oklch(48.9% 0.085 189);
+  --brand-800: oklch(39.9% 0.069 189);
+  --brand-900: oklch(28.3% 0.049 190);
 }
 ```
 
-To shift to a different colour, replace `264` (indigo) with your target hue across all ten lines. That's the entire change required.
+To shift to a different colour, replace `190` (teal) with your target hue across all ten lines. That's the entire change required.
 
 You can also edit the shared brand scale in `src/styles/tokens/primitives.css` if you want a single consistent palette that isn't theme-dependent:
 
 ```css
 :root {
-  --brand-500: oklch(62.5% 0.22 255); /* primary brand color */
+  --brand-500: oklch(62.1% 0.207 255); /* primary brand color */
   /* full --brand-50 to --brand-900 scale */
 }
 ```
@@ -286,7 +280,7 @@ html[data-theme="sky"] {
 }
 ```
 
-All 12 themes currently share the same font stack. To use a custom font, install it in `public/fonts/`, add a `@font-face` declaration in `src/styles/global.css`, and update `--theme-font-sans` or `--theme-font-display` in your active theme file.
+All 8 themes currently share the same font stack. To use a custom font, install it in `public/fonts/`, add a `@font-face` declaration in `src/styles/global.css`, and update `--theme-font-sans` or `--theme-font-display` in your active theme file.
 
 ### Border radius tokens
 
@@ -577,12 +571,12 @@ The `uid` field is entirely optional — posts without one behave exactly as bef
 | Twitter card handles | `src/config/site.config.ts` | `twitter.site`, `twitter.creator` |
 | Search console verification | `.env` or `site.config.ts` | `verification.google/bing` |
 | Navigation items | `src/config/nav.config.ts` | `navItems` array |
-| Default colour theme | `src/layouts/BaseLayout.astro` | `data-theme="indigo"` |
+| Default colour theme | `src/layouts/BaseLayout.astro` | `data-theme="blue"` |
 | Default dark/light mode | `src/layouts/BaseLayout.astro` | `class="dark"` on `<html>` |
 | JSON-LD schema switches | `src/pages/index.astro` | `includePersonSchema`, `includeOrgSchema` |
 | noindex / nofollow | any layout | `noindex={true}`, `nofollow={true}` |
-| Live theme selector (12 swatches) | `src/lib/themes.ts` | `colourThemes` array |
-| All 12 theme files | `src/styles/themes/` | One CSS file per theme |
+| Live theme selector (8 swatches) | `src/lib/themes.ts` | `colourThemes` array |
+| All 8 theme files | `src/styles/themes/` | One CSS file per theme |
 | Brand colour scale (light & dark) | `src/styles/themes/*.css` | `--brand-50` → `--brand-900` |
 | Typography (fonts, weight, tracking) | `src/styles/themes/*.css` | `--theme-font-*`, `--theme-heading-*` |
 | Border radius (global roundness) | `src/styles/themes/*.css` | `--theme-radius-sm/md/lg/xl/full` |

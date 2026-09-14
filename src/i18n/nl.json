@@ -230,13 +230,13 @@
     "about": {
       "meta": {
         "title": "Over — Gratis open-source Astro 7 thema",
-        "description": "Wat Astro Rocket is en hoe het gebouwd is: een gratis, razendsnel Astro 7 starter-thema met 44 ontworpen componenten, 12 kleurthema's, ingebouwde i18n en donkere modus."
+        "description": "Wat Astro Rocket is en hoe het gebouwd is: een gratis, razendsnel Astro 7 starter-thema met 44 ontworpen componenten, 8 kleurthema's, ingebouwde i18n en donkere modus."
       },
       "hero": {
         "badge": "Over",
         "titleLead": "Astro Rocket —",
-        "typingWords": ["Razendsnel", "Starter-thema", "44 Componenten", "12 Thema's", "Donkere modus", "Ingebouwde i18n"],
-        "typingWordsMobile": ["Razendsnel", "Starter-thema", "12 Thema's", "Donkere modus", "Ingebouwde i18n"],
+        "typingWords": ["Razendsnel", "Starter-thema", "44 Componenten", "8 Thema's", "Donkere modus", "Ingebouwde i18n"],
+        "typingWordsMobile": ["Razendsnel", "Starter-thema", "8 Thema's", "Donkere modus", "Ingebouwde i18n"],
         "description": "Een gratis, open-source Astro 7 starter-thema om alles op te bouwen."
       },
       "whatYouGet": {
@@ -256,7 +256,7 @@
           },
           {
             "icon": "palette",
-            "title": "12 kleurthema's",
+            "title": "8 kleurthema's",
             "description": "Wissel het complete kleurenpalet live vanuit de header. Inclusief lichte en donkere modus."
           },
           {
@@ -327,7 +327,7 @@
             "title": "Het thema gebruiken",
             "items": [
               { "question": "Is het gratis te gebruiken?", "answer": "Ja, volledig gratis. Astro Rocket is MIT-gelicentieerd — gebruik het voor persoonlijke en commerciële projecten, geen naamsvermelding vereist." },
-              { "question": "Hoe wissel ik van thema?", "answer": "Wijzig één regel in je configuratie. Astro Rocket wordt geleverd met 12 met de hand gemaakte kleurthema's — wissel er direct tussen zonder ook maar één regel CSS aan te raken." },
+              { "question": "Hoe wissel ik van thema?", "answer": "Wijzig één regel in je configuratie. Astro Rocket wordt geleverd met 8 met de hand gemaakte kleurthema's — wissel er direct tussen zonder ook maar één regel CSS aan te raken." },
               { "question": "Ondersteunt het TypeScript?", "answer": "Ja, TypeScript wordt overal gebruikt. Alle componenten, configuraties en hulpprogramma's zijn volledig getypeerd." },
               { "question": "Hoe voeg ik mijn eigen taal toe voor i18n?", "answer": "De i18n van Astro Rocket is config-gedreven. Voeg je locale toe aan het i18n-configuratiebestand, maak een bijbehorend vertaalbestand aan en de routering en interface passen zich automatisch aan." },
               { "question": "Waar meld ik bugs of stel ik functies voor?", "answer": "Open een issue of start een discussie op de <a href=\"https://github.com/hansmartensdev/astro-rocket\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">GitHub-repository</a>. Bijdragen en feedback zijn altijd welkom." }
@@ -529,15 +529,15 @@
     "home": {
       "meta": {
         "title": "Gratis open-source Astro 7 thema",
-        "description": "Astro Rocket is een gratis, razendsnel Astro 7 starter-thema om alles op te bouwen — met 44 ontworpen componenten, 12 kleurthema's, donkere modus en ingebouwde i18n aan boord."
+        "description": "Astro Rocket is een gratis, razendsnel Astro 7 starter-thema om alles op te bouwen — met 44 ontworpen componenten, 8 kleurthema's, donkere modus en ingebouwde i18n aan boord."
       },
       "hero": {
         "badge": "Beschikbaar voor nieuwe projecten",
         "titleLine1": "Astro Rocket —",
         "titleLine2": "Webdesigner",
         "titleLine3": "& Ontwikkelaar",
-        "description": "Een gratis, razendsnel Astro 7 starter-thema om alles op te bouwen: 44 ontworpen componenten, 12 kleurthema's en donkere modus.",
-        "descriptionMobile": "Een gratis, razendsnel Astro 7 starter-thema om alles op te bouwen: 44 ontworpen componenten en 12 kleurthema's.",
+        "description": "Een gratis, razendsnel Astro 7 starter-thema om alles op te bouwen: 44 ontworpen componenten, 8 kleurthema's en donkere modus.",
+        "descriptionMobile": "Een gratis, razendsnel Astro 7 starter-thema om alles op te bouwen: 44 ontworpen componenten en 8 kleurthema's.",
         "github": "Bekijk op GitHub",
         "getStarted": "Aan de slag"
       },

@@ -24,8 +24,8 @@ Tokens are organised in three layers, each building on the one below.
 Reference tokens are raw values: specific colors, sizes, radii. They have no semantic meaning — they just define the palette.
 
 ```css
---color-lime-500: oklch(0.768 0.233 130.85);
---color-lime-600: oklch(0.702 0.213 130.85);
+--color-blue-500: oklch(0.621 0.207 255);
+--color-blue-600: oklch(0.532 0.190 255);
 ```
 
 You rarely touch these directly. They are the raw material.
@@ -36,8 +36,8 @@ Semantic tokens map intent to reference values. `--color-brand-500` does not kno
 
 ```css
 :root {
-  --color-brand-500: var(--color-lime-500);
-  --color-brand-600: var(--color-lime-600);
+  --color-brand-500: var(--color-blue-500);
+  --color-brand-600: var(--color-blue-600);
 }
 ```
 
@@ -63,10 +63,10 @@ OKLCH describes colour in three dimensions: lightness (`L`), chroma (`C`), and h
 In practice, this means the design token palette stays visually consistent across the full range of shades without manual correction. Dark mode colours remain readable. Brand accents stay vivid without looking garish.
 
 ```css
-/* The same hue (130.85°) across lightness levels stays visually balanced */
---color-lime-300: oklch(0.897 0.181 130.85);
---color-lime-500: oklch(0.768 0.233 130.85);
---color-lime-700: oklch(0.593 0.174 130.85);
+/* Blue's scale — evenly spaced in lightness, so it stays visually balanced */
+--color-blue-300: oklch(0.772 0.121 250);
+--color-blue-500: oklch(0.621 0.207 255);
+--color-blue-700: oklch(0.455 0.160 255);
 ```
 
 ## Dark mode through tokens
@@ -91,13 +91,13 @@ Component tokens inherit this automatically because they point to semantic token
 
 ## Changing the brand colour
 
-The base brand colour scale lives in `src/styles/tokens/primitives.css`. To switch from lime to, say, violet:
+The base brand colour scale lives in `src/styles/tokens/primitives.css`. To switch from blue to, say, violet:
 
 **1. Add or verify your reference tokens exist:**
 
 ```css
---color-violet-500: oklch(0.606 0.258 292.72);
---color-violet-600: oklch(0.541 0.229 292.72);
+--color-violet-500: oklch(59.9% 0.222 279);
+--color-violet-600: oklch(53% 0.23 277);
 ```
 
 **2. Remap the semantic brand tokens:**
@@ -114,7 +114,7 @@ That is the complete change. Every button, link, badge, logo badge, favicon lett
 The `themeColor` value in `site.config.ts` controls the browser's `<meta name="theme-color">` tag (the mobile browser chrome colour) and should be updated to match:
 
 ```ts
-themeColor: '#7c3aed', // violet-600 as hex for browser chrome
+themeColor: '#544dec', // violet-600 as hex for browser chrome
 ```
 
 ## The Tailwind connection
