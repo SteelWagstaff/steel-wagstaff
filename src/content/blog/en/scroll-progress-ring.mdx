@@ -101,7 +101,7 @@ window.addEventListener('scroll', onScroll, { passive: true });
 
 The ring colour requires no JavaScript to follow the active theme. The progress arc has `class="text-brand-500"` and `stroke="currentColor"`. Tailwind maps `text-brand-500` to `--color-brand-500` via the `@theme` block in `global.css`, and `stroke="currentColor"` inherits the CSS `color` value from that class.
 
-When a visitor selects a different colour in the theme selector — Orange, Emerald, Violet, or any of the twelve available themes — the browser sets a new `data-theme` attribute on `<html>`. Each theme file repoints `--brand-500` to a different OKLCH colour. Every element using `text-brand-500` or `stroke="currentColor"` repaints automatically. The ring is one of those elements, so it switches colour at the same moment as the logo badge, the scroll progress bar in the header, the primary buttons, and every other brand-coloured detail on the page.
+When a visitor selects a different colour in the theme selector — Emerald, Indigo, Violet, or any of the eight available themes — the browser sets a new `data-theme` attribute on `<html>`. Each theme file repoints `--brand-500` to a different OKLCH colour. Every element using `text-brand-500` or `stroke="currentColor"` repaints automatically. The ring is one of those elements, so it switches colour at the same moment as the logo badge, the scroll progress bar in the header, the primary buttons, and every other brand-coloured detail on the page.
 
 No extra JavaScript. No theme-switch event listener. The cascade does it.
 

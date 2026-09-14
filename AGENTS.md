@@ -15,7 +15,7 @@ src/components/      44 components, grouped by purpose
 src/pages/           Routes; a file here is a URL
 src/layouts/         Page shells the routes render into
 src/lib/             Helpers for blog, projects, tags, SEO, themes
-src/styles/          Design tokens and the twelve colour themes
+src/styles/          Design tokens and the eight colour themes
 component-registry.json   Machine-readable catalogue of every component
 ```
 
@@ -41,7 +41,7 @@ Do not write a component count you have not counted from this file.
 | Any interface text, including `aria-label`, `alt`, `placeholder` and `title` | `src/i18n/en.json` (and other locales) |
 | A blog post | a new `.mdx` file in `src/content/blog/<locale>/` |
 | A project | a new `.mdx` file in `src/content/projects/<locale>/` |
-| Colours | `src/styles/themes/*.css` — twelve themes, tokens only |
+| Colours | `src/styles/themes/*.css` — eight themes, tokens only |
 
 **Page copy is not in the page files.** Text lives in `src/i18n/en.json` and is
 read through `t()`. Editing a heading usually means editing JSON, not `.astro`.

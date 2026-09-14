@@ -230,13 +230,13 @@
     "about": {
       "meta": {
         "title": "About — Free Open-Source Astro 7 Theme",
-        "description": "What Astro Rocket is and how it's built: a free Astro 7 starter theme with 44 designed components, 12 colour themes, i18n, and dark mode."
+        "description": "What Astro Rocket is and how it's built: a free Astro 7 starter theme with 44 designed components, 8 colour themes, i18n, and dark mode."
       },
       "hero": {
         "badge": "About",
         "titleLead": "Astro Rocket —",
-        "typingWords": ["Lightning-fast", "Starter theme", "44 Components", "12 Themes", "Dark Mode", "Built-in i18n"],
-        "typingWordsMobile": ["Lightning-fast", "Starter theme", "12 Themes", "Dark Mode", "Built-in i18n"],
+        "typingWords": ["Lightning-fast", "Starter theme", "44 Components", "8 Themes", "Dark Mode", "Built-in i18n"],
+        "typingWordsMobile": ["Lightning-fast", "Starter theme", "8 Themes", "Dark Mode", "Built-in i18n"],
         "description": "A free, open-source Astro 7 starter\u00a0theme to build anything on."
       },
       "whatYouGet": {
@@ -256,7 +256,7 @@
           },
           {
             "icon": "palette",
-            "title": "12 colour themes",
+            "title": "8 colour themes",
             "description": "Switch the whole site's palette live from the header. Light and dark mode included."
           },
           {
@@ -327,7 +327,7 @@
             "title": "Using the theme",
             "items": [
               { "question": "Is it free to use?", "answer": "Yes, completely free. Astro Rocket is MIT licensed — use it for personal and commercial projects, no attribution required." },
-              { "question": "How do I switch themes?", "answer": "Change a single line in your config. Astro Rocket ships with 12 hand-crafted colour themes — swap between them instantly without touching a line of CSS." },
+              { "question": "How do I switch themes?", "answer": "Change a single line in your config. Astro Rocket ships with 8 hand-crafted colour themes — swap between them instantly without touching a line of CSS." },
               { "question": "Does it support TypeScript?", "answer": "Yes, TypeScript is used throughout. All components, configs, and utilities are fully typed." },
               { "question": "How do I add my own language for i18n?", "answer": "Astro Rocket's i18n is config-driven. Add your locale to the i18n config file, create a matching translation file, and the routing and UI adapt automatically." },
               { "question": "Where do I report bugs or suggest features?", "answer": "Open an issue or start a discussion on the <a href=\"https://github.com/hansmartensdev/astro-rocket\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">GitHub repository</a>. Contributions and feedback are always welcome." }
@@ -529,15 +529,15 @@
     "home": {
       "meta": {
         "title": "Free open-source Astro 7 theme",
-        "description": "A free, fast Astro 7 starter theme to build anything on: 44 designed components, 12 colour themes, dark mode, and built-in i18n."
+        "description": "A free, fast Astro 7 starter theme to build anything on: 44 designed components, 8 colour themes, dark mode, and built-in i18n."
       },
       "hero": {
         "badge": "Available for new projects",
         "titleLine1": "Astro Rocket —",
         "titleLine2": "Web Designer",
         "titleLine3": "& Developer",
-        "description": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components, 12 colour themes, and dark mode.",
-        "descriptionMobile": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components and 12 colour themes.",
+        "description": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components, 8 colour themes, and dark mode.",
+        "descriptionMobile": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components and 8 colour themes.",
         "github": "Get it on GitHub",
         "getStarted": "Get started"
       },

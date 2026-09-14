@@ -60,7 +60,7 @@
 
 **Astro Rocket is an Astro 7 theme.**
 
-It ships as a working site: homepage, about, services, contact, a blog and a projects portfolio — both with tags and pagination — a components showcase, and a 404 page. Underneath sits a library of **44 designed, accessible, TypeScript components** on a three-tier design-token system, with static search, SEO, opt-in i18n, dark mode, and 12 colour themes you can switch live in the browser.
+It ships as a working site: homepage, about, services, contact, a blog and a projects portfolio — both with tags and pagination — a components showcase, and a 404 page. Underneath sits a library of **44 designed, accessible, TypeScript components** on a three-tier design-token system, with static search, SEO, opt-in i18n, dark mode, and 8 colour themes you can switch live in the browser.
 
 Content is Markdown in `src/content/`, the rest is `site.config.ts`, and it deploys to Vercel, Netlify, Cloudflare, or as static files.
 
@@ -78,7 +78,7 @@ Use all of it or only the parts you need. The site you build on it is yours.
 |---------|-------------|
 | **Astro 7** | Latest version with the Rust compiler, Vite 8, Content Layer API, and performance optimizations |
 | **Tailwind CSS v4** | CSS-first configuration with OKLCH color system and fluid typography |
-| **12 Colour Themes** | All 12 colour swatches are shown in the header dropdown — click one and the logo badge, blog image gradients, and every brand color update live instantly. No file edits, no rebuilds. The selector can be removed from the header once you've settled on a color. |
+| **8 Colour Themes** | All 8 colour swatches are shown in the header dropdown — click one and the logo badge, blog image gradients, and every brand color update live instantly. No file edits, no rebuilds. The selector can be removed from the header once you've settled on a color. |
 | **Scroll Progress Bar** | A thin 2px brand-coloured bar on the header edge that fills as you scroll. Enabled on the homepage (above the floating header), blog index, and post pages (below the solid header). Controlled via `showScrollProgress` and `scrollProgressPosition` props on the Header component. |
 | **Design Tokens** | Three-tier token architecture (reference → semantic → component) |
 | **44 Components** | 34 UI, 7 patterns, 2 layout, 1 hero — every entry in `component-registry.json`, all accessible with TypeScript |
@@ -202,7 +202,7 @@ astro-rocket/
 │   │   └── blog/            # Blog routes
 │   ├── styles/              # Global CSS and design tokens
 │   │   ├── tokens/          # colors.css, typography.css, spacing.css
-│   │   └── themes/          # 12 colour theme files
+│   │   └── themes/          # 8 colour theme files
 │   └── config/              # Site and navigation configuration
 ├── astro.config.mjs         # Astro configuration
 ├── package.json
@@ -462,15 +462,14 @@ Astro Rocket uses a three-tier design token system with OKLCH colors for percept
 
 ### Switching Themes
 
-Astro Rocket ships with 12 colour themes, all based on Tailwind's color palette. All 12 are shown as colour swatches in the header dropdown (`ThemeSelectorDropdown`) on desktop and in the mobile menu (`ThemeSelector`). Clicking a swatch applies the theme instantly — the logo badge, blog image gradients, and every brand color on the page update live. No file edits, no rebuilds. This is a key difference from the original Velocity theme, where switching theme requires editing a CSS import file and rebuilding.
+Astro Rocket ships with 8 colour themes, all based on Tailwind's color palette. All 8 are shown as colour swatches in the header dropdown (`ThemeSelectorDropdown`) on desktop and in the mobile menu (`ThemeSelector`). Clicking a swatch applies the theme instantly — the logo badge, blog image gradients, and every brand color on the page update live. No file edits, no rebuilds. This is a key difference from the original Velocity theme, where switching theme requires editing a CSS import file and rebuilding.
 
-The 12 themes in order: Orange, Amber, Lime, Emerald, Teal, Cyan, Sky, Blue (default), Indigo, Violet, Purple, and Magenta. The `colourThemes` array in `src/lib/themes.ts` is the registry: it controls which swatches are shown, in what order, and whether each is offered at all (`showInSelector`). You can also **remove the selector from the header entirely** once you've settled on a color — just remove `showThemeSelector` from the layout file.
+The 8 themes in order: Purple, Violet, Indigo, Blue (default), Sky, Cyan, Teal, and Emerald. The `colourThemes` array in `src/lib/themes.ts` is the registry: it controls which swatches are shown, in what order, and whether each is offered at all (`showInSelector`). You can also **remove the selector from the header entirely** once you've settled on a color — just remove `showThemeSelector` from the layout file.
 
 The theme files live in `src/styles/themes/`:
 
 ```
-amber.css   blue.css    cyan.css    emerald.css
-indigo.css  lime.css    magenta.css orange.css
+blue.css    cyan.css    emerald.css indigo.css
 purple.css  sky.css     teal.css    violet.css
 ```
 
@@ -550,7 +549,7 @@ import ThemeModeDropdown from '@/components/layout/ThemeModeDropdown.astro';
 
 The full design — bootstrap script, dropdown anatomy, the live "Currently dark/light" sub-line under 'System', and how two component instances stay state-synced — is written up in the [System, Light, Dark blog post](https://astrorocket.dev/blog/colour-mode-system).
 
-> **Why `localStorage` for colour mode but `sessionStorage` for the colour palette?** They serve different intents. The colour mode is the user's accessibility / preference setting and should survive reloads and new tabs — `localStorage`. The 12-swatch colour palette is a brand-discovery toy that should reset on every new visit so first impressions stay on-brand — `sessionStorage`. Keeping them on different storage tiers is intentional, not accidental.
+> **Why `localStorage` for colour mode but `sessionStorage` for the colour palette?** They serve different intents. The colour mode is the user's accessibility / preference setting and should survive reloads and new tabs — `localStorage`. The 8-swatch colour palette is a brand-discovery toy that should reset on every new visit so first impressions stay on-brand — `sessionStorage`. Keeping them on different storage tiers is intentional, not accidental.
 
 ### WCAG Contrast Requirements
 

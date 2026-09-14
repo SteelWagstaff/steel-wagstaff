@@ -168,13 +168,13 @@ These components are fixed parts of the site architecture. They are used once pe
 
 **Hero** — the `Hero` component supports two layouts (`centered`, `split`) and four sizes (`sm`, `md`, `lg`, `xl`). All hero content uses named slots: `badge`, `title`, `description`, `actions`, and optionally `image`.
 
-**Header** — fixed top navigation bar with logo, nav links, the colour-mode pill (System / Light / Dark dropdown), the colour-theme pill (12-swatch picker), and an optional CTA button. Three rendering variants: `solid`, `transparent`, and `default`. The capsule header on the homepage is a separate `shape="floating"` prop — distinct from the variant. Includes the scroll progress bar when enabled.
+**Header** — fixed top navigation bar with logo, nav links, the colour-mode pill (System / Light / Dark dropdown), the colour-theme pill (8-swatch picker), and an optional CTA button. Three rendering variants: `solid`, `transparent`, and `default`. The capsule header on the homepage is a separate `shape="floating"` prop — distinct from the variant. Includes the scroll progress bar when enabled.
 
 **Footer** — bottom navigation with site links, social icons, and copyright text.
 
 **Breadcrumbs** — auto-generated from the current URL path. Used at the top of blog posts and inner pages.
 
-**ThemeModeDropdown / ThemeSelectorDropdown** — the two pill-shaped dropdowns that live side-by-side in the header. `ThemeModeDropdown` is the 3-state colour-mode picker (System / Light / Dark) backed by `localStorage`; `ThemeSelectorDropdown` is the 12-swatch colour-theme picker backed by `sessionStorage`. Both pills hide below the `md` breakpoint and re-render inside the mobile menu — the colour-mode pill keeps its dropdown, the colour-theme picker becomes the flat `ThemeSelector` swatch row. See [the colour-mode post](/blog/colour-mode-system) for the full design.
+**ThemeModeDropdown / ThemeSelectorDropdown** — the two pill-shaped dropdowns that live side-by-side in the header. `ThemeModeDropdown` is the 3-state colour-mode picker (System / Light / Dark) backed by `localStorage`; `ThemeSelectorDropdown` is the 8-swatch colour-theme picker backed by `sessionStorage`. Both pills hide below the `md` breakpoint and re-render inside the mobile menu — the colour-mode pill keeps its dropdown, the colour-theme picker becomes the flat `ThemeSelector` swatch row. See [the colour-mode post](/blog/colour-mode-system) for the full design.
 
 **Blog components** — `BlogCard` (post listing card with cover image, tags, and reading time), `ArticleHero` (full-width post header with cover image and metadata), `RelatedPosts` (three-card section at the bottom of every post), `ShareButtons` (Twitter/X, LinkedIn, clipboard copy), and `BlogImageSVG` (the brand-color SVG backgrounds for post covers).
 
