@@ -1309,17 +1309,20 @@
 }
 
 /* CTA primary button on mobile / coarse-pointer CTA sections.
-   brand-700 fill / brand-800 hover in both modes: the lightest brand step
-   that holds white label text at WCAG AA (>=4.5:1) across every theme. */
+   brand-700 fill in both modes: the lightest brand step that holds white
+   label text at WCAG AA (>=4.5:1) across every theme.
+
+   No hover colour. On the CTA band this button sits on a gradient running
+   brand-500 down to brand-900, and the buttons land low in that travel where
+   the ground is already near brand-700. A darker hover put the fill within
+   1.1:1 of the ground behind it, so the button dissolved rather than
+   responded. Hover is carried by the arrow instead — it shifts 4px — and a
+   press by `active:scale-[0.98]` on Button itself. */
 .cta-btn-brand {
   background-color: var(--color-brand-700) !important;
   background-image: none !important;
   color: white !important;
   border-color: transparent !important;
-}
-.cta-btn-brand:hover {
-  background-color: var(--color-brand-800) !important;
-  background-image: none !important;
 }
 
 /* Primary button inside an inverted section.
@@ -1379,10 +1382,18 @@
    fails on emerald, teal, cyan and sky — the same four the tag pill had to
    move past.
 
-   Secondary: `.cta-btn-brand`, unchanged — an opaque brand fill with an
-   opaque brand hover and no border. `.hero-btn-brand` would look the same at
-   rest but fades to `opacity: 0.85` on hover, which makes the whole button
-   translucent and shows the grid through it. */
+   Neither button takes a hover colour. This one is already near-white on a
+   dark field, so it has nowhere brighter to go: its hover mixed the
+   foreground with white and moved the fill by under 2%, which read as no
+   response at all. The pair also needed opposite directions to be legible
+   here — lighter for the dark secondary, darker for this one — which one
+   hover convention cannot give. Hover is carried by the arrow instead, 4px on
+   both buttons, and a press by `active:scale-[0.98]` on Button itself.
+
+   Secondary: `.cta-btn-brand`, an opaque brand fill with no border.
+   `.hero-btn-brand` would look the same at rest but fades to `opacity: 0.85`
+   on hover, which makes the whole button translucent and shows the grid
+   through it. */
 .cta-band.invert-section .btn-primary {
   background-color: var(--color-foreground) !important;
   background-image: linear-gradient(
@@ -1392,10 +1403,6 @@
   ) !important;
   border: 1px solid var(--color-foreground-secondary) !important;
   color: var(--color-brand-700) !important;
-}
-.cta-band.invert-section .btn-primary:hover {
-  background-image: none !important;
-  background-color: color-mix(in oklch, var(--color-foreground) 90%, white) !important;
 }
 
 .hero-btn-learn {
