@@ -1405,6 +1405,27 @@
   color: var(--color-brand-700) !important;
 }
 
+/* The secondary's edge, on the band only.
+
+   Its brand-700 fill sits on a field travelling brand-500 to brand-900, and
+   the buttons land where the ground is already near brand-700 — so the fill
+   is 1.5:1 against what is behind it and the button's shape barely reads.
+   WCAG 1.4.11 asks 3:1 to identify a control, which the fill cannot give
+   without breaking something else: brand-500 would clear the boundary in only
+   five of the eight palettes and would drop the white label to 2.8:1, and
+   brand-600 clears neither.
+
+   A 1px white line at 35% composites over the fill, so no colour changes —
+   the button only gains an edge. Worst of the eight is 3.21:1 (teal), which
+   clears the bar with little to spare; 45% is the same line at 3.91 if a
+   future palette needs the room.
+
+   Scoped to the band because `.cta-btn-brand` is used on light sections too,
+   including the contact form's submit, where a white edge would be wrong. */
+.cta-band.invert-section .cta-btn-brand {
+  border-color: rgb(255 255 255 / 0.35) !important;
+}
+
 .hero-btn-learn {
   background-color: transparent !important;
   background-image: none !important;
