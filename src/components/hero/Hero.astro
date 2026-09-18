@@ -74,6 +74,10 @@ const sectionClasses = cn(
   // Floored bottom slot (e.g. the homepage tech-stack marquee): flex column so the
   // slot floats to the floor with a guaranteed minimum gap above it.
   isFlooredBottom && 'flex flex-col gap-[var(--hero-floor-gap,4rem)]',
+  // Marks the heroes that draw a grid. `showHeroHalo` gates both grid layers
+  // below, so it already names exactly the heroes whose badge needs an opaque
+  // fill; the rule is at the foot of this file.
+  showHeroHalo && 'hero-gridded',
   className
 );
 
@@ -150,7 +154,7 @@ const gridClasses = cn(
     <div class={cn(contentClasses, 'order-1 lg:order-none animate-hero-stagger')}>
       {/* Badge Slot */}
       {hasBadgeSlot && (
-        <div class="mb-[var(--space-heading-gap)]">
+        <div class="hero-badge-slot mb-[var(--space-heading-gap)]">
           <slot name="badge" />
         </div>
       )}
@@ -216,6 +220,35 @@ const gridClasses = cn(
 </section>
 
 <style>
+  /* The badge on a gridded hero, filled rather than tinted.
+
+     `Badge variant="brand"` fills at `bg-brand-500/10`, and the hero behind it
+     draws a 56px lattice — `HeroGrid` in light mode, `hero-beam__grid` in dark
+     — so a 1px line reads straight through the pill and cuts it in half.
+
+     Mixing the same 10% of the brand into the section's own ground gives the
+     colour the pill already renders as, with nothing left to see through. It
+     reads the brand and the background token, so one rule covers all eight
+     colour themes and both modes with no second value to keep in step.
+
+     In sRGB, not OKLCH. `--color-background` in light mode is `oklch(100% 0 0)`,
+     whose hue is powerless, so mixing toward it in OKLCH interpolates the hue
+     away from the brand and the pill comes out the wrong colour. sRGB is also
+     what the browser composites the translucent fill in, so this lands on the
+     colour the pill has today.
+
+     Dark mode gets it too. The line there sits at a far lower contrast against
+     its ground than in light, so it was close to invisible to begin with and
+     this changes nothing you can see — it keeps one rule for both rather than
+     two that can drift.
+
+     Scoped to the badge slot's own child: every hero badge in the theme is a
+     brand-variant pill. A badge of another variant slotted here would be
+     repainted brand, and would need the rule narrowed. */
+  .hero-gridded .hero-badge-slot > :global(*) {
+    background-color: color-mix(in srgb, var(--color-brand-500) 10%, var(--color-background));
+  }
+
   /* Desktop only: hide on landscape mobile (phones max out ~430px tall) */
   .scroll-indicator-wrapper {
     display: none;
