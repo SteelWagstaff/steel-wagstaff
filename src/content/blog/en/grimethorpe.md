@@ -39,6 +39,6 @@ We knocked on the door at 34 Carlton St. It was answered by a youngish woman wit
 
 Two weeks later, I was on an airplane flying back across the Atlantic, heading home. My family greeted me at the airport, along with my friend Matt Larson.
 
-<figure class="align-none"><img class=" wp-image-1350" title="with with my family at the airport" src="http://steelwagstaff.files.wordpress.com/2012/10/with-with-my-family-at-the-airport1.jpg?w=1024" alt="" width="1024" height="733"><figcaption>Photo taken in the Boise airport tunnel, minutes after my family and I saw each other for the first time in nearly two years. Sarah, Camille, Me, Craig, Patti, Bonnie [L-R]</figcaption></figure>
+<figure class="align-none"><img class=" wp-image-1350" title="with with my family at the airport" src="./images/with-with-my-family-at-the-airport1.jpg" alt="" width="1024" height="733"><figcaption>Photo taken in the Boise airport tunnel, minutes after my family and I saw each other for the first time in nearly two years. Sarah, Camille, Me, Craig, Patti, Bonnie [L-R]</figcaption></figure>
 
 I understand that Mel and Ashley moved to Leeds shortly after I left Barnsley. I feel quite certain that Anne is dead, and that the video cassette we delivered did not long survive her. And I still cannot think of Grimethorpe without a surge of rage and helplessness in my throat.

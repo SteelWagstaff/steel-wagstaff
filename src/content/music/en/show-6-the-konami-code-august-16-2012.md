@@ -8,6 +8,7 @@ episode: 6
 tags: []
 draft: false
 locale: en
+audioUrl: "https://media.steelwagstaff.info/06%20Contra's%20The%20Konami%20Code%20%5BU%2CU%2CD%2CD.mp3"
 image: "../../../assets/music/show-6.jpg"
 spotifyEmbedId: "0KPsaJiCyHgYzrCXuh9NcM"
 ---

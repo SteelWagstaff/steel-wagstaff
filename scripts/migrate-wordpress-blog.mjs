@@ -37,7 +37,7 @@ const PROJECT_ROOT = resolve(__dirname, '..');
 // Configuration
 // ---------------------------------------------------------------------------
 
-const XML_PATH = '/home/steelwagstaff/Downloads/steelwagstaff.WordPress.2026-04-24.xml';
+const XML_PATH = join(PROJECT_ROOT, 'steelwagstaff.WordPress.2026-04-24.xml');
 const MEDIA_EXPORTS_DIR = join(PROJECT_ROOT, 'media-exports');
 const BLOG_OUTPUT_DIR = join(PROJECT_ROOT, 'src/content/blog/en');
 const BLOG_ASSETS_DIR = join(PROJECT_ROOT, 'src/content/blog/en/images');
@@ -278,6 +278,11 @@ function copyInlineImages(html, attachmentByBasename) {
 // Main
 // ---------------------------------------------------------------------------
 
+// Optional CLI filter: --slugs=slug-one,slug-two restricts writes to those slugs
+// (used for backfilling specific never-migrated posts without touching the rest).
+const SLUGS_ARG = process.argv.find((a) => a.startsWith('--slugs='));
+const SLUG_ALLOWLIST = SLUGS_ARG ? new Set(SLUGS_ARG.slice('--slugs='.length).split(',')) : null;
+
 async function main() {
   console.log('📖 Reading WordPress XML...');
   const xmlContent = readFileSync(XML_PATH, 'utf-8');
@@ -308,11 +313,16 @@ async function main() {
     if (getWpText(item, 'status') !== 'publish') continue;
 
     const categories = getCategories(item, 'category');
-    const shouldExclude = categories.some((c) => EXCLUDED_CATEGORIES.has(c));
+    const slugCandidate = getWpText(item, 'post_name');
+    // Slugs on the allowlist bypass category exclusion — used to backfill posts
+    // that were wrongly excluded (e.g. genuine blog posts cross-tagged "from tumblr").
+    const forced = SLUG_ALLOWLIST && SLUG_ALLOWLIST.has(slugCandidate);
+    const shouldExclude = !forced && categories.some((c) => EXCLUDED_CATEGORIES.has(c));
     if (shouldExclude) {
       skipped++;
       continue;
     }
+    if (SLUG_ALLOWLIST && !forced) continue;
 
     const { slug, output, missingImages, missingFeaturedImage } = transformPost(
       item, attachmentById, attachmentByBasename, td
