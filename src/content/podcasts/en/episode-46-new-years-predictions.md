@@ -22,30 +22,30 @@ Big prediction for the coming year: presidential hair will become a [major issu]
 
 1. **John Adams: the Nohawk.**
     
-    \[caption id="" align="alignleft" width="564"\][![John Adams](https://www.wikipedy.com/images_a/new_a/john_adams_facts.jpg)](https://www.wikipedy.com/images_a/new_a/john_adams_facts.jpg) John Adams modeling the Nohwak\[/caption\]
+    <figure class="align-left"><img src="https://www.wikipedy.com/images_a/new_a/john_adams_facts.jpg" alt="John Adams" width="564" /><figcaption>John Adams modeling the Nohwak</figcaption></figure>
     
     Adams' celebrity doppelgänger: Paula Dean.
 2. **James K Polk: the original mullet.**
     
-    \[caption id="" align="alignnone" width="750"\][![James K. Polk](https://img.sizcene.com/james_k_polk_57232.jpg)](https://img.sizcene.com/james_k_polk_57232.jpg) James K. Polk, 11th president of the United States and inventor of the mullet.\[/caption\]
+    <figure class="align-none"><img src="https://img.sizcene.com/james_k_polk_57232.jpg" alt="James K. Polk" width="750" /><figcaption>James K. Polk, 11th president of the United States and inventor of the mullet.</figcaption></figure>
     
     Polk's celebrity doppelgänger: Mel Gibson
 3. **Franklin Pierce: the curly elevator.**
     
-    \[caption id="" align="alignnone" width="370"\][![Franklin Pierce](https://i2.findthebest.com/sites/default/files/625/media/images/Franklin_Pierce_48556.jpg)](https://i2.findthebest.com/sites/default/files/625/media/images/Franklin_Pierce_48556.jpg) Franklin Pierce, sporting the 'Curly Elevator'\[/caption\]
+    <figure class="align-none"><img src="https://i2.findthebest.com/sites/default/files/625/media/images/Franklin_Pierce_48556.jpg" alt="Franklin Pierce" width="370" /><figcaption>Franklin Pierce, sporting the 'Curly Elevator'</figcaption></figure>
     
     Pierce's celebrity doppelganger: Lyle Lovett
 4. **Andrew Johnson: the man bob**
     
-    \[caption id="" align="alignnone" width="220"\][![Andrew Johnson](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/President_Andrew_Johnson.jpg/220px-President_Andrew_Johnson.jpg)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/President_Andrew_Johnson.jpg/220px-President_Andrew_Johnson.jpg) Andrew Johnson proudly sporting the 'man bob'\[/caption\]
+    <figure class="align-none"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/President_Andrew_Johnson.jpg/220px-President_Andrew_Johnson.jpg" alt="Andrew Johnson" width="220" /><figcaption>Andrew Johnson proudly sporting the 'man bob'</figcaption></figure>
     
     Johnson's celebrity doppelgänger: Tommy Lee Jones
 5. **John F. Kennedy: the handsome man**
     
-    \[caption id="" align="alignnone" width="2217"\][![John F. Kennedy](https://www.jfklibrary.org/~/media/assets/Audiovisual/Still%20Photographs/Ernest%20Hemingway%20Photograph%20Collection/JFK%20Official.jpg)](https://www.jfklibrary.org/~/media/assets/Audiovisual/Still%20Photographs/Ernest%20Hemingway%20Photograph%20Collection/JFK%20Official.jpg) John F. Kennedy, owner of the 'handsome man' since he was a child.\[/caption\]
+    <figure class="align-none"><img src="https://www.jfklibrary.org/~/media/assets/Audiovisual/Still%20Photographs/Ernest%20Hemingway%20Photograph%20Collection/JFK%20Official.jpg" alt="John F. Kennedy" width="2217" /><figcaption>John F. Kennedy, owner of the 'handsome man' since he was a child.</figcaption></figure>
 6. HONORABLE MENTION: **William Howard Taft: the wounded walrus.**
     
-    \[caption id="" align="alignnone" width="1273"\][![Willam H. Taft](https://kuhistory.com/wp-content/uploads/2013/04/taft-2.jpg)](https://kuhistory.com/wp-content/uploads/2013/04/taft-2.jpg) Taft relaxes, secure in the knowledge that no one can do the wounded walrus quite the way that he can.\[/caption\]
+    <figure class="align-none"><img src="https://kuhistory.com/wp-content/uploads/2013/04/taft-2.jpg" alt="Willam H. Taft" width="1273" /><figcaption>Taft relaxes, secure in the knowledge that no one can do the wounded walrus quite the way that he can.</figcaption></figure>
     
     Celebrity doppelgänger: Richard Riehle
 
