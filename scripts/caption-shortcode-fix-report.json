@@ -1,0 +1,15 @@
+{
+  "dryRun": true,
+  "changedFiles": 0,
+  "converted": [],
+  "skippedNoImage": [
+    {
+      "file": "hosts.md",
+      "shortcode": "[caption id=\"attachment_739\" align=\"aligncenter\" width=\"790\"] Dave as a kid with his siblings. He's the one furthest rig"
+    },
+    {
+      "file": "hosts.md",
+      "shortcode": "[caption id=\"attachment_741\" align=\"alignright\" width=\"800\"] Steel with his family as a kid. Steel's the one rocking the"
+    }
+  ]
+}

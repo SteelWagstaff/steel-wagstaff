@@ -8,6 +8,7 @@ episode: 8
 tags: ["music"]
 draft: false
 locale: en
+audioUrl: "https://media.steelwagstaff.info/08%20Upbeat%20Summer%20(Show%208_%20August%2030%2C.mp3"
 image: "../../../assets/music/show-8.jpg"
 spotifyEmbedId: "1cXFBR4i88ze6JxNrGYlqZ"
 ---

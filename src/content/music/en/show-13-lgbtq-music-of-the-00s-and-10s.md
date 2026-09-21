@@ -8,6 +8,9 @@ episode: 13
 tags: ["music"]
 draft: false
 locale: en
+audioUrls: 
+    - https://media.steelwagstaff.info/15%20LGBTQ%20Music%20(Show%2012%2C%20Part%201_%20Oct.mp3
+    - https://media.steelwagstaff.info/2012.10.04-12.00.00-D.mp3
 image: "../../../assets/music/show-13.jpg"
 spotifyEmbedId: "5zn9fU2NMaFvZhRHpwyGrG"
 ---

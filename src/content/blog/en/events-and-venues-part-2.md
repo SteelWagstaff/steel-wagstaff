@@ -49,80 +49,80 @@ The reception was obviously a little more complex to plan. As with the wedding i
 
 In fact, this was the first reservation that we made--Laurel found out what dates the Goodman Center was available, and we planned our wedding around that timing (the main reason we got married on April 21st is because that was a Saturday in the spring where the Goodman Center was available). We did consider a few other locations for the reception, but I don't think we ever really seriously considered holding the reception anywhere but the Goodman Center, one of Laurel's favorite places (and organizations) in town. For the reception, we reserved the Evjue Community Room (where everyone was seated) and Merrill Lynch room (which held the bar, the buffet tables, and the dance floor).
 
-<figure class="align-left"><img class="size-full wp-image-852" title="Steel and Laurel (440)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-440.jpg" alt="" width="500" height="333"><figcaption>The Evjue community room, viewed from the Merrill Lynch room (there's an easily removable large sliding partition between the rooms that was open all evening for our event).</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-852" title="Steel and Laurel (440)" src="./images/steel-and-laurel-440.jpg" alt="" width="500" height="333"><figcaption>The Evjue community room, viewed from the Merrill Lynch room (there's an easily removable large sliding partition between the rooms that was open all evening for our event).</figcaption></figure>
 
-<figure class="align-left"><img class="size-full wp-image-863" title="Steel and Laurel (647)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-647.jpg" alt="" width="500" height="333"><figcaption>View of the Merrill Lynch and Evjue rooms from rear wall. My sisters Bonnie and Camille are apparently dancing by themselves while most guests finish their dinner.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-863" title="Steel and Laurel (647)" src="./images/steel-and-laurel-647.jpg" alt="" width="500" height="333"><figcaption>View of the Merrill Lynch and Evjue rooms from rear wall. My sisters Bonnie and Camille are apparently dancing by themselves while most guests finish their dinner.</figcaption></figure>
 
 We made our [reservation arrangements](http://www.goodmancenter.org/services/reserving-rooms) through Kristi Kading, who also trained us on how to use the A/V equipment (the room has a projector and powerful stereo speakers) and helped us select the table settings.
 
-<figure class="align-left"><img class="size-full wp-image-864" title="Steel and Laurel (581)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-581.jpg" alt="" width="500" height="333"><figcaption>The large projection screen on the room's southernmost wall.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-864" title="Steel and Laurel (581)" src="./images/steel-and-laurel-581.jpg" alt="" width="500" height="333"><figcaption>The large projection screen on the room's southernmost wall.</figcaption></figure>
 
 We reserved the rooms from 3:30 PM - 11:30 PM, and the reception itself ran from 5-11PM, which gave us about an hour and a half to set up lights and decorations--it was enough time, but just barely. Laurel and I arrived around 4pm and helped organize several willing family members in preparing and decorating the room. We decided to hang Japanese lanterns, which looked beautiful, but were a little tricky in execution--fortunately Laurel's step-brothers are both over six feet tall and we had a tall ladder. Otherwise, our plan might not have come off so well.
 
-<figure class="align-left"><img class="size-full wp-image-848" title="Steel and Laurel (431)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-431.jpg" alt="" width="500" height="750"><figcaption>Erin Hill helps prepare the lanterns with Daniel and Patrick.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-848" title="Steel and Laurel (431)" src="./images/steel-and-laurel-431.jpg" alt="" width="500" height="750"><figcaption>Erin Hill helps prepare the lanterns with Daniel and Patrick.</figcaption></figure>
 
-<figure class="align-left"><img class="size-full wp-image-850" title="Steel and Laurel (434)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-434.jpg" alt="" width="500" height="750"><figcaption>Lit lanterns set a table aglow.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-850" title="Steel and Laurel (434)" src="./images/steel-and-laurel-434.jpg" alt="" width="500" height="750"><figcaption>Lit lanterns set a table aglow.</figcaption></figure>
 
-<figure class="align-left"><img class="size-full wp-image-851" title="Steel and Laurel (435)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-435.jpg" alt="" width="500" height="333"><figcaption>Daniel strings the lanterns while Patrick directs.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-851" title="Steel and Laurel (435)" src="./images/steel-and-laurel-435.jpg" alt="" width="500" height="333"><figcaption>Daniel strings the lanterns while Patrick directs.</figcaption></figure>
 
-<figure class="align-left"><img class="size-full wp-image-862" title="Steel and Laurel (572)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-572.jpg" alt="" width="500" height="333"><figcaption>Here's how the ceiling looked once the lanterns were all strung.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-862" title="Steel and Laurel (572)" src="./images/steel-and-laurel-572.jpg" alt="" width="500" height="333"><figcaption>Here's how the ceiling looked once the lanterns were all strung.</figcaption></figure>
 
 For the name cards and table numbers, we went to [Artist & Craftsman](http://www.artistcraftsman.com/)in Madison and picked out two colors of cardstock paper that we thought would match our table settings, and then I cut them to size with an industrial cutter in the Art Department (I took a letterpress class in the semester leading up to our wedding--more on that when we write about the invitations). Laurel then hand wrote all the name cards and table numbers, and glued them together with help from her sisters. We arranged these in rows on a small table just outside the Evjue room, so that guests would see them and pick them up as they entered the reception room. They looked awesome (in my opinion).
 
-<figure class="align-left"><img class="size-full wp-image-872" title="Steel and Laurel (445)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-445.jpg" alt="" width="500" height="750"><figcaption>Laurel's sister Jennie arranges name cards.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-872" title="Steel and Laurel (445)" src="./images/steel-and-laurel-445.jpg" alt="" width="500" height="750"><figcaption>Laurel's sister Jennie arranges name cards.</figcaption></figure>
 
 <figure class="align-left"><img class="size-full wp-image-845" title="Steel and Laurel (427)" src="./images/steel-and-laurel-427.jpg" alt="" width="500" height="333"><figcaption>Rows of name cards for table settings. Table numbers were written on the back.</figcaption></figure>
 
 Just inside the reception room, we set up a long table which had our guest book and several pens and colored pencils. For the guest book, I bought a small (8 1/2" x 6") solid white [bare book](http://www.barebooks.com/books.htm) from Artists and Craftsman, and we asked guests to write us a note and draw us a picture. Laurel's cousin Stephanie Hill decorated the front cover for us and we got all kinds of amazing drawings (including cat dancers, microphone pants, flowers, stick figures, wedding tableaux, exploding pies and dancing babies and jackrabbits leading a patriotic dance dance revolution). It was a good guest book. While we didn't make a wedding registry and had asked our guests not to give us unneeded gifts, several of our guests brought cards and other generous offerings, which they left on this table, which also was home to our 'wedding favors'--the gift we wanted to give our guests: wedding poems, a folded letterpressed pamphlet with poems that Laurel and wrote for each other.
 
-<figure class="align-left"><img class="size-full wp-image-868" title="Steel and Laurel (451)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-451.jpg" alt="" width="500" height="333"><figcaption>Erin Hill, hard at work decorating the cover of our guest book.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-868" title="Steel and Laurel (451)" src="./images/steel-and-laurel-451.jpg" alt="" width="500" height="333"><figcaption>Erin Hill, hard at work decorating the cover of our guest book.</figcaption></figure>
 
-<figure class="align-left"><img class="size-full wp-image-873" title="Steel and Laurel (558)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-558.jpg" alt="" width="500" height="333"><figcaption>Bev Buretta (Laurel's childhood next door neighbor and 'second mother') signs the guest book.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-873" title="Steel and Laurel (558)" src="./images/steel-and-laurel-558.jpg" alt="" width="500" height="333"><figcaption>Bev Buretta (Laurel's childhood next door neighbor and 'second mother') signs the guest book.</figcaption></figure>
 
 In terms of seating, we had just under 100 total guests, seated at 13 circular tables (with 6-8 guests per table).
 
-<figure class="align-left"><img class="size-full wp-image-847" title="Steel and Laurel (430)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-430.jpg" alt="" width="500" height="333"><figcaption>What a finished table looked like before the floral centerpiece was added</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-847" title="Steel and Laurel (430)" src="./images/steel-and-laurel-430.jpg" alt="" width="500" height="333"><figcaption>What a finished table looked like before the floral centerpiece was added</figcaption></figure>
 
 Laurel bought the flowers from a local grower in Milwaukee--largely tulips, daffodils, and narcissus--and arranged them beautifully, with a center piece at each table. More on this in a later post on decorations.
 
-<figure class="align-left"><img class="size-full wp-image-846" title="Steel and Laurel (428)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-428.jpg" alt="" width="500" height="750"><figcaption>Table #2 with floral centerpiece behind</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-846" title="Steel and Laurel (428)" src="./images/steel-and-laurel-428.jpg" alt="" width="500" height="750"><figcaption>Table #2 with floral centerpiece behind</figcaption></figure>
 
 Laurel and I sat at a smaller table near the center of the room reserved just for us, which was lovingly adorned with flowers by Laurel's sisters and friends.
 
-<figure class="align-left"><img class="size-full wp-image-869" title="Steel and Laurel (488)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-488.jpg" alt="" width="500" height="333"><figcaption>Our table</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-869" title="Steel and Laurel (488)" src="./images/steel-and-laurel-488.jpg" alt="" width="500" height="333"><figcaption>Our table</figcaption></figure>
 
-<figure class="align-left"><img class="size-full wp-image-870" title="7207522696_9f91d20a15_o" src="http://steelwagstaff.files.wordpress.com/2012/05/7207522696_9f91d20a15_o.jpg" alt="" width="500" height="333"><figcaption>Our table. Photo by Jennie Bastian.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-870" title="7207522696_9f91d20a15_o" src="./images/7207522696_9f91d20a15_o.jpg" alt="" width="500" height="333"><figcaption>Our table. Photo by Jennie Bastian.</figcaption></figure>
 
 As for the program itself, we had invited guests to arrive at 5pm. Most did (some even came a little early!), and since we didn't have a formal reception line, we moved freely through the room, joining and leaving conversations, greeting guests as they arrived.
 
-<figure class="align-left"><img class="size-full wp-image-867" title="Steel and Laurel (526)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-526.jpg" alt="" width="500" height="333"><figcaption>My handwritten itinerary for the reception.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-867" title="Steel and Laurel (526)" src="./images/steel-and-laurel-526.jpg" alt="" width="500" height="333"><figcaption>My handwritten itinerary for the reception.</figcaption></figure>
 
 We started the evening with appetizers (the evening's food was catered by [Working Class Catering](http://www.goodmancenter.org/services/working-class-catering), more about them in a later post on food). A buffet dinner with three vegetarian options was served around 6:30, followed by a short video of the wedding ceremony (since most of the wedding reception guests had not attended the wedding) and toasts from anyone who wanted to speak.
 
-<figure class="align-left"><img class="size-full wp-image-874" title="Steel and Laurel (594)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-594.jpg" alt="" width="500" height="333"><figcaption>Laurel and I laugh as Jennie toasts (or perhaps roasts?) us.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-874" title="Steel and Laurel (594)" src="./images/steel-and-laurel-594.jpg" alt="" width="500" height="333"><figcaption>Laurel and I laugh as Jennie toasts (or perhaps roasts?) us.</figcaption></figure>
 
 After the toasts, we brought out the cupcakes (from our wonderfully talented neighbor Gale Shu--more on those in a later post) and then moved onto the dance floor, all tunes provided by the inimitable Mike Sherk of [Mandarin Dynasty](http://mandarindynasty.tumblr.com/) fame.
 
-<figure class="align-left"><img src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-41.jpg" alt="" title="Steel and Laurel (41)" width="500" height="333" class="size-full wp-image-882"><figcaption>In this rare, never before seen, behind-the-scenes shot, you can observe Mixmaster Michael Sherk as he carefully curates those very tunes which were later to blow our minds and free our booties.</figcaption></figure>
+<figure class="align-left"><img src="./images/steel-and-laurel-41.jpg" alt="" title="Steel and Laurel (41)" width="500" height="333" class="size-full wp-image-882"><figcaption>In this rare, never before seen, behind-the-scenes shot, you can observe Mixmaster Michael Sherk as he carefully curates those very tunes which were later to blow our minds and free our booties.</figcaption></figure>
 
-<figure class="align-left"><img src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-521.jpg" alt="" title="Steel and Laurel (521)" width="500" height="750" class="size-full wp-image-883"><figcaption>Laurel and Mike discuss how and when exactly Mike plans to "drop the bass."</figcaption></figure>
+<figure class="align-left"><img src="./images/steel-and-laurel-521.jpg" alt="" title="Steel and Laurel (521)" width="500" height="750" class="size-full wp-image-883"><figcaption>Laurel and Mike discuss how and when exactly Mike plans to "drop the bass."</figcaption></figure>
 
 The dancing began with Laurel and I taking the floor alone as Patti Griffin's song ["Not Alone"](http://grooveshark.com/s/Not+Alone/3o3SvD?src=5) played. It was beautiful. We wept.
 
-<figure class="align-left"><img class="size-full wp-image-875" title="Steel and Laurel (625)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-625.jpg" alt="" width="500" height="333"><figcaption>First dance.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-875" title="Steel and Laurel (625)" src="./images/steel-and-laurel-625.jpg" alt="" width="500" height="333"><figcaption>First dance.</figcaption></figure>
 
 Laurel danced with her father for the second song, The Temptations' classic ["My Girl"](http://grooveshark.com/s/My+Girl/2v4W1I?src=5). Much jauntier--we all laughed and smiled. It was wonderful.
 
-<figure class="align-left"><img class="size-full wp-image-876" title="Steel and Laurel (638)" src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-638.jpg" alt="" width="500" height="333"><figcaption>Laurel and her father dance.</figcaption></figure>
+<figure class="align-left"><img class="size-full wp-image-876" title="Steel and Laurel (638)" src="./images/steel-and-laurel-638.jpg" alt="" width="500" height="333"><figcaption>Laurel and her father dance.</figcaption></figure>
 
 For the third song, my mother and I danced to the Beatles' ["In My Life."](http://www.youtube.com/watch?v=T3wvUwb4p4Q) When I was a kid, growing up in Oklahoma, the Beatles' [_1962-1966_ (red album)](http://en.wikipedia.org/wiki/1962%E2%80%931966) was the first cassette tape I remember listening to in the car, and one of the only albums of music I ever remember my mom really enjoying--during car rides, she tended to prefer silence or very quiet talking (as the mother of four young children, can you really blame her?). Mom danced barefoot. It was great.
 
-<figure class="align-left"><img src="http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-644.jpg" alt="" title="Steel and Laurel (644)" width="500" height="333" class="size-full wp-image-877"><figcaption>I share a dance with mom.</figcaption></figure>
+<figure class="align-left"><img src="./images/steel-and-laurel-644.jpg" alt="" title="Steel and Laurel (644)" width="500" height="333" class="size-full wp-image-877"><figcaption>I share a dance with mom.</figcaption></figure>
 
 After that, things got real. I wish I had better photographic evidence of it, but the two men in wheelchairs were the most memorable and energetic dancers, breaking all kinds of stereotypes about the elderly and the so-called 'disabled.' Thanks Grandpa and Mattie for rocking the floor so hard (and an honorable mention to the lovely Jean Ellzey, who also wowed more than a few people with her nimble moves. While I may not have great photos of any of them leading the charge, I do have a couple of Laurel, who knows a thing or two about how to move.
 
-<figure class="align-left"><img src="http://steelwagstaff.files.wordpress.com/2012/05/7207426230_888ec0efaf_o-1.jpg" alt="" title="7207426230_888ec0efaf_o (1)" width="500" height="333" class="size-full wp-image-879"><figcaption>BOOM! Photo by Jennie Bastian.</figcaption></figure>
+<figure class="align-left"><img src="./images/7207426230_888ec0efaf_o-1.jpg" alt="" title="7207426230_888ec0efaf_o (1)" width="500" height="333" class="size-full wp-image-879"><figcaption>BOOM! Photo by Jennie Bastian.</figcaption></figure>
 
-<figure class="align-left"><img src="http://steelwagstaff.files.wordpress.com/2012/05/523036_3507032512908_1184649120_32615796_832037809_n.jpg" alt="" title="523036_3507032512908_1184649120_32615796_832037809_n" width="500" height="375" class="size-full wp-image-880"><figcaption>Stepping out. Photo by Christine Hill.</figcaption></figure>
+<figure class="align-left"><img src="./images/523036_3507032512908_1184649120_32615796_832037809_n.jpg" alt="" title="523036_3507032512908_1184649120_32615796_832037809_n" width="500" height="375" class="size-full wp-image-880"><figcaption>Stepping out. Photo by Christine Hill.</figcaption></figure>
 
 After the dancing ended (just before 11pm), we packed up the things we needed to take home (like the leftover cupcakes--hello box freezer!), gave away the lanterns and flowers, and went home. The Goodman Center takes care of final clean up and take down of the room, which was great, and also meant that we were out of the building by 11:45. Great evening, great experience, great venue. We couldn't recommend it more highly as a location for a wedding reception. Total Rental Cost: I can't remember the exact figure right now--I'll check our records and update this later. I think the building rental was around $800 plus a refundable $500 deposit, and the linens and table setting rental came to $365.

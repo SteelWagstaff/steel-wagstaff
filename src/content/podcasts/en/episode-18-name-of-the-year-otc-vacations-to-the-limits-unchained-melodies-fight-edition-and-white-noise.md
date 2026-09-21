@@ -31,9 +31,9 @@ Our sincerest congratulations to [Amanda Miranda Panda](https://www.boiseweekly.
 - Christopher McDougall's book _[Born to Run](https://www.chrismcdougall.com/born-to-run/)_, which features the Tarahumara Indians of northern Mexico.
 - Some photos from Arianne's trip to visit the Tarahumara people in 2006:
     
-    \[caption id="attachment\_242" align="alignnone" width="800"\]![IMG_0339](https://otc.steelwagstaff.info/wp-content/uploads/sites/8/2015/05/IMG_0339.jpg) A landscape in the Tarahumara's native homeland.\[/caption\]
+    <figure class="align-none"><img src="https://otc.steelwagstaff.info/wp-content/uploads/sites/8/2015/05/IMG_0339.jpg" alt="IMG_0339" width="800" /><figcaption>A landscape in the Tarahumara's native homeland.</figcaption></figure>
     
-    \[caption id="attachment\_245" align="alignnone" width="800"\]![100_0152_412](https://otc.steelwagstaff.info/wp-content/uploads/sites/8/2015/05/100_0152_412.jpg) A Tarahumara male. Notice the colorful shirt and plain white skirt, well suited for running.\[/caption\]
+    <figure class="align-none"><img src="https://otc.steelwagstaff.info/wp-content/uploads/sites/8/2015/05/100_0152_412.jpg" alt="100_0152_412" width="800" /><figcaption>A Tarahumara male. Notice the colorful shirt and plain white skirt, well suited for running.</figcaption></figure>
 - Aron Ralston's [story](https://www.sptimes.com/2003/05/03/news_pf/Worldandnation/To_save_his_life__hik.shtml), as reported by the _St. Petersburg Times_.
 
 ### Unchained Melodies

@@ -98,6 +98,11 @@ const music = defineCollection({
     author: z.string().default('Steel Wagstaff'),
     spotifyUrl: z.url().optional(),
     spotifyEmbedId: z.string().optional(),
+    audioUrl: z.union([z.url(), z.string().startsWith('/')]).optional(),
+    // For episodes split across multiple audio files (e.g. Part 1/Part 2)
+    audioUrls: z.array(z.union([z.url(), z.string().startsWith('/')])).optional(),
+    podcast: z.string().optional(),
+    episode: z.number().optional(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     tags: z.array(z.string()).default([]),

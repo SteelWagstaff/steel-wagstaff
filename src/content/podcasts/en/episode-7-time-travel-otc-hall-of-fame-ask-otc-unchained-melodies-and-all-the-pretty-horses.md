@@ -44,4 +44,4 @@ The Heligoats: Goodness Gracious https://www.youtube.com/watch?v=-EHVjh4C4Tg
 
 ### Book Wisdom
 
-This week's installment of Book Wisdom came from the final page of Cormac McCarthy's novel _[All the Pretty Horses](https:://www.amazon.com/Pretty-Horses-Border-Trilogy-Book/dp/0679744398)_.
+This week's installment of Book Wisdom came from the final page of Cormac McCarthy's novel _[All the Pretty Horses](https://www.amazon.com/Pretty-Horses-Border-Trilogy-Book/dp/0679744398)_.

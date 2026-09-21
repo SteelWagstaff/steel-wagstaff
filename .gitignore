@@ -52,6 +52,12 @@ public/pagefind/
 # Podcast audio is hosted on media.steelwagstaff.info.
 public/podcasts/*.mp3
 
+# Raw WordPress media recovery dump (lookup source for repair scripts only)
+media-exports/
+
+# Staging area for files uploaded to the Cloudflare R2 bucket
+cloudflare/
+
 # Claude Code
 .claude/
 

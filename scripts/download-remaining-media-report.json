@@ -1,0 +1,551 @@
+{
+  "downloaded": [
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/neil-strauss.jpg?w=300",
+      "filename": "neil-strauss.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.wordpress.com/2011/05/02/my-favorite-artists-series-1-mark-nowak/",
+      "filename": "",
+      "status": "already-present"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/bill_bryson.jpg",
+      "filename": "bill_bryson.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/bill_bryson_a_short_history.jpg",
+      "filename": "bill_bryson_a_short_history.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/short_history.jpg",
+      "filename": "short_history.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-468.jpg",
+      "filename": "steel-and-laurel-468.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-17.jpg",
+      "filename": "steel-and-laurel-17.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-413.jpg",
+      "filename": "steel-and-laurel-413.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-581.jpg",
+      "filename": "steel-and-laurel-581.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-444.jpg",
+      "filename": "steel-and-laurel-444.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-33.jpg",
+      "filename": "steel-and-laurel-33.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0023.jpg",
+      "filename": "img_0023.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0029.jpg",
+      "filename": "img_0029.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0030.jpg",
+      "filename": "img_0030.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0032.jpg",
+      "filename": "img_0032.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0035.jpg",
+      "filename": "img_0035.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0038.jpg",
+      "filename": "img_0038.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0043.jpg",
+      "filename": "img_0043.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0046.jpg",
+      "filename": "img_0046.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0049.jpg",
+      "filename": "img_0049.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0044.jpg",
+      "filename": "img_0044.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0050.jpg",
+      "filename": "img_0050.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0051.jpg",
+      "filename": "img_0051.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0276.jpg",
+      "filename": "img_0276.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0278.jpg",
+      "filename": "img_0278.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0281.jpg",
+      "filename": "img_0281.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0283.jpg",
+      "filename": "img_0283.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0285.jpg",
+      "filename": "img_0285.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0292.jpg",
+      "filename": "img_0292.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0296.jpg",
+      "filename": "img_0296.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0295.jpg",
+      "filename": "img_0295.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/05/img_0299.jpg",
+      "filename": "img_0299.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/tina_van_zile.jpg",
+      "filename": "tina_van_zile.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/03/winter2012.pdf#page=3",
+      "filename": "winter2012.pdf#page=3",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-440.jpg",
+      "filename": "steel-and-laurel-440.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-647.jpg",
+      "filename": "steel-and-laurel-647.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-581.jpg",
+      "filename": "steel-and-laurel-581.jpg",
+      "status": "already-present"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-431.jpg",
+      "filename": "steel-and-laurel-431.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-434.jpg",
+      "filename": "steel-and-laurel-434.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-435.jpg",
+      "filename": "steel-and-laurel-435.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-572.jpg",
+      "filename": "steel-and-laurel-572.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-445.jpg",
+      "filename": "steel-and-laurel-445.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-451.jpg",
+      "filename": "steel-and-laurel-451.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-558.jpg",
+      "filename": "steel-and-laurel-558.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-430.jpg",
+      "filename": "steel-and-laurel-430.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-428.jpg",
+      "filename": "steel-and-laurel-428.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-488.jpg",
+      "filename": "steel-and-laurel-488.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/7207522696_9f91d20a15_o.jpg",
+      "filename": "7207522696_9f91d20a15_o.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-526.jpg",
+      "filename": "steel-and-laurel-526.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-594.jpg",
+      "filename": "steel-and-laurel-594.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-41.jpg",
+      "filename": "steel-and-laurel-41.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-521.jpg",
+      "filename": "steel-and-laurel-521.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-625.jpg",
+      "filename": "steel-and-laurel-625.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-638.jpg",
+      "filename": "steel-and-laurel-638.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/steel-and-laurel-644.jpg",
+      "filename": "steel-and-laurel-644.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/7207426230_888ec0efaf_o-1.jpg",
+      "filename": "7207426230_888ec0efaf_o-1.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/05/523036_3507032512908_1184649120_32615796_832037809_n.jpg",
+      "filename": "523036_3507032512908_1184649120_32615796_832037809_n.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/img_0457.jpg",
+      "filename": "img_0457.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/10/with-with-my-family-at-the-airport1.jpg?w=1024",
+      "filename": "with-with-my-family-at-the-airport1.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://felixreadingseries.files.wordpress.com/2012/06/pollak_page_1.jpg",
+      "filename": "pollak_page_1.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://felixreadingseries.files.wordpress.com/2012/06/pollak_page_2.jpg",
+      "filename": "pollak_page_2.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2013/05/idaho.png?w=500",
+      "filename": "idaho.png",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2013/05/spokeo.jpg?w=500",
+      "filename": "spokeo.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.wordpress.com/",
+      "filename": "",
+      "status": "already-present"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/scargill.jpg",
+      "filename": "scargill.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/05/barber_science.jpg",
+      "filename": "barber_science.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/earth_day_newsletter.jpg?w=174",
+      "filename": "earth_day_newsletter.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/gaylord_nelson_stewart_udall.jpg?w=300",
+      "filename": "gaylord_nelson_stewart_udall.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-397.jpg",
+      "filename": "steel-and-laurel-397.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-80.jpg",
+      "filename": "steel-and-laurel-80.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-175.jpg",
+      "filename": "steel-and-laurel-175.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-438.jpg",
+      "filename": "steel-and-laurel-438.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-488.jpg",
+      "filename": "steel-and-laurel-488.jpg",
+      "status": "already-present"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-433.jpg",
+      "filename": "steel-and-laurel-433.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-442.jpg",
+      "filename": "steel-and-laurel-442.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-70.jpg",
+      "filename": "steel-and-laurel-70.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-454.jpg",
+      "filename": "steel-and-laurel-454.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-612.jpg",
+      "filename": "steel-and-laurel-612.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-605.jpg",
+      "filename": "steel-and-laurel-605.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-31.jpg",
+      "filename": "steel-and-laurel-31.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-434.jpg",
+      "filename": "steel-and-laurel-434.jpg",
+      "status": "already-present"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-530.jpg",
+      "filename": "steel-and-laurel-530.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/7207469674_e9f7c8c055_o.jpg",
+      "filename": "7207469674_e9f7c8c055_o.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/7207487524_d0588f0a4b_b.jpg",
+      "filename": "7207487524_d0588f0a4b_b.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-7.jpg",
+      "filename": "steel-and-laurel-7.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-515.jpg",
+      "filename": "steel-and-laurel-515.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-495.jpg",
+      "filename": "steel-and-laurel-495.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-4941.jpg",
+      "filename": "steel-and-laurel-4941.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/7207510968_8f8f147388_o.jpg",
+      "filename": "7207510968_8f8f147388_o.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/7207509598_0799cc8074_o.jpg",
+      "filename": "7207509598_0799cc8074_o.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-423.jpg",
+      "filename": "steel-and-laurel-423.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-439.jpg",
+      "filename": "steel-and-laurel-439.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://steelwagstaff.files.wordpress.com/2012/06/steel-and-laurel-665.jpg",
+      "filename": "steel-and-laurel-665.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/04/kid_imagined_gang_fight1.gif",
+      "filename": "kid_imagined_gang_fight1.gif",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/mark-twain.jpg?w=246",
+      "filename": "mark-twain.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-3.jpg",
+      "filename": "steel-and-laurel-3.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-416.jpg",
+      "filename": "steel-and-laurel-416.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/back_of_dress.jpg",
+      "filename": "back_of_dress.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-141-e1341603915679.jpg",
+      "filename": "steel-and-laurel-141-e1341603915679.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-121-e1341604144651.jpg",
+      "filename": "steel-and-laurel-121-e1341604144651.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-35.jpg",
+      "filename": "steel-and-laurel-35.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-269-e1341602938393.jpg",
+      "filename": "steel-and-laurel-269-e1341602938393.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2012/07/steel-and-laurel-23-e1341604732427.jpg",
+      "filename": "steel-and-laurel-23-e1341604732427.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2013/05/img_0179.jpg?w=500",
+      "filename": "img_0179.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2013/05/img_0178.jpg?w=500",
+      "filename": "img_0178.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2013/05/img_0180.jpg?w=500",
+      "filename": "img_0180.jpg",
+      "status": "downloaded"
+    },
+    {
+      "url": "http://steelwagstaff.files.wordpress.com/2011/09/langewiesche.jpg",
+      "filename": "langewiesche.jpg",
+      "status": "downloaded"
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://steelwagstaff.info/wordpress/wp-content/plugins/wp-inject/images/cc.png",
+      "filename": "cc.png",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "http://steelwagstaff.wordpress.com/2013/05/08/the-memory-collector-project/ ",
+      "filename": " ",
+      "error": "HTTP 404"
+    }
+  ]
+}

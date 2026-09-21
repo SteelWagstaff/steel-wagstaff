@@ -24,9 +24,9 @@ I was particularly interested in this little literary spat because I've been a c
 
 I've scanned and included Pollak's poem below:
 
-<figure class="align-none"><img class="size-full wp-image-245" title="Pollak_Page_1" src="http://felixreadingseries.files.wordpress.com/2012/06/pollak_page_1.jpg" alt="" width="604" height="482"><figcaption>The first half of Felix Pollak's "Soirées"</figcaption></figure>
+<figure class="align-none"><img class="size-full wp-image-245" title="Pollak_Page_1" src="./images/pollak_page_1.jpg" alt="" width="604" height="482"><figcaption>The first half of Felix Pollak's "Soirées"</figcaption></figure>
 
-<figure class="align-none"><img class="size-full wp-image-246" title="Pollak_Page_2" src="http://felixreadingseries.files.wordpress.com/2012/06/pollak_page_2.jpg" alt="" width="604" height="482"><figcaption>The second half of Felix Pollak's "Soirées." Sorry about my fingertips on the left there.</figcaption></figure>
+<figure class="align-none"><img class="size-full wp-image-246" title="Pollak_Page_2" src="./images/pollak_page_2.jpg" alt="" width="604" height="482"><figcaption>The second half of Felix Pollak's "Soirées." Sorry about my fingertips on the left there.</figcaption></figure>
 
 Pollak claims in his footnote that he has "neither a person nor an impersonal grudge or grievance against Miss Levertov," and then attempts to place the onus of responsibility onto Levertov--almost as if he believed he could bully her into publishing his work, writing that "a breathlessly waiting world will be able to judge ... if Miss Levertov could take the above in the spirit in which it was dished out: the spirit of good dirty fun" by whether or not Levertov chose to publish in some future issue of _The Nation_. 
 
