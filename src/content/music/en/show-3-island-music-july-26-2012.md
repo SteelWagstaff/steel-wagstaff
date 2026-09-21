@@ -9,6 +9,7 @@ tags: ["music"]
 draft: false
 locale: en
 image: "../../../assets/music/show-3.jpg"
+audioUrl: "https://media.steelwagstaff.info/03%20Island%20Music%20(Show%203_%20July%2026%2C%2020.mp3"
 spotifyEmbedId: "1BqgwsRSHAINNyOGqHKBMM"
 ---
 

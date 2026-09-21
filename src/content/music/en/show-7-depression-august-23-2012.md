@@ -8,6 +8,7 @@ episode: 7
 tags: []
 draft: false
 locale: en
+audioUrl: "https://media.steelwagstaff.info/07%20Depression%20(Show%207_%20August%2023%2C%2020.mp3"
 image: "../../../assets/music/show-7.jpg"
 spotifyEmbedId: "2WII22LLvgytiZI691j9z9"
 ---

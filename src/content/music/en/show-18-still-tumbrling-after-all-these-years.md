@@ -8,6 +8,7 @@ episode: 18
 tags: []
 draft: false
 locale: en
+songUrl: "https://media.steelwagstaff.info/20%20Show%2018_%20Still%20Tumbrling%20After%20Al.mp3"
 image: "../../../assets/music/show-18.jpg"
 spotifyEmbedId: "4VpGu979Lo2bJi9XaRC6Ny"
 ---

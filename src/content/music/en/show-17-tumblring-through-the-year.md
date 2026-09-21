@@ -8,6 +8,7 @@ episode: 17
 tags: []
 draft: false
 locale: en
+songUrl: "https://media.steelwagstaff.info/19%20Show%2017_%20Tumblring%20Through%20the%20Ye.mp3"
 image: "../../../assets/music/show-17.jpg"
 spotifyEmbedId: "4pGGVoiYliOxMtxDAMS76r"
 ---
