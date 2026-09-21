@@ -8,7 +8,7 @@ episode: 19
 tags: []
 draft: false
 locale: en
-songUrl: "https://media.steelwagstaff.info/21%20Tumblrweeds%20(Show%2019_%20November%2015%2C%202012)%201.mp3"
+audioUrl: "https://media.steelwagstaff.info/21%20Tumblrweeds%20(Show%2019_%20November%2015%2C%202012)%201.mp3"
 image: "../../../assets/music/show-19.jpg"
 spotifyEmbedId: "6AAzVsJUwKvPymygw1AX88"
 ---
