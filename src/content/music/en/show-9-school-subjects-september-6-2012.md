@@ -8,6 +8,7 @@ episode: 9
 tags: []
 draft: false
 locale: en
+audioUrl: "https://media.steelwagstaff.info/09%20School%20Subjects%20(Show%209_%20Septembe.mp3"
 image: "../../../assets/music/show-9.jpg"
 spotifyEmbedId: "4tp2AaiWk7SCTEkqPOYvLI"
 ---

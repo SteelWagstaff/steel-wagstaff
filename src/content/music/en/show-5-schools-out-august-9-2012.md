@@ -8,6 +8,7 @@ episode: 5
 tags: []
 draft: false
 locale: en
+audioUrl: "https://media.steelwagstaff.info/05%20School's%20Out%20(Show%205_%20August%209%2C%202.mp3"
 image: "../../../assets/music/show-5.jpg"
 spotifyEmbedId: "5i72jTkBbzhPmfzsS7ncmW"
 ---

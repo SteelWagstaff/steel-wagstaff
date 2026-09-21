@@ -8,6 +8,9 @@ episode: 20
 tags: []
 draft: false
 locale: en
+songUrls: 
+   - https://media.steelwagstaff.info/22%20Thanksgiving%20(Show%2020_%20November%202.mp3
+   - https://media.steelwagstaff.info/2012.11.29-12.00.00-S.mp3
 image: "../../../assets/music/show-20.jpg"
 spotifyEmbedId: "6ZjQ60mHYG6Bcs8QMrpzsh"
 ---

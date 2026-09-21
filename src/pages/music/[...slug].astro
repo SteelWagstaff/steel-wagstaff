@@ -83,6 +83,42 @@ if (playlist.id.includes('show-')) {
       </div>
     </header>
 
+    <!-- Audio Player -->
+    {playlist.data.audioUrl && (
+      <div class="mb-12">
+        <Card>
+          <audio
+            controls
+            class="w-full"
+            preload="metadata"
+            style="accent-color: rgb(59, 130, 246);"
+          >
+            <source src={playlist.data.audioUrl} type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </Card>
+      </div>
+    )}
+
+    {playlist.data.audioUrls && playlist.data.audioUrls.length > 0 && (
+      <div class="mb-12 flex flex-col gap-4">
+        {playlist.data.audioUrls.map((url, index) => (
+          <Card>
+            <p class="mb-2 text-sm font-medium text-foreground-muted">Part {index + 1}</p>
+            <audio
+              controls
+              class="w-full"
+              preload="metadata"
+              style="accent-color: rgb(59, 130, 246);"
+            >
+              <source src={url} type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </Card>
+        ))}
+      </div>
+    )}
+
     <!-- Content -->
     <div class="prose prose-sm max-w-none dark:prose-invert">
       <Content />

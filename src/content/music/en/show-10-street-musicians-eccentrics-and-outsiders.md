@@ -8,6 +8,9 @@ episode: 10
 tags: ["music"]
 draft: false
 locale: en
+audioUrls:
+  - "https://media.steelwagstaff.info/10%20Street%20Musicians%2C%20Eccentrics%2C%20and.mp3"
+  - "https://media.steelwagstaff.info/11%20Street%20Musicians%2C%20Eccentrics%2C%20and.mp3"
 image: "../../../assets/music/show-10.jpg"
 spotifyEmbedId: "7emXQDirOaqeXL6g3FoxRB"
 ---
