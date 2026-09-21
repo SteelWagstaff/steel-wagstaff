@@ -8,7 +8,7 @@ episode: 21
 tags: ["music"]
 draft: false
 locale: en
-songUrl: "https://media.steelwagstaff.info/2012.12.13-11.00.mp3"
+audioUrl: "https://media.steelwagstaff.info/2012.12.13-11.00.mp3"
 image: "../../../assets/music/show-21.jpg"
 spotifyEmbedId: "54VkOixO6gf8J8CyOMpTYh"
 ---
