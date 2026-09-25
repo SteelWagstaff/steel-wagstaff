@@ -10,7 +10,11 @@ draft: false
 locale: en
 ---
 
-One thing I didn't mention in my last post about Beck was that when I was young, one of the reasons that I especially liked Beck was that he seemed to be friends with a lot of homeless guys, or at least guys that looked the way that most of the homeless guys that I saw looked. There was the guitar playing dude in the liner notes of Mellow Gold, and then there was pretty much everyone that Beck was photographed with before 1995, and of course there were all the crazy awesome guys rambling around and destroying a house in the Steve Hanft-directed video for "Beercan": \[youtube https://www.youtube.com/watch?v=zVay-RfNGv8&w=425&h=349\] 
+One thing I didn't mention in my last post about Beck was that when I was young, one of the reasons that I especially liked Beck was that he seemed to be friends with a lot of homeless guys, or at least guys that looked the way that most of the homeless guys that I saw looked. There was the guitar playing dude in the liner notes of Mellow Gold, and then there was pretty much everyone that Beck was photographed with before 1995, and of course there were all the crazy awesome guys rambling around and destroying a house in the Steve Hanft-directed video for "Beercan":
+
+<div class="youtube-embed-container relative w-full overflow-hidden rounded-lg" style="aspect-ratio: 4 / 3;">
+<iframe src="https://www.youtube-nocookie.com/embed/zVay-RfNGv8" title="Beercan music video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" class="absolute inset-0 h-full w-full border-0"></iframe>
+</div>
 
 I liked this because when I was in my early teens I had a special affinity for homeless men. I spent a lot of time at the public library as a kid and an adolescent, and around that time I had begun to cultivate a deep sympathy for outsiders, people who dropped out of the race for money, fame, and respectability, as well as a deep suspicion of anyone whom I perceived as one of the great mass of men leading "lives of quiet desperation." 
 
