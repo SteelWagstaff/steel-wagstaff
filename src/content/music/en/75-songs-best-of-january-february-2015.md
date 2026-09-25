@@ -1,5 +1,5 @@
 ---
-title: "75 Songs [Best of January &amp; February 2015]"
+title: "75 Songs [Best of January & February 2015]"
 description: "Here are 75 songs I listened to and liked in January and February of 2015."
 publishedAt: 2015-03-01
 author: steel

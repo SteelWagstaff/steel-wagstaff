@@ -11,6 +11,7 @@ const imageSources = [
   path.join(root, 'public', 'oracle.webp'),
   path.join(root, 'public', 'writing'),
   path.join(root, 'public', 'commonplace-media'),
+  path.join(root, 'public', 'blog-media'),
 ];
 const widths = [640, 1280];
 const imageExtensions = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif']);

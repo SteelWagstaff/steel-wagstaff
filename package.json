@@ -27,8 +27,11 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "images:optimize": "node scripts/optimize-images.mjs",
+    "images:sync": "node scripts/sync-blog-images.mjs",
+    "images:optimize": "pnpm images:sync && node scripts/optimize-images.mjs",
+    "prebuild": "pnpm images:optimize",
     "build": "astro build",
+    "postbuild": "node scripts/optimize-built-images.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "lint": "eslint .",

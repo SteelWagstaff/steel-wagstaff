@@ -11,17 +11,17 @@ tags:
 - Politics
 draft: false
 locale: en
-image: ./images/thisisnotaboutwesz.jpg
+image: /blog-media/thisisnotaboutwesz.jpg
 imageAlt: Expressing Gratitude
 ---
 
 In 1934, when George Oppen was 26 years old, he published _Discrete Series_, a volume of his poetry. It included a preface from Ezra Pound, then living in Rapallo, Italy, which ended with these lines: "I salute a serious craftsman, a sensibility which is not every man’s sensibility and which has not been got out of any other man’s books." It was accurate in many ways, emphasizing Oppen's carefully cultivated identity as a craftsman, a skilled laborer and mechanic, even as it contained a slight dig at Oppen's own lack of erudition or learning. Shortly after its publication, George and his wife Mary would abandon poetry for many years, joining the Communist Party and becoming active organizers in several Popular Front efforts around labor, housing, and relief in New York City.
 
-<figure class="align-center"><img class="size-large wp-image-1759" alt="George and Mary Oppen" src="http://steelwagstaff.com/wp-content/uploads/sites/18/2013/10/oppens.jpg?w=470" width="470" height="306"><figcaption>George and Mary Oppen</figcaption></figure>
+<figure class="align-center"><img class="size-large wp-image-1759" alt="George and Mary Oppen" src="https://steelwagstaff.com/wp-content/uploads/sites/18/2013/10/oppens.jpg?w=470" width="470" height="306"><figcaption>George and Mary Oppen</figcaption></figure>
 
 It would be roughly 25 years before George Oppen would return to writing poems, and almost 30 before he published another book of poems, his _The Materials_, published in 1962 by New Directions Press (with the support of his sister [June Degnan Oppen](https://socialarchive.iath.virginia.edu/xtf/view?docId=degnan-june-oppen-cr.xml), who was then the publisher of the _San Francisco Review_).
 
-<figure class="align-center"><img class="zemanta-img-inserted zemanta-img-configured " title="Ezra Pound United States Passport marked canceled." alt="Ezra Pound United States Passport marked canceled." src="http://upload.wikimedia.org/wikipedia/en/thumb/6/65/EzraPound_Passport.png/300px-EzraPound_Passport.png" width="300" height="422"><figcaption>Ezra Pound United States Passport marked canceled. (Photo credit: Wikipedia)</figcaption></figure>
+<figure class="align-center"><img class="zemanta-img-inserted zemanta-img-configured " title="Ezra Pound United States Passport marked canceled." alt="Ezra Pound United States Passport marked canceled." src="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/EzraPound_Passport.png/300px-EzraPound_Passport.png" width="300" height="422"><figcaption>Ezra Pound United States Passport marked canceled. (Photo credit: Wikipedia)</figcaption></figure>
 
 That same year, Oppen sent a copy of _The Materials_ along with this letter to Ezra Pound, who was then living in Italy and suffering from fairly severe depression after the failure of European fascism, his own arrest for treason and subsequent 12-year incarceration in St. Elizabeth's Hospital, a federally run psychiatric facility in Washington, D.C.:
 

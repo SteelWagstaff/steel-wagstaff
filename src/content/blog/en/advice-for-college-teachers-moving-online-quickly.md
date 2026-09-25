@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "./images/october_2015_zoo_010.jpg"
+image: "/blog-media/october_2015_zoo_010.jpg"
 imageAlt: "Advice for College Teachers Moving Online Quickly"
 ---
 
@@ -42,4 +42,4 @@ If not, consider reaching out to something like the [Instructional Design Emerge
 
 ## **[Do what you can to reduce your own anxiety](https://theconversation.com/coronavirus-is-stressful-here-are-some-ways-to-cope-with-the-anxiety-133146) and [that of your students](https://theconversation.com/7-science-based-strategies-to-cope-with-coronavirus-anxiety-133207).** 
 
-This includes communicating with compassion and empathy, recognizing that learning processes and learning communities can be important sources of strength, support, and resilience, especially in times of fear and crisis, and remembering that your class is not the most important thing in your students' lives. This is a time for taking and giving care (see Rebecca Solnit's [_A Paradise Built In Hell_](http://rebeccasolnit.net/book/a-paradise-built-in-hell/) for an "investigation of the moments of altruism, resourcefulness, and generosity that arise amid disaster’s grief and disruption and considers their implications for everyday life"). If something you've read here resonates with you and you'd like to discuss it more or ask questions, feel free to send me a message at steelwagstaff \[at\] gmail.com and I'll try to reply within a reasonable amount of time.
+This includes communicating with compassion and empathy, recognizing that learning processes and learning communities can be important sources of strength, support, and resilience, especially in times of fear and crisis, and remembering that your class is not the most important thing in your students' lives. This is a time for taking and giving care (see Rebecca Solnit's [_A Paradise Built In Hell_](https://rebeccasolnit.net/book/a-paradise-built-in-hell/) for an "investigation of the moments of altruism, resourcefulness, and generosity that arise amid disaster’s grief and disruption and considers their implications for everyday life"). If something you've read here resonates with you and you'd like to discuss it more or ask questions, feel free to send me a message at steelwagstaff \[at\] gmail.com and I'll try to reply within a reasonable amount of time.

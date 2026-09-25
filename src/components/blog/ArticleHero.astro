@@ -19,7 +19,7 @@ interface Props {
   publishedAt: Date;
   updatedAt?: Date;
   tags?: string[];
-  image?: ImageMetadata;
+  image?: ImageMetadata | string;
   imageAlt?: string;
   svgSlug?: string;
   breadcrumbs?: BreadcrumbItem[];
@@ -38,6 +38,10 @@ const {
   svgSlug,
   breadcrumbs = [],
 } = Astro.props;
+
+const optimizedImage = typeof image === 'string' && image.startsWith('/blog-media/')
+  ? image.replace('/blog-media/', '/_optimized-images/blog-media/').replace(/\.[^.]+$/, '')
+  : undefined;
 
 ---
 
@@ -119,6 +123,15 @@ const {
         >
           <BlogImageSVG slug={svgSlug} title={imageAlt || title} />
         </div>
+      ) : typeof image === 'string' ? (
+        <img
+          src={image}
+          srcset={optimizedImage ? `${optimizedImage}-640.webp 640w, ${optimizedImage}-1280.webp 1280w` : undefined}
+          sizes="100vw"
+          alt={imageAlt || title}
+          class="relative overflow-hidden rounded-xl border border-border shadow-2xl"
+          loading="eager"
+        />
       ) : image ? (
         <div class="relative overflow-hidden rounded-xl border border-border shadow-2xl">
           <Image

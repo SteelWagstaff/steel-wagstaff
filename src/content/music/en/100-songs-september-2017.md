@@ -11,6 +11,6 @@ image: "../../../assets/music/100-songs-september-2017.jpg"
 imageAlt: ""
 ---
 
-Here's a new playlist with 100 songs I listened to and enjoyed in September. On heavy rotation this month were Laura Marling,Pops Staples, Charlie Parr, Andy Shauf, Leatherbag, Elvis Perkins, Langhorne Slim, Nassau, Iron &amp; Wine, John Martyn, and My Bubba &amp; Elsa Håkansson.
+Here's a new playlist with 100 songs I listened to and enjoyed in September. On heavy rotation this month were Laura Marling,Pops Staples, Charlie Parr, Andy Shauf, Leatherbag, Elvis Perkins, Langhorne Slim, Nassau, Iron & Wine, John Martyn, and My Bubba & Elsa Håkansson.
 
-<small>Featured image by <a href="https://steelwagstaff.info" target="_blank" rel="noopener">Steel Wagstaff</a>, CC-BY</small>
+<small>Featured image by <a href="https://steelwagstaff.info" rel="noopener">Steel Wagstaff</a>, CC-BY</small>

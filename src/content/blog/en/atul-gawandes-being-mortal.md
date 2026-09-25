@@ -10,17 +10,17 @@ tags:
 - Philosophy
 draft: false
 locale: en
-image: ./images/5664261318_7d5db1cda9_b.jpg
+image: /blog-media/5664261318_7d5db1cda9_b.jpg
 imageAlt: Atul Gawande's Being Mortal
 ---
 
 I recently went to Salt Lake City for a family reunion. Among the relatives I saw was my only surviving grandparent, who is now 89 years old. He's literally my oldest friend, and the oldest living human being that I know right now. 
 
-His health is slowly deteriorating (he lost his driver's license recently--which turns out to be not such a bad thing for the public at large, especially since, according to Gawande “The risk of a fatal car crash with a driver who’s eighty-five or older is more than three times higher than it is with a teenage driver. The very old are the highest-risk drivers on the road”), and I don't know how many more trips I'll have to see him. Since his mortality was on my mind, I thought it was a perfect time to read a book that I've been excited to learn with and think through ever since I first heard about it: Atul Gawande's [Being Mortal: Medicine and What Matters in the End](http://atulgawande.com/book/being-mortal/). 
+His health is slowly deteriorating (he lost his driver's license recently--which turns out to be not such a bad thing for the public at large, especially since, according to Gawande “The risk of a fatal car crash with a driver who’s eighty-five or older is more than three times higher than it is with a teenage driver. The very old are the highest-risk drivers on the road”), and I don't know how many more trips I'll have to see him. Since his mortality was on my mind, I thought it was a perfect time to read a book that I've been excited to learn with and think through ever since I first heard about it: Atul Gawande's [Being Mortal: Medicine and What Matters in the End](https://atulgawande.com/book/being-mortal/). 
 
-The book itself is about the limits of medicine, how we care for our elderly, and how we die, with explorations of alternative paths towards medical treatment of the elderly, hospice care for the terminally ill, and alternatives to medicalized nursing care for the elderly who require assistance or care in performing daily tasks. It was well worth reading, and grew my affection considerably for geriatricians, hospice care, and most of all for [Bill Thomas](http://changingaging.org/about/)'s notion of what a nursing home might be and [Keren Brown Wilson](http://www.ccliving.com/about-ccl/management-team/keren-brown-wilson.html)'s original ideals of assisted living. 
+The book itself is about the limits of medicine, how we care for our elderly, and how we die, with explorations of alternative paths towards medical treatment of the elderly, hospice care for the terminally ill, and alternatives to medicalized nursing care for the elderly who require assistance or care in performing daily tasks. It was well worth reading, and grew my affection considerably for geriatricians, hospice care, and most of all for [Bill Thomas](https://changingaging.org/about/)'s notion of what a nursing home might be and [Keren Brown Wilson](https://www.ccliving.com/about-ccl/management-team/keren-brown-wilson.html)'s original ideals of assisted living. 
 
-After finishing the book, I felt very clear that I wanted first to develop an advanced directive to specify my own desires at the end of my life, and then to have more frequent and more earnest conversations about aging and death with my parents and with my wife. I hope that I will be able to accept the limits of my own life, and that I'll be able to feel (and abide) by the ideas espoused by Ezekiel Emanuel in his recent essay "[Why I Hope to Die at 75](http://www.theatlantic.com/magazine/archive/2014/10/why-i-hope-to-die-at-75/379329/)," particularly around medical procedures which would prolong, but not enrich, my life. Some meaningful passages from Gawande's book:
+After finishing the book, I felt very clear that I wanted first to develop an advanced directive to specify my own desires at the end of my life, and then to have more frequent and more earnest conversations about aging and death with my parents and with my wife. I hope that I will be able to accept the limits of my own life, and that I'll be able to feel (and abide) by the ideas espoused by Ezekiel Emanuel in his recent essay "[Why I Hope to Die at 75](https://www.theatlantic.com/magazine/archive/2014/10/why-i-hope-to-die-at-75/379329/)," particularly around medical procedures which would prolong, but not enrich, my life. Some meaningful passages from Gawande's book:
 
 ## From the Introduction:
 
@@ -72,7 +72,7 @@ After finishing the book, I felt very clear that I wanted first to develop an ad
 
 * * *
 
-On Stanford psychologist [Laura Carstensen](http://longevity3.stanford.edu/people/laura-carstensen/)'s socioemotional selectivity theory:
+On Stanford psychologist [Laura Carstensen](https://longevity3.stanford.edu/people/laura-carstensen/)'s socioemotional selectivity theory:
 
 > \[H\]ow we seek to spend our time may depend on how much time we perceive ourselves to have. When you are young and healthy, you believe you will live forever. You do not worry about losing any of your capabilities. People tell you “the world is your oyster,” “the sky is the limit,” and so on. And you are willing to delay gratification—to invest years, for example, in gaining skills and resources for a brighter future. You seek to plug into bigger streams of knowledge and information. You widen your networks of friends and connections, instead of hanging out with your mother. When horizons are measured in decades, which might as well be infinity to human beings, you most desire all that stuff at the top of Maslow’s pyramid—achievement, creativity, and other attributes of “self-actualization.” But as your horizons contract—when you see the future ahead of you as finite and uncertain—your focus shifts to the here and now, to everyday pleasures and the people closest to you.
 
@@ -92,7 +92,7 @@ On Stanford psychologist [Laura Carstensen](http://longevity3.stanford.edu/peopl
 
 > Consider the fact that we care deeply about what happens to the world after we die. If self-interest were the primary source of meaning in life, then it wouldn’t matter to people if an hour after their death everyone they know were to be wiped from the face of the earth. Yet it matters greatly to most people. We feel that such an occurrence would make our lives meaningless. The only way death is not meaningless is to see yourself as part of something greater: a family, a community, a society. If you don't, mortality is only a horror.
 
-C.f. sections 2 and 3 of George Oppen's "[The Image of the Engine](http://www.poetryfoundation.org/poem/175675)"
+C.f. sections 2 and 3 of George Oppen's "[The Image of the Engine](https://www.poetryfoundation.org/poem/175675)"
 
 * * *
 
@@ -160,4 +160,4 @@ Sarah Creed explains the fundamental values of hospice care:
 
 > As an adult watching \[my father\] in his final years, I also saw how to come to terms with limits that couldn’t simply be wished away. When to shift from pushing against limits to making the best of them is not often readily apparent. But it is clear that there are times when the cost of pushing exceeds its value. Helping my father through the struggle to define that moment was simultaneously among the most painful and most privileged experiences of my life. Part of the way my father handled the limits he faced was by looking at them without illusion. Though his circumstances sometimes got him down, he never pretended they were better than they were. He always understood that life is short and one’s place in the world is small. But he also saw himself as a link in a chain of history. Floating on that swollen river, I could not help sensing the hands of the many generations connected across time. In bringing us there, my father had helped us see that he was part of a story going back thousands of years—and so were we.
 
-Featured image by [Fylkesarkivet i Sogn og Fjordane](http://www.flickr.com/photos/37547255@N08/5664261318)
+Featured image by [Fylkesarkivet i Sogn og Fjordane](https://www.flickr.com/photos/37547255@N08/5664261318)

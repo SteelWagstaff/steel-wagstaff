@@ -6,7 +6,7 @@ podcast: "Off the Chain"
 episode: 26
 audioUrl: "https://media.steelwagstaff.info/episode_026.mp3"
 image: "../../../assets/podcasts/mark_twain.jpg"
-imageAlt: "Episode 26: Summer Fashion, OTC Friendship, Unchained Melodies: 90s Hip-hop One-hit Wonder Edition, and Master &amp; Commander"
+imageAlt: "Episode 26: Summer Fashion, OTC Friendship, Unchained Melodies: 90s Hip-hop One-hit Wonder Edition, and Master & Commander"
 tags: []
 draft: false
 locale: en

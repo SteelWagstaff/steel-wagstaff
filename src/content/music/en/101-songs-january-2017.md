@@ -13,4 +13,4 @@ imageAlt: ""
 
 Here's a playlist of 101 songs (around 6 and a half hours of music) I listened to and enjoyed in January 2017. It was a fun month musically. Enjoy!
 
-<small>Featured image by <a href="https://www.flickr.com/photos/jenniferhelen/31733377583" target="_blank">Jennifer Bastian</a></small>
+<small>Featured image by <a href="https://www.flickr.com/photos/jenniferhelen/31733377583">Jennifer Bastian</a></small>

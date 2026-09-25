@@ -9,7 +9,7 @@ tags:
 - Literature
 draft: false
 locale: en
-image: ./images/35332790134_ebb6938e70_k.jpg
+image: /blog-media/35332790134_ebb6938e70_k.jpg
 imageAlt: My October and November Reading
 ---
 
@@ -27,6 +27,6 @@ In my last reading update, I mentioned that I had read the first book in Patrick
 -   Sean Illing's interview with Nikole Hannah-Jones in Vox [about racial segregation (in schools and housing) in America](https://www.vox.com/identities/2017/10/26/16533878/race-education-segregation-nikole-hannah-jones).
 -   Brian Oliver's Guardian article about [vegetarianism and veganism in top-level sport](https://www.theguardian.com/lifeandstyle/2017/jul/29/veganism-forest-green-rovers-sports-performance).
 -   Todd Gitlin writing for the Washington Post [on the history of campus 'free speech.'](https://www.washingtonpost.com/amphtml/outlook/conservatives-say-campus-speech-is-under-threat-thats-been-true-for-most-of-history/2017/08/11/6aa959fa-7c4b-11e7-9d08-b79f191668ed_story.html)
--   A keynote address from John Bogle about [big data and index investing](http://johncbogle.com/wordpress/wp-content/uploads/2017/10/JOIM-9-24-17.pdf).
+-   A keynote address from John Bogle about [big data and index investing](https://johncbogle.com/wordpress/wp-content/uploads/2017/10/JOIM-9-24-17.pdf).
 
 Featured image: "[Bollard: San Diego Harbor](https://www.flickr.com/photos/photos_by_clark/35332790134/in/photolist-VQeMwN-7oU666-sa9LQ2-ge5BS1-agJLfC-CtwoKk-kpbGSA-f2dr5r-pLd8MZ-VYf7fv-ABrH9m-8vEXkh-eZpuXh-kxdWHj-XcsHrz-kvWYo2-2ZeJh1-dHiZKu-5DAfAz-UQsbRK-5DkSNY-j536TW-qVHWsM-o221FW-5xuJuw-7EPSTk-kAbcUv-ktbbtr-63dqF4-apKcq5-4MAt4m-e7T7E6-4qJo3e-bsjL2B-s9kHKq-SxHEgT-5Uj36D-7VDGU5-iTjCRx-ehsoxL-a8FdBR-fCV6qt-WZAncP-dg3Wa5-nsX7ph-qZbDqf-och5Tk-VZE7oF-abcLxR-i3ijRk)," Photos by Clark, CC-BY-NC 2.0

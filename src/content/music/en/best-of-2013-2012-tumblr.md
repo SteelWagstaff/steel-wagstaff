@@ -1,5 +1,5 @@
 ---
-title: "Best of 2013 &amp; 2012 [TUMBLR]"
+title: "Best of 2013 & 2012 [TUMBLR]"
 description: "Songs I loved in 2012 and 2013."
 publishedAt: 2013-12-18
 author: steel

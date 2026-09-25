@@ -12,7 +12,7 @@ tags:
 - Philosophy
 draft: false
 locale: en
-image: ./images/8128375073_d28072f931_b.jpg
+image: /blog-media/8128375073_d28072f931_b.jpg
 imageAlt: Three versions of an Objectivist Poetics
 ---
 

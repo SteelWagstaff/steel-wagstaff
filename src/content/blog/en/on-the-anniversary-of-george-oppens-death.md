@@ -10,11 +10,11 @@ tags:
 - Poetry
 draft: false
 locale: en
-image: ./images/pages-from-mss33-b1-f12.jpg
+image: /blog-media/pages-from-mss33-b1-f12.jpg
 imageAlt: On the Anniversary of George Oppen's Death
 ---
 
-31 years ago today, the poet George Oppen died in the Idylwood Convalescent Home (now the [Idylwood Care Cente](http://crestwoodbehavioralhealth.com/location/sunnyvale/)r) in Sunnyvale, California. He was 76 years old, and had been suffering from dementia (Alzheimer's disease) for several years before his death. Hardly a day goes by when I don't think about George or his wife Mary, either their lives or some words that they have written. This past week, while researching the life of Oppen's friend and contemporary Carl Rakosi, I reread Rakosi's [wrenching account of Oppen's last days](./images/rakosi_on_oppen.pdf), published in the _[Carl Rakosi: Man and Poet](https://secure.touchnet.com/C22921_ustores/web/product_detail.jsp?PRODUCTID=418&SINGLESTORE=true)_ collection that Michael Heller edited. To be undone in such a way, or to survive the deterioration of the one you've entwined your life with!
+31 years ago today, the poet George Oppen died in the Idylwood Convalescent Home (now the [Idylwood Care Cente](https://crestwoodbehavioralhealth.com/location/sunnyvale/)r) in Sunnyvale, California. He was 76 years old, and had been suffering from dementia (Alzheimer's disease) for several years before his death. Hardly a day goes by when I don't think about George or his wife Mary, either their lives or some words that they have written. This past week, while researching the life of Oppen's friend and contemporary Carl Rakosi, I reread Rakosi's [wrenching account of Oppen's last days](/blog-media/rakosi_on_oppen.pdf), published in the _[Carl Rakosi: Man and Poet](https://secure.touchnet.com/C22921_ustores/web/product_detail.jsp?PRODUCTID=418&SINGLESTORE=true)_ collection that Michael Heller edited. To be undone in such a way, or to survive the deterioration of the one you've entwined your life with!
 
 \*       \*        \*
 
@@ -30,7 +30,7 @@ George and June's mother, Elsie \[Rothfeld\] Oppenheimer, took her own life in 1
 
 \*       \*        \*
 
-A few years ago, Stephen Cope published Oppen's _[Selected Prose, Daybooks, and Papers](http://www.ucpress.edu/book.php?isbn=9780520252325)_ with the University of California Press, a project which had initially been Cope's dissertation (undertaken with Michael Davidson at UCSD, which owns an enormous amount of the Oppen's archival materials). As the final section of that book, Cope published something he called "Twenty-Six Fragments," which were "a series of notes scrawled by Oppen on envelopes and other small pieces of paper found, after his death, on or near his desk or posted to the wall of his study". They are devastating when read all together. Buy or borrow Cope's book and read them for yourself, I urge you! Here are a few which seem especially connected to Oppen's last days:
+A few years ago, Stephen Cope published Oppen's _[Selected Prose, Daybooks, and Papers](https://www.ucpress.edu/book.php?isbn=9780520252325)_ with the University of California Press, a project which had initially been Cope's dissertation (undertaken with Michael Davidson at UCSD, which owns an enormous amount of the Oppen's archival materials). As the final section of that book, Cope published something he called "Twenty-Six Fragments," which were "a series of notes scrawled by Oppen on envelopes and other small pieces of paper found, after his death, on or near his desk or posted to the wall of his study". They are devastating when read all together. Buy or borrow Cope's book and read them for yourself, I urge you! Here are a few which seem especially connected to Oppen's last days:
 
 > 2\. I find I am forgetting  
 > all the spoken            of  
@@ -103,7 +103,7 @@ A few years ago, Stephen Cope published Oppen's _[Selected Prose, Daybooks, and
 
 \*       \*        \*
 
-Finally, let me also share this: I'm working on a public-facing website dedicated to the Objectivist poets, and in the course of my research have been collecting anything related to these writers I can get my hands on. A few months ago [Richard Swigg](http://jacket2.org/content/richard-swigg) generously sent me some video recorded during the 1973 National Poetry Festival in Allendale, Michigan, where George Oppen, Carl Rakosi, and Charles Reznikoff gathered (along with Robert Duncan, Ted Enslin, Allen Ginsberg, and many others) to discuss their writing. Here's a short excerpt from that discussion in which George Oppen tells a gnomic, witty story which he describes as "a very lovely Objectivist story":
+Finally, let me also share this: I'm working on a public-facing website dedicated to the Objectivist poets, and in the course of my research have been collecting anything related to these writers I can get my hands on. A few months ago [Richard Swigg](https://jacket2.org/content/richard-swigg) generously sent me some video recorded during the 1973 National Poetry Festival in Allendale, Michigan, where George Oppen, Carl Rakosi, and Charles Reznikoff gathered (along with Robert Duncan, Ted Enslin, Allen Ginsberg, and many others) to discuss their writing. Here's a short excerpt from that discussion in which George Oppen tells a gnomic, witty story which he describes as "a very lovely Objectivist story":
 
 Whatever you do, dear ones, don't think of a white horse!
 

@@ -1,5 +1,5 @@
 ---
-title: "Cedar Dance Parties &amp; Lullabies [Round 3]"
+title: "Cedar Dance Parties & Lullabies [Round 3]"
 description: "Third round of baby dance party anthems."
 publishedAt: 2015-03-04
 author: steel

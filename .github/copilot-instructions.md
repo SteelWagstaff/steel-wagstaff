@@ -240,7 +240,7 @@ Optional GitHub Discussions comments at bottom of posts:
 - **Package manager**: pnpm
 
 ### Core Scripts
-- `pnpm dev` — Start dev server (http://localhost:4321)
+- `pnpm dev` — Start dev server (https://localhost:4321)
 - `pnpm build` — Build for production (outputs to `dist/`)
 - `pnpm preview` — Preview production build locally
 - `pnpm test` — Run Vitest unit/integration tests

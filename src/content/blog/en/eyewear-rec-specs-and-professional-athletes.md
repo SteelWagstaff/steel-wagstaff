@@ -6,7 +6,7 @@ author: steel
 tags: ["eyewear", "rec-specs", "sports"]
 draft: false
 locale: en
-image: "./images/ato_boldon1.jpg"
+image: "/blog-media/ato_boldon1.jpg"
 imageAlt: "Eyewear (Rec Specs) and Professional Athletes"
 ---
 
@@ -14,7 +14,7 @@ The weather has finally turned in Madison. It's still fairly cool here, but the 
 
 ### Football
 
-I remembered Eric Dickerson's [rec specs](http://www.kentuckyregistrar.net/wp-content/plugins/wp-o-matic/cache/079d0_rec-specs.jpg) right away, but was surprised to learn of several other players who used to play with glasses.
+I remembered Eric Dickerson's [rec specs](https://www.kentuckyregistrar.net/wp-content/plugins/wp-o-matic/cache/079d0_rec-specs.jpg) right away, but was surprised to learn of several other players who used to play with glasses.
 
 ### Basketball
 
@@ -22,7 +22,7 @@ What's notable about this list is that all of the players listed were either pow
 
 ### Baseball
 
-The first major leaguer to wear spectacles on the field was right-handed pitcher [William "Whoop-La" White](http://www.usatoday.com/sports/baseball/sbbw0724.htm), 1877 – 1886. He later became an optician and founded the [Buffalo Optical Company](http://www.buffalooptical.com/) which is still in business today. I figure this is the kind of thing that Bill James is probably all over, but I don't have a copy of his [Historical Abstract](http://www.amazon.com/Bill-James-Historical-Baseball-Abstract/dp/0684806975) handy, so I'll have to make do with what I've got. UPDATE: There's this [wikipedia page](http://en.wikipedia.org/wiki/List_of_bespectacled_baseball_players) that seems pretty decent. Also, don't miss Lee "Specs" Meadows, the first 20th century major leaguer to wear glasses on the field, or George "Specs" Toporcer, the first major league infielder to wear glasses on the field.
+The first major leaguer to wear spectacles on the field was right-handed pitcher [William "Whoop-La" White](https://www.usatoday.com/sports/baseball/sbbw0724.htm), 1877 – 1886. He later became an optician and founded the [Buffalo Optical Company](https://www.buffalooptical.com/) which is still in business today. I figure this is the kind of thing that Bill James is probably all over, but I don't have a copy of his [Historical Abstract](https://www.amazon.com/Bill-James-Historical-Baseball-Abstract/dp/0684806975) handy, so I'll have to make do with what I've got. UPDATE: There's this [wikipedia page](https://en.wikipedia.org/wiki/List_of_bespectacled_baseball_players) that seems pretty decent. Also, don't miss Lee "Specs" Meadows, the first 20th century major leaguer to wear glasses on the field, or George "Specs" Toporcer, the first major league infielder to wear glasses on the field.
 
 ### Soccer
 
@@ -36,15 +36,15 @@ If you're going to check out just one of the glasses-wearing athletes on the pag
 
 I'm sure there's more, but since I don't really consider golf a sport, one will have to suffice.
 
-<figure class="align-center"><img class="size-full wp-image-233" src="./images/tom_kite.jpg" alt="Tom Kite" width="300" height="180"><figcaption>Tom Kite</figcaption></figure>
+<figure class="align-center"><img class="size-full wp-image-233" src="/blog-media/tom_kite.jpg" srcset="/_optimized-images/blog-media/tom_kite-640.webp 640w, /_optimized-images/blog-media/tom_kite-1280.webp 1280w" sizes="100vw" alt="Tom Kite" width="300" height="180"><figcaption>Tom Kite</figcaption></figure>
 
 ### Hockey
 
-<figure class="align-center"><img class="size-full wp-image-240" src="./images/al_arbour.jpg" alt="Al Arbour, who both wore glasses and played without a helmet!" width="241" height="335"><figcaption>Al Arbour, who both wore glasses and played without a helmet!</figcaption></figure>
+<figure class="align-center"><img class="size-full wp-image-240" src="/blog-media/al_arbour.jpg" srcset="/_optimized-images/blog-media/al_arbour-640.webp 640w, /_optimized-images/blog-media/al_arbour-1280.webp 1280w" sizes="100vw" alt="Al Arbour, who both wore glasses and played without a helmet!" width="241" height="335"><figcaption>Al Arbour, who both wore glasses and played without a helmet!</figcaption></figure>
 
 ### Aussie Rules Football
 
-<figure class="align-center"><img class="size-full wp-image-224" src="./images/geoff_blethyn.jpg" alt="Geoff Blethyn, Aussie Rules footballer" width="300" height="372"><figcaption>Geoff Blethyn, Aussie Rules footballer</figcaption></figure>
+<figure class="align-center"><img class="size-full wp-image-224" src="/blog-media/geoff_blethyn.jpg" srcset="/_optimized-images/blog-media/geoff_blethyn-640.webp 640w, /_optimized-images/blog-media/geoff_blethyn-1280.webp 1280w" sizes="100vw" alt="Geoff Blethyn, Aussie Rules footballer" width="300" height="372"><figcaption>Geoff Blethyn, Aussie Rules footballer</figcaption></figure>
 
 ### Tennis
 

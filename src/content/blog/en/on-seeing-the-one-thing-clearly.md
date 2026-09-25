@@ -24,4 +24,4 @@ I confess to something akin to bewilderment mingled with admiration for such an 
 
 I find a statement of this kind daunting, but there's something about it that I also find beautiful. I want to make this my ambition: to write my dissertation carefully, honestly, clearly, without the desperate feeling of having a thousand threads in my hands, but still capable of acknowledging the ways that I am limited and limiting. If anyone reading this has any insight or advice into seeing the one thing when it comes to a large academic writing project or into achieving clarity, please share your thoughts with me. I could use them.
 
-<figure class="align-none"><img title="George and Mary Oppen" src="http://www.sjphoto.com/geo_mary.jpeg" alt="photograph of George and Mary Oppen" width="650" height="642"><figcaption>George and Mary Oppen, photograph by Stephen Johnson</figcaption></figure>
+<figure class="align-none"><img title="George and Mary Oppen" src="https://www.sjphoto.com/geo_mary.jpeg" alt="photograph of George and Mary Oppen" width="650" height="642"><figcaption>George and Mary Oppen, photograph by Stephen Johnson</figcaption></figure>

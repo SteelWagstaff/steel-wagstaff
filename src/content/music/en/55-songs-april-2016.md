@@ -11,7 +11,7 @@ image: "../../../assets/music/55-songs-april-2016.jpg"
 imageAlt: ""
 ---
 
-Here's 55 songs I listened to and enjoyed last month. It was a really good month for me, musically. Favorite discovery: <a href="https://buckandanne.bandcamp.com/">AdriAnne Lenker &amp; Buck Meek</a>. Song I couldn't get out of my head: "Blue Mountains" by Diamond Rugs.
+Here's 55 songs I listened to and enjoyed last month. It was a really good month for me, musically. Favorite discovery: <a href="https://buckandanne.bandcamp.com/">AdriAnne Lenker & Buck Meek</a>. Song I couldn't get out of my head: "Blue Mountains" by Diamond Rugs.
 
 
 <small><a href="https://www.flickr.com/photos/jenniferhelen/26278025615/">Featured image</a> by <a href="https::::::::::::://jenniferbastianphotography.com">Jennifer Bastian</a></small>
