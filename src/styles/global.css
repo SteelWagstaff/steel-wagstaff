@@ -721,7 +721,7 @@
 
   .prose h1, .prose h2, .prose h3, .prose h4 {
     color: var(--color-foreground);
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-bottom: 0.75em;
   }
 
@@ -805,7 +805,8 @@
   }
 
   .prose blockquote {
-    border-left: 2px solid var(--color-border-strong);
+    border-left: 2px solid var(--color-brand-700);
+    font-family: var(--font-display);
     padding-left: 1rem;
     font-style: italic;
     margin: 1.5em 0;
@@ -815,6 +816,20 @@
   .prose img {
     border-radius: var(--radius-lg);
     margin: 2em 0;
+  }
+
+  .prose img:has(+ figcaption) {
+    margin-bottom: 0.5em;
+  }
+
+  .prose figure {
+    margin-bottom: 1.25em;
+  }
+
+  .prose figcaption {
+    font-style: italic;
+    color: var(--color-foreground-muted);
+    font-size: 0.9em;
   }
 
   .prose hr {
