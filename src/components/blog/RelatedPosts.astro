@@ -1,7 +1,6 @@
 ---
 import BlogCard from './BlogCard.astro';
-import { getCollection } from 'astro:content';
-import { getReadingTime } from '@/lib/utils';
+import { getBlogReadingTime, getMergedBlogEntries } from '@/lib/load-blog-content';
 
 interface Props {
   currentSlug: string;
@@ -10,38 +9,33 @@ interface Props {
   maxPosts?: number;
 }
 
-const { currentSlug, tags, locale = 'en', maxPosts = 3 } = Astro.props;
+const { currentSlug, tags, maxPosts = 3 } = Astro.props;
 
 // Get all published posts in the same locale
-const allPosts = await getCollection('blog', ({ data }) => {
-  return data.locale === locale && data.draft !== true;
-});
+const allPosts = await getMergedBlogEntries();
 
 // Filter to find posts with matching tags
 const relatedPosts = allPosts
   .filter((post) => {
     // Exclude current post
-    if (post.id === currentSlug || post.id.endsWith(`/${currentSlug}`)) return false;
+    if (post.slug === currentSlug) return false;
 
     // Must have at least one matching tag
     if (!tags.length) return false;
-    return post.data.tags.some((tag) => tags.includes(tag));
+    return post.tags.some((tag) => tags.includes(tag));
   })
   // Sort by number of matching tags, then by date
   .sort((a, b) => {
-    const aMatches = a.data.tags.filter((tag) => tags.includes(tag)).length;
-    const bMatches = b.data.tags.filter((tag) => tags.includes(tag)).length;
+    const aMatches = a.tags.filter((tag) => tags.includes(tag)).length;
+    const bMatches = b.tags.filter((tag) => tags.includes(tag)).length;
 
     if (bMatches !== aMatches) return bMatches - aMatches;
-    return b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf();
+    return b.publishedAt.valueOf() - a.publishedAt.valueOf();
   })
   .slice(0, maxPosts);
 
 // Generate URLs for each post (remove locale prefix from id)
-const getPostUrl = (postId: string) => {
-  const slug = postId.replace(`${locale}/`, '');
-  return `/blog/${slug}`;
-};
+const getPostUrl = (slug: string) => `/blog/${slug}`;
 ---
 
 {relatedPosts.length > 0 && (
@@ -53,15 +47,15 @@ const getPostUrl = (postId: string) => {
     <div class="grid gap-[var(--space-stack-lg)] md:grid-cols-2 lg:grid-cols-3">
       {relatedPosts.map((post) => (
         <BlogCard
-          title={post.data.title}
-          description={post.data.description}
-          readingTime={getReadingTime(post.body ?? '')}
-          href={getPostUrl(post.id)}
-          publishedAt={post.data.publishedAt}
-          tags={post.data.tags}
-          author={post.data.author}
-          image={post.data.image}
-          svgSlug={post.data.svgSlug}
+          title={post.title}
+          description={post.description}
+          readingTime={getBlogReadingTime(post)}
+          href={getPostUrl(post.slug)}
+          publishedAt={post.publishedAt}
+          tags={post.tags}
+          author={post.author}
+          image={post.image}
+          svgSlug={post.svgSlug}
         />
       ))}
     </div>

@@ -1,21 +1,18 @@
 ---
-import { getCollection } from 'astro:content';
 import PageLayout from '@/layouts/PageLayout.astro';
 import CommonplaceArchive from '@/components/commonplace/CommonplaceArchive.astro';
+import { getMergedCommonplaceEntries } from '@/lib/commonplace-content';
 import {
   filterCommonplaceEntries,
   getCommonplaceCounts,
   getCommonplacePageCount,
   getCommonplacePageEntries,
-  sortCommonplaceEntries,
   type CommonplaceType,
 } from '@/lib/commonplace';
 
 export async function getStaticPaths() {
   const types: CommonplaceType[] = ['photo', 'text', 'video', 'audio'];
-  const allItems = sortCommonplaceEntries(await getCollection('commonplace', ({ data }) => {
-    return !data.draft && data.locale === 'en';
-  }));
+  const allItems = await getMergedCommonplaceEntries();
   const counts = getCommonplaceCounts(allItems);
   const paths = [];
 

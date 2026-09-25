@@ -5,24 +5,16 @@ import Badge from '@/components/ui/data-display/Badge/Badge.astro';
 import Icon from '@/components/ui/primitives/Icon/Icon.astro';
 import ConnectWithMe from '@/components/patterns/ConnectWithMe.astro';
 import { Hero } from '@/components/hero';
-import { getCollection } from 'astro:content';
-import { getReadingTime } from '@/lib/utils';
+import { getBlogReadingTime, getMergedBlogEntries } from '@/lib/load-blog-content';
 import { slugifyTaxonomyLabel } from '@/lib/taxonomy';
 
 // Get all published posts (exclude drafts)
-const allPosts = await getCollection('blog', ({ data }) => {
-  return data.draft !== true;
-});
-
-// Filter by English locale and sort by date
-const posts = allPosts
-  .filter((post) => post.data.locale === 'en')
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const posts = await getMergedBlogEntries();
 
 // Separate featured posts (shown in hero section)
-const featuredPosts = posts.filter((post) => post.data.featured);
+const featuredPosts = posts.filter((post) => post.featured);
 // Non-featured posts for the main listing
-const nonFeaturedPosts = posts.filter((post) => !post.data.featured);
+const nonFeaturedPosts = posts.filter((post) => !post.featured);
 // If ALL posts are featured, show them all in the main listing too (to avoid empty section)
 const regularPosts = nonFeaturedPosts.length > 0 ? nonFeaturedPosts : posts;
 
@@ -30,7 +22,7 @@ const regularPosts = nonFeaturedPosts.length > 0 ? nonFeaturedPosts : posts;
 const tagCounts: Record<string, number> = {};
 const tagLabels: Record<string, string> = {};
 posts.forEach((post) => {
-  post.data.tags.forEach((tag) => {
+  post.tags.forEach((tag) => {
     const slug = slugifyTaxonomyLabel(tag);
     tagLabels[slug] ||= tag;
     tagCounts[slug] = (tagCounts[slug] || 0) + 1;
@@ -40,11 +32,7 @@ const allTags = Object.keys(tagCounts).sort(
   (a, b) => tagCounts[b] - tagCounts[a] || tagLabels[a].localeCompare(tagLabels[b])
 );
 
-const getPostUrl = (postId: string) => {
-  // Remove locale prefix from id (e.g., "en/welcome-to-velocity" -> "welcome-to-velocity")
-  const slug = postId.replace('en/', '');
-  return `/blog/${slug}`;
-};
+const getPostUrl = (slug: string) => `/blog/${slug}`;
 ---
 
 <PageLayout title="Blog: Steel Wagstaff" description="Blog posts from Steel Wagstaff" showScrollProgress eagerReveal>
@@ -70,17 +58,17 @@ const getPostUrl = (postId: string) => {
 
           <div class="grid gap-6 md:grid-cols-2" data-reveal data-reveal-delay="1">
             {featuredPosts.map((post) => (
-              <div class="post-card" data-tags={JSON.stringify(post.data.tags.map(slugifyTaxonomyLabel))}>
+              <div class="post-card" data-tags={JSON.stringify(post.tags.map(slugifyTaxonomyLabel))}>
                 <BlogCard
-                  title={post.data.title}
-                  description={post.data.description}
-                  readingTime={getReadingTime(post.body ?? '')}
-                  href={getPostUrl(post.id)}
-                  publishedAt={post.data.publishedAt}
-                  tags={post.data.tags}
-                  image={post.data.image}
-                  imageAlt={post.data.imageAlt}
-                  svgSlug={post.data.svgSlug}
+                  title={post.title}
+                  description={post.description}
+                  readingTime={getBlogReadingTime(post)}
+                  href={getPostUrl(post.slug)}
+                  publishedAt={post.publishedAt}
+                  tags={post.tags}
+                  image={post.image}
+                  imageAlt={post.imageAlt}
+                  svgSlug={post.svgSlug}
                 />
               </div>
             ))}
@@ -130,18 +118,18 @@ const getPostUrl = (postId: string) => {
         regularPosts.length > 0 ? (
           <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" data-reveal data-reveal-delay="1">
             {regularPosts.map((post) => (
-              <div class="post-card" data-tags={JSON.stringify(post.data.tags.map(slugifyTaxonomyLabel))}>
+              <div class="post-card" data-tags={JSON.stringify(post.tags.map(slugifyTaxonomyLabel))}>
                 <BlogCard
-                  title={post.data.title}
-                  description={post.data.description}
-                  readingTime={getReadingTime(post.body ?? '')}
-                  href={getPostUrl(post.id)}
-                  publishedAt={post.data.publishedAt}
-                  tags={post.data.tags}
-                  author={post.data.author}
-                  image={post.data.image}
-                  imageAlt={post.data.imageAlt}
-                  svgSlug={post.data.svgSlug}
+                  title={post.title}
+                  description={post.description}
+                  readingTime={getBlogReadingTime(post)}
+                  href={getPostUrl(post.slug)}
+                  publishedAt={post.publishedAt}
+                  tags={post.tags}
+                  author={post.author}
+                  image={post.image}
+                  imageAlt={post.imageAlt}
+                  svgSlug={post.svgSlug}
                 />
               </div>
             ))}

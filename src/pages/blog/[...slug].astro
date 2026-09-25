@@ -1,35 +1,37 @@
 ---
 import BlogLayout from '@/layouts/BlogLayout.astro';
-import { getCollection, render } from 'astro:content';
-import { getReadingTime } from '@/lib/utils';
+import { render } from 'astro:content';
+import { getBlogReadingTime, getMergedBlogEntries } from '@/lib/load-blog-content';
+import PortableText from '@/components/sanity/PortableText.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => {
-    return data.locale === 'en' && data.draft !== true;
-  });
+  const posts = await getMergedBlogEntries();
 
   return posts.map((post) => ({
-    params: { slug: post.id.replace('en/', '') },
+    params: { slug: post.slug },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const localContent = post.source === 'local' && post.localEntry
+  ? await render(post.localEntry as Parameters<typeof render>[0])
+  : null;
+const Content = localContent?.Content;
 ---
 
 <BlogLayout
-  title={post.data.title}
-  description={post.data.description}
-  readingTime={getReadingTime(post.body ?? '')}
-  publishedAt={post.data.publishedAt}
-  updatedAt={post.data.updatedAt}
-  author={post.data.author}
-  image={post.data.image}
-  imageAlt={post.data.imageAlt}
-  svgSlug={post.data.svgSlug}
-  tags={post.data.tags}
-  slug={post.id}
+  title={post.title}
+  description={post.description}
+  readingTime={getBlogReadingTime(post)}
+  publishedAt={post.publishedAt}
+  updatedAt={post.updatedAt}
+  author={post.author}
+  image={post.image}
+  imageAlt={post.imageAlt}
+  svgSlug={post.svgSlug}
+  tags={post.tags}
+  slug={post.slug}
 >
-  <Content />
+  {Content ? <Content /> : <PortableText value={Array.isArray(post.body) ? post.body : []} />}
 </BlogLayout>

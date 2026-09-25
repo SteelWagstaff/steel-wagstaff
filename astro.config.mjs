@@ -5,7 +5,11 @@ import react from '@astrojs/react';
 import icon from 'astro-icon';
 import tailwindcss from '@tailwindcss/vite';
 import { unified } from '@astrojs/markdown-remark';
+import sanity from '@sanity/astro';
+import { loadEnv } from 'vite';
 import { remarkSpotifyEmbed } from './src/lib/remark-spotify-embed.ts';
+
+const env = loadEnv(process.env.NODE_ENV ?? 'development', process.cwd(), '');
 
 export default defineConfig({
   output: 'static',
@@ -24,6 +28,8 @@ export default defineConfig({
       PUBLIC_GOOGLE_MAPS_API_KEY: envField.string({ context: 'client', access: 'public', optional: true, default: '' }),
       PUBLIC_CONSENT_ENABLED: envField.boolean({ context: 'client', access: 'public', optional: true, default: false }),
       PUBLIC_PRIVACY_POLICY_URL: envField.string({ context: 'client', access: 'public', optional: true, default: '' }),
+      PUBLIC_SANITY_PROJECT_ID: envField.string({ context: 'client', access: 'public', optional: true, default: '' }),
+      PUBLIC_SANITY_DATASET: envField.string({ context: 'client', access: 'public', optional: true, default: 'production' }),
     },
   },
 
@@ -33,6 +39,14 @@ export default defineConfig({
 
   integrations: [
     react(),
+    sanity({
+      projectId: env.PUBLIC_SANITY_PROJECT_ID || 'missing-project-id',
+      dataset: env.PUBLIC_SANITY_DATASET || 'production',
+      apiVersion: '2026-09-24',
+      useCdn: false,
+      studioBasePath: '/studio',
+      studioRouterHistory: 'hash',
+    }),
     mdx(),
     sitemap(),
     icon(),
