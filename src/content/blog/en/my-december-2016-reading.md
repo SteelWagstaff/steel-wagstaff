@@ -11,7 +11,7 @@ tags:
 - Philosophy
 - Poetry
 draft: false
-image: "./public/blog-media/14470842436_a2aa932216_c.jpg"
+image: "/blog-media/14470842436_a2aa932216_c.jpg"
 imageAlt: "Man reading at National Gallery of Art"
 locale: en
 ---

@@ -8,7 +8,7 @@ tags:
 draft: false
 locale: en
 image: /blog-media/8703997248_274eea3496_k.jpg
-imageAlt: '2017: My Year in Reading'
+imageAlt: 'READ graffiti on white concrete wall'
 ---
 
 This is the first year that I've really made an effort to keep track of my leisure reading. One of my goals for the year was to read less internet-based news and more books, and I think I was more or less successful, though some months were better for reading than others. In the end, leaving aside everything I read to our son (lots of graphic novels this year!), for my work as an educational technology consultant and for my ongoing dissertation project on the Objectivist poets, I read 60 books for pleasure in 2017. Here's the full list of my 2017 leisure reading, nearly all of which I read in ebook form on my iPad, usually at night after our son had gone to bed:
@@ -73,4 +73,6 @@ My five favorite nonfiction books of the year were:
 -   Ron Silliman’s _[Against Conceptual Poetry](https://www.spdbooks.org/Products/9781933996455/against-conceptual-poetry.aspx)_.
 -   Robert Fitterman’s _[Holocaust Museum](https://www.spdbooks.org/Products/9781933996370/holocaust-museum.aspx)._
 
-My favorite of these was Kleinzahler's book. It's funny looking back at the list--I don't feel particularly impressed by the overall quality of my reading for the year, despite the volume. My big goal for 2018 is to finish and defend my dissertation, which means that I'll dedicate most of my reading energy to that for the first several months of the year. When it comes to leisure reading, my goal is to diminish my online news consumption even further and keep up the pace with books, particularly nonfiction--my goal is to read another 60 books in 2018. Featured image by [RJ](https://www.flickr.com/photos/vandalog/8703997248/in/photolist-eg9g95-6cvz6R-6cKZLw-2qqrc-fvYFL-rn74T-mNasYu-aLzfEV-8rwpqR-67ik1-4fNyGv-fzmKFF-5UjJNW-YonDcX-6xUMDe-dAjinH-84rDvg-6cFVrD-6uBWsC-mWcTo-6Whc9T-3WQ5XU-7hVXpN-gdJs-5rFjuB-aQHtja-btkbez-5C7wvs-5SNXCd-fpsQk7-7i1omC-oFuqVG-7ckG8p-4rUYE-8jrAQp-6DbHyD-9T2o6W-FFVzM-7zGmty-7PeKDD-8Khy5A-6byfxg-8j22bC-7y4D5d-9s2k5-xiGaA-7hS2JP-q6MRCZ-ecRxBU-4GtBu3).
+My favorite of these was Kleinzahler's book. It's funny looking back at the list--I don't feel particularly impressed by the overall quality of my reading for the year, despite the volume. My big goal for 2018 is to finish and defend my dissertation, which means that I'll dedicate most of my reading energy to that for the first several months of the year. When it comes to leisure reading, my goal is to diminish my online news consumption even further and keep up the pace with books, particularly nonfiction--my goal is to read another 60 books in 2018. 
+
+Featured image by [RJ](https://www.flickr.com/photos/vandalog/8703997248/in/photolist-eg9g95-6cvz6R-6cKZLw-2qqrc-fvYFL-rn74T-mNasYu-aLzfEV-8rwpqR-67ik1-4fNyGv-fzmKFF-5UjJNW-YonDcX-6xUMDe-dAjinH-84rDvg-6cFVrD-6uBWsC-mWcTo-6Whc9T-3WQ5XU-7hVXpN-gdJs-5rFjuB-aQHtja-btkbez-5C7wvs-5SNXCd-fpsQk7-7i1omC-oFuqVG-7ckG8p-4rUYE-8jrAQp-6DbHyD-9T2o6W-FFVzM-7zGmty-7PeKDD-8Khy5A-6byfxg-8j22bC-7y4D5d-9s2k5-xiGaA-7hS2JP-q6MRCZ-ecRxBU-4GtBu3).
