@@ -15,6 +15,7 @@ const imageSources = [
 ];
 const widths = [640, 1280];
 const imageExtensions = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif']);
+const forceOptimization = process.env.FORCE_IMAGE_OPTIMIZATION === '1';
 
 async function getImageFiles(source) {
   const stats = await fs.stat(source);
@@ -28,14 +29,13 @@ async function optimize(source) {
   const relativeSource = path.relative(path.join(root, 'public'), source);
   const parsed = path.parse(relativeSource);
   const outputDirectory = path.join(outputRoot, parsed.dir);
-  const sourceMtime = (await fs.stat(source)).mtimeMs;
   const outputs = widths.flatMap((width) => [
     path.join(outputDirectory, `${parsed.name}-${width}.avif`),
     path.join(outputDirectory, `${parsed.name}-${width}.webp`),
   ]);
 
   const outputStats = await Promise.all(outputs.map((output) => fs.stat(output).catch(() => null)));
-  if (outputStats.every((stats) => stats && stats.mtimeMs >= sourceMtime)) return false;
+  if (!forceOptimization && outputStats.every(Boolean)) return false;
 
   await fs.mkdir(outputDirectory, { recursive: true });
   await Promise.all(widths.flatMap((width) => [
