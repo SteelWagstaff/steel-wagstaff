@@ -4,7 +4,7 @@ description: "Inaugural Class [Ep. 7]"
 publishedAt: 2015-03-13
 author: steel
 tags: []
-draft: false
+draft: true
 locale: en
 ---
 
