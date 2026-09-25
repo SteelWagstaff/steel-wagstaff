@@ -1,5 +1,7 @@
 ---
 import siteConfig from '@/config/site.config';
+import type { SanityImage } from '@/sanity/lib/types';
+import { urlForImage } from '@/sanity/lib/url-for-image';
 import BaseLayout from './BaseLayout.astro';
 import Header from '@/components/layout/Header.astro';
 import Footer from '@/components/layout/Footer.astro';
@@ -15,7 +17,7 @@ interface Props {
   publishedAt: Date;
   updatedAt?: Date;
   author?: string;
-  image?: string;
+  image?: string | SanityImage;
   imageAlt?: string;
   svgSlug?: string;
   tags?: string[];
@@ -36,7 +38,11 @@ const {
   slug = '',
 } = Astro.props;
 
-const ogImage = image || siteConfig.ogImage;
+const ogImage = typeof image === 'string'
+  ? image
+  : image
+    ? urlForImage(image).width(1200).format('webp').url()
+    : siteConfig.ogImage;
 
 const breadcrumbs = [
   { label: 'Home', href: '/' },

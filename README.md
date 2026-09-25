@@ -70,6 +70,19 @@ pnpm format     # Format code with Prettier
 pnpm images:optimize  # Regenerate optimized AVIF/WebP assets after image changes
 ```
 
+### Local Sanity Studio
+
+The site can merge Sanity-managed blog posts and commonplace entries with the existing Markdown content. Initialize a Sanity project locally with:
+
+```bash
+pnpm dlx sanity@latest init --env .env
+pnpm dev
+```
+
+Set `PUBLIC_SANITY_PROJECT_ID` and `PUBLIC_SANITY_DATASET` in `.env`. The local Studio is available at `/studio`. Add `http://localhost:4321` as a CORS origin in the Sanity project settings when prompted.
+
+Sanity content is fetched at build time with published-only queries. Existing Markdown content remains supported, and no Sanity read token is required while draft preview and Presentation Tool support are disabled.
+
 ---
 
 ## Features

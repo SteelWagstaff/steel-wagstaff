@@ -1,0 +1,21 @@
+---
+import { PortableText as PortableTextInternal } from 'astro-portabletext';
+import PortableTextImage from './PortableTextImage.astro';
+import type { PortableTextBlock } from '@portabletext/types';
+
+interface Props {
+  value?: PortableTextBlock[];
+}
+
+const { value = [] } = Astro.props;
+
+const components = {
+  type: {
+    image: PortableTextImage,
+  },
+};
+---
+
+<div class="prose prose-lg max-w-none">
+  <PortableTextInternal value={value} components={components} />
+</div>

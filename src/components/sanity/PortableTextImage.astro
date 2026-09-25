@@ -1,0 +1,15 @@
+---
+import { urlForImage } from '@/sanity/lib/url-for-image';
+
+const { asset, alt } = Astro.props.node;
+const imageUrl = urlForImage(asset);
+---
+
+<img
+  src={imageUrl.width(1200).format('webp').url()}
+  srcset={`${imageUrl.width(640).format('webp').url()} 640w, ${imageUrl.width(1200).format('webp').url()} 1200w`}
+  sizes="100vw"
+  alt={alt || 'Sanity image'}
+  loading="lazy"
+  class="my-8 h-auto w-full rounded-lg"
+/>

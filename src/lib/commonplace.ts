@@ -1,9 +1,9 @@
-import type { CollectionEntry } from 'astro:content';
+import type { NormalizedCommonplaceEntry } from '@/sanity/lib/types';
 
 export const COMMONPLACE_PAGE_SIZE = 25;
 
-export type CommonplaceEntry = CollectionEntry<'commonplace'>;
-export type CommonplaceType = CommonplaceEntry['data']['type'];
+export type CommonplaceEntry = NormalizedCommonplaceEntry;
+export type CommonplaceType = CommonplaceEntry['type'];
 
 export interface CommonplaceCounts {
   photo: number;
@@ -14,7 +14,7 @@ export interface CommonplaceCounts {
 
 export function sortCommonplaceEntries(entries: CommonplaceEntry[]): CommonplaceEntry[] {
   return [...entries].sort(
-    (a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
+    (a, b) => b.publishedAt.getTime() - a.publishedAt.getTime()
   );
 }
 
@@ -33,7 +33,7 @@ export function getCommonplacePageEntries(
 export function getCommonplaceCounts(entries: CommonplaceEntry[]): CommonplaceCounts {
   return entries.reduce<CommonplaceCounts>(
     (counts, entry) => {
-      counts[entry.data.type] += 1;
+      counts[entry.type] += 1;
       return counts;
     },
     { photo: 0, text: 0, video: 0, audio: 0 }
@@ -44,5 +44,5 @@ export function filterCommonplaceEntries(
   entries: CommonplaceEntry[],
   type: CommonplaceType
 ): CommonplaceEntry[] {
-  return entries.filter((entry) => entry.data.type === type);
+  return entries.filter((entry) => entry.type === type);
 }

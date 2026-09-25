@@ -1,6 +1,8 @@
 ---
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
+import type { SanityImage } from '@/sanity/lib/types';
+import { urlForImage } from '@/sanity/lib/url-for-image';
 import BlogImageSVG from '@/components/blog/BlogImageSVG.astro';
 import DateMeta from '@/components/ui/data-display/DateMeta.astro';
 import { slugifyTaxonomyLabel } from '@/lib/taxonomy';
@@ -14,7 +16,7 @@ interface Props {
   author?: string;
   tags?: string[];
   featured?: boolean;
-  image?: ImageMetadata | string;
+  image?: ImageMetadata | SanityImage | string;
   imageAlt?: string;
   svgSlug?: string;
 }
@@ -32,6 +34,7 @@ const {
   svgSlug,
 } = Astro.props;
 
+const isSanityImage = typeof image === 'object' && image !== null && 'asset' in image;
 const optimizedImage = typeof image === 'string' && image.startsWith('/blog-media/')
   ? image.replace('/blog-media/', '/_optimized-images/blog-media/').replace(/\.[^.]+$/, '')
   : undefined;
@@ -50,6 +53,15 @@ const optimizedImage = typeof image === 'string' && image.startsWith('/blog-medi
         <div class="transition-transform duration-300 group-hover:scale-105">
           <BlogImageSVG slug={svgSlug} title={title} />
         </div>
+      ) : isSanityImage ? (
+        <img
+          src={urlForImage(image as SanityImage).width(1280).format('webp').url()}
+          srcset={`${urlForImage(image as SanityImage).width(640).format('webp').url()} 640w, ${urlForImage(image as SanityImage).width(1280).format('webp').url()} 1280w`}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
+          alt={imageAlt || title}
+          class="aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy"
+        />
       ) : typeof image === 'string' ? (
         <img
           src={image}
