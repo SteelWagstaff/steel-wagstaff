@@ -6,7 +6,7 @@ author: steel
 tags: []
 draft: false
 locale: en
-image: "./images/montaigne.jpg"
+image: "/blog-media/montaigne.jpg"
 imageAlt: "Dear reader:"
 ---
 

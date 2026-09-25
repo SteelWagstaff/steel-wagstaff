@@ -6,7 +6,7 @@ author: steel
 tags:
 - Memory Collector Project
 - Whittenberger
-draft: false
+draft: true
 locale: en
 ---
 
@@ -50,8 +50,7 @@ Here's the full list of the 1998 Whittenberger Summer Writing Project Attendees.
 	Riki Stott (Emmett)
 	Shannon Stringham (Blackfoot)
 	Amy Ulappa (Bonners Ferry): Lives in Pullman, Washington with her husband. Now a Ph.D. student (in Biology, I think, studying deer nutrition) at Washington State. Just had a beautiful baby boy.
-	Steel Wagstaff (Boise)
-Now lives in Madison, Wisconsin. Read this blog to learn more about me, I'd say.
+	Steel Wagstaff (Boise) Now lives in Madison, Wisconsin. Read this blog to learn more about me, I'd say.
 	Curtis Ward (Boise)
 	Jami Wardell (Preston): Married with a young daughter. Lives in Logan, Utah, where she works for Herff Jones yearbooks.
 	Kate Yoho (Caldwell)

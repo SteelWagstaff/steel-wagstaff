@@ -7,7 +7,6 @@ podcast: "Steel's Magnolias"
 episode: 14
 tags: []
 draft: false
-audioUrl: ""
 locale: en
 image: "../../../assets/music/show-14.jpg"
 spotifyEmbedId: "7iQpJMajEOA1wTxAAHKarf"

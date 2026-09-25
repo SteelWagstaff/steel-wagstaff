@@ -13,4 +13,4 @@ imageAlt: ""
 
 Here's a huge playlist (7+ hours) of music that I listened to and enjoyed in December 2016. Hope it helps get you through last days of winter!
 
-<small>Featured image by <a href="https://www.flickr.com/photos/jenniferhelen/31701789784/in/dateposted/" target="_blank">Jennifer Bastian</a>.</small>
+<small>Featured image by <a href="https://www.flickr.com/photos/jenniferhelen/31701789784/in/dateposted/">Jennifer Bastian</a>.</small>

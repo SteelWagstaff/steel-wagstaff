@@ -54,7 +54,7 @@ pnpm install
 pnpm dev
 ```
 
-Visit `http://localhost:4321` to see the site.
+Visit `https://localhost:4321` to see the site.
 
 ---
 

@@ -6,7 +6,7 @@ podcast: "Off the Chain"
 episode: 2
 audioUrl: "https://media.steelwagstaff.info/episode_002.mp3"
 image: "../../../assets/podcasts/sky_diver.jpg"
-imageAlt: "Episode 2: Castles &amp; Coasters, Super Bowl Ads, Ask OTC, Unchained Melodies, and Beloved"
+imageAlt: "Episode 2: Castles & Coasters, Super Bowl Ads, Ask OTC, Unchained Melodies, and Beloved"
 tags: []
 draft: false
 locale: en

@@ -10,7 +10,7 @@ tags:
 - Writing
 draft: false
 locale: en
-image: ./images/fontamara_1st_edition.jpg
+image: /blog-media/fontamara_1st_edition.jpg
 imageAlt: Ignazio Silone's Fontamara
 ---
 

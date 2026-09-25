@@ -837,8 +837,8 @@ const EXCLUDED_CATEGORIES = new Set([
   'Mix Tapes', 'Radio Shows', 'Spotify Playlists', 'from tumblr', "What I'm Listening To",
 ]);
 
-const WP_NS = 'http://wordpress.org/export/1.2/';
-const CONTENT_NS = 'http://purl.org/rss/1.0/modules/content/';
+const WP_NS = 'https://wordpress.org/export/1.2/';
+const CONTENT_NS = 'https://purl.org/rss/1.0/modules/content/';
 
 // ---------------------------------------------------------------------------
 // XML helpers

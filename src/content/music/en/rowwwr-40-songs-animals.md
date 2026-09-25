@@ -14,4 +14,4 @@ imageAlt: ""
 
 Forty songs about animals. Enjoy!
 
-<a href="https://www.flickr.com/photos/48976962@N00/6922564505/" target="_blank">Featured image</a> by <a>Jennifer Bastian</a>
+<a href="https://www.flickr.com/photos/48976962@N00/6922564505/">Featured image</a> by <a>Jennifer Bastian</a>

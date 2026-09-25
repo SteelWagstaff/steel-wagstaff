@@ -9,7 +9,7 @@ tags:
 - Poetry
 draft: false
 locale: en
-image: ./images/fotosegnaletiche.jpg
+image: /blog-media/fotosegnaletiche.jpg
 imageAlt: Cesare Pavese
 ---
 
@@ -29,11 +29,11 @@ Intrigued, I did a quick search for more information on Pavese and learned tha
 
 I read his poetry first. Geoffrey Brock has produced a fine translation of Pavese, published in 2002 by Copper Canyon press. Pavese published his first volume of poetry, _Work's Tiring_, in 1936, and published a second edition under the same title in 1943, dropping some poems from the first edition and adding several new poems. In the final years of his life (he committed suicide in 1950), he returned again to poetry, publishing _Death Will Come and Have Your Eyes_, poetry that is still well known and much beloved in Italy.
 
-<figure class="wp-block-image alignwide size-large size-full wp-image-2249"><img src="./images/pavese_note.jpg" alt="Cesare Pavese's suicide note" class="wp-image-7000"></figure>
+<figure class="wp-block-image alignwide size-large size-full wp-image-2249"><img src="/blog-media/pavese_note.jpg" srcset="/_optimized-images/blog-media/pavese_note-640.webp 640w, /_optimized-images/blog-media/pavese_note-1280.webp 1280w" sizes="100vw" alt="Cesare Pavese's suicide note" class="wp-image-7000"></figure>
 
-If you were to read just one Pavese poem to get a sense of his style, and concerns, I'd recommend "[Passion for Solitude](http://www.poetryfoundation.org/poem/180248)," but it'd really be very difficult to go wrong. His poems are filled with lone men ('un uomo solo'), a lot of hard working despair, a lot of sad women, many prostitutes, a deep longing for 'the hills' and distrust of the industrial city \[Turin\] where one makes a living. His poem "Summer (II)" closes with this phrase that seems emblematic of his style and concerns: "un duro inumano silenzio" (_a hard, inhuman silence_). If we were to look for an echo in American literature, maybe something that might come out of Jeffers, perhaps?
+If you were to read just one Pavese poem to get a sense of his style, and concerns, I'd recommend "[Passion for Solitude](https://www.poetryfoundation.org/poem/180248)," but it'd really be very difficult to go wrong. His poems are filled with lone men ('un uomo solo'), a lot of hard working despair, a lot of sad women, many prostitutes, a deep longing for 'the hills' and distrust of the industrial city \[Turin\] where one makes a living. His poem "Summer (II)" closes with this phrase that seems emblematic of his style and concerns: "un duro inumano silenzio" (_a hard, inhuman silence_). If we were to look for an echo in American literature, maybe something that might come out of Jeffers, perhaps?
 
-If you want more than just a little taste, I've been publishing some of the original Italian with my rough translations on [my tumblr](http://steelwagstaff.tumblr.com), and here's a larger, longer collection of some of my favorite passages from Brock's translation.
+If you want more than just a little taste, I've been publishing some of the original Italian with my rough translations on [my tumblr](https://steelwagstaff.tumblr.com), and here's a larger, longer collection of some of my favorite passages from Brock's translation.
 
 ## from _Work's Tiring_ (1936)
 

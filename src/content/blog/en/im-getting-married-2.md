@@ -8,4 +8,4 @@ draft: false
 locale: en
 ---
 
-Thought I often avoid the personal when writing publicly, I felt too much joy not to share this: [![Save the Date: Madison, WI, 4.21.2012](./images/save_date_block22.jpg "save_date")](./images/save_date_block22.jpg) Thanks to [Sam Crowfoot](http://samcrowfoot.com/index2.php) for taking the photo.
+Thought I often avoid the personal when writing publicly, I felt too much joy not to share this: [![Save the Date: Madison, WI, 4.21.2012](/blog-media/save_date_block22.jpg "save_date")](/blog-media/save_date_block22.jpg) Thanks to [Sam Crowfoot](https://samcrowfoot.com/index2.php) for taking the photo.

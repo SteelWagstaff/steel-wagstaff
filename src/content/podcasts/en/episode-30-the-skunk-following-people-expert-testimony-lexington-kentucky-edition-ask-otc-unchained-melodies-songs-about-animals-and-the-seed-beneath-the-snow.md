@@ -6,7 +6,7 @@ podcast: "Off the Chain"
 episode: 30
 audioUrl: "https://media.steelwagstaff.info/episode_030.mp3"
 image: "../../../assets/podcasts/8532971733_5fae59806a_k.jpg"
-imageAlt: "Episode 30: The Skunk &amp; Following People, Expert Testimony: Lexington, Kentucky Edition, Ask OTC, Unchained Melodies: Songs About Animals, and The Seed Beneath the Snow"
+imageAlt: "Episode 30: The Skunk & Following People, Expert Testimony: Lexington, Kentucky Edition, Ask OTC, Unchained Melodies: Songs About Animals, and The Seed Beneath the Snow"
 tags: []
 draft: false
 locale: en

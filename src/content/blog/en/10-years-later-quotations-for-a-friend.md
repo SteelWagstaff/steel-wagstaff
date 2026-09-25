@@ -12,11 +12,11 @@ tags:
 - Philosophy
 draft: false
 locale: en
-image: ./images/img_0628.jpg
+image: /blog-media/img_0628.jpg
 imageAlt: '10 Years Later: Quotations for a Friend'
 ---
 
-<figure class="align-right"><img title="Three Friends" src="./images/img_0628-e1432060078410.jpg" alt="Photograph of Mark, Steel, &amp; Howard"><figcaption>Mark, Myself, and Matt Howard (L-R), sometime during college</figcaption></figure>
+<figure class="align-right"><img title="Three Friends" src="/blog-media/img_0628-e1432060078410.jpg" srcset="/_optimized-images/blog-media/img_0628-e1432060078410-640.webp 640w, /_optimized-images/blog-media/img_0628-e1432060078410-1280.webp 1280w" sizes="100vw" alt="Photograph of Mark, Steel, & Howard"><figcaption>Mark, Myself, and Matt Howard (L-R), sometime during college</figcaption></figure>
 
 When I was a freshman in college, my best friend was Mark Eliason. He and I went almost everywhere together, and so nearly imitated one another's mannerisms, speech patterns, and stock phrases that we'd regularly have other people ask us if we were brothers. We usually lied and said yes. 
 
@@ -32,7 +32,7 @@ I've been thinking a lot in the last few days about how I can re-enchant the cur
 
 A lot of it was embarrassing, some was impressive, and much of it surprised me--I have forgotten so much of my own past.
 
-<figure class="align-left"><img title="Self-Portraits" src="./images/self-portraits.jpg" alt=""><figcaption>Portrait of Spence, Mark, Steel and Jordan, made with MS Paint by Jordan Faux, polymath and genius.</figcaption></figure>
+<figure class="align-left"><img title="Self-Portraits" src="/blog-media/self-portraits.jpg" srcset="/_optimized-images/blog-media/self-portraits-640.webp 640w, /_optimized-images/blog-media/self-portraits-1280.webp 1280w" sizes="100vw" alt=""><figcaption>Portrait of Spence, Mark, Steel and Jordan, made with MS Paint by Jordan Faux, polymath and genius.</figcaption></figure>
 
 The best part of this recovery of my teenage past has been the accidental discovery of the document that I mailed to Mark, full of inspiring quotations. Here are some highlights (sorry in advance for the length--I found as I was weeding through them that I still loved so many of the same things more than 10 years later that it was hard to cut much of the first list). All biographical notes have been left as written (by a much younger self): 
 

@@ -9,9 +9,12 @@ tags:
 - Literature
 draft: false
 locale: en
+image: /blog-media/jb2.jpg
+imageAlt: J.B. Jackson
+
 ---
 
-_Passages from William Langewiesche's_ [Inside the Sky](https://www.amazon.com/Inside-Sky-Meditation-William-Langewiesche/dp/067975007X) _interspersed with quotations from John Brinckerhoff Jackson's own writing on_ landscape_. Normally typeset passages from Langewiesche, block quotes from Jackson._
+Passages from William Langewiesche's _[Inside the Sky](https://www.amazon.com/Inside-Sky-Meditation-William-Langewiesche/dp/067975007X)_ interspersed with quotations from John Brinckerhoff Jackson's own writing on landscape. Normally typeset passages from Langewiesche, block quotes from Jackson.
 
 \*    \*    \*
 
@@ -22,7 +25,7 @@ Jackson published _Landscape_ for seventeen years, until he grew tired of the st
 \*    \*    \*
 
 > \[T\]hat old-fashioned but surprisingly persistent definition of landscape: "A portion of the earth's surface that can be comprehended at a glance."
-> 
+ 
 > Those of us who undertake to study landscapes in a serious way soon come up against a sobering truth: even the simplest, least interesting landscape often contains elements which we are quite unable to explain, mysteries that fit into no known pattern. But we also eventually learn that every landscape, no matter how exotic, also contains elements which we at once recognize and understand.
 
 \*    \*    \*
@@ -45,4 +48,4 @@ That evening Ernie’s mechanic son Frank went to visit him there. When Jackson 
 
 > When evening falls, the softest, most domestic lights shine from upstairs windows; the only reminder of the nearby city is that dusty pink glow in the sky which in any case the trees all but conceal. Yet why have I always been glad to leave? Was it a painful realization that I was excluded from these rows and rows of (presumably) happy and comfortable homes that has always ended by making me beat a retreat to the city proper? Or was it a conviction that I had actually seen this, experienced it, relished it after a fashion countless times and could no longer derive the slightest spark of inspiration from it?
 
-Featured image: ["J.B. Jackson, Cultural Geographer"](http://www.mocp.org/detail.php?t=objects&type=browse&f=maker&s=Noggle%2C+Anne&record=35) by Anne Noggle
+Featured image: ["J.B. Jackson, Cultural Geographer"](https://www.mocp.org/detail.php?t=objects&type=browse&f=maker&s=Noggle%2C+Anne&record=35) by Anne Noggle

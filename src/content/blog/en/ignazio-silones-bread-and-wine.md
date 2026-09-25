@@ -10,7 +10,7 @@ tags:
 - Literature
 draft: false
 locale: en
-image: ./images/bread_wine.jpg
+image: /blog-media/bread_wine.jpg
 imageAlt: Ignazio Silone's Bread and Wine
 ---
 

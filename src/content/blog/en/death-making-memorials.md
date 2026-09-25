@@ -28,7 +28,7 @@ sure that you would not die with your work unended,
 as if the iron scythe in the grass stops for a flower?
 When he reprinted the poem in 1920 he dropped the title, and in 1927 he dropped Gaudier-Brzeska name, but the remaining lines (which Zukofsky praised in the February 1931 “Objectivists’ Issue” of Poetry) are evidence of the thoughts of death which were haunting so many young men like Reznikoff during the war.
 
---from http://www.poetryfoundation.org/bio/charles-reznikoff
+--from https://www.poetryfoundation.org/bio/charles-reznikoff
 
 J.V. Cunningham
 
@@ -36,7 +36,7 @@ The art of obituaries. Economist book of obituaries and others
 
 beside the art of elegy--another day.
 
-Grace Paley's mother: http://readashort.blogspot.com/2008/06/mother-by-grace-paley.html
+Grace Paley's mother: https://readashort.blogspot.com/2008/06/mother-by-grace-paley.html
 
 Shakespeare, St. Crispin's day?
 
@@ -74,7 +74,7 @@ rigging
 	for his own
 		singing
 
-http://media.sas.upenn.edu/pennsound/authors/Niedecker/Niedecker-Lorine_02_The-Ballad-of-Basil_Factory-School-Archive_11-1970.mp3
+https://media.sas.upenn.edu/pennsound/authors/Niedecker/Niedecker-Lorine_02_The-Ballad-of-Basil_Factory-School-Archive_11-1970.mp3
 
 Kubler-Ross On death and dying
 

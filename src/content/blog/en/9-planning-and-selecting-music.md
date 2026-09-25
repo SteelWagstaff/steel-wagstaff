@@ -8,7 +8,6 @@ draft: false
 locale: en
 ---
 
-
 There are many reasons why people get married, and many ways of celebrating this commitment, but nearly all wedding celebrations involve some form of music. How could we rejoice without song? It scarcely seems possible.
 
 ## Music in the Wedding Ceremony

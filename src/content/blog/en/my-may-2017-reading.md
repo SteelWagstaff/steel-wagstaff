@@ -9,7 +9,7 @@ tags:
 - Literature
 draft: false
 locale: en
-image: ./images/harry-redknapp-paper.jpg
+image: /blog-media/harry-redknapp-paper.jpg
 imageAlt: My May 2017 Reading
 ---
 
@@ -43,11 +43,11 @@ Pleased to report that I continued reading a lot for my dissertation (pleasurabl
 
 A sparse month in this regard, too, but here's the best of what I read in May:
 
--   Eamon Duffy's [NYT Review of Books article on the Voynich Manuscript](http://www.nybooks.com/articles/2017/04/20/voynich-manuscript-secret-knowledge-or-hoax/). Such a strange book with an impossible curious story.
--   Joshua Rothman's [feature of Rod Dreher](http://www.newyorker.com/magazine/2017/05/01/rod-drehers-monastic-vision/amp) in _The New Yorker_. I'd never heard of Dreher (or the Benedict Option before), but was mildly intrigued by his interest in intentional communities.
+-   Eamon Duffy's [NYT Review of Books article on the Voynich Manuscript](https://www.nybooks.com/articles/2017/04/20/voynich-manuscript-secret-knowledge-or-hoax/). Such a strange book with an impossible curious story.
+-   Joshua Rothman's [feature of Rod Dreher](https://www.newyorker.com/magazine/2017/05/01/rod-drehers-monastic-vision/amp) in _The New Yorker_. I'd never heard of Dreher (or the Benedict Option before), but was mildly intrigued by his interest in intentional communities.
 -   Mary Williams Walsh's [article on Puerto Rico's longstanding debt problems](https://www.nytimes.com/2017/05/05/business/dealbook/puerto-rico-debt.html?emc=edit_th_20170506&nl=todaysheadlines&nlid=36318574&_r=0) and some of the perils of bond financing.
 -   Matthew Desmond's [NYT article](https://www.nytimes.com/2017/05/09/magazine/how-homeownership-became-the-engine-of-american-inequality.html) on owning/renting, racial prejudice in housing & housing policy, and "how homeownership became the engine of American inequality".
 -   I lived for two years in the northeast of England. Three stories about football there: Alex Hess [in Vice Sports](https://sports.vice.com/en_uk/article/how-londons-economic-dominance-is-strangling-soccer-in-the-north-east) on how London's economic might is proving ruinous to the proud football traditions in the north; [a Guardian article](https://www.theguardian.com/football/2017/apr/26/grimsby-fans-hire-mariachi-band-barnet-inflatables-ban) on the eccentric resourcefulness of Grimsby (a place I lived for 3 months) fans; and Johnny McDevitt's [Guardian feature on Jaber Abdullah](https://www.theguardian.com/society/2017/may/02/jaber-abdullah-refugee-football-asylum-seeker-barnsley), a Sudanese asylum seeker who has created a football team for refugees in Barnsley (the last town I lived in before returning to the United States).
--   Rebecca Solnit [writing for Literary Hub](http://lithub.com/rebecca-solnit-the-loneliness-of-donald-trump/) on privilege, loneliness, and the President of the United States
+-   Rebecca Solnit [writing for Literary Hub](https://lithub.com/rebecca-solnit-the-loneliness-of-donald-trump/) on privilege, loneliness, and the President of the United States
 
-Harry Redknapp reads a newspaper at Wincanton Racecourse on November 17, 2016 in Wincanton, England. (Photo by [Alan Crowhurst](http://alancrowhurstpix.com/http://alancrowhurstpix.com/)/Getty Images)
+Harry Redknapp reads a newspaper at Wincanton Racecourse on November 17, 2016 in Wincanton, England. (Photo by [Alan Crowhurst](https://alancrowhurstpix.com/https://alancrowhurstpix.com/)/Getty Images)
