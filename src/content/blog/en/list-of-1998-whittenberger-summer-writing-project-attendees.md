@@ -4,7 +4,7 @@ description: "Here's the full list of the 1998 Whittenberger Summer Writing Proj
 publishedAt: 2013-05-09
 author: steel
 tags: []
-draft: false
+draft: true
 locale: en
 ---
 

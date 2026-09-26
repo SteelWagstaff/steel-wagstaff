@@ -22,7 +22,7 @@ Big prediction for the coming year: presidential hair will become a [major issu]
 
 1. **John Adams: the Nohawk.**
     
-    <figure class="align-left"><img src="https://www.wikipedy.com/images_a/new_a/john_adams_facts.jpg" alt="John Adams" width="564" /><figcaption>John Adams modeling the Nohwak</figcaption></figure>
+    <figure><img src="https://www.wikipedy.com/images_a/new_a/john_adams_facts.jpg" alt="John Adams" width="564" /><figcaption>John Adams modeling the Nohwak</figcaption></figure>
     
     Adams' celebrity doppelgänger: Paula Dean.
 2. **James K Polk: the original mullet.**

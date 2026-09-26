@@ -1,6 +1,6 @@
 ---
 title: Lorine Niedecker and the 99%
-description: ''
+description: 'On Niedecker marginalia and progressive politics'
 publishedAt: 2011-12-15
 author: steel
 tags:
@@ -18,13 +18,15 @@ One my favorite poets ever was [Lorine Niedecker](https://uwpress.wisc.edu/books
 
 The first time I went to see Niedecker's library, I went first to her 1927 _Everyman's Library_ copy of Thoreau's _Walden_ (which also has a special place in my own immortal cupboard) and found between the cover and title page a small yellowing slip of paper on which Lorine had written in her gentle cursive script: “Of Thoreau - He chose to be rich by making his wants few. – Emerson”. I was enormously touched.
 
-<figure class="align-left"><a href="https://steelwagstaff.files.wordpress.com/2011/12/lorine-reading1.jpg"><img class="size-full wp-image-751" title="lorine reading" src="/blog-media/lorine-reading1.jpg" srcset="/_optimized-images/blog-media/lorine-reading1-640.webp 640w, /_optimized-images/blog-media/lorine-reading1-1280.webp 1280w" sizes="100vw" alt="Lorine Niedecker, reading a book" width="494" height="720"></a><figcaption>Lorine Niedecker, reading (Walden, I hope)</figcaption></figure>
+<figure><img class="size-full wp-image-751" title="lorine reading" src="/blog-media/lorine-reading1.jpg" srcset="/_optimized-images/blog-media/lorine-reading1-640.webp 640w, /_optimized-images/blog-media/lorine-reading1-1280.webp 1280w" sizes="100vw" alt="Lorine Niedecker, reading a book" width="494" height="720"><figcaption>Lorine Niedecker, reading (Walden, I hope)</figcaption></figure>
 
 I spent most of that day looking for Niedecker marginalia. It was one of the best days I've ever spent researching anything. A few months later I was stunned and overjoyed to learn that [Tom Montag](https://middlewesterner.typepad.com/about.html) had spent more than 120 hours carefully going through all of Lorine's surviving books and recording her marginal annotations. You can see [them all](https://www.lorineniedecker.org/notes.htm) on the Friends of Lorine Niedecker website. 
 
 I'm posting this because of a chance discovery I made in that marginalia earlier this week while I was looking for something else. I saw with interest that Lorine owned a copy of legendary Wisconsin Senator and [Progressive Party](https://en.wikipedia.org/wiki/Progressive_Party_\(United_States,_1924\)) leader [Robert La Follette](https://www.wisconsinhistory.org/whi/results.asp?keyword1=Robert+M%2E+La+Follette%2C+Sr%2E&search_field1=description&search_type=advanced&sort_by=date&boolean_type=and)'s [Political Philosophy](https://www.archive.org/details/politicalphilos00follgoog) (published in 1920), the inside cover of which says simply, "Lorine Niedecker - Junior Year" (she graduated from high school in 1922). 
 
-The annotation that caught my eye wasn't particularly expressive, in fact, all Niedecker had done was to mark the passage with brackets. It was the contents of the passage itself that interested me, particularly in light of the recent political protests here in Madison (and the ongoing '[Recall Walker](https://www.unitedwisconsin.com/)' \[and Kleefisch\] movements) and the burgeoning Occupy \[ \] and We Are the 99% movements. In a speech given on the Senate Floor in September 1917 (a time of war) responding to objections made by Senator [Porter McCumber](https://en.wikipedia.org/wiki/Porter_J._McCumber) (North Dakota) regarding a 'War Profits Tax', La Follette asks: "Who does the senator think are the people of this country? Is it the 2 per cent, owners of two-thirds of the wealth, or is it the 98 per cent of the population who have to divide among themselves the meager balance of this country's wealth, which, apportioned among them per capita, is a little over $800 apiece?" 
+The annotation that caught my eye wasn't particularly expressive, in fact, all Niedecker had done was to mark the passage with brackets. It was the contents of the passage itself that interested me, particularly in light of the recent political protests here in Madison (and the ongoing '[Recall Walker](https://www.unitedwisconsin.com/)' and Kleefisch movements) and the burgeoning Occupy \[ \] and We Are the 99% movements. 
+
+In a speech given on the Senate Floor in September 1917 (a time of war) responding to objections made by Senator [Porter McCumber](https://en.wikipedia.org/wiki/Porter_J._McCumber) (North Dakota) regarding a 'War Profits Tax', La Follette asks: "Who does the senator think are the people of this country? Is it the 2 per cent, owners of two-thirds of the wealth, or is it the 98 per cent of the population who have to divide among themselves the meager balance of this country's wealth, which, apportioned among them per capita, is a little over $800 apiece?" 
 
 La Follette's math needs only slight updating, and the current mood is even slightly more inclusive ("We"--"We the People"--"The people of this country" are now the "99%" rather than La Follette's "98 per cent"), but the sentiment seems remarkable relevant, and I'm pleased to see traces of the deep roots of Wisconsin Progressivism made visible in the material history of Lorine Niedecker's reading practices.
 
@@ -36,29 +38,29 @@ It seems to me that Niedecker chose quite clearly to both see herself as one of 
 
 I suppose that what I am really trying to say is that no matter how few we make our wants, it seems imperative to me that among them we must retain the desire that forms the heart of George Oppen's remarkable poem ["Street"](https://www.poets.org/viewmedia.php/prmMID/21479), namely an "end of poverty" and the "real pain" that so often accompanies it: 
 
-STREET
+"Street"
 
-Ah these are the poor, 
+Ah these are the poor,<br>
 These are the poor-
 
-Bergen street. 
+Bergen street.
 
-Humiliation, 
-Hardship... 
+Humiliation,<br>
+Hardship...
 
-Nor are they very good to each other; 
-It is not that. I want 
+Nor are they very good to each other;<br>
+It is not that. I want
 
-An end of poverty 
-As much as anyone 
+An end of poverty<br>
+As much as anyone
 
-For the sake of intelligence, 
-'The conquest of existence'- 
+For the sake of intelligence,<br>
+'The conquest of existence'-
 
-It has been said, and is true 
+It has been said, and is true
 
-And this is real pain, 
-Moreover. It is terrible to see the children, 
+And this is real pain,<br>
+Moreover. It is terrible to see the children,
 
-The righteous little girls; 
+The righteous little girls;<br>
 So good, they expect to be so good....

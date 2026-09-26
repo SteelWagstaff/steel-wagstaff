@@ -5,7 +5,7 @@ publishedAt: 2015-03-01
 author: steel
 tags:
     - What I've Been Reading
-draft: false
+draft: true
 locale: en
 ---
 
@@ -17,11 +17,11 @@ So I'm going to try something new here. Near the end of each month, I'll post a 
 
 Here's that first list, a collection of the best articles (mostly longform) I read in the past month:
 
-“The Jungle Is Obscene” — Werner Herzog’s Visceral Nature Writing 
+* “The Jungle Is Obscene” — Werner Herzog’s Visceral Nature Writing 
 
 This was a fantastic collection of diary entries by German film director Werner Herzog, excerpted from his 2010 book Conquest of the Useless: Reflections from the Making of Fitzcarraldo.
 
-The Zany, the Cute, and the Interesting: On Ngai's   by Sianne Ngai
+* The Zany, the Cute, and the Interesting: On Ngai's   by Sianne Ngai
 
 Sianne Ngai’s Our Aesthetic Categories: Zany, Cute, Interesting is about aesthetic judgments: an inquiry into the terms and origins of taste.
 

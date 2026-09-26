@@ -285,7 +285,7 @@ export function buildTags(categories, postTags) {
  *   [caption id="..." align="alignleft" width="300"]<img .../>caption text[/caption]
  *
  * Produces:
- *   <figure class="align-right"><img .../><figcaption>text</figcaption></figure>
+ *   <figure><img .../><figcaption>text</figcaption></figure>
  */
 export function transformCaptions(html) {
   // Variant 1: caption in attribute
@@ -576,7 +576,7 @@ describe('transformCaptions', () => {
   it('converts caption-attribute variant to <figure>', () => {
     const input = `[caption id="a1" align="alignright" width="300" caption="Gaylord Nelson"]<img src="img.jpg" />[/caption]`;
     const result = transformCaptions(input);
-    expect(result).toContain('<figure class="align-right">');
+    expect(result).toContain('<figure>');
     expect(result).toContain('<figcaption>Gaylord Nelson</figcaption>');
     expect(result).toContain('<img src="img.jpg" />');
     expect(result).not.toContain('[caption');
@@ -585,7 +585,7 @@ describe('transformCaptions', () => {
   it('converts body-text caption variant to <figure>', () => {
     const input = `[caption id="a2" align="alignleft" width="300"]<img src="img.jpg" />Caption text here[/caption]`;
     const result = transformCaptions(input);
-    expect(result).toContain('<figure class="align-left">');
+    expect(result).toContain('<figure>');
     expect(result).toContain('<figcaption>Caption text here</figcaption>');
     expect(result).not.toContain('[caption');
   });
@@ -593,7 +593,7 @@ describe('transformCaptions', () => {
   it('handles caption with no text gracefully', () => {
     const input = `[caption align="aligncenter" width="500"]<img src="img.jpg" />[/caption]`;
     const result = transformCaptions(input);
-    expect(result).toContain('<figure class="align-center">');
+    expect(result).toContain('<figure>');
     expect(result).not.toContain('[caption');
   });
 

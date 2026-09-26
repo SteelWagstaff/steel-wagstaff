@@ -1,6 +1,6 @@
 ---
 title: "John Szarkowski and George Oppen on Art as Deixis [Pointing]"
-description: "As a way of beginning, one might compare the art of photography to the act of pointing. All of us, even the best-mannered of us, occasionally point, and it must be true that some of us point to more i"
+description: "Some reflections on language"
 publishedAt: 2015-10-01
 author: steel
 tags: []
@@ -12,9 +12,11 @@ locale: en
 As a way of beginning, one might compare the art of photography to the act of pointing. All of us, even the best-mannered of us, occasionally point, and it must be true that some of us point to more interesting facts, events, circumstances, and configurations than others. It is no difficult to imagine a person - a mute Virgil of the corporeal world - who might elevate the act of pointing to a creative plane, a person who would lead us through the fields and streets and indicate a sequence of phenomena and aspects that would be beautiful, humorous, morally instructive, cleverly ordered, mysterious, or astonishing, once brought to our attention, but that had been unseen before, or seem dumbly, without comprehension. This talented practitioner of the new discipline (the discipline a cross, perhaps, between theater and criticism) would perform with a special sense of grace, sense of timing, narrative sweep, and wit, thus endowing the act not merely with intelligence, but with that quality of formal rigor that identifies a work of art, so that we would be uncertain, when remembering the adventure of the tour, how much of our pleasure and sense of enlargement had come from the things pointed to and how much from a pattern created by the pointer.
 
 --John Szarkowski, from "Atget and the Art of Photography," an essay in The Work of Atget Vol. 1: Old France, Museum of Modern Art, New York, 1981. Courtesy of Gregory Taylor.
+
 *       *       *
 
 This is not the poetry of a man who cares nothing for the rich resources of language, but of a man for whom language and the world are deeply involved in each other.
+
 George Oppen's awe at the things of the world is the measure of his scepticism about what man makes of them, socially and mentally, with his ideas and forms of order. For him, there can only be one response to awe:
 
 Clarity, clarity, surely clarity is the most beautiful thing in the world, A limited, limiting clarity I have not and never did have any motive of poetry But to achieve clarity
