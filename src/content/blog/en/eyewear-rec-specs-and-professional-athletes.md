@@ -4,7 +4,7 @@ description: "The weather has finally turned in Madison. It's still fairly cool 
 publishedAt: 2011-05-04
 author: steel
 tags: ["eyewear", "rec-specs", "sports"]
-draft: false
+draft: true
 locale: en
 image: "/blog-media/ato_boldon1.jpg"
 imageAlt: "Eyewear (Rec Specs) and Professional Athletes"

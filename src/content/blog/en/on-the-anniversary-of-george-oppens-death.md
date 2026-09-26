@@ -105,6 +105,7 @@ A few years ago, Stephen Cope published Oppen's _[Selected Prose, Daybooks, and
 
 Finally, let me also share this: I'm working on a public-facing website dedicated to the Objectivist poets, and in the course of my research have been collecting anything related to these writers I can get my hands on. A few months ago [Richard Swigg](https://jacket2.org/content/richard-swigg) generously sent me some video recorded during the 1973 National Poetry Festival in Allendale, Michigan, where George Oppen, Carl Rakosi, and Charles Reznikoff gathered (along with Robert Duncan, Ted Enslin, Allen Ginsberg, and many others) to discuss their writing. Here's a short excerpt from that discussion in which George Oppen tells a gnomic, witty story which he describes as "a very lovely Objectivist story":
 
+
 Whatever you do, dear ones, don't think of a white horse!
 
 \*       \*        \*

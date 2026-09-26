@@ -29,14 +29,5 @@ I also made a bunch of different wedding mixes for the DJ to draw on/from throug
 The Wedding Day Megamix
 https://open.spotify.com/user/steelwagstaff/playlist/6hombqq4QSfgCmljWvoFeg
 
-The Wedding(slow) mix
-https://open.spotify.com/user/steelwagstaff/playlist/4bsfKW7ZTg6GOBVqOHBjc7
-
-The Wedding(dance) mix
-https://open.spotify.com/user/steelwagstaff/playlist/26antZYnQJnMiAbibp2K9q
-
-The Wedding(background) mix
-https://open.spotify.com/user/steelwagstaff/playlist/1v71tOi9wYAxApFvyT2Jcd
-
 Our Wedding Mix
 https://open.spotify.com/user/steelwagstaff/playlist/4SfQntplYlJAcC4ZblMhov
