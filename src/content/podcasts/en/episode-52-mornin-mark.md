@@ -28,7 +28,7 @@ A list of [great lives felled by tuberculosis](https://www.dhss.delaware.gov/dph
 
 ### Expert Testimony
 
-<figure class="align-left"><img src="https://www.atu2.com/files/news/26/7919-m.jpg" alt="Adam Clayton" width="300" /><figcaption>Adam Clayton in full Jetsons regalia</figcaption></figure>
+<figure><img src="https://www.atu2.com/files/news/26/7919-m.jpg" alt="Adam Clayton" width="300" /><figcaption>Adam Clayton in full Jetsons regalia</figcaption></figure>
 
 ### Unchained Melodies: U2 Edition
 

@@ -838,6 +838,20 @@
     margin: 3em 0;
   }
 
+  .prose .vimeo-embed-container {
+    margin: 2em auto;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: var(--radius-lg);
+  }
+
+  .prose .vimeo-embed-container iframe {
+    width: 100%;
+    height: auto;
+    border: none;
+    display: block;
+  }
+
   .prose table {
     width: 100%;
     border-collapse: collapse;

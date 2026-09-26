@@ -33,7 +33,7 @@ This means that a single Pressbooks network could easily contain both a privatel
 
 <figure class="align-none"><img class="wp-image-6276 size-full" src="/blog-media/Screen-Shot-2017-11-09-at-11.21.24-AM.png" srcset="/_optimized-images/blog-media/Screen-Shot-2017-11-09-at-11.21.24-AM-640.webp 640w, /_optimized-images/blog-media/Screen-Shot-2017-11-09-at-11.21.24-AM-1280.webp 1280w" sizes="100vw" alt="" width="1208" height="2392"><figcaption>The landing page/public catalogue for Pressbooks published at UW-Madison, showing 6 of our published titles. See https://wisc.pb.unizin.org to see it live on the&nbsp;web.</figcaption></figure>
 
-<figure class="align-right"><img class="size-large wp-image-6274" src="/blog-media/Screen-Shot-2017-11-09-at-11.17.52-AM.png" srcset="/_optimized-images/blog-media/Screen-Shot-2017-11-09-at-11.17.52-AM-640.webp 640w, /_optimized-images/blog-media/Screen-Shot-2017-11-09-at-11.17.52-AM-1280.webp 1280w" sizes="100vw" alt="The network admin page for our installation of Pressbooks." width="600" height="342"><figcaption>The network admin page for our installation of Pressbooks.</figcaption></figure>
+<figure><img class="size-large wp-image-6274" src="/blog-media/Screen-Shot-2017-11-09-at-11.17.52-AM.png" srcset="/_optimized-images/blog-media/Screen-Shot-2017-11-09-at-11.17.52-AM-640.webp 640w, /_optimized-images/blog-media/Screen-Shot-2017-11-09-at-11.17.52-AM-1280.webp 1280w" sizes="100vw" alt="The network admin page for our installation of Pressbooks." width="600" height="342"><figcaption>The network admin page for our installation of Pressbooks.</figcaption></figure>
 
 As a network administrator, when I login to the administrative panel, I see a Pressbooks network dashboard that lets me manage all the sites and users in our network, install or activate new plugins or books themes, manage network settings, and create a new book or [clone an existing book](https://eduguide.pressbooks.com/chapter/book-cloning/) (from our instance or any other public Pressbooks instance). 
 
@@ -100,7 +100,7 @@ I believe that Pressbooks is planning to release [new structuring abilities](htt
 
 The book itself can be made public or private with a click of a button, and each chapter has check boxes which allow you to make that chapter public or private, hide or show the title, and include or exclude it from future exports, giving you quick and simple chapter-level controls over the published text.
 
-<figure class="align-right"><img class="size-large wp-image-6278" src="/blog-media/Screen-Shot-2017-11-09-at-12.59.09-PM.png" srcset="/_optimized-images/blog-media/Screen-Shot-2017-11-09-at-12.59.09-PM-640.webp 640w, /_optimized-images/blog-media/Screen-Shot-2017-11-09-at-12.59.09-PM-1280.webp 1280w" sizes="100vw" alt="" width="600" height="539"><figcaption>Sample view of a published chapter in Pressbooks.</figcaption></figure>
+<figure><img class="size-large wp-image-6278" src="/blog-media/Screen-Shot-2017-11-09-at-12.59.09-PM.png" srcset="/_optimized-images/blog-media/Screen-Shot-2017-11-09-at-12.59.09-PM-640.webp 640w, /_optimized-images/blog-media/Screen-Shot-2017-11-09-at-12.59.09-PM-1280.webp 1280w" sizes="100vw" alt="" width="600" height="539"><figcaption>Sample view of a published chapter in Pressbooks.</figcaption></figure>
 
 Authors can choose from a number of themes which control the look and feel of an individual book, but generally a chapter will appear to the reader with the following elements (shown at right):
 
@@ -132,7 +132,7 @@ You probably noticed in our “landing page” example that visitors to the Port
 
 In our case, the creators of our language textbook chose to publish the textbook under an open license, and wanted to make free (offline) copies of the book available to anyone who wants to learn Portuguese. Authors can produce exports of their content at any time from a ‘Export’ link available in the book’s dashboard.
 
-<figure class="align-right"><img class="size-large wp-image-6283" src="/blog-media/Screen-Shot-2017-11-09-at-1.18.21-PM.png" srcset="/_optimized-images/blog-media/Screen-Shot-2017-11-09-at-1.18.21-PM-640.webp 640w, /_optimized-images/blog-media/Screen-Shot-2017-11-09-at-1.18.21-PM-1280.webp 1280w" sizes="100vw" alt="pressbooks export page" width="600" height="267"><figcaption>Sample view of the export page for a Pressbook.</figcaption></figure>
+<figure><img class="size-large wp-image-6283" src="/blog-media/Screen-Shot-2017-11-09-at-1.18.21-PM.png" srcset="/_optimized-images/blog-media/Screen-Shot-2017-11-09-at-1.18.21-PM-640.webp 640w, /_optimized-images/blog-media/Screen-Shot-2017-11-09-at-1.18.21-PM-1280.webp 1280w" sizes="100vw" alt="pressbooks export page" width="600" height="267"><figcaption>Sample view of the export page for a Pressbook.</figcaption></figure>
 
 This export page will generally include the following components:
 

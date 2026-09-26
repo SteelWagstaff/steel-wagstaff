@@ -36,15 +36,15 @@ If you're going to check out just one of the glasses-wearing athletes on the pag
 
 I'm sure there's more, but since I don't really consider golf a sport, one will have to suffice.
 
-<figure class="align-center"><img class="size-full wp-image-233" src="/blog-media/tom_kite.jpg" srcset="/_optimized-images/blog-media/tom_kite-640.webp 640w, /_optimized-images/blog-media/tom_kite-1280.webp 1280w" sizes="100vw" alt="Tom Kite" width="300" height="180"><figcaption>Tom Kite</figcaption></figure>
+<figure><img class="size-full wp-image-233" src="/blog-media/tom_kite.jpg" srcset="/_optimized-images/blog-media/tom_kite-640.webp 640w, /_optimized-images/blog-media/tom_kite-1280.webp 1280w" sizes="100vw" alt="Tom Kite" width="300" height="180"><figcaption>Tom Kite</figcaption></figure>
 
 ### Hockey
 
-<figure class="align-center"><img class="size-full wp-image-240" src="/blog-media/al_arbour.jpg" srcset="/_optimized-images/blog-media/al_arbour-640.webp 640w, /_optimized-images/blog-media/al_arbour-1280.webp 1280w" sizes="100vw" alt="Al Arbour, who both wore glasses and played without a helmet!" width="241" height="335"><figcaption>Al Arbour, who both wore glasses and played without a helmet!</figcaption></figure>
+<figure><img class="size-full wp-image-240" src="/blog-media/al_arbour.jpg" srcset="/_optimized-images/blog-media/al_arbour-640.webp 640w, /_optimized-images/blog-media/al_arbour-1280.webp 1280w" sizes="100vw" alt="Al Arbour, who both wore glasses and played without a helmet!" width="241" height="335"><figcaption>Al Arbour, who both wore glasses and played without a helmet!</figcaption></figure>
 
 ### Aussie Rules Football
 
-<figure class="align-center"><img class="size-full wp-image-224" src="/blog-media/geoff_blethyn.jpg" srcset="/_optimized-images/blog-media/geoff_blethyn-640.webp 640w, /_optimized-images/blog-media/geoff_blethyn-1280.webp 1280w" sizes="100vw" alt="Geoff Blethyn, Aussie Rules footballer" width="300" height="372"><figcaption>Geoff Blethyn, Aussie Rules footballer</figcaption></figure>
+<figure><img class="size-full wp-image-224" src="/blog-media/geoff_blethyn.jpg" srcset="/_optimized-images/blog-media/geoff_blethyn-640.webp 640w, /_optimized-images/blog-media/geoff_blethyn-1280.webp 1280w" sizes="100vw" alt="Geoff Blethyn, Aussie Rules footballer" width="300" height="372"><figcaption>Geoff Blethyn, Aussie Rules footballer</figcaption></figure>
 
 ### Tennis
 
