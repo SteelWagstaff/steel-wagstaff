@@ -13,10 +13,8 @@ tags:
 draft: false
 locale: en
 image: /blog-media/img_0628.jpg
-imageAlt: '10 Years Later: Quotations for a Friend'
+imageAlt: 'Mark, Myself, and Matt Howard (L-R), sometime during college'
 ---
-
-<figure><img title="Three Friends" src="/blog-media/img_0628-e1432060078410.jpg" srcset="/_optimized-images/blog-media/img_0628-e1432060078410-640.webp 640w, /_optimized-images/blog-media/img_0628-e1432060078410-1280.webp 1280w" sizes="100vw" alt="Photograph of Mark, Steel, & Howard"><figcaption>Mark, Myself, and Matt Howard (L-R), sometime during college</figcaption></figure>
 
 When I was a freshman in college, my best friend was Mark Eliason. He and I went almost everywhere together, and so nearly imitated one another's mannerisms, speech patterns, and stock phrases that we'd regularly have other people ask us if we were brothers. We usually lied and said yes. 
 
