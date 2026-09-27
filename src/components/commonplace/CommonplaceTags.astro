@@ -1,0 +1,37 @@
+---
+import { commonplaceTagSlug, getCommonplaceTagHref } from '@/lib/commonplace';
+
+interface Props {
+  tags: string[];
+  /** Slugs used by two or more posts; everything else stays unlinked. */
+  sharedTags: Set<string>;
+  size?: 'sm' | 'md';
+}
+
+const { tags, sharedTags, size = 'sm' } = Astro.props;
+
+const wrapper = size === 'md' ? 'mt-6 flex flex-wrap gap-2' : 'mt-3 flex flex-wrap gap-1.5';
+const tagText = size === 'md' ? 'text-sm' : 'text-xs';
+const link = 'text-foreground-muted transition-colors hover:text-brand-500 hover:underline';
+const plain = 'text-foreground-subtle';
+---
+
+{tags.length > 0 && (
+  <ul class={wrapper}>
+    {tags.map((tag) => {
+      const slug = commonplaceTagSlug(tag);
+      const linked = sharedTags.has(slug);
+      return (
+        <li>
+          {linked ? (
+            <a href={getCommonplaceTagHref(slug)} class={`${tagText} ${link}`}>
+              #{tag}
+            </a>
+          ) : (
+            <span class={`${tagText} ${plain}`}>#{tag}</span>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+)}

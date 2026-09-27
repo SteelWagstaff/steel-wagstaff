@@ -8,8 +8,6 @@ Your site has been reorganized around three main content areas plus supporting p
 1. **Radio + Podcasts** → `/radio-podcasts`
 2. **Writing + Storytelling** → `/writing-storytelling`
 3. **Commonplace** → `/commonplace`
-4. **About** → `/about`
-5. **Contact** → `/contact`
 
 ---
 
@@ -19,7 +17,6 @@ Your site has been reorganized around three main content areas plus supporting p
 **Purpose:** Personal introduction and entry point to all content areas
 
 **Content:**
-- Welcome hero with tagline: "Curious human. Father. Partner. Writer. Listener."
 - "Who I am" section with biography
 - Quick facts card (based in Eugene, Oregon; open source software work; 16 years experience)
 - Three main content area cards linking to:

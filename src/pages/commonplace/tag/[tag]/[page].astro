@@ -3,39 +3,41 @@ import { getCollection } from 'astro:content';
 import PageLayout from '@/layouts/PageLayout.astro';
 import CommonplaceArchive from '@/components/commonplace/CommonplaceArchive.astro';
 import {
-  filterCommonplaceEntries,
+  filterCommonplaceEntriesByTag,
   getCommonplaceCounts,
   getCommonplacePageCount,
   getCommonplacePageEntries,
   getCommonplaceSharedTags,
+  getCommonplaceTagLabels,
   sortCommonplaceEntries,
-  type CommonplaceType,
 } from '@/lib/commonplace';
 
 export async function getStaticPaths() {
-  const types: CommonplaceType[] = ['photo', 'text', 'video', 'audio'];
   const allItems = sortCommonplaceEntries(await getCollection('commonplace', ({ data }) => {
     return !data.draft && data.locale === 'en';
   }));
   const counts = getCommonplaceCounts(allItems);
+  // Only tags with two or more posts get a page, so every link in the archive resolves.
   const sharedTags = getCommonplaceSharedTags(allItems);
+  const labels = getCommonplaceTagLabels(allItems);
   const paths = [];
 
-  for (const type of types) {
-    const filteredItems = filterCommonplaceEntries(allItems, type);
-    const totalPages = getCommonplacePageCount(filteredItems.length);
+  for (const tag of sharedTags) {
+    const taggedItems = filterCommonplaceEntriesByTag(allItems, tag);
+    const totalPages = getCommonplacePageCount(taggedItems.length);
 
     for (let page = 1; page <= totalPages; page += 1) {
       paths.push({
-        params: { type, page: String(page) },
+        params: { tag, page: String(page) },
         props: {
-          items: getCommonplacePageEntries(filteredItems, page),
-          totalItems: filteredItems.length,
+          items: getCommonplacePageEntries(taggedItems, page),
+          totalItems: taggedItems.length,
           currentPage: page,
           totalPages,
           counts,
           sharedTags,
-          typeFilter: type,
+          tagFilter: tag,
+          tagLabel: labels.get(tag) ?? tag,
         },
       });
     }
@@ -44,12 +46,13 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { type } = Astro.params;
-const { items, totalItems, currentPage, totalPages, counts, sharedTags, typeFilter } = Astro.props;
-const label = type === 'photo' ? 'Images' : type ? `${type.charAt(0).toUpperCase()}${type.slice(1)}` : 'Commonplace';
+const { items, totalItems, currentPage, totalPages, counts, sharedTags, tagFilter, tagLabel } = Astro.props;
 ---
 
-<PageLayout title={`The Commonplace: ${label}`} description={`Commonplace ${type} entries.`}>
+<PageLayout
+  title={`The Commonplace: #${tagLabel}`}
+  description={`Commonplace entries tagged ${tagLabel}.`}
+>
   <CommonplaceArchive
     items={items}
     totalItems={totalItems}
@@ -57,6 +60,7 @@ const label = type === 'photo' ? 'Images' : type ? `${type.charAt(0).toUpperCase
     totalPages={totalPages}
     counts={counts}
     sharedTags={sharedTags}
-    typeFilter={typeFilter}
+    tagFilter={tagFilter}
+    tagLabel={tagLabel}
   />
 </PageLayout>

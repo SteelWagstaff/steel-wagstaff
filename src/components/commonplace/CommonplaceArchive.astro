@@ -1,8 +1,10 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import type { CommonplaceCounts, CommonplaceType } from '@/lib/commonplace';
+import { getCommonplaceEntryHref, getCommonplaceTagHref } from '@/lib/commonplace';
 import { buildCommonplacePreview } from '@/lib/commonplace-preview';
 import OptimizedImage from '@/components/ui/content/OptimizedImage.astro';
+import CommonplaceTags from '@/components/commonplace/CommonplaceTags.astro';
 
 interface Props {
   items: CollectionEntry<'commonplace'>[];
@@ -11,19 +13,36 @@ interface Props {
   totalPages: number;
   counts: CommonplaceCounts;
   typeFilter?: CommonplaceType;
+  /** Slugs used by two or more posts; tags outside it render as plain text. */
+  sharedTags?: Set<string>;
+  tagFilter?: string;
+  tagLabel?: string;
 }
 
-const { items, totalItems, currentPage, totalPages, counts, typeFilter } = Astro.props;
+const {
+  items,
+  totalItems,
+  currentPage,
+  totalPages,
+  counts,
+  typeFilter,
+  sharedTags = new Set<string>(),
+  tagFilter,
+  tagLabel,
+} = Astro.props;
 
 const getPreviewBlocks = (item: CollectionEntry<'commonplace'>) =>
   buildCommonplacePreview(item.data.content || item.body || '');
 
 const getTypeLabel = (type: string) => type === 'photo' ? 'Image' : type.charAt(0).toUpperCase() + type.slice(1);
 const getMediaUrl = (url: string) => /^https?:\/\//i.test(url) ? url : `/${url}`.replace(/^\/+/, '/');
-const pageUrl = (page: number) => typeFilter
-  ? `/commonplace/type/${typeFilter}/${page}`
-  : page === 1 ? '/commonplace' : `/commonplace/page/${page}`;
-const typeUrl = (type: CommonplaceType) => typeFilter === type
+const pageUrl = (page: number) => {
+  if (tagFilter) return getCommonplaceTagHref(tagFilter, page);
+  if (typeFilter) return `/commonplace/type/${typeFilter}/${page}`;
+  return page === 1 ? '/commonplace' : `/commonplace/page/${page}`;
+};
+const isTypeActive = (type: CommonplaceType) => !tagFilter && typeFilter === type;
+const typeUrl = (type: CommonplaceType) => isTypeActive(type)
   ? '/commonplace'
   : `/commonplace/type/${type}/1`;
 
@@ -39,9 +58,22 @@ const typeStats = ([
 
 <div class="mx-auto max-w-6xl space-y-10 px-6 py-12">
   <header class="max-w-3xl">
-    <h1 class="mb-4 text-4xl font-bold text-foreground">The Commonplace</h1>
+    <h1 class="mb-4 text-4xl font-bold text-foreground">
+      {tagFilter ? `Tagged #${tagLabel ?? tagFilter}` : 'The Commonplace'}
+    </h1>
     <p class="mb-4 text-lg leading-relaxed text-foreground-muted">
-      Text, images, songs, and videos migrated from <a href="https://steelwagstaff.tumblr.com/" class="text-brand-500 hover:underline">Tumblr</a>. Still a work in progress.
+      {tagFilter ? (
+        <>
+          {totalItems} {totalItems === 1 ? 'entry' : 'entries'} collected under this tag.{' '}
+          <a href="/commonplace" class="text-brand-500 hover:underline">Back to everything</a>.
+        </>
+      ) : (
+        <>
+          Text, images, songs, and videos migrated from{' '}
+          <a href="https://steelwagstaff.tumblr.com/" class="text-brand-500 hover:underline">Tumblr</a>. Still a
+          work in progress.
+        </>
+      )}
     </p>
   </header>
 
@@ -62,7 +94,9 @@ const typeStats = ([
 
   <section class="space-y-6">
     <div class="flex flex-wrap items-baseline justify-between gap-4">
-      <h2 class="text-2xl font-bold text-foreground">All Posts</h2>
+      <h2 class="text-2xl font-bold text-foreground">
+        {tagFilter ? `#${tagLabel ?? tagFilter}` : typeFilter ? getTypeLabel(typeFilter) : 'All Posts'}
+      </h2>
       <p class="text-sm text-foreground-muted">
         {totalItems} entries / Page {currentPage} of {totalPages} 
       </p>
@@ -96,7 +130,25 @@ const typeStats = ([
 
               <div class="min-w-0 flex-1">
                 <div class="mb-2 flex items-start gap-2">
-                  {item.data.title && <h3 class="line-clamp-3 text-lg font-semibold text-foreground">{item.data.title}</h3>}
+                  {item.data.title ? (
+                    <h3 class="line-clamp-3 text-lg font-semibold">
+                      <a
+                        href={getCommonplaceEntryHref(item)}
+                        class="text-foreground transition-colors hover:text-brand-500"
+                      >
+                        {item.data.title}
+                      </a>
+                    </h3>
+                  ) : (
+                    <h3 class="line-clamp-3 text-lg font-semibold">
+                      <a
+                        href={getCommonplaceEntryHref(item)}
+                        class="text-foreground-muted transition-colors hover:text-brand-500"
+                      >
+                        {getTypeLabel(item.data.type)} post
+                      </a>
+                    </h3>
+                  )}
                 </div>
 
                 {item.data.type === 'video' && item.data.videoUrl && (
@@ -137,13 +189,7 @@ const typeStats = ([
                   {item.data.source && <span>via {item.data.source}</span>}
                 </div>
 
-                {item.data.tags.length > 0 && (
-                  <div class="mt-3 flex flex-wrap gap-1.5">
-                    {item.data.tags.slice(0, 4).map((tag) => (
-                      <span class="text-xs text-foreground-subtle">#{tag}</span>
-                    ))}
-                  </div>
-                )}
+                <CommonplaceTags tags={item.data.tags} sharedTags={sharedTags} />
               </div>
             </div>
           </article>

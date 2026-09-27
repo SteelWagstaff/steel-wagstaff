@@ -6,6 +6,7 @@ import {
   getCommonplacePageCount,
   getCommonplacePageEntries,
   getCommonplaceCounts,
+  getCommonplaceSharedTags,
   sortCommonplaceEntries,
 } from '@/lib/commonplace';
 
@@ -22,5 +23,6 @@ const totalPages = getCommonplacePageCount(allItems.length);
     currentPage={1}
     totalPages={totalPages}
     counts={getCommonplaceCounts(allItems)}
+    sharedTags={getCommonplaceSharedTags(allItems)}
   />
 </PageLayout>

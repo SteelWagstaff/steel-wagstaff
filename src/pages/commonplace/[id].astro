@@ -1,0 +1,129 @@
+---
+import { getCollection, render } from 'astro:content';
+import PageLayout from '@/layouts/PageLayout.astro';
+import OptimizedImage from '@/components/ui/content/OptimizedImage.astro';
+import CommonplaceTags from '@/components/commonplace/CommonplaceTags.astro';
+import {
+  getCommonplaceEntryHref,
+  getCommonplaceSharedTags,
+  sortCommonplaceEntries,
+  type CommonplaceEntry,
+} from '@/lib/commonplace';
+
+interface Props {
+  entry: CommonplaceEntry;
+  sharedTags: Set<string>;
+  newer: CommonplaceEntry | null;
+  older: CommonplaceEntry | null;
+}
+
+export async function getStaticPaths() {
+  const allItems = sortCommonplaceEntries(
+    await getCollection('commonplace', ({ data }) => {
+      return !data.draft && data.locale === 'en';
+    })
+  );
+  const sharedTags = getCommonplaceSharedTags(allItems);
+
+  return allItems.map((entry, index) => ({
+    params: { id: entry.id },
+    props: {
+      entry,
+      sharedTags,
+      newer: allItems[index - 1] ?? null,
+      older: allItems[index + 1] ?? null,
+    },
+  }));
+}
+
+const { entry, sharedTags, newer, older } = Astro.props;
+const { Content } = await render(entry);
+
+const { title, type, publishedAt, source, image, imageAlt, audioUrl, videoUrl, tags } = entry.data;
+const displayTitle = title || 'Commonplace';
+const typeLabel = type === 'photo' ? 'Image' : type.charAt(0).toUpperCase() + type.slice(1);
+const imageSrc = image ? `/${image}`.replace(/^\/+/, '/') : undefined;
+const description = source || title || 'From The Commonplace.';
+---
+
+<PageLayout title={displayTitle} description={description} image={imageSrc} imageAlt={imageAlt}>
+  <article class="mx-auto max-w-3xl px-6 py-12">
+    <a
+      href="/commonplace"
+      class="mb-8 inline-block text-sm font-medium text-brand-500 hover:underline"
+    >
+      &larr; The Commonplace
+    </a>
+
+    <header class="mb-8">
+      <div class="mb-3 flex flex-wrap items-center gap-2 text-xs text-foreground-subtle">
+        <span class="rounded-full bg-background-secondary px-2.5 py-1 font-medium">{typeLabel}</span>
+        <time datetime={publishedAt.toISOString()}>
+          {publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+        {source && <span>via {source}</span>}
+      </div>
+      <h1 class="text-3xl font-bold leading-tight text-foreground sm:text-4xl">{displayTitle}</h1>
+      <CommonplaceTags tags={tags} sharedTags={sharedTags} size="md" />
+    </header>
+
+    {type === 'photo' && imageSrc && (
+      <div class="mb-8 overflow-hidden rounded-lg bg-background-secondary">
+        <OptimizedImage
+          src={imageSrc}
+          alt={imageAlt || displayTitle}
+          class="block h-auto w-full"
+          sizes="(max-width: 768px) 100vw, 768px"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+    )}
+
+    {type === 'video' && videoUrl && (
+      <div class="mb-8 aspect-video overflow-hidden rounded-lg bg-background-secondary">
+        <iframe
+          src={videoUrl}
+          title={displayTitle}
+          class="h-full w-full"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    )}
+
+    {type === 'audio' && audioUrl && (
+      <audio
+        controls
+        class="mb-8 w-full"
+        src={audioUrl.startsWith('http') ? audioUrl : `/${audioUrl}`.replace(/^\/+/, '/')}
+      />
+    )}
+
+    <div class="prose prose-lg max-w-none dark:prose-invert">
+      <Content />
+    </div>
+
+    <nav class="mt-12 grid gap-4 border-t border-border pt-6 sm:grid-cols-2" aria-label="Adjacent posts">
+      {newer ? (
+        <a href={getCommonplaceEntryHref(newer)} class="group">
+          <span class="text-xs text-foreground-subtle">&larr; Newer</span>
+          <span class="mt-1 block font-medium text-foreground group-hover:text-brand-500">
+            {newer.data.title || 'Untitled'}
+          </span>
+        </a>
+      ) : (
+        <span />
+      )}
+      {older && (
+        <a href={getCommonplaceEntryHref(older)} class="group sm:text-right">
+          <span class="text-xs text-foreground-subtle">Older &rarr;</span>
+          <span class="mt-1 block font-medium text-foreground group-hover:text-brand-500">
+            {older.data.title || 'Untitled'}
+          </span>
+        </a>
+      )}
+    </nav>
+  </article>
+</PageLayout>
