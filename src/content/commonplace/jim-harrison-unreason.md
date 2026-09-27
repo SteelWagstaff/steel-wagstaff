@@ -1,5 +1,5 @@
 ---
-title: 3 poems from Songs of Unreason by Jim Harrison
+title: 3 poems by Jim Harrison
 type: text
 publishedAt: "2026-09-27"
 tags:
@@ -64,3 +64,5 @@ call, and staring into the still, opaque water.
 We’ll know as children again all that we are
 destined to know, that the water is cold
 and deep, and the sun penetrates only so far.
+
+-- from Jim Harrison, _Songs of Unreason_
