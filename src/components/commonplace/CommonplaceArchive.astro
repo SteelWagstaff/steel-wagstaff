@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import type { CommonplaceCounts, CommonplaceType } from '@/lib/commonplace';
+import { buildCommonplacePreview } from '@/lib/commonplace-preview';
 import OptimizedImage from '@/components/ui/content/OptimizedImage.astro';
 
 interface Props {
@@ -14,18 +15,8 @@ interface Props {
 
 const { items, totalItems, currentPage, totalPages, counts, typeFilter } = Astro.props;
 
-const getPreviewText = (item: CollectionEntry<'commonplace'>) => {
-  const source = item.data.content || item.body || '';
-  return source
-    .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<\/(p|div|blockquote|li|h[1-6])\s*>/gi, '\n')
-    .replace(/<[^>]*>/g, '')
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
-    .replace(/[#*_>`]/g, '')
-    .replace(/[ \t]+/g, ' ')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
-};
+const getPreviewBlocks = (item: CollectionEntry<'commonplace'>) =>
+  buildCommonplacePreview(item.data.content || item.body || '');
 
 const getTypeLabel = (type: string) => type === 'photo' ? 'Image' : type.charAt(0).toUpperCase() + type.slice(1);
 const getMediaUrl = (url: string) => /^https?:\/\//i.test(url) ? url : `/${url}`.replace(/^\/+/, '/');
@@ -87,7 +78,7 @@ const typeStats = ([
 
     <div class="columns-1 gap-6 md:columns-2">
       {items.map((item) => {
-        const previewText = getPreviewText(item);
+        const preview = getPreviewBlocks(item);
         return (
           <article class="group mb-6 break-inside-avoid overflow-hidden rounded-lg border border-border bg-background transition-colors hover:border-brand-500">
             <div class="flex flex-col gap-4 p-5">
@@ -121,10 +112,15 @@ const typeStats = ([
                   </div>
                 )}
 
-                {previewText && (
-                  <p class="whitespace-pre-line text-md leading-relaxed text-foreground-muted">
-                    {previewText}
-                  </p>
+                {preview.map((block) =>
+                  block.type === 'hr' ? (
+                    <hr class="my-4 border-border" />
+                  ) : (
+                    <p
+                      class="whitespace-pre-line text-md leading-relaxed text-foreground-muted"
+                      set:html={block.html}
+                    />
+                  )
                 )}
 
                 {item.data.type === 'audio' && item.data.audioUrl && (

@@ -47,7 +47,7 @@ To Newt’s surprise, Po Campo put a friendly hand on his shoulder. He almost fl
 
 Though the old man spoke cheerfully, the words made Newt sad.
 
-* * * 
+*** 
 
 Sometimes Po Campo sang in Spanish. He had a low, throaty voice that always seemed like it was about to die for lack of breath. The songs bothered some of the men, they were so sad.
 
@@ -65,7 +65,7 @@ The sound could make the hairs stand up on Pea Eye’s neck. “That’s right, 
 
 “If you hear them, they belong to you,” Po said. It was hard to see his eyes. They were deep-set anyway, and he seldom took his big-brimmed hat off.
 
-* * * 
+*** 
 
 “Why, hello, boys,” Pea said, when he was helped off the horse. They all gathered around to greet him, and Bert and Needle Nelson helped him down. Po Campo had some coffee ready. Pea reached out for a cup, once they had him propped against the wagon, but his hands were too shaky to hold it. Po fed him a little with a spoon, and between one sip and the next, Pea slid from his position and passed out. He collapsed so quickly that no one even caught him.
 
