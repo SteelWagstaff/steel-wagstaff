@@ -243,3 +243,27 @@ export function buildCommonplacePreview(source: string): CommonplacePreviewBlock
 
   return blocks;
 }
+
+/** Emphasis markup emitted by {@link buildCommonplacePreview}, and nothing else. */
+const EMPHASIS_MARKUP = /<\/?(?:strong|em)>/g;
+
+/**
+ * Flattens an entry to plain text for syndication: no markup, thematic breaks
+ * become an em dash, and the first `maxBlocks` blocks only.
+ */
+export function buildCommonplaceText(source: string, maxBlocks = 2): string {
+  return buildCommonplacePreview(source)
+    .slice(0, maxBlocks)
+    .map((block) =>
+      block.type === 'hr'
+        ? '—'
+        : block.html
+            .replace(EMPHASIS_MARKUP, '')
+            .replace(/&gt;/g, '>')
+            .replace(/&lt;/g, '<')
+            .replace(/&amp;/g, '&')
+            .trim()
+    )
+    .filter(Boolean)
+    .join('\n\n');
+}

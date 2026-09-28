@@ -23,19 +23,29 @@ function formatRfc822Date(date: Date): string {
 }
 
 export async function GET(context: APIContext) {
-  const [posts, playlists] = await Promise.all([
+  const [posts, playlists, commonplace] = await Promise.all([
     getCollection('blog'),
     getCollection('music'),
+    getCollection('commonplace'),
   ]);
 
   const site = context.site?.toString() ?? siteConfig.url;
   const siteUrl = site.endsWith('/') ? site.slice(0, -1) : site;
 
-  const items = buildRssItems(posts, playlists, siteUrl)
+  const items = buildRssItems(posts, playlists, commonplace, {
+    url: siteUrl,
+    name: siteConfig.name,
+  })
     .map((item) => {
       const categories = [item.category, ...item.tags]
         .map((tag) => `<category>${escapeXml(tag)}</category>`)
         .join('\n        ');
+
+      const enclosure = item.enclosure
+        ? `\n      <enclosure url="${escapeXml(item.enclosure.url)}" type="${
+            item.enclosure.type
+          }" length="0" />`
+        : '';
 
       return `    <item>
       <title>${escapeXml(item.title)}</title>
@@ -43,7 +53,7 @@ export async function GET(context: APIContext) {
       <guid>${item.link}</guid>
       <description>${escapeXml(item.description)}</description>
       <pubDate>${formatRfc822Date(item.publishedAt)}</pubDate>
-      <author>${escapeXml(item.author)}</author>
+      <author>${escapeXml(item.author)}</author>${enclosure}
       ${categories}
     </item>`;
     })
