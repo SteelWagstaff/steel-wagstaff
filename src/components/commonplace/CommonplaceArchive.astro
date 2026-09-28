@@ -1,7 +1,12 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import type { CommonplaceCounts, CommonplaceType } from '@/lib/commonplace';
-import { getCommonplaceEntryHref, getCommonplaceTagHref } from '@/lib/commonplace';
+import {
+  commonplaceTitle,
+  getCommonplaceEntryHref,
+  getCommonplaceTagHref,
+  renderCommonplaceSource,
+} from '@/lib/commonplace';
 import { buildCommonplacePreview } from '@/lib/commonplace-preview';
 import OptimizedImage from '@/components/ui/content/OptimizedImage.astro';
 import CommonplaceTags from '@/components/commonplace/CommonplaceTags.astro';
@@ -120,7 +125,7 @@ const typeStats = ([
                 <div class="w-full overflow-hidden rounded-md bg-background-secondary">
                   <OptimizedImage
                     src={`/${item.data.image}`.replace(/^\/+/, '/')}
-                    alt={item.data.imageAlt || item.data.title || 'Commonplace image'}
+                    alt={item.data.imageAlt || commonplaceTitle(item.data.title) || 'Commonplace image'}
                     class="block h-auto w-full"
                     sizes="(max-width: 768px) 100vw, 50vw"
                     loading="lazy"
@@ -130,13 +135,13 @@ const typeStats = ([
 
               <div class="min-w-0 flex-1">
                 <div class="mb-2 flex items-start gap-2">
-                  {item.data.title ? (
+                  {commonplaceTitle(item.data.title) ? (
                     <h3 class="line-clamp-3 text-lg font-semibold">
                       <a
                         href={getCommonplaceEntryHref(item)}
                         class="text-foreground transition-colors hover:text-brand-500"
                       >
-                        {item.data.title}
+                        {commonplaceTitle(item.data.title)}
                       </a>
                     </h3>
                   ) : (
@@ -155,7 +160,7 @@ const typeStats = ([
                   <div class="mb-4 aspect-video overflow-hidden rounded-md bg-background-secondary">
                     <iframe
                       src={item.data.videoUrl}
-                      title={item.data.title || 'Commonplace video'}
+                      title={commonplaceTitle(item.data.title) || 'Commonplace video'}
                       class="h-full w-full"
                       loading="lazy"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -186,7 +191,9 @@ const typeStats = ([
                   <time datetime={item.data.publishedAt.toISOString()}>
                     {item.data.publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
                   </time>
-                  {item.data.source && <span>via {item.data.source}</span>}
+                  {item.data.source && (
+                    <span>via <Fragment set:html={renderCommonplaceSource(item.data.source)} /></span>
+                  )}
                 </div>
 
                 <CommonplaceTags tags={item.data.tags} sharedTags={sharedTags} />

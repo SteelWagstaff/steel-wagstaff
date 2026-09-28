@@ -123,3 +123,98 @@ export function getCommonplaceEntryHref(entry: CommonplaceEntry): string {
 export function getCommonplaceTagHref(tagSlug: string, page = 1): string {
   return `/commonplace/tag/${tagSlug}/${page}`;
 }
+
+const ANCHOR = /(<a\s[^>]*>)([\s\S]*?)<\/a>/i;
+/** A well formed tag. A letter or slash must follow the `<` so a bare one survives. */
+const TAG = /<\/?[a-zA-Z][^>]*>/g;
+/**
+ * A tag the source cut short, such as a title that stops part way through one.
+ * The opening quote is often a curly one, and the run can never cross it.
+ */
+const TRUNCATED_TAG = /<\/?[a-zA-Z][^>"'\u2019\u201d]*(?:["'\u2019\u201d]|$)/g;
+const MARKDOWN_ESCAPE = /\\([_*`[\]()#+\-.!>~|])/g;
+const HTML_ENTITY = /&(#[xX][0-9a-fA-F]+|#\d+|[a-zA-Z][a-zA-Z0-9]*);/g;
+const SAFE_PROTOCOL = /^https?:\/\//i;
+
+const NAMED_ENTITIES: Record<string, string> = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  ndash: '\u2013', mdash: '\u2014', hellip: '\u2026',
+  lsquo: '\u2018', rsquo: '\u2019', ldquo: '\u201c', rdquo: '\u201d',
+};
+
+const escapeHtml = (value: string): string =>
+  value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+
+function decodeEntities(value: string): string {
+  return value.replace(HTML_ENTITY, (match, body: string) => {
+    if (body[0] !== '#') return NAMED_ENTITIES[body.toLowerCase()] ?? match;
+
+    const code = body[1]?.toLowerCase() === 'x'
+      ? Number.parseInt(body.slice(2), 16)
+      : Number.parseInt(body.slice(1), 10);
+
+    if (!Number.isInteger(code) || code < 0 || code > 0x10ffff) return match;
+    try {
+      return String.fromCodePoint(code);
+    } catch {
+      return match;
+    }
+  });
+}
+
+/**
+ * Reduces a field to the plain text it was meant to say.
+ *
+ * These fields were written as prose and a later import left tags, markdown
+ * escapes and entities behind in them. Stripped here rather than trusted, so
+ * nothing that survives can be read as markup.
+ */
+function plainText(value: string): string {
+  return decodeEntities(
+    value.replace(TAG, '').replace(TRUNCATED_TAG, '').replace(MARKDOWN_ESCAPE, '$1'),
+  ).replace(/\s+/g, ' ');
+}
+
+/** A `title`, reduced to plain text for use in a heading, meta tag or feed. */
+export function commonplaceTitle(title: string | undefined): string {
+  return plainText(title ?? '').trim();
+}
+
+const anchorHref = (openTag: string): string => {
+  const href = openTag.match(/href\s*=\s*(?:"([^"]*)"|'([^']*)')/i);
+  return href?.[1] ?? href?.[2] ?? '';
+};
+
+/**
+ * Renders a `source` field for display.
+ *
+ * Formatting tags are dropped, while links are kept: rather than trusting the
+ * markup, each anchor is rebuilt from its href and label so nothing but those
+ * two is ever emitted.
+ */
+export function renderCommonplaceSource(source: string): string {
+  let out = '';
+  let rest = source;
+
+  for (let match = ANCHOR.exec(rest); match; match = ANCHOR.exec(rest)) {
+    out += escapeHtml(plainText(rest.slice(0, match.index)).trimEnd());
+
+    const href = anchorHref(match[1]);
+    const label = plainText(match[2]).trim();
+
+    if (SAFE_PROTOCOL.test(href) && label) {
+      const attrs = /target\s*=\s*["']?_blank/i.test(match[1]) ? ' target="_blank"' : '';
+      out += `<a href="${escapeHtml(href)}"${attrs} rel="noopener noreferrer">${escapeHtml(label)}</a>`;
+    } else {
+      out += escapeHtml(label);
+    }
+
+    rest = rest.slice(match.index + match[0].length);
+  }
+
+  return (out + escapeHtml(plainText(rest))).trim();
+}

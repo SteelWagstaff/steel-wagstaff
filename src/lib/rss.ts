@@ -1,5 +1,6 @@
 import type { CollectionEntry } from 'astro:content';
 import { buildCommonplaceText } from '@/lib/commonplace-preview';
+import { commonplaceTitle } from '@/lib/commonplace';
 
 export interface RssEnclosure {
   url: string;
@@ -132,7 +133,7 @@ export function buildRssItems(
   const commonplaceItems: RssItem[] = commonplace
     .filter(({ data }) => data.locale === 'en' && !data.draft)
     .map((entry) => ({
-      title: entry.data.title ?? 'Commonplace',
+      title: commonplaceTitle(entry.data.title) || 'Commonplace',
       link: `${siteUrl}/commonplace/${entry.id}/`,
       description: commonplaceDescription(entry, siteUrl),
       publishedAt: entry.data.publishedAt,

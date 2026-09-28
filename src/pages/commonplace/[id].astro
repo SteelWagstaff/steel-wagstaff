@@ -6,6 +6,8 @@ import CommonplaceTags from '@/components/commonplace/CommonplaceTags.astro';
 import {
   getCommonplaceEntryHref,
   getCommonplaceSharedTags,
+  commonplaceTitle,
+  renderCommonplaceSource,
   sortCommonplaceEntries,
   type CommonplaceEntry,
 } from '@/lib/commonplace';
@@ -40,7 +42,7 @@ const { entry, sharedTags, newer, older } = Astro.props;
 const { Content } = await render(entry);
 
 const { title, type, publishedAt, source, image, imageAlt, audioUrl, videoUrl, tags } = entry.data;
-const displayTitle = title || 'Commonplace';
+const displayTitle = commonplaceTitle(title) || 'Commonplace';
 const typeLabel = type === 'photo' ? 'Image' : type.charAt(0).toUpperCase() + type.slice(1);
 const imageSrc = image ? `/${image}`.replace(/^\/+/, '/') : undefined;
 const description = source || title || 'From The Commonplace.';
@@ -61,7 +63,9 @@ const description = source || title || 'From The Commonplace.';
         <time datetime={publishedAt.toISOString()}>
           {publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
         </time>
-        {source && <span>via {source}</span>}
+        {source && (
+          <span>via <Fragment set:html={renderCommonplaceSource(source)} /></span>
+        )}
       </div>
       <h1 class="text-3xl font-bold leading-tight text-foreground sm:text-4xl">{displayTitle}</h1>
       <CommonplaceTags tags={tags} sharedTags={sharedTags} size="md" />
@@ -110,7 +114,7 @@ const description = source || title || 'From The Commonplace.';
         <a href={getCommonplaceEntryHref(newer)} class="group">
           <span class="text-xs text-foreground-subtle">&larr; Newer</span>
           <span class="mt-1 block font-medium text-foreground group-hover:text-brand-500">
-            {newer.data.title || 'Untitled'}
+            {commonplaceTitle(newer.data.title) || 'Untitled'}
           </span>
         </a>
       ) : (
@@ -120,7 +124,7 @@ const description = source || title || 'From The Commonplace.';
         <a href={getCommonplaceEntryHref(older)} class="group sm:text-right">
           <span class="text-xs text-foreground-subtle">Older &rarr;</span>
           <span class="mt-1 block font-medium text-foreground group-hover:text-brand-500">
-            {older.data.title || 'Untitled'}
+            {commonplaceTitle(older.data.title) || 'Untitled'}
           </span>
         </a>
       )}
