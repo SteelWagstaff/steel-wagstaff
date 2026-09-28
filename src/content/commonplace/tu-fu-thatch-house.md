@@ -10,8 +10,6 @@ draft: false
 locale: en
 ---
 
-**Thatch House**
-
 Our thatch house perched where land ends,
 we leave the brushwood gate always open.
 

@@ -5,12 +5,24 @@ export type CommonplacePreviewBlock =
 /** A thematic break: up to 3 leading spaces then 3+ of the same `*`, `-` or `_`. */
 const THEMATIC_BREAK = /^ {0,3}([-*_])(?:[ \t]*\1){2,}[ \t]*$/;
 
-const HTML_LINE_BREAK = /<br\s*\/?>/gi;
-const HTML_BLOCK_END = /<\/(?:p|div|blockquote|li|h[1-6])\s*>/gi;
+/**
+ * A break tag absorbs the newline that follows it. The source line it sits on
+ * already ends, so keeping that newline too would open a blank line between
+ * what the author wrote as consecutive lines.
+ */
+const HTML_LINE_BREAK = /<br\s*\/?>[ \t]*\n?/gi;
+const HTML_BLOCK_END = /<\/(?:p|div|blockquote|li|h[1-6])\s*>[ \t]*\n?/gi;
 const HTML_TAG = /<[^>]*>/g;
 const MARKDOWN_IMAGE = /!\[[^\]]*\]\([^)]*\)/g;
 /** Heading, blockquote and code-span markers carry no meaning in a flat preview. */
 const STRIPPED_MARKS = /[#>`]/g;
+
+/**
+ * A run of exactly two or three hyphens, the way the smartypants pass on the
+ * post page turns them into an em dash. The lookarounds keep longer runs, and
+ * anything but hyphens either side, out of the match.
+ */
+const EM_DASH_RUN = /(?<!-)-{2,3}(?!-)/g;
 
 const WHITESPACE = /\s/;
 const PUNCTUATION = /[\p{P}\p{S}]/u;
@@ -234,7 +246,8 @@ export function buildCommonplacePreview(source: string): CommonplacePreviewBlock
       if (blocks[blocks.length - 1]?.type !== 'hr') blocks.push({ type: 'hr' });
       continue;
     }
-    paragraph.push(line.replace(/[ \t]+/g, ' '));
+    // A thematic break is settled above, so the dashes left here are punctuation.
+    paragraph.push(line.replace(/[ \t]+/g, ' ').replace(EM_DASH_RUN, '—'));
   }
   flush();
 

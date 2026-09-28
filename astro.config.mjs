@@ -6,6 +6,7 @@ import icon from 'astro-icon';
 import tailwindcss from '@tailwindcss/vite';
 import { unified } from '@astrojs/markdown-remark';
 import { remarkSpotifyEmbed } from './src/lib/remark-spotify-embed.ts';
+import { remarkCommonplaceBreaks } from './src/lib/remark-commonplace-breaks.ts';
 
 export default defineConfig({
   output: 'static',
@@ -48,7 +49,7 @@ export default defineConfig({
 
   markdown: {
     processor: unified({
-      remarkPlugins: [remarkSpotifyEmbed],
+      remarkPlugins: [remarkSpotifyEmbed, remarkCommonplaceBreaks],
     }),
     shikiConfig: {
       theme: 'github-dark',

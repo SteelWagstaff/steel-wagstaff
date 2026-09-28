@@ -111,3 +111,54 @@ describe('commonplace preview legacy unwrapping', () => {
     ]);
   });
 });
+
+describe('commonplace preview line breaks', () => {
+  it('does not open a blank line for a break tag that ends its line', () => {
+    expect(text('one<br>\ntwo')).toBe('one\ntwo');
+    expect(text('one<br />\ntwo')).toBe('one\ntwo');
+    expect(text('<p>one</p>\ntwo')).toBe('one\ntwo');
+  });
+
+  it('keeps a blank line the author wrote after a break tag', () => {
+    expect(text('one<br>\n\ntwo')).toBe('one\n\ntwo');
+  });
+
+  it('keeps the lines of a poem together', () => {
+    expect(text('stanza one\nstill stanza one\n\nstanza two')).toBe(
+      'stanza one\nstill stanza one\n\nstanza two',
+    );
+  });
+
+  it('collapses hard-wrapped prose the way the post page does', () => {
+    expect(text('one<br>two<br>three')).toBe('one\ntwo\nthree');
+  });
+});
+
+describe('commonplace preview dashes', () => {
+  it('turns a double hyphen into an em dash', () => {
+    expect(text('-- Tu Fu (712-770)')).toBe('— Tu Fu (712-770)');
+  });
+
+  it('turns a triple hyphen into an em dash', () => {
+    expect(text('word---word')).toBe('word—word');
+  });
+
+  it('handles several runs on one line', () => {
+    expect(text('a--b--c')).toBe('a—b—c');
+  });
+
+  it('leaves a single hyphen alone', () => {
+    expect(text('wind-tossed boats')).toBe('wind-tossed boats');
+  });
+
+  it('still reads a standalone run of hyphens as a rule', () => {
+    expect(shape('one\n\n---\n\ntwo')).toEqual(['text', 'hr', 'text']);
+    expect(shape('one\n\n- - -\n\ntwo')).toEqual(['text', 'hr', 'text']);
+    expect(shape('one\n\n-----\n\ntwo')).toEqual(['text', 'hr', 'text']);
+  });
+
+  it('reads a lone double hyphen as a dash, not a rule', () => {
+    expect(shape('--')).toEqual(['text']);
+    expect(text('--')).toBe('—');
+  });
+});

@@ -10,8 +10,6 @@ draft: false
 locale: en
 ---
 
-**At Cloud-Wisdom Monastery, in the Ch'an Master's Courtyard**
-
 Exalted with age, you never leave here:
 the gate-path is overgrown with grass.
 
